@@ -6,12 +6,13 @@ import Talk from "./pages/Talk"; import Find from "./pages/Find"; import Check f
 import Docs from "./pages/Docs"; import Apply from "./pages/Apply"; import Track from "./pages/Track";
 import Login from "./pages/Login"; import Verify from "./pages/admin/Verify";
 import GuestLimit from "./pages/GuestLimit";
+import Sahayak from "./pages/Sahayak";
 import { currentSession, onAuthChange, signOut } from "./lib/session";
 import { clearGuestSession, getGuestToken } from "./lib/guest";
 import { supabaseConfigured } from "./lib/supabase";
 import DemoBanner from "./components/DemoBanner";
 
-const TABS = ["talk", "find", "check", "docs", "apply", "track"] as const;
+const TABS = ["sahayak", "talk", "find", "check", "docs", "apply", "track"] as const;
 const PROTECTED: Tab[] = ["docs", "apply", "track"];
 type Tab = (typeof TABS)[number] | "login" | "admin";
 
@@ -49,12 +50,43 @@ export default function App() {
     if (!signedIn || isGuest) { setUnread(0); return; }   // notifications are for citizens only
     api.notices().then((n) => setUnread(n.filter((x) => !x.read).length)).catch(() => undefined);
   }, [tab, signedIn, isGuest]);
+  if (tab === "sahayak") {
+    return (
+      <div className="w-full min-h-screen bg-[#FAFAF9]">
+        <div className="bg-stone-900 text-stone-300 text-xs py-2 px-6 flex items-center justify-between border-b border-stone-800">
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
+            <span><b>சகாயக் (Sahayak)</b> — Voice-First Citizen Eligibility Platform</span>
+          </div>
+          <button
+            onClick={() => go("find")}
+            className="text-amber-400 hover:text-amber-300 underline font-medium cursor-pointer"
+          >
+            ← Back to Classic MySchemeGuide
+          </button>
+        </div>
+        <Sahayak />
+      </div>
+    );
+  }
+
   return (
     <div className="app">
       <DemoBanner />
       <header>
-        <div className="brand"><b>MySchemeGuide</b><span>{t("tagline")}</span></div>
+        <div className="brand">
+          <b>MySchemeGuide</b>
+          <span>{t("tagline")}</span>
+        </div>
         <div className="row">
+          <button
+            type="button"
+            className="filebtn"
+            style={{ background: "#EA580C", fontWeight: "bold", fontSize: "0.8rem", padding: "5px 10px" }}
+            onClick={() => go("sahayak")}
+          >
+            🎙️ Sahayak Portal
+          </button>
           <select value={lang} onChange={(e) => setLang(e.target.value)} aria-label="Language">
             {LANGS.map((l) => <option key={l.code} value={l.code}>{l.script}</option>)}
           </select>

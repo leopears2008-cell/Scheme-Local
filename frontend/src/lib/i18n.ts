@@ -15,7 +15,7 @@ const shared: Record<string, any> = { en, hi, bn, te, mr, ta, gu, kn, ml, pa, or
 
 // App strings: complete in English, Hindi and Tamil; other languages fall back to English (or translate via /api/translate).
 const app: Record<string, Record<string, string>> = {
-  en: { talk: "Talk", find: "Find", check: "Check", docs: "Documents", apply: "Apply", track: "Track",
+  en: { sahayak: "🎙️ Sahayak", talk: "Talk", find: "Find", check: "Check", docs: "Documents", apply: "Apply", track: "Track",
     tagline: "Your Voice. Your Benefits. Your Future.", askPlaceholder: "Ask about any scheme, in your language…", send: "Send", mic: "Speak", listening: "Listening…",
     searchPlaceholder: "Search schemes by name, benefit or department…", allCategories: "All categories", allStates: "Central + all states", results: "schemes",
     bookmark: "Save", saved: "Saved", details: "Details", eligibility: "Eligibility", benefits: "Benefits", howToApply: "How to apply", docsNeeded: "Documents needed",
@@ -34,7 +34,7 @@ const app: Record<string, Record<string, string>> = {
     draft: "Draft", submitted: "Submitted", under_review: "Under review", need_documents: "Documents needed", approved: "Approved", rejected: "Rejected", refNo: "Reference number",
     welcome: "Ask by voice or text. We'll find schemes you may qualify for, with official sources.", errBusy: "Please try again in a moment.", clear: "Clear my data",
   },
-  hi: { talk: "बात करें", find: "खोजें", check: "जाँचें", docs: "दस्तावेज़", apply: "आवेदन", track: "ट्रैक",
+  hi: { sahayak: "🎙️ सहायक", talk: "बात करें", find: "खोजें", check: "जाँचें", docs: "दस्तावेज़", apply: "आवेदन", track: "ट्रैक",
     tagline: "आपकी आवाज़। आपके लाभ। आपका भविष्य।", askPlaceholder: "अपनी भाषा में किसी भी योजना के बारे में पूछें…", send: "भेजें", mic: "बोलें", listening: "सुन रहे हैं…",
     searchPlaceholder: "नाम, लाभ या विभाग से योजना खोजें…", allCategories: "सभी श्रेणियाँ", allStates: "केंद्र + सभी राज्य", results: "योजनाएँ",
     bookmark: "सहेजें", saved: "सहेजा", details: "विवरण", eligibility: "पात्रता", benefits: "लाभ", howToApply: "आवेदन कैसे करें", docsNeeded: "ज़रूरी दस्तावेज़",
@@ -53,7 +53,7 @@ const app: Record<string, Record<string, string>> = {
     draft: "ड्राफ़्ट", submitted: "जमा किया", under_review: "समीक्षा में", need_documents: "दस्तावेज़ चाहिए", approved: "स्वीकृत", rejected: "अस्वीकृत", refNo: "संदर्भ संख्या",
     welcome: "बोलकर या लिखकर पूछें। हम आपके लिए योजनाएँ आधिकारिक स्रोतों के साथ खोजेंगे।", errBusy: "कृपया थोड़ी देर बाद कोशिश करें।", clear: "मेरा डेटा मिटाएँ",
   },
-  ta: { talk: "பேசுங்கள்", find: "தேடு", check: "சரிபார்", docs: "ஆவணங்கள்", apply: "விண்ணப்பம்", track: "கண்காணி",
+  ta: { sahayak: "🎙️ சகாயக்", talk: "பேசுங்கள்", find: "தேடு", check: "சரிபார்", docs: "ஆவணங்கள்", apply: "விண்ணப்பம்", track: "கண்காணி",
     tagline: "உங்கள் குரல். உங்கள் நலன்கள். உங்கள் எதிர்காலம்.", askPlaceholder: "எந்தத் திட்டத்தைப் பற்றியும் உங்கள் மொழியில் கேளுங்கள்…", send: "அனுப்பு", mic: "பேசு", listening: "கேட்கிறோம்…",
     searchPlaceholder: "பெயர், பலன் அல்லது துறை மூலம் தேடுங்கள்…", allCategories: "அனைத்து வகைகள்", allStates: "மத்திய + அனைத்து மாநிலங்கள்", results: "திட்டங்கள்",
     bookmark: "சேமி", saved: "சேமித்தது", details: "விவரங்கள்", eligibility: "தகுதி", benefits: "பலன்கள்", howToApply: "எப்படி விண்ணப்பிப்பது", docsNeeded: "தேவையான ஆவணங்கள்",

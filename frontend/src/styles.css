@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root{--bg:#fff7ed;--fg:#1c1917;--muted:#78716c;--accent:#ea580c;--card:#fff;--line:#fed7aa;--ok:#15803d;--warn:#b45309;--bad:#b91c1c}
 @media (prefers-color-scheme:dark){:root{--bg:#1c1410;--fg:#fafaf9;--muted:#a8a29e;--card:#2a1f18;--line:#4a3426}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,"Noto Sans","Noto Sans Tamil","Noto Sans Devanagari",sans-serif}
