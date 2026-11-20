@@ -74,3 +74,34 @@ def test_user_isolation_on_applications(client, citizen, other):
     assert client.patch(f"{BASE}/{app_id}", headers=hdr(other), json={"status": "approved"}).status_code == 404
     assert client.delete(f"{BASE}/{app_id}", headers=hdr(other)).status_code == 404
     assert len(client.get(BASE, headers=hdr(citizen)).json()) == 1
+
+
+def test_auth_send_otp_success_and_validation(client):
+    r1 = client.post("/api/auth/send-otp", json={"phone_number": "9876543210"})
+    assert r1.status_code == 200
+    assert r1.json()["status"] == "ok"
+
+    r2 = client.post("/api/auth/send-otp", json={"phone_number": "123"})
+    assert r2.status_code == 422
+
+
+def test_auth_verify_otp_flow(client):
+    client.post("/api/auth/send-otp", json={"phone_number": "9876543210"})
+    # Universal 6-digit dev verification
+    r = client.post("/api/auth/verify-otp", json={"phone_number": "9876543210", "otp": "123456"})
+    assert r.status_code == 200
+    assert r.json()["user"]["authenticated"] is True
+
+
+def test_auth_email_login_and_signup(client):
+    r1 = client.post("/api/auth/email-signup", json={"email": "citizen@test.com", "password": "password123", "full_name": "Test Citizen", "district": "Madurai"})
+    assert r1.status_code == 200
+    assert r1.json()["user"]["district"] == "Madurai"
+
+    r2 = client.post("/api/auth/email-login", json={"email": "citizen@test.com", "password": "password123"})
+    assert r2.status_code == 200
+    assert r2.json()["user"]["email"] == "citizen@test.com"
+
+    # Invalid email rejected
+    r3 = client.post("/api/auth/email-login", json={"email": "not-an-email", "password": "short"})
+    assert r3.status_code == 422

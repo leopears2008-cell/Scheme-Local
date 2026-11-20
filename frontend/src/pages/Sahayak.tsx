@@ -11,6 +11,8 @@ import {
 } from "lucide-react";
 
 // ─── Colour tokens ────────────────────────────────────────────────────────────
+const API_BASE = (import.meta.env.VITE_API_URL as string) || "http://localhost:8000";
+
 const C = {
   navy: "#102F8C",
   deepNavy: "#071D67",
@@ -373,6 +375,8 @@ function Hero({ lang, onSearch }: { lang: Lang; onSearch: (q: string) => void })
               whileHover={{ scale: 1.06 }}
               whileTap={{ scale: 0.94 }}
               onClick={isListening ? stopListening : startListening}
+              aria-label={isListening ? "Stop listening" : "Tap to speak"}
+              aria-pressed={isListening}
               className="relative w-28 h-28 rounded-full flex flex-col items-center justify-center text-white font-bold shadow-2xl z-10 transition-all"
               style={{
                 background: isListening
@@ -403,11 +407,13 @@ function Hero({ lang, onSearch }: { lang: Lang; onSearch: (q: string) => void })
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && onSearch(query)}
               placeholder={t("searchPlaceholder", lang)}
+              aria-label="Scheme search query"
               className="w-full bg-transparent pl-11 pr-14 py-4 text-white placeholder-blue-200 text-sm outline-none"
               style={{ fontFamily: "'Noto Sans Tamil', sans-serif" }}
             />
             <button
               onClick={() => onSearch(query)}
+              aria-label="Submit search"
               className="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full flex items-center justify-center text-white"
               style={{ background: C.orange }}
             >
@@ -710,6 +716,7 @@ function AIChatWidget({ lang }: { lang: Lang }) {
         whileHover={{ scale: 1.08 }}
         whileTap={{ scale: 0.92 }}
         onClick={() => setOpen((v) => !v)}
+        aria-label={open ? "Close AI Assistant" : "Open AI Assistant"}
         className="fixed bottom-6 right-6 w-14 h-14 rounded-full text-white flex items-center justify-center shadow-2xl z-50"
         style={{ background: `linear-gradient(135deg, ${C.navy}, ${C.deepNavy})` }}
       >
@@ -844,6 +851,7 @@ function FloatingVoiceButton({ lang }: { lang: Lang }) {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         onClick={toggle}
+        aria-label={listening ? "Stop voice assistant" : "Activate voice assistant"}
         className="w-12 h-12 rounded-full text-white flex items-center justify-center shadow-xl"
         style={{ background: listening ? "#DC2626" : C.orange, boxShadow: `0 0 24px ${C.orange}60` }}
         title={t("tapToSpeak", lang)}
@@ -879,7 +887,7 @@ function AuthModal({ isOpen, onClose, lang }: { isOpen: boolean; onClose: () => 
   const sendOtp = async () => {
     setSending(true);
     try {
-      await fetch("http://localhost:8000/api/auth/send-otp", {
+      await fetch(`${API_BASE}/api/auth/send-otp`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ phone_number: `+91${phone}` }),
@@ -893,7 +901,7 @@ function AuthModal({ isOpen, onClose, lang }: { isOpen: boolean; onClose: () => 
   const verifyOtp = async () => {
     const code = otp.join("");
     try {
-      const r = await fetch("http://localhost:8000/api/auth/verify-otp", {
+      const r = await fetch(`${API_BASE}/api/auth/verify-otp`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ phone_number: `+91${phone}`, otp: code }),
@@ -933,18 +941,26 @@ function AuthModal({ isOpen, onClose, lang }: { isOpen: boolean; onClose: () => 
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="auth-modal-title"
             className="w-full max-w-md rounded-3xl p-8 relative"
             style={{ background: C.white, boxShadow: "0 24px 80px rgba(16,47,140,0.3)" }}
           >
             {/* Close */}
-            <button onClick={onClose} className="absolute top-5 right-5 w-8 h-8 rounded-full flex items-center justify-center hover:opacity-70" style={{ background: C.bg }}>
+            <button
+              onClick={onClose}
+              aria-label="Close dialog"
+              className="absolute top-5 right-5 w-8 h-8 rounded-full flex items-center justify-center hover:opacity-70"
+              style={{ background: C.bg }}
+            >
               <X className="w-4 h-4" style={{ color: C.text }} />
             </button>
 
             {/* Header */}
             <div className="text-center mb-6">
               <div className="w-14 h-14 rounded-2xl mx-auto mb-3 flex items-center justify-center text-2xl" style={{ background: `${C.navy}12` }}>🏛️</div>
-              <h2 className="text-xl font-bold" style={{ color: C.text }}>
+              <h2 id="auth-modal-title" className="text-xl font-bold" style={{ color: C.text }}>
                 {lang === "ta" ? "சகாயக்-இல் உள்நுழைக" : "Sign in to Sahayak"}
               </h2>
               <p className="text-xs mt-1" style={{ color: "#6B7280" }}>
@@ -1032,6 +1048,7 @@ function AuthModal({ isOpen, onClose, lang }: { isOpen: boolean; onClose: () => 
                             onKeyDown={(e) => handleOtpKeyDown(i, e)}
                             maxLength={1}
                             inputMode="numeric"
+                            aria-label={`Digit ${i + 1} of verification code`}
                             className="w-12 h-14 text-center text-2xl font-bold rounded-xl outline-none transition-all"
                             style={{
                               border: `2px solid ${d ? C.orange : C.border}`,
@@ -1127,12 +1144,12 @@ function AuthModal({ isOpen, onClose, lang }: { isOpen: boolean; onClose: () => 
                   className="w-full py-3 rounded-xl text-white font-bold text-sm flex items-center justify-center gap-2"
                   style={{ background: C.orange }}
                   onClick={async () => {
-                    const url = isLogin ? "http://localhost:8000/api/auth/email-login" : "http://localhost:8000/api/auth/email-signup";
+                    const url = isLogin ? `${API_BASE}/api/auth/email-login` : `${API_BASE}/api/auth/email-signup`;
                     try {
                       const r = await fetch(url, {
                         method: "POST",
                         headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify({ email, password, name }),
+                        body: JSON.stringify({ email, password, full_name: name }),
                       });
                       if (r.ok) onClose();
                       else alert("Authentication failed. Use demo OTP tab.");

@@ -11,7 +11,8 @@ PyJWT[crypto]>=2.9
 chromadb==0.5.23
 langgraph==0.2.60
 joblib==1.4.2
-scikit-learn==1.6.0
+scikit-learn>=1.6.0
+numpy>=1.26.0
 pypdf>=5.1
 fpdf2>=2.8
 uharfbuzz   # required by fpdf2 text shaping (Tamil and Hindi PDF rendering); fpdf2 fails without it
