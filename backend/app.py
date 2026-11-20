@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 import config
 import schemes_store as store
-from routers import account, admin, chat, eligibility, forms, guest, ocr, schemes, tracker, voice
+from routers import account, admin, auth, chat, eligibility, forms, guest, ocr, schemes, tracker, voice
 from security.auth import require_user
 from security.logging_setup import setup as setup_logging
 from security.ratelimit import SecurityMiddleware
@@ -34,6 +34,7 @@ app.add_middleware(CORSMiddleware, allow_origins=config.CORS_ORIGINS, allow_cred
 app.include_router(schemes.router)
 app.include_router(eligibility.router)
 app.include_router(guest.router)     # public: starts a limited guest session
+app.include_router(auth.router)      # public: citizen OTP and email authentication
 # protected: AI, OCR, voice, PDFs, user data, admin
 for r in (chat, ocr, forms, voice, tracker, account, admin):
     app.include_router(r.router)
