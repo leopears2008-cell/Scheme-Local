@@ -1,0 +1,19 @@
+{
+  "category": "Women",
+  "level": "central",
+  "state": "All India",
+  "applicable_states": "All States and UTs, including Tamil Nadu, unless the scheme notification excludes it",
+  "source_url": "https://www.myscheme.gov.in",
+  "schemes": [
+    {"id":"pmmvy","name":"Pradhan Mantri Matru Vandana Yojana","short_name":"PMMVY","description":"Cash maternity benefit for the first living child.","eligibility":"Pregnant women and lactating mothers."},
+    {"id":"pmuy","name":"Pradhan Mantri Ujjwala Yojana","short_name":"PMUY","description":"Subsidised LPG connection.","eligibility":"Women from eligible poor households."},
+    {"id":"mudra-women","name":"MUDRA Yojana","short_name":"MUDRA","description":"Collateral-free business loans.","eligibility":"Women entrepreneurs and eligible micro-enterprises."},
+    {"id":"stand-up-india-women","name":"Stand-Up India","short_name":"Stand-Up India","description":"Bank loans for entrepreneurship.","eligibility":"Women, SC and ST entrepreneurs."},
+    {"id":"one-stop-centre","name":"One Stop Centre / Women Helpline 181","short_name":"OSC / 181","description":"Support for women facing violence.","eligibility":"Available nationwide."},
+    {"id":"swadhar-greh","name":"Swadhar Greh","short_name":"Swadhar Greh","description":"Shelter, food, counselling and rehabilitation.","eligibility":"Women in difficult circumstances."},
+    {"id":"ujjawala","name":"Ujjawala","short_name":"Ujjawala","description":"Prevention of trafficking and rehabilitation support.","eligibility":"Implemented through eligible organisations."},
+    {"id":"working-women-hostel","name":"Working Women Hostel","short_name":"WWH","description":"Safe accommodation and support.","eligibility":"Working women away from home."},
+    {"id":"bbbp","name":"Beti Bachao Beti Padhao","short_name":"BBBP","description":"Awareness and welfare for girl children.","eligibility":"Nationwide programme."},
+    {"id":"ssy","name":"Sukanya Samriddhi Yojana","short_name":"SSY","description":"High-interest savings account for a girl child.","eligibility":"Parent/guardian account for a girl below 10 years."}
+  ]
+}

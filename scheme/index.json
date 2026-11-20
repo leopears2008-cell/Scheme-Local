@@ -1,0 +1,20 @@
+{
+  "dataset": "central-government-schemes",
+  "level": "central",
+  "state": "All India",
+  "state_note": "Central schemes are generally pan-India and therefore available in Tamil Nadu too, unless the scheme notification specifically excludes it.",
+  "files": [
+    "women.json",
+    "farmers.json",
+    "students.json",
+    "senior-citizens.json",
+    "other-groups.json"
+  ],
+  "official_portals": [
+    "https://www.myscheme.gov.in",
+    "https://scholarships.gov.in",
+    "https://pmkisan.gov.in",
+    "https://pmfby.gov.in"
+  ],
+  "disclaimer": "Eligibility, benefit amounts and application procedures can change. Confirm current details on the official myScheme portal and the concerned ministry website before applying. State-level schemes are separate. Never pay an agent for a free government scheme."
+}

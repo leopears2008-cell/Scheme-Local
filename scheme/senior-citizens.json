@@ -1,0 +1,17 @@
+{
+  "category": "Senior Citizens",
+  "level": "central",
+  "state": "All India",
+  "applicable_states": "All States and UTs, including Tamil Nadu, unless the scheme notification excludes it",
+  "source_url": "https://www.myscheme.gov.in",
+  "schemes": [
+    {"id":"ab-pmjay-vvy","name":"Ayushman Vay Vandana","short_name":"AVVY","description":"Free health cover up to ₹5 lakh per family per year.","eligibility":"All citizens aged 70 years or above."},
+    {"id":"apy","name":"Atal Pension Yojana","short_name":"APY","description":"Guaranteed pension after age 60.","eligibility":"Indian citizens aged 18–40 with a bank account."},
+    {"id":"ignoaps","name":"Indira Gandhi National Old Age Pension Scheme","short_name":"IGNOAPS","description":"Monthly pension for elderly below poverty line.","eligibility":"BPL households; criteria vary by implementation."},
+    {"id":"nphce","name":"National Programme for Health Care of the Elderly","short_name":"NPHCE","description":"Geriatric health services.","eligibility":"Senior citizens."},
+    {"id":"rvy","name":"Rashtriya Vayoshan Yojana","short_name":"RVY","description":"Assisted-living devices.","eligibility":"Senior citizens below poverty line with age-related disabilities."},
+    {"id":"elderline","name":"Elderline 14567","short_name":"Elderline","description":"Helpline for senior-citizen welfare and support.","eligibility":"Senior citizens and caregivers."},
+    {"id":"income-tax-senior","name":"Income-tax benefits","short_name":"IT benefits","description":"Higher basic exemption and interest-deduction limits.","eligibility":"Subject to prevailing Income-tax Act provisions."},
+    {"id":"railway-senior-concession","name":"Railways senior-citizen concession","short_name":"Rail concession","description":"Concession availability depends on current railway rules.","eligibility":"Check Indian Railways before travel."}
+  ]
+}

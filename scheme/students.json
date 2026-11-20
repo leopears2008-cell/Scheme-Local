@@ -1,0 +1,19 @@
+{
+  "category": "Students",
+  "level": "central",
+  "state": "All India",
+  "applicable_states": "All States and UTs, including Tamil Nadu, unless the scheme notification excludes it",
+  "source_url": "https://scholarships.gov.in",
+  "schemes": [
+    {"id":"pm-usp","name":"PM-USP Central Sector Scholarship","short_name":"PM-USP","description":"₹12,000/year at graduation; ₹20,000/year at postgraduation.","eligibility":"Meritorious students from low-income families."},
+    {"id":"nmmss","name":"National Means-cum-Merit Scholarship","short_name":"NMMSS","description":"₹12,000/year from Class IX, renewable to Class XII.","eligibility":"Meritorious students from economically weaker families."},
+    {"id":"nspgs","name":"National Scholarship for Post-Graduate Studies","short_name":"NSPGS","description":"₹15,000/month for 10 months a year.","eligibility":"First-year PG students from economically weaker sections."},
+    {"id":"pre-matric-sc","name":"Pre-Matric Scholarship for SC Students","short_name":"Pre-Matric SC","description":"Financial support for school education.","eligibility":"SC students; apply through the National Scholarship Portal."},
+    {"id":"pre-matric-st","name":"Pre-Matric Scholarship for ST Students","short_name":"Pre-Matric ST","description":"₹225/month for day scholars; ₹525/month for hostellers, for 10 months.","eligibility":"ST students in Classes IX–X."},
+    {"id":"pm-yasasvi-post-matric","name":"PM-YASASVI Post-Matric Scholarship","short_name":"PM-YASASVI Post-Matric","description":"Scholarships for OBC, EBC and DNT students.","eligibility":"Apply through the National Scholarship Portal."},
+    {"id":"pm-yasasvi-top-class","name":"PM-YASASVI Top Class College Education","short_name":"PM-YASASVI Top Class","description":"Full educational support at reputed institutions.","eligibility":"OBC, EBC and DNT students."},
+    {"id":"csis","name":"Central Sector Interest Subsidy Scheme","short_name":"CSIS","description":"Interest subsidy on education loans during moratorium.","eligibility":"Eligible economically weaker students."},
+    {"id":"ishan-uday","name":"Ishan Uday","short_name":"Ishan Uday","description":"Special scholarship for North-Eastern Region students.","eligibility":"Students from NER pursuing higher education."},
+    {"id":"nsp","name":"National Scholarship Portal","short_name":"NSP","description":"Single application portal for many scholarships.","eligibility":"Apply at scholarships.gov.in.","official_url":"https://scholarships.gov.in"}
+  ]
+}

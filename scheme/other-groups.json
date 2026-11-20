@@ -1,0 +1,16 @@
+{
+  "category": "Other Major Groups",
+  "level": "central",
+  "state": "All India",
+  "applicable_states": "All States and UTs, including Tamil Nadu, unless the scheme notification excludes it",
+  "source_url": "https://www.myscheme.gov.in",
+  "groups": [
+    {"group":"Rural households","description":"Key central schemes for rural households.","schemes":["MGNREGA","PM Awas Yojana–Gramin","Jal Jeevan Mission","Deendayal Antyodaya Yojana–National Rural Livelihoods Mission"]},
+    {"group":"Urban poor","description":"Key central schemes for the urban poor.","schemes":["PM Awas Yojana–Urban","Deendayal Antyodaya Yojana–National Urban Livelihoods Mission","PM SVANidhi"]},
+    {"group":"Entrepreneurs / workers","description":"Key central schemes for entrepreneurs and workers.","schemes":["PM MUDRA","Stand-Up India","PM Vishwakarma","PM SVANidhi","Ayushman Bharat PM-JAY","e-Shram"]},
+    {"group":"SC / ST / minorities","description":"Key central schemes for SC, ST and minority communities.","schemes":["Pre- and post-matric scholarships","PM-DAKSH","Venture Capital Fund for SCs","Stand-Up India","PM-VIKAS"]},
+    {"group":"Persons with disabilities","description":"Key central schemes for persons with disabilities.","schemes":["ADIP","Deendayal Disabled Rehabilitation Scheme","UDID","Accessible education and employment support"]},
+    {"group":"Unorganised workers","description":"Key central schemes for unorganised workers.","schemes":["e-Shram","Ayushman Bharat PM-JAY","PM-SYM","PM Shram Yogi Maandhan"]},
+    {"group":"General citizens","description":"Key central schemes for general citizens.","schemes":["Ayushman Bharat PM-JAY","PM Garib Kalyan Anna Yojana","PM Vishwakarma","Digital India services"]}
+  ]
+}
