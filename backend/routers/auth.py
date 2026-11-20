@@ -1,15 +1,29 @@
-"""Citizen Authentication Router (Mobile OTP + Email Flow) for Sahayak & MySchemeGuide."""
+"""Citizen Authentication Router (Mobile OTP + Email Flow) for Sahayak & MySchemeGuide.
+
+DEMO ONLY: these endpoints have no SMS gateway, no password store and no session tokens.
+They are disabled when ENV=production; real authentication goes through Supabase
+(see security/auth.py), which issues the JWTs the protected routes require.
+"""
 import logging
 import random
+import secrets
 import time
-from fastapi import APIRouter, HTTPException, Request
+from fastapi import APIRouter, Depends, HTTPException, Request
 from pydantic import BaseModel, Field
 
 import config
 from security.ratelimit import limiter
 
-router = APIRouter(prefix="/api/auth", tags=["auth"])
 log = logging.getLogger("auth")
+
+
+def _demo_only() -> None:
+    """Block the demo auth flow in production so it can never mint an 'authenticated' response."""
+    if config.ENV == "production":
+        raise HTTPException(501, "This demo auth endpoint is disabled in production. Use Supabase authentication.")
+
+
+router = APIRouter(prefix="/api/auth", tags=["auth"], dependencies=[Depends(_demo_only)])
 
 # In-memory store for OTPs in dev/demo environment: phone -> {otp, expires_at}
 _otp_store: dict[str, dict] = {}
@@ -45,12 +59,11 @@ def send_otp(body: SendOtpRequest, request: Request):
     if len(phone) < 10:
         raise HTTPException(422, "Invalid phone number length")
 
-    # Rate limiting: max 10 OTP requests per hour per IP
+    # Rate limiting: max 20 OTP requests per hour per IP
     wait = limiter.check(f"otp:{client_ip(request)}", 20, 3600)
     if wait:
         raise HTTPException(429, "Too many OTP requests. Please wait.", headers={"Retry-After": str(wait)})
 
-    # Generate 6-digit OTP (in demo/dev, default to a predictable code if specified or random)
     otp_code = str(random.randint(100000, 999999))
     _otp_store[phone] = {
         "otp": otp_code,
@@ -72,20 +85,20 @@ def verify_otp(body: VerifyOtpRequest):
     submitted_otp = body.otp.strip()
 
     record = _otp_store.get(phone)
-    # Valid if matches generated code, or if dev fallback (6 digits)
-    is_valid = False
-    if record and time.time() <= record["expires_at"]:
-        if record["otp"] == submitted_otp:
-            is_valid = True
-    
-    # In development / local testing without external SMS gateway, accept 6-digit OTP
-    if not is_valid and (submitted_otp == "123456" or len(submitted_otp) == 6):
+    is_valid = bool(
+        record
+        and time.time() <= record["expires_at"]
+        and secrets.compare_digest(record["otp"], submitted_otp)
+    )
+
+    # Dev-only fallback (no SMS gateway locally): accept any 6-digit code.
+    # Unreachable in production because the router rejects every request there.
+    if not is_valid and len(submitted_otp) == 6 and submitted_otp.isdigit():
         is_valid = True
 
     if not is_valid:
         raise HTTPException(400, "Invalid or expired OTP / தவறான அல்லது காலாவதியான OTP")
 
-    # Clear used OTP
     _otp_store.pop(phone, None)
 
     return {
