@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_040",
+ "name": "Green Tamil Nadu Mission",
+ "name_local": {
+  "ta": "பசுமை தமிழ்நாடு மிஷன்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Environment, Climate Change & Forest Department",
+ "benefit": "Mass tree planting—target to increase green cover to 33%; 4.06 crore seedlings in 2024–25; 260 crore over 10 years.",
+ "eligibility_rules": [
+  "Open to NGOs, institutions, communities, individuals across TN."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Volunteer via District Green Committees or Green Climate Company portal.",
+ "source_url": "https://www.greentnmission.com/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "பசுமை தமிழ்நாடு மிஷன்",
+   "benefit": "பசுமை வீதி தொடக்குதல்—மொத்த மரச்சீர்செறிவு 33% ஆக்கும் குறிக்கோள்; 2024–25 இல் 4.06 கோடி மிள்பூட்டுகள்; 10 ஆண்டுகளில் 260 கோடி மிள்பூட்டுகள்.",
+   "eligibility": "தமிழக நல இயக்கங்கள், அரசியல் நிர்வாகங்கள், சமூகங்கள், தனிநபர்கள் எவரும் பங்கேற்கலாம்.",
+   "how_to_apply": "மாவட்ட பசுமை குழுவுகள் அல்லது பசுமை காலநிலை நிறுவன இணையதளத்தில் மூலமாக பங்கேற்கலாம்.",
+   "department": "சூழல், காலநிலை மாற்றம் மற்றும் காடுத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,5 @@
+# Only needed to build the vector index (python ingest.py) and to run live retrieval.
+# PyTorch is large. For a CPU-only install (much smaller), first run:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+-r requirements.txt
+sentence-transformers==3.3.1

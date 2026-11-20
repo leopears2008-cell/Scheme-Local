@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_062",
+ "name": "Western Ghats Development Programme - Plantation Incentive",
+ "name_local": {
+  "ta": "மேற்குத் தொடர்ச்சி மலை வளர்ச்சி திட்டம் - நட்டுதல் ஊக்கத்தொகை"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Environment and Forests",
+ "benefit": "Financial incentive for planting trees and agro-forestry activities.",
+ "eligibility_rules": [
+  "Farmers and tribal residents in Western Ghats notified areas."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit application through local Forest Range Office.",
+ "source_url": "https://www.tiic.org/tn/entrepreneur-development-scheme/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "மேற்குத் தொடர்ச்சி மலை வளர்ச்சி திட்டம் - நட்டுதல் ஊக்கத்தொகை",
+   "benefit": "மரங்கள் மற்றும் வேளாண் காடுகள் நட்டதற்கான நிதி ஊக்கம்.",
+   "eligibility": "மேற்குத் தொடர்ச்சி மலைப் பகுதிகளில் வசிக்கும் விவசாயிகள் மற்றும் பழங்குடியினர்.",
+   "how_to_apply": "உள்ளூர் காடுத்துறை அலுவலகம் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "சூழல் மற்றும் காடுத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

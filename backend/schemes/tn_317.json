@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_317",
+ "name": "Solar Smart School Program",
+ "name_local": {
+  "ta": "சோலார் ச்மார்ட் பள்ளித் திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department & TEDA",
+ "benefit": "Solar panels, digital classrooms, and student-run energy clubs.",
+ "eligibility_rules": [
+  "Government schools with over 300 students."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "School headmasters can apply via education department circulars.",
+ "source_url": "https://pmsuryaghar.gov.in/#/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "சோலார் ச்மார்ட் பள்ளித் திட்டம்",
+   "benefit": "சோலார் பேனல்கள், டிஜிட்டல் வகுப்பறைகள் மற்றும் மாணவர் இயக்கப்படும் சக்தி மன்றங்கள்.",
+   "eligibility": "300க்கும் மேற்பட்ட மாணவர்களுள்ள அரசு பள்ளிகள்.",
+   "how_to_apply": "தலைமை ஆசிரியர்கள் கல்வித்துறையின் சுற்றறிக்கைகளின் அடிப்படையில் விண்ணப்பிக்கலாம்.",
+   "department": "பள்ளிக் கல்வித் துறை மற்றும் TEDA"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

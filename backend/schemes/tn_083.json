@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_083",
+ "name": "Construction of Free Houses for Tribals",
+ "name_local": {
+  "ta": "பழங்குடியினருக்காக இலவச வீடுகள் கட்டும் திட்டம்"
+ },
+ "category": "housing",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Provision of pucca house construction with full government grant.",
+ "eligibility_rules": [
+  "Tribal families without permanent housing in notified tribal regions."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit application through Village Administrative Officer to District Tribal Welfare Officer.",
+ "source_url": "https://www.myscheme.gov.in/schemes/cofhft",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பழங்குடியினருக்காக இலவச வீடுகள் கட்டும் திட்டம்",
+   "benefit": "அரசு முழுமையாக நிதியுதவியுடன் நிரந்தர வீடுகள் கட்டும் உதவி.",
+   "eligibility": "அங்கீகரிக்கப்பட்ட பழங்குடி பகுதிகளில் நிரந்தர வீடில்லாத பழங்குடியினர் குடும்பங்கள்.",
+   "how_to_apply": "கிராம நிர்வாக அதிகாரி மூலமாக மாவட்ட பழங்குடியினர் நல அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_063",
+ "name": "Individual Entrepreneur Development Scheme",
+ "name_local": {
+  "ta": "தனிநபர் தொழில் முனைவோர் மேம்பாட்டு திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Micro, Small and Medium Enterprises (MSME)",
+ "benefit": "Financial assistance, entrepreneurship training, and loan facilitation.",
+ "eligibility_rules": [
+  "Aspiring entrepreneurs from Tamil Nadu with a viable business plan."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Industries Centre with business proposal.",
+ "source_url": "https://www.tiic.org/tn/entrepreneur-development-scheme/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "தனிநபர் தொழில் முனைவோர் மேம்பாட்டு திட்டம்",
+   "benefit": "நிதியுதவி, தொழில் முனைவோர் பயிற்சி மற்றும் கடன் வசதி.",
+   "eligibility": "தக்க வணிகத் திட்டம் கொண்ட தமிழ்நாட்டைச் சேர்ந்த தொழில் முனைவோர்.",
+   "how_to_apply": "வணிகத் திட்டத்துடன் மாவட்ட தொழில் மையத்தில் விண்ணப்பிக்கவும்.",
+   "department": "மிகச் சிறு, சிறு மற்றும் நடுத்தர தொழில் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

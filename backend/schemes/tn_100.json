@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_100",
+ "name": "Awards to Bright Students – District Level",
+ "name_local": {
+  "ta": "மாண்புமிகு மாணவர்களுக்கு மாவட்ட அளவிலான விருதுகள்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Cash prizes: Rs. 3000 for 12th rank holders, Rs. 1000–300 for 10th ranks.",
+ "eligibility_rules": [
+  "Top scorers in 10th and 12th public examinations at the district level."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "No separate application required. Awarded through school recommendation.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=OTEx",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15,
+  "maxAge": 20
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாண்புமிகு மாணவர்களுக்கு மாவட்ட அளவிலான விருதுகள்",
+   "benefit": "பணப் பரிசுகள்: பிளஸ் 2க்கு ரூ.3000, 10ம் வகுப்பு முதல் பரிசு ரூ.1000, இரண்டாம் ரூ.500, மூன்றாம் ரூ.300.",
+   "eligibility": "மாவட்ட அளவில் 10 மற்றும் 12ம் வகுப்பு பொதுத் தேர்வுகளில் உயர்ந்த மதிப்பெண்கள் பெற்ற மாணவர்கள்.",
+   "how_to_apply": "விண்ணப்பம் தேவையில்லை; பள்ளி பரிந்துரை மூலம் வழங்கப்படும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_133",
+ "name": "Professional Loans for Doctors, Engineers, and Self-Employed Professionals",
+ "name_local": {
+  "ta": "மருத்துவர்கள், இன்ஜினியர்கள் மற்றும் சுயதொழில் முனைவோருக்கான தொழில்முறை கடன்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation Department",
+ "benefit": "Loan facility through cooperative banks to start clinics, consultancies, etc.",
+ "eligibility_rules": [
+  "Registered professionals with recognized degrees in their field."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at local district central cooperative bank with certificates.",
+ "source_url": "https://www.myscheme.gov.in/schemes/dccbfpl",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 22
+ },
+ "i18n": {
+  "ta": {
+   "name": "மருத்துவர்கள், இன்ஜினியர்கள் மற்றும் சுயதொழில் முனைவோருக்கான தொழில்முறை கடன்",
+   "benefit": "கிளினிக், ஆலோசனை நிறுவனங்கள் தொடங்க கூட்டுறவு வங்கிகள் மூலம் கடன் வழங்கப்படும்.",
+   "eligibility": "தங்கள் துறையில் அங்கீகரிக்கப்பட்ட பட்டம் கொண்ட பதிவு செய்யப்பட்ட தொழில்முனைவோர்.",
+   "how_to_apply": "தகுதியான சான்றுகளுடன் மாவட்ட மைய கூட்டுறவு வங்கியில் விண்ணப்பிக்கலாம்.",
+   "department": "கூட்டுறவுத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_050",
+ "name": "Athikadavu–Avinashi Water Supply Scheme",
+ "name_local": {
+  "ta": "அத்திக்கடவு–அவினாசி நீர்ப்பிரிவு திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Water Resources Organisation",
+ "benefit": "Provides piped fresh drinking water via 1,058 km pipeline and 6 pump houses; recharges groundwater.",
+ "eligibility_rules": [
+  "All households in connected districts."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Automatic; households petition local panchayat for connection.",
+ "source_url": "https://wrd.tn.gov.in/home/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "அத்திக்கடவு–அவினாசி நீர்ப்பிரிவு திட்டம்",
+   "benefit": "1,058 கிமீ குழாய், 6 ஊட்டியாலங்கள் மூலம் குடிநீர் வழங்குகிறது; நிலநீரைக் புதுப்பிக்கும்.",
+   "eligibility": "பொதுமக்கள் வீடுகள் இணைக்கபட்ட மாவட்டங்களில்.",
+   "how_to_apply": "சுயசேர்வு; வீடுகள் பஞ்சாயத்துக்கு இணைப்பு கோரி விண்ணப்பிக்க வேண்டும்.",
+   "department": "நீர்வளக்கட்டமைப்பு"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "scheme_id": "mgnrega",
+ "name": "MGNREGA Job Card",
+ "category": "employment_skill",
+ "level": "central",
+ "state": "",
+ "benefit": "100 days of guaranteed wage employment per year per household for unskilled manual work in rural areas.",
+ "eligibility_rules": [
+  "State is known"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Address Proof",
+  "Passport Photo"
+ ],
+ "how_to_apply": "Apply on the official portal: https://nrega.nic.in/",
+ "source_url": "https://nrega.nic.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "मनरेगा जॉब कार्ड"
+ },
+ "department": "Ministry of Rural Development",
+ "benefit_type": "service",
+ "estimated_benefit_inr": 30000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "address",
+   "label": "Address",
+   "profileKey": "address",
+   "type": "textarea",
+   "required": true
+  },
+  {
+   "id": "state",
+   "label": "State",
+   "profileKey": "state",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "district",
+   "label": "District",
+   "profileKey": "district",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "state",
+   "op": "exists",
+   "value": null,
+   "label": "State is known"
+  }
+ ],
+ "merged_from": [
+  "FormSaathi"
+ ]
+}

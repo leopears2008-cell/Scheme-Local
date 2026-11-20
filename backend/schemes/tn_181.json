@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_181",
+ "name": "Free Slates for BC, MBC, DNC Students – Stationery Scheme",
+ "name_local": {
+  "ta": "பின்தங்கியோர் மாணவர்களுக்கு இலவச ஸ்லேட் வழங்கும் திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "BC/MBC Welfare Department",
+ "benefit": "One slate per eligible student distributed every academic year.",
+ "eligibility_rules": [
+  "BC, MBC, DNC students in class 1 and 2 studying in government schools."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Provided automatically through schools.",
+ "source_url": "https://www.bcmbcmw.tn.gov.in/welfschemes.htm",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxAge": 7
+ },
+ "i18n": {
+  "ta": {
+   "name": "பின்தங்கியோர் மாணவர்களுக்கு இலவச ஸ்லேட் வழங்கும் திட்டம்",
+   "benefit": "ஒவ்வொரு கல்வியாண்டிலும் ஒரு இலவச ஸ்லேட் வழங்கப்படும்.",
+   "eligibility": "அரசுப் பள்ளிகளில் 1 மற்றும் 2ம் வகுப்பில் பயிலும் பின்தங்கிய மாணவர்கள்.",
+   "how_to_apply": "பள்ளி மூலமாக தானாகவே வழங்கப்படும்.",
+   "department": "பின்தங்கிய மற்றும் மிகவும் பின்தங்கியோர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

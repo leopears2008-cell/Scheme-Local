@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_054",
+ "name": "Hogenakkal Integrated Drinking Water Project",
+ "name_local": {
+  "ta": "ஹொகெனக்கல் நீா் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu Water Supply & Drainage Board (TWAD)",
+ "benefit": "Fluoride-free safe drinking water supply to fluorosis‑affected areas.",
+ "eligibility_rules": [
+  "Residents of Dharmapuri and Krishnagiri districts."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Automatic; households connected through TWAD project implementation.",
+ "source_url": "https://www.twadboard.tn.gov.in/content/hognekkal-ws-fmp",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "ஹொகெனக்கல் நீா் திட்டம்",
+   "benefit": "புளோரால் நேரிடும் பிரச்சினைகள் கொண்ட பகுதிகளுக்கு புளோரில்லா குடிநீர் வழங்கல்.",
+   "eligibility": "தாமிம்புரி மற்றும் கிருஷ்ணகிரி மாவட்ட மக்கள்.",
+   "how_to_apply": "தானாக; வீட்டுகள் TWAD திட்டத்தின் மூலம் இணைக்கப்படுகின்றன.",
+   "department": "தமிழ்நாடு நீர் வழங்கல் மற்றும் வடிகால் வாரியம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

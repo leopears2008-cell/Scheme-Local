@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_176",
+ "name": "Free Education Scheme",
+ "name_local": {
+  "ta": "இலவச கல்வி திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Tuition, exam, and special fees fully reimbursed by the government.",
+ "eligibility_rules": [
+  "SC/ST students in government and aided schools and colleges."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through institution head with required certificates.",
+ "source_url": "https://www.myscheme.gov.in/schemes/fes",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இலவச கல்வி திட்டம்",
+   "benefit": "கல்விக்கட்டணம், தேர்வுக்கட்டணம் மற்றும் சிறப்புக் கட்டணம் முழுமையாக அரசு வழங்கும்.",
+   "eligibility": "அரசு மற்றும் அரசு உதவிபெறும் பள்ளிகள் மற்றும் கல்லூரிகளில் கல்வி பயிலும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "தேவையான சான்றுகளுடன் கல்வி நிறுவனத் தலைவர் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

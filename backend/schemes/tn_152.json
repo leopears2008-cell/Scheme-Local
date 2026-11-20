@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_152",
+ "name": "Loan for Women Entrepreneurs",
+ "name_local": {
+  "ta": "பெண் தொழில்முனைவோருக்கான கடன் உதவி"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu Corporation for Development of Women (TNCDW)",
+ "benefit": "Loan up to ₹1 lakh with interest subsidy or support through Self Help Groups.",
+ "eligibility_rules": [
+  "Women owning or starting small scale business or self-employment units."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply via SHG federations or TNCDW District Project Office.",
+ "source_url": "https://www.standupmitra.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21,
+  "maxAge": 55,
+  "maxIncome": 300000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பெண் தொழில்முனைவோருக்கான கடன் உதவி",
+   "benefit": "₹1 லட்சம் வரை மானிய வட்டியுடன் கடன், சுயஉதவிக் குழு மூலம் வழங்கப்படும்.",
+   "eligibility": "சிறு தொழில்கள் அல்லது சுயதொழில் முயற்சிகளை நடத்தும் பெண்கள்.",
+   "how_to_apply": "சுயஉதவிக் குழு கூட்டமைப்புகள் அல்லது TNCDW மாவட்ட அலுவலகம் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "தமிழ்நாடு மகளிர் மேம்பாட்டுக்கழகம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

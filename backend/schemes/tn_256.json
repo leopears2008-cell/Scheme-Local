@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_256",
+ "name": "Farmer Social Security Scheme – Accident Relief",
+ "name_local": {
+  "ta": "விவசாயி சமூக பாதுகாப்பு திட்டம் – விபத்து நிவாரணம்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Financial assistance in case of accidental death or permanent disability.",
+ "eligibility_rules": [
+  "Farmers or agricultural labourers registered under the scheme."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through VAO with FIR, medical certificate, and death certificate.",
+ "source_url": "https://www.cra.tn.gov.in/index.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "விவசாயி சமூக பாதுகாப்பு திட்டம் – விபத்து நிவாரணம்",
+   "benefit": "விபத்து காரணமாக மரணம் அல்லது நிரந்தர மாற்றுத்திறன் ஏற்பட்டால் நிதியுதவி வழங்கப்படும்.",
+   "eligibility": "திட்டத்தில் பதிவு செய்த விவசாயிகள் அல்லது விவசாயத் தொழிலாளர்கள்.",
+   "how_to_apply": "வி.ஏ.ஓ மூலமாக எப்.ஐ.ஆர்., மருத்துவ மற்றும் மரணச் சான்றுகளுடன் விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

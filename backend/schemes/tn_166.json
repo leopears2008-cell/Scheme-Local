@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_166",
+ "name": "Supply of Slates – Stationery Support for SC Students",
+ "name_local": {
+  "ta": "அடித்தின மாணவர்களுக்கு ஸ்லேட் வழங்கும் எழுதும் பொருள் ஆதரவு திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "One slate per student provided annually.",
+ "eligibility_rules": [
+  "SC students studying in classes 1 and 2 in government schools."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Provided through schools automatically at the beginning of academic year.",
+ "source_url": "https://www.nagapattinam.nic.in/adi-dravidar-and-tribal-welfare/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxAge": 7
+ },
+ "i18n": {
+  "ta": {
+   "name": "அடித்தின மாணவர்களுக்கு ஸ்லேட் வழங்கும் எழுதும் பொருள் ஆதரவு திட்டம்",
+   "benefit": "ஒவ்வொரு மாணவருக்கும் வருடத்திற்கு ஒரு ஸ்லேட் இலவசமாக வழங்கப்படும்.",
+   "eligibility": "அரசுப் பள்ளிகளில் 1 மற்றும் 2ம் வகுப்பில் பயிலும் அடித்தின மாணவர்கள்.",
+   "how_to_apply": "கல்வியாண்டின் துவக்கத்தில் பள்ளிகள் மூலமாக தானாக வழங்கப்படும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

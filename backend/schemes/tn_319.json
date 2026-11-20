@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_319",
+ "name": "TB Nutrition Restoration Assistance Scheme",
+ "name_local": {
+  "ta": "காசநோயால் பாதிக்கப்பட்ட குடும்பங்களுக்கு ஊட்டச்சத்து உதவி திட்டம்"
+ },
+ "category": "health",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Health & Family Welfare",
+ "benefit": "₹2,000/month nutrition aid + dry ration + follow-up support.",
+ "eligibility_rules": [
+  "Families with a member undergoing TB treatment in govt hospitals."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through government health center with TB ID card.",
+ "source_url": "https://tbcindia.mohfw.gov.in/ni-kshay-poshan-yojana/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "maxIncome": 300000
+ },
+ "i18n": {
+  "ta": {
+   "name": "காசநோயால் பாதிக்கப்பட்ட குடும்பங்களுக்கு ஊட்டச்சத்து உதவி திட்டம்",
+   "benefit": "மாதம் ₹2,000 ஊட்டச்சத்து உதவி, உலர் உணவுப் பெட்டி மற்றும் தொடர்ச்சியான மருத்துவ உதவி.",
+   "eligibility": "அரசு மருத்துவமனையில் காசநோய்க்கு சிகிச்சை பெறும் குடும்பங்கள்.",
+   "how_to_apply": "அரசு சுகாதார மையத்தில் TB அடையாள அட்டையுடன் விண்ணப்பிக்கவும்.",
+   "department": "சுகாதார மற்றும் குடும்ப நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

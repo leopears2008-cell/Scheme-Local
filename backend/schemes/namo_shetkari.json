@@ -1,0 +1,40 @@
+{
+ "scheme_id": "namo_shetkari",
+ "name": "Namo Shetkari Mahasanman Nidhi Yojana (NSMNY)",
+ "category": "agriculture",
+ "level": "state_maharashtra",
+ "benefit": "Rs 6,000 per year from the Maharashtra government, paid in three equal instalments of Rs 2,000 via Direct Benefit Transfer, as a top-up to PM-KISAN. Eligible farmer families thus receive Rs 12,000 per year in total (Rs 6,000 from PM-KISAN + Rs 6,000 from NSMNY), i.e. Rs 4,000 combined per instalment cycle. Benefit is credited only to Aadhaar-linked bank accounts. (Government Resolution No. Kisani-2023/CR 42/11 A dated 15/06/2023.)",
+ "eligibility_rules": [
+  "Must be a farmer family in Maharashtra (husband, wife and minor children) holding cultivable land as on 01.02.2019",
+  "Must be eligible for / a beneficiary of PM-KISAN Yojana - NSMNY beneficiaries are taken from the PM-KISAN beneficiary list provided by the Government of India",
+  "Bank account must be Aadhaar-linked and DBT-enabled to receive the benefit"
+ ],
+ "exclusions": [
+  "All institutional landholders",
+  "Farmer families where any member is a former or present holder of a constitutional post",
+  "Former or present Ministers/State Ministers, MPs (Lok Sabha/Rajya Sabha), MLAs/MLCs, Mayors of Municipal Corporations, or Chairpersons of District Panchayats",
+  "All serving or retired officers and employees of Central/State Government ministries, offices, departments and field units, Central or State PSEs, attached offices/autonomous institutions, and regular employees of local bodies (excluding Multi-Tasking Staff / Class IV / Group D employees)",
+  "All superannuated/retired pensioners with monthly pension of Rs 10,000 or more (excluding Multi-Tasking Staff / Class IV / Group D employees)",
+  "All persons who paid income tax in the last assessment year",
+  "Professionals like doctors, engineers, lawyers, chartered accountants and architects registered with professional bodies and practicing",
+  "Non-Resident Indians (NRIs)",
+  "Amounts credited to ineligible persons are recovered as per the PM-KISAN SoP"
+ ],
+ "documents_required": [
+  "Aadhaar card",
+  "7/12 extract (land record)",
+  "8-A extract",
+  "Ferfar (mutation record)",
+  "Ration card"
+ ],
+ "how_to_apply": "Self-register on the PM-KISAN portal (pmkisan.gov.in) or via CSC. The application is then verified and approved at Taluka Nodal Officer, District Nodal Officer and State Nodal Officer levels (district/state approval not needed if registered directly at TNO login). No separate NSMNY application - beneficiaries flow from the PM-KISAN list.",
+ "source_url": "https://www.myscheme.gov.in/schemes/nsmny",
+ "source_document": "myScheme NSMNY page; Maharashtra GR No. Kisani-2023/CR 42/11 A dated 15/06/2023",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "merged_from": [
+  "scheme-sahayak"
+ ]
+}

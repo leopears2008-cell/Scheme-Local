@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_314",
+ "name": "Scholarships for Educational Excellence – State Level",
+ "name_local": {
+  "ta": "மாநில அளவிலான கல்விச் சிறப்பிற்கான உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "One-time scholarship of ₹25,000 (HSC), ₹10,000 (SSLC).",
+ "eligibility_rules": [
+  "Top ranking students in SSLC and HSC state board exams."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Selected automatically by education department.",
+ "source_url": "https://www.education.gov.in/scholarships-education-loan-0-hi",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாநில அளவிலான கல்விச் சிறப்பிற்கான உதவித்தொகை",
+   "benefit": "ஒருமுறை உதவித்தொகை – HSC ₹25,000, SSLC ₹10,000.",
+   "eligibility": "SSLC மற்றும் HSC மாநில தேர்வுகளில் மேல்நிலை பெற்ற மாணவர்கள்.",
+   "how_to_apply": "பள்ளிக்கல்வித் துறை தானாகவே தேர்வு செய்யும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

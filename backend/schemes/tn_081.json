@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_081",
+ "name": "Relief to Loss of Crops Due to Natural Calamities",
+ "name_local": {
+  "ta": "இயற்கை பேரழிவுகளால் விளை நிலங்களில் ஏற்பட்ட சேதத்திற்கான நிவாரணம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Monetary compensation for loss of crops depending on damage percentage and crop type.",
+ "eligibility_rules": [
+  "Farmers whose lands were affected by floods, cyclone, or drought and are officially surveyed."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit claim through Village Administrative Officer (VAO) after assessment survey.",
+ "source_url": "https://www.aims.kerala.gov.in/cropinsurance",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "இயற்கை பேரழிவுகளால் விளை நிலங்களில் ஏற்பட்ட சேதத்திற்கான நிவாரணம்",
+   "benefit": "சேதத்தின் அளவும் பயிர் வகையும் அடிப்படையாகக் கொண்டு நிதி நிவாரணம் வழங்கப்படும்.",
+   "eligibility": "வெள்ளம், புயல் அல்லது வறட்சி பாதித்த விவசாய நிலங்களுக்கான அதிகாரப்பூர்வ சர்வே அடிப்படையிலான விவசாயிகள்.",
+   "how_to_apply": "சர்வே முடிவுகளுக்குப் பின் கிராம நிர்வாக அலுவலரிடம் (VAO) வழியாக விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

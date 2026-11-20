@@ -1,0 +1,44 @@
+{
+ "scheme_id": "rajarshi_shahu",
+ "name": "Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulkh Shishyavrutti Yojana (EBC Fee Reimbursement, Maharashtra)",
+ "category": "education",
+ "level": "state_maharashtra",
+ "benefit": "Reimbursement of tuition fees and examination fees for Economically Backward Class (EBC/EWS and open-category economically weaker) students of Maharashtra admitted to Diploma, Degree or Postgraduate professional and non-professional courses. Generally 50% of tuition and exam fees are reimbursed; girl students in professional courses receive 100% reimbursement of tuition and exam fees (per the expanded girls' variant). Benefit is paid in two installments directly into the student's Aadhaar-seeded bank account via the MahaDBT portal.",
+ "eligibility_rules": [
+  "Applicant must be an Indian national and a domicile of Maharashtra State",
+  "Annual family income must not exceed Rs 8,00,000",
+  "Must be a bonafide student of the institute, admitted to a professional/non-professional or technical course (Diploma / Graduation / Post-Graduation) approved as per the relevant Government Resolutions",
+  "Admission must have been secured through the Centralized Admission Process (CAP) for professional courses",
+  "Applies to General/Open (EWS) and SEBC category students in government, government-aided and unaided non-minority institutions",
+  "Renewal application required each academic year on MahaDBT with previous year's passing marksheets",
+  "Students from the Maharashtra-Karnataka border area can also apply"
+ ],
+ "exclusions": [
+  "Family income above Rs 8,00,000 per annum makes the student ineligible",
+  "Students admitted outside the CAP process (e.g. management quota) are not eligible for the professional-course variant",
+  "Students receiving benefits from any other scholarship or stipend for the same expenses are not eligible",
+  "Students pursuing distance-education or part-time courses are not eligible",
+  "Students with an academic gap of more than 2 years are not eligible",
+  "Maximum 2 beneficiaries per family (an undertaking to this effect is required)",
+  "Students studying outside Maharashtra are not covered"
+ ],
+ "documents_required": [
+  "Domicile certificate (Maharashtra)",
+  "Income certificate from Tehsildar (family income proof)",
+  "SSC (Class 10) and previous examination marksheets",
+  "CAP admission allotment letter / admission receipt and fee receipt from the college",
+  "Bonafide certificate from the institution",
+  "Aadhaar card and Aadhaar-seeded bank account details",
+  "Undertaking that not more than 2 family members are availing the benefit"
+ ],
+ "how_to_apply": "Apply online on the MahaDBT portal (mahadbt.maharashtra.gov.in): register as a new applicant, complete the profile, select the Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulkh Shishyavrutti Yojana, fill the form, upload documents and submit. Renewal each academic year. Helpline: 1800-120-8040. Note: related variants exist - a merit scholarship of Rs 300/month for SC students scoring 75%+ in SSC studying in classes 11-12, and department-specific versions (DTE/DHE/Agriculture).",
+ "source_url": "https://mahadbt.maharashtra.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51AF93663E6569EFD2493B74079C9D4BC045DDEC4D398AED1BA",
+ "source_document": "MahaDBT scheme pages (DTE/DHE); Maharashtra GRs dated 07/10/2017, 01/03/2018, 31/03/2018, 14/01/2019, 08/07/2024",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "merged_from": [
+  "scheme-sahayak"
+ ]
+}

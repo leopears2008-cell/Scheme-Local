@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_029",
+ "name": "Tamil Nadu Urban Livelihood Mission (TNULM)",
+ "name_local": {
+  "ta": "தமிழ்நாடு நகர வாழ்வாதார இயக்கம் (TNULM)"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Municipal Administration and Water Supply",
+ "benefit": "Skill development, self-employment loans, support for microenterprises.",
+ "eligibility_rules": [
+  "Urban poor including street vendors, self-help group members, and unemployed youth."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Urban Local Bodies or official TNULM portal.",
+ "source_url": "https://tnulm.org/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 60,
+  "maxIncome": 100000
+ },
+ "i18n": {
+  "ta": {
+   "name": "தமிழ்நாடு நகர வாழ்வாதார இயக்கம் (TNULM)",
+   "benefit": "திறன் மேம்பாடு, சுயதொழில் தொடங்க கடனுதவி மற்றும் சிறு தொழில் நிறுவனங்களுக்கு ஆதரவு.",
+   "eligibility": "நகரப் பகுதிகளில் வசிக்கும் வறியவர்கள், சாலையோர விற்பனையாளர்கள், சுயஉதவி குழு உறுப்பினர்கள் மற்றும் வேலைவாய்ப்பு இல்லாத இளைஞர்கள்.",
+   "how_to_apply": "நகர்ப்புற உள்ளாட்சி நிறுவனங்கள் அல்லது TNULM அதிகாரப்பூர்வ இணையதளத்தின் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "மாநகராட்சி நிர்வாக மற்றும் குடிநீர் வழங்கல் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

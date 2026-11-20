@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_018",
+ "name": "Book Bank on Wheels",
+ "name_local": {
+  "ta": "இயங்கும் நூலக வாகன திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Public Libraries",
+ "benefit": "Mobile van delivers books, magazines, and digital devices for 7–14 days per visit.",
+ "eligibility_rules": [
+  "Rural residents in villages without public libraries."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Communities can request service via district library officer.",
+ "source_url": "https://www.myscheme.gov.in/schemes/bbsi",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "இயங்கும் நூலக வாகன திட்டம்",
+   "benefit": "நூல்கள், மாத இதழ்கள் மற்றும் டிஜிட்டல் சாதனங்கள் 7–14 நாட்களுக்கு வழங்கப்படும்.",
+   "eligibility": "நூலக வசதி இல்லாத கிராமங்களில் வசிக்கும் மக்கள்.",
+   "how_to_apply": "மாவட்ட நூலக அலுவலரின் வாயிலாக சேவையைப் பெற சமூகங்கள் விண்ணப்பிக்கலாம்.",
+   "department": "அரசுப் பொது நூலகத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

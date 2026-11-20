@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_113",
+ "name": "Sprinkler and Drip Irrigation – Laying Pipelines",
+ "name_local": {
+  "ta": "ஸ்பிரிங்க்லர் மற்றும் டிரிப் பாசனம் – குழாய் போடுதல்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Agriculture",
+ "benefit": "Subsidy for installing drip/sprinkler irrigation pipelines and equipment.",
+ "eligibility_rules": [
+  "Farmers with landholdings who adopt micro-irrigation systems."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Agricultural Engineering Department office.",
+ "source_url": "https://pdmc.da.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "ஸ்பிரிங்க்லர் மற்றும் டிரிப் பாசனம் – குழாய் போடுதல்",
+   "benefit": "டிரிப்/ஸ்பிரிங்க்லர் பாசன குழாய்கள் மற்றும் உபகரணங்களுக்கு மானியம்.",
+   "eligibility": "மைக்ரோ பாசன முறைகளை பயன்படுத்தும் நிலம் உள்ள விவசாயிகள்.",
+   "how_to_apply": "விவசாய பொறியியல் துறை அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "விவசாயத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

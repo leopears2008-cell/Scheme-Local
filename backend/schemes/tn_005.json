@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_005",
+ "name": "Uzhavar Pathukappu Thittam",
+ "name_local": {
+  "ta": "உழவர் பாதுகாப்பு திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Agriculture",
+ "benefit": "Insurance coverage for crops, compensation for natural disaster-induced losses.",
+ "eligibility_rules": [
+  "Small and marginal farmers registered under Tamil Nadu Agricultural Department."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Farmers can enroll through local agriculture offices or online portals.",
+ "source_url": "https://www.tnagrisnet.tn.gov.in",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 16,
+  "maxAge": 65,
+  "maxIncome": 100000
+ },
+ "i18n": {
+  "ta": {
+   "name": "உழவர் பாதுகாப்பு திட்டம்",
+   "benefit": "பயிர்களுக்கு காப்பீட்டு பாதுகாப்பு மற்றும் இயற்கை பேரழிவுகள் காரணமாக ஏற்பட்ட இழப்புகளுக்கான இழப்பீடு வழங்கப்படுகிறது.",
+   "eligibility": "தமிழ்நாடு விவசாயத் துறையில் பதிவு செய்யப்பட்ட சிறிய மற்றும் குறைந்த நிலத்தடி விவசாயிகள்.",
+   "how_to_apply": "விவசாயிகள் உள்ளூர் விவசாய அலுவலகங்கள் அல்லது ஆன்லைன் வழியாக பதிவு செய்யலாம்.",
+   "department": "விவசாயத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

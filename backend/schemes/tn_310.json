@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_310",
+ "name": "Establishment of Chawkie Rearing Centres – Sericulture",
+ "name_local": {
+  "ta": "சிலந்திப் பண்ணை வளர்ப்பு மையங்கள் அமைத்தல் – பட்டுப்பழுது"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Sericulture Department",
+ "benefit": "Assistance for building chawkie rearing centres with equipment.",
+ "eligibility_rules": [
+  "Silk farmers or SHG members involved in sericulture."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Assistant Director of Sericulture.",
+ "source_url": "https://www.tnagrisnet.tn.gov.in/people_app/sericulture_schemes.html",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "சிலந்திப் பண்ணை வளர்ப்பு மையங்கள் அமைத்தல் – பட்டுப்பழுது",
+   "benefit": "சிலந்திப் பண்ணை வளர்ப்பு மையம் அமைக்க நிதியுதவி மற்றும் உபகரணங்கள் வழங்கப்படும்.",
+   "eligibility": "பட்டுப்பழுது வளர்ப்பில் ஈடுபடும் விவசாயிகள் அல்லது சுய உதவி குழு உறுப்பினர்கள்.",
+   "how_to_apply": "பட்டுப்பழுது உதவி இயக்குநரின் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "பட்டுப்பழுது வளர்ச்சி துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

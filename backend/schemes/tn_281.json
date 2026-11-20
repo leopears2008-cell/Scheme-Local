@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_281",
+ "name": "Road Accident Relief Scheme – Severe Injury Cases",
+ "name_local": {
+  "ta": "சாலை விபத்து நிவாரணத் திட்டம் – கடுமையான காயங்கள்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Financial aid up to ₹20,000 based on extent of injury.",
+ "eligibility_rules": [
+  "Individuals severely injured in road accidents (permanent disability)."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through Taluk Office with FIR and medical certificate.",
+ "source_url": "https://www.myscheme.gov.in/schemes/ars",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "சாலை விபத்து நிவாரணத் திட்டம் – கடுமையான காயங்கள்",
+   "benefit": "காயத்தின் நிலையைப் பொறுத்து ₹20,000 வரை நிதியுதவி வழங்கப்படும்.",
+   "eligibility": "சாலை விபத்தில் கடுமையாக காயமடைந்து நிரந்தர மாற்றுத்திறன் அடைந்த நபர்கள்.",
+   "how_to_apply": "தாலுகா அலுவலகத்தில் FIR மற்றும் மருத்துவச் சான்றுடன் விண்ணப்பிக்கலாம்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

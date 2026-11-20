@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_017",
+ "name": "Second Chance – Rehabilitation Training for Released Prisoners",
+ "name_local": {
+  "ta": "இரண்டாவது வாய்ப்பு – சிறையில் இருந்து விடுவிக்கப்பட்டவர்களுக்கு மீள்பயிற்சி"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Prisons and Correctional Services",
+ "benefit": "Vocational training, certification, job placement support.",
+ "eligibility_rules": [
+  "Released inmates with no criminal record in the last year."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through district probation office or local prison welfare cell.",
+ "source_url": "http://prisons.tn.gov.in/reformation.htm",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 60
+ },
+ "i18n": {
+  "ta": {
+   "name": "இரண்டாவது வாய்ப்பு – சிறையில் இருந்து விடுவிக்கப்பட்டவர்களுக்கு மீள்பயிற்சி",
+   "benefit": "தொழில்பயிற்சி, சான்றிதழ் மற்றும் வேலைவாய்ப்பு உதவி.",
+   "eligibility": "கடைசி ஒரு வருடமாக குற்றச்சாட்டு இல்லாமல் விடுவிக்கப்பட்ட கைதிகள்.",
+   "how_to_apply": "மாவட்ட பரிந்துரை அலுவலகம் அல்லது சிறை நல மையம் வாயிலாக விண்ணப்பிக்கலாம்.",
+   "department": "சிறைத்துறை மற்றும் திருத்தச்சேவைத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

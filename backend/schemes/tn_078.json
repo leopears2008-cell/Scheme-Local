@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_078",
+ "name": "Free Supply of Bicycles",
+ "name_local": {
+  "ta": "இலவச மிதிவண்டிகள் வழங்கும் திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of School Education",
+ "benefit": "Free bicycles to promote education access and reduce school dropout.",
+ "eligibility_rules": [
+  "Students studying in 11th and 12th standard in government and government-aided schools."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Distributed automatically through schools based on student records.",
+ "source_url": "https://bcw.tn.gov.in/sub_page/9",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 16,
+  "maxAge": 20
+ },
+ "i18n": {
+  "ta": {
+   "name": "இலவச மிதிவண்டிகள் வழங்கும் திட்டம்",
+   "benefit": "பள்ளிக்கல்வி வருகையை அதிகரிக்கவும் பள்ளிவிட்ட மாணவர்களின் எண்ணிக்கையை குறைக்கவும் இலவச மிதிவண்டிகள் வழங்கப்படும்.",
+   "eligibility": "அரசு மற்றும் அரசு உதவி பெறும் பள்ளிகளில் 11 மற்றும் 12ம் வகுப்பு படிக்கும் மாணவர்கள்.",
+   "how_to_apply": "மாணவர் பதிவுகள் அடிப்படையில் பள்ளி மூலமாக தானாக வழங்கப்படும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

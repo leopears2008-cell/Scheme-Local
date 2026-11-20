@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_259",
+ "name": "Scholarship – Indian Institute of Handloom Technology, Salem",
+ "name_local": {
+  "ta": "சலெம் கைத்தறி தொழில்நுட்பக் கல்வி நிறுவன மாணவர்களுக்கு கல்வி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Handlooms and Textiles Department",
+ "benefit": "Monthly scholarship during course period.",
+ "eligibility_rules": [
+  "Students pursuing courses at IIHT, Salem."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through institution with community and income proof.",
+ "source_url": "https://www.tnhandlooms.tn.gov.in/english/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxAge": 25,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "சலெம் கைத்தறி தொழில்நுட்பக் கல்வி நிறுவன மாணவர்களுக்கு கல்வி உதவித்தொகை",
+   "benefit": "படிப்பு காலத்துக்குள் மாதாந்திர கல்வி உதவித்தொகை.",
+   "eligibility": "சலெம் கைத்தறி தொழில்நுட்பக் கல்வி நிறுவனத்தில் படிக்கும் மாணவர்கள்.",
+   "how_to_apply": "கல்வி நிறுவனத்தின் மூலம் சாதி மற்றும் வருமான சான்றுடன் விண்ணப்பிக்கவும்.",
+   "department": "கைத்தறி மற்றும் துணிநூல் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

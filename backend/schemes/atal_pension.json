@@ -1,0 +1,92 @@
+{
+ "scheme_id": "atal_pension",
+ "name": "Atal Pension Yojana",
+ "category": "social_welfare",
+ "level": "central",
+ "state": "",
+ "benefit": "Guaranteed pension of ₹1,000-₹5,000/month after age 60 for unorganised sector workers. Government co-contributes 50%.",
+ "eligibility_rules": [
+  "Has a bank account"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Bank Passbook"
+ ],
+ "how_to_apply": "Apply on the official portal: https://www.jansuraksha.gov.in/",
+ "source_url": "https://www.jansuraksha.gov.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "अटल पेंशन योजना"
+ },
+ "department": "Ministry of Finance",
+ "benefit_type": "service",
+ "estimated_benefit_inr": 60000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "dob",
+   "label": "Date of Birth",
+   "profileKey": "dob",
+   "type": "date",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "phone",
+   "label": "Mobile Number",
+   "profileKey": "phone",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "bankAccount",
+   "op": "exists",
+   "value": null,
+   "label": "Has a bank account"
+  }
+ ],
+ "rules": {
+  "minAge": 18,
+  "maxAge": 40,
+  "occupation": [
+   "farmer",
+   "labour",
+   "other",
+   "business"
+  ],
+  "hasBankAccount": true,
+  "hasAadhaar": true
+ },
+ "helpline": "1800-110-069",
+ "emoji": "🪙",
+ "points": 8,
+ "merged_from": [
+  "FormSaathi",
+  "GovBot"
+ ]
+}

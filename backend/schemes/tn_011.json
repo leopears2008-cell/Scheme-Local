@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_011",
+ "name": "Old Age Pension Scheme",
+ "name_local": {
+  "ta": "மூத்த குடிமக்கள் ஓய்வூதியத் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue and Disaster Management",
+ "benefit": "Monthly pension of Rs. 1,000 transferred directly to beneficiaries.",
+ "eligibility_rules": [
+  "Senior citizens aged 60 and above from BPL families."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at Taluk office with age, income, and residence proof.",
+ "source_url": "https://oap.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 60,
+  "maxIncome": 300000
+ },
+ "i18n": {
+  "ta": {
+   "name": "மூத்த குடிமக்கள் ஓய்வூதியத் திட்டம்",
+   "benefit": "மாதம் ரூ.1,000 ஓய்வூதியம் நேரடியாக பயனாளிகளுக்கு வழங்கப்படும்.",
+   "eligibility": "வறுமை கோட்டிற்குக்குக் கீழுள்ள குடும்பங்களைச் சேர்ந்த 60 வயது மற்றும் அதற்குமேற்பட்ட மூத்த குடிமக்கள்.",
+   "how_to_apply": "வயது, வருமானம் மற்றும் வசிப்பிடம் ஆதாரத்துடன் தாலுகா அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் மற்றும் பேரிடர் மேலாண்மை துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

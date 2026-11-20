@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_057",
+ "name": "Reimbursement of Stamp Duty & Registration Charges for Micro and Small Enterprises",
+ "name_local": {
+  "ta": "மிகச் சிறு மற்றும் சிறு தொழில்களுக்கு ஸ்டாம்ப் டியூட்டி மற்றும் பதிவு கட்டணத் தொகையின் திருப்பிச் செலுத்தல்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Industries and Commerce",
+ "benefit": "Full reimbursement of registration and stamp duty fees for eligible units.",
+ "eligibility_rules": [
+  "New micro and small enterprises setting up industrial units in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply with registration documents through District Industries Centre.",
+ "source_url": "https://cms.tn.gov.in/cms_migrated/document/schemes/msme.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "மிகச் சிறு மற்றும் சிறு தொழில்களுக்கு ஸ்டாம்ப் டியூட்டி மற்றும் பதிவு கட்டணத் தொகையின் திருப்பிச் செலுத்தல்",
+   "benefit": "தகுதி வாய்ந்த நிறுவனங்களுக்கு பதிவு மற்றும் ஸ்டாம்ப் டியூட்டி கட்டணங்களின் முழுமையான திருப்பிச் செலுத்தல்.",
+   "eligibility": "தமிழ்நாட்டில் தொழிற்சாலை அமைக்கும் புதிய சிறு மற்றும் மிகச் சிறு தொழில்கள்.",
+   "how_to_apply": "பதிவுச் சான்றிதழ்களுடன் மாவட்ட தொழில் மையம் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "தொழில் மற்றும் வர்த்தகத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

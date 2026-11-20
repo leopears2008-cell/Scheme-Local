@@ -1,0 +1,105 @@
+{
+ "scheme_id": "ayushman_bharat",
+ "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB PM-JAY)",
+ "category": "health",
+ "level": "central",
+ "benefit": "Cashless health insurance cover of Rs 5,00,000 per family per year for secondary and tertiary hospitalization at empanelled hospitals across India. Covers ~1,929 procedures including consultation, medicines, diagnostics, surgery, ICU, implants, room and food; 3 days pre-hospitalization and 15 days post-hospitalization expenses; all pre-existing diseases covered from day one. No restriction on family size, age or gender; benefits are portable nationwide. The beneficiary pays nothing for covered treatment.",
+ "eligibility_rules": [
+  "Eligibility is database-based: families identified in the SECC 2011 deprivation lists (and RSBY/state scheme rolls), not by fresh application",
+  "Rural families qualifying under deprivation criteria: only one room with kucha walls/roof; no adult member aged 16-59; no adult male member aged 16-59; disabled member with no able-bodied adult; SC/ST households; landless households earning mainly from manual casual labour",
+  "Rural families automatically included: households without shelter, destitute/living on alms, manual scavenger families, primitive tribal groups, legally released bonded labour",
+  "Urban eligibility covers 11 occupational categories: ragpickers, beggars, domestic workers, street vendors/cobblers/hawkers, construction workers/labourers/security guards/coolies, sweepers/sanitation workers/malis, home-based workers/artisans/tailors, transport workers/drivers/rickshaw pullers, shop workers/peons/waiters, electricians/mechanics/repair workers, washermen/chowkidars",
+  "Since October 2024, ALL senior citizens aged 70 and above are eligible regardless of income, under the Ayushman Vay Vandana card expansion",
+  "To check eligibility: visit beneficiary.nha.gov.in, call helpline 14555, or ask the Arogya Mitra at any empanelled hospital or CSC"
+ ],
+ "exclusions": [
+  "Households owning a two/three/four-wheeler or motorized fishing boat",
+  "Households owning mechanized farming equipment",
+  "Households holding a Kisan (credit) card with credit limit of Rs 50,000 or more",
+  "Households with a government employee",
+  "Households working in government-managed non-agricultural enterprises",
+  "Households with any member earning more than Rs 10,000 per month",
+  "Households owning a refrigerator or landline phone",
+  "Households living in decent, solidly built houses",
+  "Households owning 5 acres or more of agricultural land",
+  "(These exclusions do not apply to the 70+ senior citizen coverage, which is income-independent)"
+ ],
+ "documents_required": [
+  "Aadhaar card (or other government photo ID)",
+  "Ration card or alternative family ID (to establish family records)",
+  "Contact details (mobile number)",
+  "Caste certificate and income certificate may be asked during identification",
+  "PM letter / RSBY URN / ration card number helps the Arogya Mitra locate the family in the database"
+ ],
+ "how_to_apply": "No application in the usual sense - eligibility is checked against existing databases. Visit an empanelled hospital or Common Service Centre (CSC) where the Arogya Mitra searches the beneficiary list by name, location, ration card or mobile number, verifies identity documents, and gets the family approved for an Ayushman e-card. Self-check eligibility at beneficiary.nha.gov.in or call 14555. Seniors 70+ can enroll for the Ayushman Vay Vandana card via the Ayushman app or PM-JAY portal.",
+ "source_url": "https://www.myscheme.gov.in/schemes/ab-pmjay",
+ "source_document": "myScheme AB PM-JAY page, National Health Authority; PM-JAY 70+ expansion (Ayushman Vay Vandana, Oct 2024)",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "name_local": {
+  "hi": "आयुष्मान भारत (PM-JAY)"
+ },
+ "department": "Ministry of Health",
+ "benefit_type": "insurance",
+ "estimated_benefit_inr": 500000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "ration",
+   "label": "Ration Card Type",
+   "profileKey": "rationCardType",
+   "type": "select",
+   "required": true,
+   "options": [
+    "APL",
+    "BPL",
+    "AAY"
+   ]
+  },
+  {
+   "id": "phone",
+   "label": "Mobile Number",
+   "profileKey": "phone",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "annualIncome",
+   "op": "lte",
+   "value": 300000,
+   "label": "Economically weaker section"
+  }
+ ],
+ "rules": {
+  "maxIncome": 300000,
+  "hasAadhaar": true,
+  "disqualifiers": [
+   "govt"
+  ]
+ },
+ "helpline": "14555",
+ "emoji": "🏥",
+ "points": 10,
+ "merged_from": [
+  "scheme-sahayak",
+  "FormSaathi",
+  "GovBot"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_044",
+ "name": "Naan Mudhalvan",
+ "name_local": {
+  "ta": "நான் முதல்வன்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Higher Education & Tamil Nadu Skill Development Corporation",
+ "benefit": "Industry-relevant skill training (coding, soft skills, language, career guidance); targets >10 lakh youth/year; initial budget ≈₹200 cr.",
+ "eligibility_rules": [
+  "Youth aged 18–35 (Grade 9–college students & unemployed youth); Government and aided school/college students."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Register via naanmudhalvan.tn.gov.in portal; students log in with basic details, select courses.",
+ "source_url": "https://naanmudhalvan.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 35
+ },
+ "i18n": {
+  "ta": {
+   "name": "நான் முதல்வன்",
+   "benefit": "தொழில் தொடர்புடைய திறன் பயிற்சிகள் (கோடிங், மென்மையான திறன்கள், மொழி, தொழில்முறை வழிகாட்டுதல்); ஆண்டுக்கு 10 லட்சத்திற்கு மேல் இளைஞர்கள்; ஆரம்ப பட்ஜெட் ~₹200 கோடி.",
+   "eligibility": "18–35 வயது இளம் தலைமுறை (தரம் 9–கல்லூரி மாணவர்கள் மற்றும் பணி இல்லாத இளைஞர்கள்); அரசு/அங்கீகரிக்கப்பட்ட பள்ளி/கல்லூரி மாணவர்கள்.",
+   "how_to_apply": "naanmudhalvan.tn.gov.in என்ற இணையதளத்தில் பதிவு செய்யவும்; மாணவர்கள் அடிப்படை விவரங்களுடன் பதிவுசெய்து பாடங்களை தேர்வு செய்யலாம்.",
+   "department": "உயர்கல்வி துறை மற்றும் தமிழ்நாடு திறன் மேம்பாட்டு கழகம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

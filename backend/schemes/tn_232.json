@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_232",
+ "name": "Distribution of Rhizobium Packets – Oilseed Crops",
+ "name_local": {
+  "ta": "எண்ணெய் விதைகளுக்கான ரைசோபியம் பெட்டிகள் வழங்கும் திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Agriculture Department",
+ "benefit": "Rhizobium culture packets provided at subsidised cost or free.",
+ "eligibility_rules": [
+  "Farmers cultivating oilseed crops like groundnut, sesame, sunflower."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through Agricultural Extension Centres or PACCS.",
+ "source_url": "https://www.myscheme.gov.in/schemes/dorpo",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "எண்ணெய் விதைகளுக்கான ரைசோபியம் பெட்டிகள் வழங்கும் திட்டம்",
+   "benefit": "மானிய விலை அல்லது இலவசமாக ரைசோபியம் கல்சர் பெட்டிகள் வழங்கப்படும்.",
+   "eligibility": "வேர்க்கடலை, எள், சூரியகாந்தி போன்ற எண்ணெய் விதைகள் சாகுபடி செய்யும் விவசாயிகள்.",
+   "how_to_apply": "வேளாண் விரிவாக்க மையங்கள் அல்லது கூட்டுறவு சங்கங்கள் வழியாக பெறலாம்.",
+   "department": "விவசாயத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

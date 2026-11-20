@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_024",
+ "name": "Widow Pension Scheme",
+ "name_local": {
+  "ta": "விதவைப் பென்ஷன் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue and Disaster Management",
+ "benefit": "Monthly pension of Rs. 1,000.",
+ "eligibility_rules": [
+  "Widowed women aged 40 years and above from economically weaker sections."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the Taluk Office or e-Sevai centers with relevant documents.",
+ "source_url": "https://www.myscheme.gov.in/schemes/dwps?",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 40,
+  "maxAge": 79,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "விதவைப் பென்ஷன் திட்டம்",
+   "benefit": "மாதாந்திர ரூ.1,000 பென்ஷன் வழங்கப்படும்.",
+   "eligibility": "40 வயதுக்கும் அதிகமான வயதுடைய மற்றும் பொருளாதார ரீதியாக பின்னடைந்த விதவைகள்.",
+   "how_to_apply": "தாலுகா அலுவலகம் அல்லது ஈ-சேவை மையங்களில் தேவையான ஆவணங்களுடன் விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

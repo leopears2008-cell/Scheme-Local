@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_020",
+ "name": "Tamil Nadu Farmers Protection Scheme",
+ "name_local": {
+  "ta": "தமிழ்நாடு விவசாயிகள் பாதுகாப்புத் திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Agriculture",
+ "benefit": "Annual financial aid of Rs. 6,000 and insurance coverage.",
+ "eligibility_rules": [
+  "All registered farmers in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Register at agriculture offices or through uzhavan app.",
+ "source_url": "https://www.tnagrisnet.tn.gov.in",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 65,
+  "maxIncome": 300000
+ },
+ "i18n": {
+  "ta": {
+   "name": "தமிழ்நாடு விவசாயிகள் பாதுகாப்புத் திட்டம்",
+   "benefit": "வருஷத்திற்கு ரூ.6,000 நிதியுதவியும் காப்பீட்டுப் பாதுகாப்பும் வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டில் பதிவு செய்யப்பட்ட அனைத்து விவசாயிகளும்.",
+   "how_to_apply": "விவசாய அலுவலகங்கள் அல்லது உழவன் செயலியில் பதிவு செய்யவும்.",
+   "department": "விவசாயத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

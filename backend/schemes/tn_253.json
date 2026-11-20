@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_253",
+ "name": "Loan Assistance for Purchase of Power Tiller",
+ "name_local": {
+  "ta": "பவர் டில்லர் வாங்கும் நிதியுதவித் திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Primary Cooperative Agriculture and Rural Development Bank",
+ "benefit": "Subsidised loan for purchase of power tiller.",
+ "eligibility_rules": [
+  "Small and medium farmers with cultivable land."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through local PCARDB office.",
+ "source_url": "https://www.myscheme.gov.in/schemes/pcardbpt",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பவர் டில்லர் வாங்கும் நிதியுதவித் திட்டம்",
+   "benefit": "பவர் டில்லர் வாங்குவதற்கான மானிய கடன்.",
+   "eligibility": "சாகுபடி நிலம் கொண்ட சிறு மற்றும் நடுத்தர விவசாயிகள்.",
+   "how_to_apply": "உள்ளூர் கூட்டுறவு வங்கியில் விண்ணப்பிக்கலாம்.",
+   "department": "முதன்மை வேளாண்மை மற்றும் கிராம வளர்ச்சி கூட்டுறவுச் சங்கம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "scheme_id": "ujjwala",
+ "name": "PM Ujjwala Yojana",
+ "category": "food",
+ "level": "central",
+ "state": "",
+ "benefit": "Free LPG connection with first refill and stove for BPL women. Subsequent refills at subsidised rates.",
+ "eligibility_rules": [
+  "Applicant is female",
+  "BPL household"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "BPL Certificate",
+  "Address Proof"
+ ],
+ "how_to_apply": "Apply on the official portal: https://www.pmujjwalayojana.com/",
+ "source_url": "https://www.pmujjwalayojana.com/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "पीएम उज्ज्वला योजना"
+ },
+ "department": "Ministry of Petroleum",
+ "benefit_type": "subsidy",
+ "estimated_benefit_inr": 1600,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "address",
+   "label": "Address",
+   "profileKey": "address",
+   "type": "textarea",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "gender",
+   "op": "eq",
+   "value": "female",
+   "label": "Applicant is female"
+  },
+  {
+   "field": "annualIncome",
+   "op": "lte",
+   "value": 200000,
+   "label": "BPL household"
+  }
+ ],
+ "rules": {
+  "gender": [
+   "female",
+   "woman",
+   "f"
+  ],
+  "maxIncome": 100000,
+  "hasAadhaar": true,
+  "hasBankAccount": true
+ },
+ "helpline": "1906",
+ "emoji": "🔥",
+ "points": 9,
+ "merged_from": [
+  "FormSaathi",
+  "GovBot"
+ ]
+}

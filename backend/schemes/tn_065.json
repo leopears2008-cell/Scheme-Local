@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_065",
+ "name": "Maternity Loan through Self Help Groups",
+ "name_local": {
+  "ta": "சுயஉதவி குழுக்களின் வழியாக கர்ப்ப காலக் கடன்"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Cooperation",
+ "benefit": "Short-term loan for maternity and related health needs.",
+ "eligibility_rules": [
+  "Women SHG members needing maternity-related financial support."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through SHG linked district cooperative banks.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTA0Nw==",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 45,
+  "maxIncome": 120000
+ },
+ "i18n": {
+  "ta": {
+   "name": "சுயஉதவி குழுக்களின் வழியாக கர்ப்ப காலக் கடன்",
+   "benefit": "கர்ப்ப காலம் மற்றும் சுகாதார தேவைகளுக்கான குறுகிய கால கடன்.",
+   "eligibility": "கர்ப்ப கால நிதியுதவி தேவைப்படும் சுய உதவிக்குழு உறுப்பினர்கள்.",
+   "how_to_apply": "மாவட்ட கூட்டுறவு வங்கிகள் மூலம் சுய உதவிக்குழுக்களில் விண்ணப்பிக்கவும்.",
+   "department": "கூட்டுறவுத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

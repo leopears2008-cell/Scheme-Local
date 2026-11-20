@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_141",
+ "name": "Free Education in Professional Courses",
+ "name_local": {
+  "ta": "தொழில்முறை பாடப்பிரிவுகளில் இலவச கல்வி"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Reimbursement of tuition and special fees by the government.",
+ "eligibility_rules": [
+  "SC/ST students admitted to government/aided professional colleges."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through institution head along with caste and income proof.",
+ "source_url": "https://www.tntribalwelfare.tn.gov.in/scholarship_fee_concessions.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "தொழில்முறை பாடப்பிரிவுகளில் இலவச கல்வி",
+   "benefit": "அரசால் கட்டணம் மற்றும் சிறப்பு கட்டணங்கள் திருப்பி செலுத்தப்படும்.",
+   "eligibility": "அரசு/உதவி பெறும் தொழில்முறை கல்லூரிகளில் சேர்ந்த SC/ST மாணவர்கள்.",
+   "how_to_apply": "கல்வி நிறுவனத் தலைவரின் வாயிலாக சாதி மற்றும் வருமான சான்றுகளுடன் விண்ணப்பிக்கவும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

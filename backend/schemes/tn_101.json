@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_101",
+ "name": "Distribution of Rhizobium Packets",
+ "name_local": {
+  "ta": "ரைசோபியம் பெட்டிகளை விநியோகிக்கும் திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Agriculture",
+ "benefit": "Free or subsidized supply of Rhizobium to increase soil fertility and yield.",
+ "eligibility_rules": [
+  "All farmers cultivating pulses and legumes in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Approach nearest Agricultural Extension Office or Uzhavar Sandhai.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQ1MQ==",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "ரைசோபியம் பெட்டிகளை விநியோகிக்கும் திட்டம்",
+   "benefit": "மண்ணின் உரம் சேர்க்கும் திறனை அதிகரிக்க ரைசோபியம் இலவசமாக அல்லது மானியத்தில் வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டில் பருப்பு வகை பயிர்கள் செய்யும் விவசாயிகள்.",
+   "how_to_apply": "அருகிலுள்ள விவசாய விரிவாக்க அலுவலகம் அல்லது உழவர் சந்தையை அணுகவும்.",
+   "department": "விவசாயத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

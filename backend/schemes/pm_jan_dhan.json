@@ -1,0 +1,77 @@
+{
+ "scheme_id": "pm_jan_dhan",
+ "name": "PM Jan Dhan Yojana",
+ "category": "finance_insurance",
+ "level": "central",
+ "state": "",
+ "benefit": "Zero-balance bank account with RuPay debit card, ₹1 lakh accident insurance, and ₹30,000 life cover.",
+ "eligibility_rules": [
+  "Name is known"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Passport Photo"
+ ],
+ "how_to_apply": "Apply on the official portal: https://pmjdy.gov.in/",
+ "source_url": "https://pmjdy.gov.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "पीएम जन धन योजना"
+ },
+ "department": "Ministry of Finance",
+ "benefit_type": "service",
+ "estimated_benefit_inr": 10000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "address",
+   "label": "Address",
+   "profileKey": "address",
+   "type": "textarea",
+   "required": true
+  },
+  {
+   "id": "phone",
+   "label": "Mobile Number",
+   "profileKey": "phone",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "fullName",
+   "op": "exists",
+   "value": null,
+   "label": "Name is known"
+  }
+ ],
+ "rules": {
+  "hasBankAccount": false,
+  "hasAadhaar": true
+ },
+ "helpline": "1800-11-0001",
+ "emoji": "🏦",
+ "points": 10,
+ "merged_from": [
+  "FormSaathi",
+  "GovBot"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_192",
+ "name": "Project for Residual Illiteracy (PRI)",
+ "name_local": {
+  "ta": "மீதமுள்ள எழுத்தறிவின்மையை குறைக்கும் திட்டம் (PRI)"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Directorate of Non-Formal and Adult Education",
+ "benefit": "Free literacy and skill-based learning programs in rural areas.",
+ "eligibility_rules": [
+  "Adults aged 15+ who are non-literate or school dropouts."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Enroll through local PRI coordinator or Gram Sabha.",
+ "source_url": "https://www.tn.gov.in/scheme_beneficiary_list.php?id=MTk%3D",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15
+ },
+ "i18n": {
+  "ta": {
+   "name": "மீதமுள்ள எழுத்தறிவின்மையை குறைக்கும் திட்டம் (PRI)",
+   "benefit": "கிராமப்புறங்களில் இலவச எழுத்தறிவு மற்றும் தொழில்முறை கல்வி பயிற்சிகள்.",
+   "eligibility": "15 வயதுக்கு மேற்பட்ட கல்வியறியாதவர்கள் அல்லது பள்ளி விட்டுவிட்டவர்கள்.",
+   "how_to_apply": "உள்ளூர் PRI ஒருங்கிணைப்பாளர் அல்லது கிராம சபா மூலமாக பதிவு செய்யலாம்.",
+   "department": "அரசு அளவிலான பிற்படிப்பு மற்றும் முதியோர் கல்வி இயக்குனரகம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

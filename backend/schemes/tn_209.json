@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_209",
+ "name": "Provision of Special Guides for Tribal Hostel Students",
+ "name_local": {
+  "ta": "பழங்குடியினர் விடுதி மாணவர்களுக்கு சிறப்பு வழிகாட்டிகள் வழங்கும் திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Special guide books and academic support materials.",
+ "eligibility_rules": [
+  "Students in government tribal hostels from 9th to 12th standard."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Distributed through hostels with approval from welfare officer.",
+ "source_url": "https://www.tnadw.in/hostels",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 14,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "பழங்குடியினர் விடுதி மாணவர்களுக்கு சிறப்பு வழிகாட்டிகள் வழங்கும் திட்டம்",
+   "benefit": "சிறப்பு வழிகாட்டி புத்தகங்கள் மற்றும் கல்வி துணை உபகரணங்கள் வழங்கப்படும்.",
+   "eligibility": "அரசுப் பழங்குடியினர் விடுதிகளில் 9 முதல் 12ம் வகுப்பு வரை பயிலும் மாணவர்கள்.",
+   "how_to_apply": "மாவட்ட நல அலுவலரின் அனுமதியுடன் விடுதி மூலமாக வழங்கப்படும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

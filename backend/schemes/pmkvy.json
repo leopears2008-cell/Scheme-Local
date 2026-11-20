@@ -1,0 +1,39 @@
+{
+ "scheme_id": "pmkvy",
+ "name": "PM Kaushal Vikas Yojana",
+ "category": "other",
+ "level": "central",
+ "state": "",
+ "benefit": "Free skill training + ₹8,000 reward on certification",
+ "eligibility_rules": [
+  "Free vocational training in 40+ sectors"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar",
+  "Bank"
+ ],
+ "how_to_apply": "Apply on the official portal: https://www.pmkvyofficial.org",
+ "source_url": "https://www.pmkvyofficial.org",
+ "source_document": "GovBot rules database",
+ "last_verified": "",
+ "origin": "govbot",
+ "verification": "imported",
+ "rules": {
+  "maxAge": 45,
+  "minAge": 15,
+  "maxIncome": 800000,
+  "occupation": [
+   "labour",
+   "other",
+   "student"
+  ],
+  "hasAadhaar": true
+ },
+ "helpline": "1800-123-9626",
+ "emoji": "🔧",
+ "points": 8,
+ "merged_from": [
+  "GovBot"
+ ]
+}

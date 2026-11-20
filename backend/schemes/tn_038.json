@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_038",
+ "name": "RKVY-RAFTAAR Grants to Agri-Startups",
+ "name_local": {
+  "ta": "RKVY–RAFTAAR விவசாய ஸ்டார்ட்அப் гран்டுகள்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Agriculture & Farmers’ Welfare Dept (via TNAU)",
+ "benefit": "Grants to cover infrastructure & innovation; ₹8.98 crore disbursed to 85 startups since 2019.",
+ "eligibility_rules": [
+  "Agri-based startups registered under RKVY-RAFTAAR in TN."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply via RKVY-RAFTAAR portal through TNAU for startup proposals.",
+ "source_url": "https://timesofindia.indiatimes.com/city/coimbatore/tnau-disburses-rs-8-98crore-grants-to-85-agri-startups/articleshow/121781855.cms",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "RKVY–RAFTAAR விவசாய ஸ்டார்ட்அப் гран்டுகள்",
+   "benefit": "அடைமுறை மற்றும் நவீனாக்கத்திற்கு гран்ட்; 2019 முதல் 85 ஸ்டார்ட்அப்புகளுக்கு ரூ.8.98 கோடி வழங்கப்பட்டது.",
+   "eligibility": "தமிழகத்தில் RKVY-RAFTAAR கீழ் பதிவு செய்யப்பட்ட விவசாய ஸ்டார்ட்அப்புகள்.",
+   "how_to_apply": "ஸ்டார்ட்அப் யோசனைகளை TNAU வழியாக RKVY-RAFTAAR இணையதளத்தில் சமர்ப்பிக்கவும்.",
+   "department": "விவசாய மற்றும் விவசாயிகளின் நலத் துறை (TNAU வழியாக)"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_274",
+ "name": "Prize Scheme – State Level Top Rankers",
+ "name_local": {
+  "ta": "மாநில அளவிலான சிறந்த தரவரிசைப் பெற்ற மாணவர்களுக்கு பரிசுத் திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "₹25,000 (12th Std) and ₹10,000 (10th Std) cash prizes.",
+ "eligibility_rules": [
+  "State-level toppers in 10th and 12th public examinations."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Automatically granted based on exam performance.",
+ "source_url": "https://www.myscheme.gov.in/schemes/psslp",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாநில அளவிலான சிறந்த தரவரிசைப் பெற்ற மாணவர்களுக்கு பரிசுத் திட்டம்",
+   "benefit": "12ம் வகுப்புக்கு ₹25,000 மற்றும் 10ம் வகுப்புக்கு ₹10,000 பரிசுத் தொகை வழங்கப்படும்.",
+   "eligibility": "10 மற்றும் 12ம் வகுப்பு பொதுத் தேர்வுகளில் மாநில தரவரிசையில் முதலிடம் பெறும் மாணவர்கள்.",
+   "how_to_apply": "தேர்வுத் தரவுகளின் அடிப்படையில் தானாகவே வழங்கப்படும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

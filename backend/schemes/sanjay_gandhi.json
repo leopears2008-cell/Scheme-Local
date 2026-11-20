@@ -1,0 +1,38 @@
+{
+ "scheme_id": "sanjay_gandhi",
+ "name": "Sanjay Gandhi Niradhar Anudan Yojana (Destitute Persons' Pension, Maharashtra)",
+ "category": "social_welfare",
+ "level": "state_maharashtra",
+ "benefit": "Monthly financial assistance of Rs 1,500 per beneficiary for destitute and vulnerable persons in Maharashtra with no adequate means of livelihood (state-funded; amount as per the 2023 revision - older sources may still cite the pre-revision Rs 600/900 figures). Running since 1980, updated by GR dated 20/08/2019.",
+ "eligibility_rules": [
+  "Destitute men and women aged 18 to 65 years (persons above 65 shift to the Shravan Bal / old-age pension schemes)",
+  "Covered categories: orphaned children; all categories of disabled persons; persons unable to sustain themselves due to severe illness (TB, cancer, AIDS, leprosy, sickle cell disease); destitute widows (including widows of farmers who died by suicide); divorced women or women in divorce proceedings not receiving alimony; women victims of abuse or rescued from prostitution; transgender persons; Devadasis; unmarried women over 35 years; wives of prisoners serving sentences",
+  "Beneficiary's name must be on the Below Poverty Line (BPL) list OR the family's annual income must not exceed Rs 21,000",
+  "Must be a resident of Maharashtra",
+  "Applications are verified at multiple levels, from village officials (Talathi) to district committees"
+ ],
+ "exclusions": [
+  "Persons above 65 years are not covered under this scheme (they are covered by Shravan Bal / IGNOAPS old-age pensions instead)",
+  "Families with annual income above Rs 21,000 who are also not on the BPL list are not eligible",
+  "Persons with adequate means of livelihood or sufficient family support do not qualify as destitute",
+  "Persons not falling in any of the covered vulnerability categories are not eligible"
+ ],
+ "documents_required": [
+  "Application form (available at Collector/Tehsildar/Talathi office or the SAS portal)",
+  "Age proof",
+  "Income certificate or BPL list extract",
+  "Residence proof (Maharashtra)",
+  "Category-specific proof: disability certificate, medical certificate for serious illness, husband's death certificate (widows), divorce papers, etc.",
+  "Aadhaar card and bank account details"
+ ],
+ "how_to_apply": "Apply at the District Collector's Office, Tehsildar's Office (Sanjay Gandhi Niradhar Anudan Yojana Branch), or the Talathi Office. Online facility via the SAS portal (sas.mahait.org) and Aaple Sarkar. The application is free of cost.",
+ "source_url": "https://sjsa.maharashtra.gov.in/en/scheme/sanjay-gandhi-niradhar-anudan-yojana/",
+ "source_document": "Maharashtra Social Justice & Special Assistance Department official scheme page; GR dated 20/08/2019; 2023 pension revision",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "merged_from": [
+  "scheme-sahayak"
+ ]
+}

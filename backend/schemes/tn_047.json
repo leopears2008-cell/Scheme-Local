@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_047",
+ "name": "Rural Solar Lantern Scheme",
+ "name_local": {
+  "ta": "கிராமப்புற சோலார் விளக்கு திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu Energy Development Agency (TEDA)",
+ "benefit": "Free distribution of portable solar lanterns for safe night lighting.",
+ "eligibility_rules": [
+  "Households in villages with irregular or no electricity."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Panchayat or TEDA village coordinator.",
+ "source_url": "https://mnre.gov.in/en/solar-off-grid/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "கிராமப்புற சோலார் விளக்கு திட்டம்",
+   "benefit": "இரவில் பாதுகாப்பான வெளிச்சம் வழங்க இலவச சோலார் விளக்குகள் வழங்கப்படும்.",
+   "eligibility": "மின் வசதி இல்லாத அல்லது குறைவாக உள்ள கிராமங்களில் வசிக்கும் குடும்பங்கள்.",
+   "how_to_apply": "பஞ்சாயத்து அலுவலகம் அல்லது TEDA ஊரக ஒருங்கிணைப்பாளர் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "தமிழ்நாடு ஆற்றல் மேம்பாட்டு நிறுவனம் (TEDA)"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

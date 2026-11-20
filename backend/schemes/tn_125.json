@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_125",
+ "name": "Birth Certificate – Issue of Certificate",
+ "name_local": {
+  "ta": "பிறப்பு சான்றிதழ் – சான்றிதழ் வழங்கல்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department / Local Bodies",
+ "benefit": "Official government-issued proof of birth for all legal and administrative purposes.",
+ "eligibility_rules": [
+  "Any child born in Tamil Nadu whose birth is registered within 21 days."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at local municipal office or through online birth certificate portal.",
+ "source_url": "https://www.crstn.org/birth_death_tn/nest_avail.jsp",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 0
+ },
+ "i18n": {
+  "ta": {
+   "name": "பிறப்பு சான்றிதழ் – சான்றிதழ் வழங்கல்",
+   "benefit": "அரசு வழங்கும் பிறப்பு சான்றிதழ் சட்ட, கல்வி மற்றும் நிர்வாகப் பயன்பாடுகளுக்குப் பயன்படும்.",
+   "eligibility": "தமிழ்நாட்டில் பிறந்த 21 நாளுக்குள் பதிவு செய்யப்பட்ட குழந்தைகளுக்கான சான்றிதழ்.",
+   "how_to_apply": "உள்ளாட்சி அலுவலகம் அல்லது பிறப்பு சான்றிதழ் இணையதளத்தின் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "வருவாய் துறை / உள்ளாட்சி நிறுவனங்கள்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_096",
+ "name": "Marriage Assistance to Normal Persons Marrying Visually Handicapped Persons",
+ "name_local": {
+  "ta": "பார்வை குறைபாடுள்ள நபரை திருமணம் செய்யும் சாதாரண நபர்களுக்கு திருமண உதவித் தொகை"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare and Women Empowerment Department",
+ "benefit": "One-time marriage assistance as a financial incentive.",
+ "eligibility_rules": [
+  "Any person marrying a visually impaired individual with 40% or more disability."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Social Welfare Office with disability and marriage certificates.",
+ "source_url": "https://www.myscheme.gov.in/schemes/matnpmvip-tn",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 40
+ },
+ "i18n": {
+  "ta": {
+   "name": "பார்வை குறைபாடுள்ள நபரை திருமணம் செய்யும் சாதாரண நபர்களுக்கு திருமண உதவித் தொகை",
+   "benefit": "திருமணத்திற்கான ஒரே முறை நிதியுதவி தொகை.",
+   "eligibility": "40% மற்றும் அதற்கு மேற்பட்ட பார்வை குறைபாடுள்ள நபரை திருமணம் செய்யும் எவரும்.",
+   "how_to_apply": "மாற்றுத்திறன் சான்றிதழ் மற்றும் திருமணச் சான்றிதழுடன் மாவட்ட சமூக நல அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "சமூக நல மற்றும் பெண்கள் மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

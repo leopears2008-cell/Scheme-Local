@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_148",
+ "name": "Afforestation Scheme – Employment to Tribals",
+ "name_local": {
+  "ta": "காடுகள் வளர்ப்பு திட்டம் – பழங்குடியினருக்கு வேலைவாய்ப்பு"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Forest Department",
+ "benefit": "Wages for afforestation work, protection of forests and nursery maintenance.",
+ "eligibility_rules": [
+  "Tribal families living in or near forest areas of Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Approach the local Forest Range Office or Panchayat.",
+ "source_url": "https://www.myscheme.gov.in/schemes/aspie",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "காடுகள் வளர்ப்பு திட்டம் – பழங்குடியினருக்கு வேலைவாய்ப்பு",
+   "benefit": "காடுகள் வளர்ப்பு, பராமரிப்பு மற்றும் மர நாற்று பேணுதல் பணிகளுக்கான கூலி.",
+   "eligibility": "தமிழ்நாட்டின் காடுகள் அருகிலுள்ள பழங்குடியினர் குடும்பங்கள்.",
+   "how_to_apply": "உள்ளூர் வனப்பகுதி அலுவலகம் அல்லது பஞ்சாயத்தினை அணுகலாம்.",
+   "department": "காடுத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

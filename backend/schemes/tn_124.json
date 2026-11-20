@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_124",
+ "name": "M.G.R. Handloom Weavers Welfare Trust – Scholarships",
+ "name_local": {
+  "ta": "எம்.ஜி.ஆர். கைத்தறி நெசவாளர் நல அறக்கட்டளை – கல்வி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Handlooms and Textiles Department",
+ "benefit": "Annual scholarship for education expenses.",
+ "eligibility_rules": [
+  "Children of registered handloom weavers studying in school/college."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through respective Weavers’ Cooperative Society.",
+ "source_url": "https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 6,
+  "maxAge": 21
+ },
+ "i18n": {
+  "ta": {
+   "name": "எம்.ஜி.ஆர். கைத்தறி நெசவாளர் நல அறக்கட்டளை – கல்வி உதவித்தொகை",
+   "benefit": "ஒவ்வொரு கல்வியாண்டும் கல்விக்கான உதவித்தொகை வழங்கப்படும்.",
+   "eligibility": "பள்ளி/கல்லூரியில் கல்வி பயிலும் பதிவு செய்யப்பட்ட கைத்தறி நெசவாளர்களின் பிள்ளைகள்.",
+   "how_to_apply": "தங்களது நெசவாளர் கூட்டுறவின் வாயிலாக விண்ணப்பிக்கலாம்.",
+   "department": "கைத்தறி மற்றும் துணிநூல் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

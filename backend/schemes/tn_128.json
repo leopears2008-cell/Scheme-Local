@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_128",
+ "name": "Chief Minister’s Award – Cash Incentives for SAF / National Games (Team Games per Player)",
+ "name_local": {
+  "ta": "முதல்வரின் விருது – SAF / தேசிய விளையாட்டு போட்டிகளில் (தொகுதி விளையாட்டுகளுக்கு நபர் ஒன்றுக்கு) பண ஊக்கம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Youth Welfare and Sports Development Department",
+ "benefit": "Cash award based on team performance and individual contribution.",
+ "eligibility_rules": [
+  "Tamil Nadu players participating in national and SAF-level team games."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Identified and processed through sports associations and department.",
+ "source_url": "https://www.scribd.com/document/77037937/Handbook-SDA",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 14,
+  "maxAge": 30
+ },
+ "i18n": {
+  "ta": {
+   "name": "முதல்வரின் விருது – SAF / தேசிய விளையாட்டு போட்டிகளில் (தொகுதி விளையாட்டுகளுக்கு நபர் ஒன்றுக்கு) பண ஊக்கம்",
+   "benefit": "அணியின் செயல்திறன் மற்றும் தனிப்பட்ட பங்களிப்பின் அடிப்படையில் பணப் பரிசு வழங்கப்படும்.",
+   "eligibility": "தேசிய மற்றும் SAF அளவிலான தொகுதி விளையாட்டுகளில் பங்கேற்கும் தமிழ்நாட்டு வீரர்கள்.",
+   "how_to_apply": "விளையாட்டு சங்கங்கள் மற்றும் துறையின் பரிந்துரையின் அடிப்படையில் தேர்வு செய்யப்படுவார்கள்.",
+   "department": "இளைஞர் நலன் மற்றும் விளையாட்டு மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

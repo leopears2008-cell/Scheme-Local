@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_158",
+ "name": "Scholarship for Professional Courses (Engineering, Medicine, etc.)",
+ "name_local": {
+  "ta": "தொழில்முறை படிப்புகளுக்கான கல்வி உதவித்தொகை (இன்ஜினியரிங், மருத்துவம்)"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Reimbursement of tuition and special fees.",
+ "eligibility_rules": [
+  "SC/ST students studying in government/aided professional institutions."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through head of institution with caste and income certificates.",
+ "source_url": "https://tndce.tn.gov.in/Home/scholarship",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "தொழில்முறை படிப்புகளுக்கான கல்வி உதவித்தொகை (இன்ஜினியரிங், மருத்துவம்)",
+   "benefit": "கல்விக் கட்டணமும் சிறப்பு கட்டணமும் திருப்பி செலுத்தப்படும்.",
+   "eligibility": "அரசு/உதவி பெறும் தொழில்முறை கல்வி நிறுவனங்களில் பயிலும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "சாதி மற்றும் வருமான சான்றுகளுடன் கல்வி நிறுவனத் தலைவர் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "scheme_id": "disability_pension",
+ "name": "Disability Pension (IGNDPS)",
+ "category": "social_welfare",
+ "level": "central",
+ "state": "",
+ "benefit": "Monthly pension for persons with 80%+ disability from BPL households.",
+ "eligibility_rules": [
+  "Has severe disability (80%+)",
+  "BPL household"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Disability Certificate",
+  "BPL Certificate"
+ ],
+ "how_to_apply": "Apply on the official portal: https://nsap.nic.in/",
+ "source_url": "https://nsap.nic.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "विकलांग पेंशन (IGNDPS)"
+ },
+ "department": "Ministry of Rural Development",
+ "benefit_type": "cash",
+ "estimated_benefit_inr": 3600,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "dob",
+   "label": "Date of Birth",
+   "profileKey": "dob",
+   "type": "date",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "disabilityStatus",
+   "op": "in",
+   "value": [
+    "yes",
+    "80+",
+    "severe"
+   ],
+   "label": "Has severe disability (80%+)"
+  },
+  {
+   "field": "annualIncome",
+   "op": "lte",
+   "value": 200000,
+   "label": "BPL household"
+  }
+ ],
+ "merged_from": [
+  "FormSaathi"
+ ]
+}

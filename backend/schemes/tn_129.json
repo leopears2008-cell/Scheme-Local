@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_129",
+ "name": "Educational Scholarship to Children of Scavengers / Sweepers",
+ "name_local": {
+  "ta": "தூய்மை பணியில் ஈடுபட்டோரின் பிள்ளைகளுக்கான கல்வி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adidravidar and Tribal Welfare Department",
+ "benefit": "Scholarship covering tuition, examination, and other educational costs.",
+ "eligibility_rules": [
+  "Children of parents engaged in sanitation work or manual scavenging."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through school headmaster or District Welfare Office.",
+ "source_url": "https://www.tntribalwelfare.tn.gov.in/scholarship_pre_matric_children.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 6,
+  "maxAge": 21
+ },
+ "i18n": {
+  "ta": {
+   "name": "தூய்மை பணியில் ஈடுபட்டோரின் பிள்ளைகளுக்கான கல்வி உதவித்தொகை",
+   "benefit": "கல்விக் கட்டணம், தேர்வுக் கட்டணம் மற்றும் பிற செலவுகளுக்கான உதவித்தொகை.",
+   "eligibility": "தூய்மை மற்றும் கழிப்பறை சுத்தம் போன்ற பணிகளில் ஈடுபட்டிருக்கும் பெற்றோரின் பிள்ளைகள்.",
+   "how_to_apply": "பள்ளி தலைமையாசிரியர் அல்லது மாவட்ட நல அலுவலகம் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

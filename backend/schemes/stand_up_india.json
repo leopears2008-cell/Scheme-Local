@@ -1,0 +1,92 @@
+{
+ "scheme_id": "stand_up_india",
+ "name": "Stand Up India",
+ "category": "finance_insurance",
+ "level": "central",
+ "state": "",
+ "benefit": "Loans between ₹10 lakh and ₹1 crore for SC/ST/women entrepreneurs for greenfield enterprises.",
+ "eligibility_rules": [
+  "Entrepreneur"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Business Plan",
+  "Caste Certificate (if SC/ST)"
+ ],
+ "how_to_apply": "Apply on the official portal: https://www.standupmitra.in/",
+ "source_url": "https://www.standupmitra.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "स्टैंड अप इंडिया"
+ },
+ "department": "Ministry of Finance",
+ "benefit_type": "loan",
+ "estimated_benefit_inr": 10000000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "category",
+   "label": "Category",
+   "profileKey": "category",
+   "type": "select",
+   "required": true,
+   "options": [
+    "SC",
+    "ST",
+    "OBC",
+    "General"
+   ]
+  },
+  {
+   "id": "gender",
+   "label": "Gender",
+   "profileKey": "gender",
+   "type": "select",
+   "required": true,
+   "options": [
+    "male",
+    "female",
+    "other"
+   ]
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "occupation",
+   "op": "in",
+   "value": [
+    "self-employed",
+    "business",
+    "entrepreneur"
+   ],
+   "label": "Entrepreneur"
+  }
+ ],
+ "merged_from": [
+  "FormSaathi"
+ ]
+}

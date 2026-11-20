@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_284",
+ "name": "Old Age Pension – Destitute Physically Handicapped Persons",
+ "name_local": {
+  "ta": "ஓய்வூதியம் – ஆதரவற்ற உடல் ஊனமுற்ற மாற்றுத்திறனாளிகள்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "Monthly pension of ₹1,000.",
+ "eligibility_rules": [
+  "Physically disabled persons with 60%+ disability and no income."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through VAO or District Social Welfare Officer.",
+ "source_url": "https://www.myscheme.gov.in/schemes/ddaps",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "ஓய்வூதியம் – ஆதரவற்ற உடல் ஊனமுற்ற மாற்றுத்திறனாளிகள்",
+   "benefit": "மாதம் ₹1,000 ஓய்வூதியம்.",
+   "eligibility": "60% க்கும் மேற்பட்ட உடல் ஊனமுற்ற நபர்கள், வருமானமில்லாதவர்.",
+   "how_to_apply": "வி.ஏ.ஓ அல்லது மாவட்ட சமூக நல அலுவலர் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

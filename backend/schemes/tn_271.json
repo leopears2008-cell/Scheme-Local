@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_271",
+ "name": "Scholarship for Diploma in Teacher Education (Visually/Physically Impaired)",
+ "name_local": {
+  "ta": "மாற்றுத்திறனாளிகளுக்கான ஆசிரியர் பயிற்சி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Stipend and cost of books/stationery covered.",
+ "eligibility_rules": [
+  "Visually or orthopedically impaired students enrolled in D.T.Ed."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through head of special training institute.",
+ "source_url": "https://tndce.tn.gov.in/Home/scholarship",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 35,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாற்றுத்திறனாளிகளுக்கான ஆசிரியர் பயிற்சி உதவித்தொகை",
+   "benefit": "மாதாந்திர உதவித்தொகை மற்றும் புத்தகம்/பொருட்கள் வழங்கப்படும்.",
+   "eligibility": "D.T.Ed பயிலும் பார்வை/உடல் ஊனமுற்ற மாணவர்கள்.",
+   "how_to_apply": "சிறப்பு பயிற்சி நிலையத் தலைவர் மூலம் விண்ணப்பிக்க வேண்டும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

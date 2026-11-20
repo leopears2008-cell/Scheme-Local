@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_003",
+ "name": "Free Laptop Scheme",
+ "name_local": {
+  "ta": "இலவச மடிக்கணினி வழங்கும் திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of School Education",
+ "benefit": "Free laptops distributed to bridge the digital divide and promote IT education.",
+ "eligibility_rules": [
+  "Students in 11th and 12th standard of government and government-aided schools."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Laptops distributed via schools automatically after academic eligibility confirmation.",
+ "source_url": "https://www.aicte-india.org/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17
+ },
+ "i18n": {
+  "ta": {
+   "name": "இலவச மடிக்கணினி வழங்கும் திட்டம்",
+   "benefit": "டிஜிட்டல் பிரிவினையை குறைத்து தகவல் தொழில்நுட்பக் கல்வியை ஊக்குவிக்க இலவச மடிக்கணினிகள் வழங்கப்படுகின்றன.",
+   "eligibility": "அரசு மற்றும் அரசால் உதவிபெறும் பள்ளிகளில் 11ம் மற்றும் 12ம் வகுப்பில் பயிலும் மாணவர்கள்.",
+   "how_to_apply": "அரசு விதிமுறைகளின் படி கல்வித் தகுதிகள் உறுதிப்படுத்தப்பட்ட பின்னர் பள்ளிகளின் வாயிலாக மடிக்கணினிகள் தானாகவே வழங்கப்படும்.",
+   "department": "பள்ளிக் கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

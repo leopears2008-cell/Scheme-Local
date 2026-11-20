@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_150",
+ "name": "Award for Visually Handicapped Students",
+ "name_local": {
+  "ta": "பார்வை குறைபாடுள்ள மாணவர்களுக்கு விருது"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Cash prizes awarded at district and state level.",
+ "eligibility_rules": [
+  "Visually impaired students securing ranks in 10th or 12th board exams."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Recommendation through school principal or District Welfare Officer.",
+ "source_url": "https://chennai.nic.in/ta/differently-abled-welfare-schemes/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 14,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "பார்வை குறைபாடுள்ள மாணவர்களுக்கு விருது",
+   "benefit": "மாவட்ட மற்றும் மாநில அளவில் பணப் பரிசுகள் வழங்கப்படும்.",
+   "eligibility": "10 அல்லது 12ம் வகுப்புப் பொதுத் தேர்வுகளில் தரவரிசை பெற்ற பார்வை குறைபாடுள்ள மாணவர்கள்.",
+   "how_to_apply": "பள்ளி தலைமை ஆசிரியர் அல்லது மாவட்ட நல அலுவலரின் பரிந்துரை மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

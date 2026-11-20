@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_086",
+ "name": "Talent Examination – National Talent Exam",
+ "name_local": {
+  "ta": "திறமைத்திறன் தேர்வு – தேசிய திறன் தேர்வு"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of School Education",
+ "benefit": "Merit-based scholarship for students who clear the National Talent Search Examination (NTSE).",
+ "eligibility_rules": [
+  "Students studying in 10th standard in government or aided schools in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the school with consent from parents and necessary documents.",
+ "source_url": "https://www.dge.tn.gov.in/ntse.html",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 14,
+  "maxAge": 16
+ },
+ "i18n": {
+  "ta": {
+   "name": "திறமைத்திறன் தேர்வு – தேசிய திறன் தேர்வு",
+   "benefit": "தேசிய திறன் தேடல் தேர்வில் வெற்றி பெறும் மாணவர்களுக்கு உதவித்தொகை.",
+   "eligibility": "தமிழ்நாட்டின் அரசு மற்றும் உதவி பெறும் பள்ளிகளில் 10ம் வகுப்பில் பயிலும் மாணவர்கள்.",
+   "how_to_apply": "தாயார்/தந்தை ஒப்புதலுடன் பள்ளி மூலமாக விண்ணப்பிக்கலாம்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

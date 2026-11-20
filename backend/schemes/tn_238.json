@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_238",
+ "name": "WGDP - Construction of Rearing House (Sericulture)",
+ "name_local": {
+  "ta": "மேற்கு தொடர்ச்சி மலை மேம்பாட்டு திட்டம் - புழுக்கள் வளர்க்கும் வீடு கட்டுதல் (போனை வளர்ப்பு)"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Sericulture Department",
+ "benefit": "Subsidy for construction of hygienic silkworm rearing houses.",
+ "eligibility_rules": [
+  "Sericulture farmers in WGDP areas (Western Ghats)."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit application to Sericulture Extension Officer.",
+ "source_url": "https://tnsericulture.tn.gov.in/index",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "மேற்கு தொடர்ச்சி மலை மேம்பாட்டு திட்டம் - புழுக்கள் வளர்க்கும் வீடு கட்டுதல் (போனை வளர்ப்பு)",
+   "benefit": "போனையை வளர்க்க சுகாதாரமான வீடுகள் கட்டும் உதவித் தொகை.",
+   "eligibility": "மேற்கு தொடர்ச்சி மலைப்பகுதிகளில் வாழும் போனை வளர்ப்பில் ஈடுபட்ட விவசாயிகள்.",
+   "how_to_apply": "போனை வளர்ப்பு விரிவாக்க அலுவலரிடம் விண்ணப்பிக்கவும்.",
+   "department": "போனை வளர்ப்பு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

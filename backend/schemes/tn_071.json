@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_071",
+ "name": "Financial Assistance for Economic Activities – Self Help Groups",
+ "name_local": {
+  "ta": "சுயஉதவி குழுக்களுக்கு பொருளாதார நடவடிக்கைகளுக்கான நிதியுதவி"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu Corporation for Development of Women",
+ "benefit": "Subsidized loans and grants for purchase of tools, raw materials, and business expansion.",
+ "eligibility_rules": [
+  "SHG members engaged in income-generating group activities."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through respective SHG federation or Block Development Office.",
+ "source_url": "https://www.bcmbcmw.tn.gov.in/tabcedco.htm",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 150000
+ },
+ "i18n": {
+  "ta": {
+   "name": "சுயஉதவி குழுக்களுக்கு பொருளாதார நடவடிக்கைகளுக்கான நிதியுதவி",
+   "benefit": "கருவிகள், மூலப் பொருட்கள் மற்றும் வணிக விரிவாக்கத்திற்கான சலுகை கடன்கள் மற்றும் நிதியுதவிகள்.",
+   "eligibility": "வருமானம் ஈட்டும் குழு நடவடிக்கைகளில் ஈடுபட்டுள்ள சுய உதவிக்குழு உறுப்பினர்கள்.",
+   "how_to_apply": "சுய உதவிக்குழு கூட்டமைப்புகள் அல்லது வட்டார வளர்ச்சி அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "தமிழ்நாடு பெண்கள் மேம்பாட்டு நிறுவனம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_160",
+ "name": "Prize Scheme – State Level for 10th and 12th Rank Holders",
+ "name_local": {
+  "ta": "மாநில அளவிலான பரிசுத் திட்டம் – 10 மற்றும் 12ம் வகுப்பு தரவரிசை பெற்ற மாணவர்களுக்கு"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "₹25,000 for +2 toppers, ₹10,000 for 10th standard toppers.",
+ "eligibility_rules": [
+  "State-level rank holders in public exams (SSLC, HSC)."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "No application needed; processed through school/DEO.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=Njc5",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 14,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாநில அளவிலான பரிசுத் திட்டம் – 10 மற்றும் 12ம் வகுப்பு தரவரிசை பெற்ற மாணவர்களுக்கு",
+   "benefit": "+2 பொது தேர்வுக்கான முதல் பரிசு ரூ.25,000; 10ம் வகுப்புக்கானது ரூ.10,000.",
+   "eligibility": "மாநில அளவில் தரவரிசையில் இடம் பெற்ற 10 மற்றும் 12ம் வகுப்பு மாணவர்கள்.",
+   "how_to_apply": "விண்ணப்பம் தேவையில்லை; பள்ளி அல்லது மாவட்ட கல்வி அலுவலரின் வாயிலாக வழங்கப்படும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

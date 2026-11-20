@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_066",
+ "name": "District Central Cooperative Bank – Maternity Loan through SHGs",
+ "name_local": {
+  "ta": "மாவட்ட மைய கூட்டுறவு வங்கி – சுய உதவி குழுக்கள் மூலமாக மாதவிடாய் கால கடன்"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Cooperation",
+ "benefit": "Maternity loan through cooperative bank at low interest rates or interest-free.",
+ "eligibility_rules": [
+  "Women Self Help Group (SHG) members in need of maternity financial assistance."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the SHG coordinator or nearest district cooperative bank branch.",
+ "source_url": "https://www.myscheme.gov.in/schemes/dccbfml",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 45,
+  "maxIncome": 120000
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாவட்ட மைய கூட்டுறவு வங்கி – சுய உதவி குழுக்கள் மூலமாக மாதவிடாய் கால கடன்",
+   "benefit": "குறைந்த வட்டி அல்லது வட்டியில்லா மாதவிடாய் கால கடன் வழங்கப்படும்.",
+   "eligibility": "மாதவிடாய் கால நிதி உதவி தேவைப்படும் சுய உதவிக்குழு பெண்கள் உறுப்பினர்கள்.",
+   "how_to_apply": "சுய உதவிக்குழு ஒருங்கிணைப்பாளர் அல்லது அருகிலுள்ள மாவட்ட கூட்டுறவு வங்கியில் விண்ணப்பிக்கவும்.",
+   "department": "கூட்டுறவுத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

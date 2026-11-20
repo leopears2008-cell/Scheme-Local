@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_208",
+ "name": "Free Travel Concession for Differently Abled in TNSTC Buses",
+ "name_local": {
+  "ta": "மாற்றுத்திறனாளிகளுக்கான இலவச பயண சலுகை (தமிழ்நாடு அரசுப் பேருந்துகள்)"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Unlimited free travel in state-owned transport buses within Tamil Nadu.",
+ "eligibility_rules": [
+  "Persons with 40% or more certified disability."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Disabled Welfare Office with disability ID.",
+ "source_url": "https://www.myscheme.gov.in/schemes/tcdapsotcb",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாற்றுத்திறனாளிகளுக்கான இலவச பயண சலுகை (தமிழ்நாடு அரசுப் பேருந்துகள்)",
+   "benefit": "தமிழ்நாடு அரசுப் பேருந்துகளில் இலவச பயணச்சலுகை வழங்கப்படும்.",
+   "eligibility": "40% மற்றும் அதற்கு மேற்பட்ட மாற்றுத்திறனுடன் சான்றளிக்கப்பட்ட நபர்கள்.",
+   "how_to_apply": "மாற்றுத்திறனாளிகள் நல அலுவலகத்தில் மாற்றுத்திறனாளி அடையாள அட்டையுடன் விண்ணப்பிக்கவும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

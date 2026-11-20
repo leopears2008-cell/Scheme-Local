@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_059",
+ "name": "Award for Visually Handicapped Students of XII Standard – District Level",
+ "name_local": {
+  "ta": "கண் பார்வையற்ற மாணவர்களுக்கு 12ம் வகுப்பில் மாவட்ட அளவில் விருது"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department for Welfare of Differently Abled Persons",
+ "benefit": "Cash prize awarded as recognition of academic excellence.",
+ "eligibility_rules": [
+  "Visually impaired students who secure top rank in 12th standard public exams at the district level."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through school headmaster to the District Welfare Office.",
+ "source_url": "https://www.scd.tn.gov.in/specialedu.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxAge": 20
+ },
+ "i18n": {
+  "ta": {
+   "name": "கண் பார்வையற்ற மாணவர்களுக்கு 12ம் வகுப்பில் மாவட்ட அளவில் விருது",
+   "benefit": "கல்வி சாதனையை அங்கீகரித்து பண பரிசு வழங்கப்படும்.",
+   "eligibility": "மாவட்ட அளவில் 12ம் வகுப்பு பொதுத் தேர்வில் முதல் இடம் பெறும் பார்வை குறைபாடுள்ள மாணவர்கள்.",
+   "how_to_apply": "பள்ளித் தலைமை ஆசிரியர் வழியாக மாவட்ட நல அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

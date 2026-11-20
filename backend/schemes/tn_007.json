@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_007",
+ "name": "Dr. Muthulakshmi Reddy Maternity Benefit Scheme",
+ "name_local": {
+  "ta": "டாக்டர் முத்துலட்சுமி ரெட்டி மகப்பேறு நலத்திட்டம்"
+ },
+ "category": "health",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Health and Family Welfare",
+ "benefit": "Financial assistance of Rs. 18,000 disbursed in installments during pregnancy and postnatal period.",
+ "eligibility_rules": [
+  "Pregnant women availing services from government hospitals and PHCs."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Register at primary health centers and ensure regular checkups to receive benefits.",
+ "source_url": "https://picme3.tn.gov.in/api/react2/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "டாக்டர் முத்துலட்சுமி ரெட்டி மகப்பேறு நலத்திட்டம்",
+   "benefit": "கர்ப்ப காலத்திலும் பிறப்புக்குப் பிந்தைய காலத்திலும் கட்டங்களாக ரூ.18,000 நிதி உதவி வழங்கப்படும்.",
+   "eligibility": "அரசு மருத்துவமனைகள் மற்றும் முதன்மை சுகாதார மையங்களில் சேவைகளைப் பெறும் கர்ப்பிணிப் பெண்கள்.",
+   "how_to_apply": "முதன்மை சுகாதார மையங்களில் பதிவு செய்து, சீரான பரிசோதனைகளின் மூலம் நலன்களைப் பெறுங்கள்.",
+   "department": "சுகாதார மற்றும் குடும்ப நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

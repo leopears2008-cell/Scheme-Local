@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_008",
+ "name": "Chief Minister’s Solar Powered Green House Scheme",
+ "name_local": {
+  "ta": "முதல்வரின் சோலார் சக்தி பசுமை வீட்டு திட்டம்"
+ },
+ "category": "housing",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Rural Development and Panchayat Raj",
+ "benefit": "Free solar-powered houses with built-in sanitation and water connection.",
+ "eligibility_rules": [
+  "BPL families in rural areas with land ownership."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through panchayat offices or district rural development agency.",
+ "source_url": "https://www.tnrd.tn.gov.in/schemes/st_cmspghs.html",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21,
+  "maxIncome": 27000
+ },
+ "i18n": {
+  "ta": {
+   "name": "முதல்வரின் சோலார் சக்தி பசுமை வீட்டு திட்டம்",
+   "benefit": "மூல அடிப்படை வசதிகளுடன் கூடிய இலவச சோலார் சக்தி வீடுகள் வழங்கப்படும்.",
+   "eligibility": "நிலம் கொண்ட கிராமப்புற ஏழை வருங்கால அட்டையில் உள்ள குடும்பங்கள்.",
+   "how_to_apply": "ஊராட்சி அலுவலகங்கள் அல்லது மாவட்ட ஊரக வளர்ச்சி முகவரி மூலமாக விண்ணப்பிக்கவும்.",
+   "department": "மன்வள மேம்பாடு மற்றும் ஊராட்சி ராஜ் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "scheme_id": "nsp_post_matric",
+ "name": "Post-Matric Scholarship for SC Students (PMS-SC)",
+ "category": "education",
+ "level": "central",
+ "benefit": "Financial assistance for SC students studying at post-matriculation level (class 11 onwards, including degree and PG courses). Yearly academic allowance depends on course group and hosteller/day-scholar status: Group 1 (Medicine, Engineering, Management, etc.): Rs 13,000 hostellers / Rs 7,000 day scholars; Group 2 (PG diplomas, CA/ICWA/CS etc.): Rs 9,500 / Rs 6,500; Group 3 (BA/BSc/BCom, MA/MSc/MCom): Rs 6,000 / Rs 3,000; Group 4 (other post-class-X non-degree courses): Rs 4,000 / Rs 2,500. Divyang (disabled) students get 10% extra allowance. Scholarship is disbursed through the National Scholarship Portal (NSP).",
+ "eligibility_rules": [
+  "Open to Indian nationals only",
+  "Candidate must belong to a Scheduled Caste (SC)",
+  "Must have passed Matriculation (class 10), Higher Secondary or a higher examination of a recognized university or Board of Secondary Education",
+  "Parents'/guardians' income from all sources must not exceed Rs 2,50,000 per annum",
+  "Studies must be in India; awardees are selected by the State/UT of the student's domicile",
+  "All children of the same parents/guardians are entitled to benefits (no sibling cap)",
+  "Students studying through correspondence or online courses are eligible for the scholarship (but not for the academic allowance)"
+ ],
+ "exclusions": [
+  "Students whose family income exceeds Rs 2,50,000 per annum are not eligible",
+  "Candidates studying in the same stage of education in a different subject after passing one stage (e.g. a second bachelor's degree) are not eligible",
+  "A scholarship holder under this scheme cannot hold any other scholarship or stipend at the same time",
+  "Students in correspondence/online courses do not receive the academic allowance",
+  "CA/ICWA/CS/ICFA students are treated as day scholars for the academic allowance (not hostellers)"
+ ],
+ "documents_required": [
+  "Photograph",
+  "Academic certificate (previous exam passed)",
+  "Caste certificate (SC)",
+  "Income proof (parents'/guardians' income)",
+  "Domicile certificate",
+  "Bank account details",
+  "Aadhaar card"
+ ],
+ "how_to_apply": "Apply online on the National Scholarship Portal (scholarships.gov.in): New applicants register under 'Applicant Corner' with mobile OTP, Aadhaar and bank details; then log in, select the scholarship, fill the form, upload documents and submit. Note: similar post-matric scholarship schemes exist for ST and OBC students with their own income ceilings.",
+ "source_url": "https://www.myscheme.gov.in/schemes/pmssc",
+ "source_document": "myScheme page - Post-Matric Scholarship for SC Students, Ministry of Social Justice and Empowerment",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "merged_from": [
+  "scheme-sahayak"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_010",
+ "name": "Skill Development Program",
+ "name_local": {
+  "ta": "திறன் மேம்பாட்டு திட்டம்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Skill Development and Entrepreneurship",
+ "benefit": "Free skill development training and certification across various trades.",
+ "eligibility_rules": [
+  "Unemployed youth aged 18-35 residing in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Register at district skill training centers or official skill portal.",
+ "source_url": "https://www.tnskill.tn.gov.in",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 45
+ },
+ "i18n": {
+  "ta": {
+   "name": "திறன் மேம்பாட்டு திட்டம்",
+   "benefit": "பல்வேறு துறைகளில் இலவச திறன் மேம்பாட்டு பயிற்சி மற்றும் சான்றிதழ் வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டில் வசிக்கும் 18 முதல் 35 வயதுக்குட்பட்ட வேலைவாய்ப்பு இல்லாத இளைஞர்கள்.",
+   "how_to_apply": "மாவட்ட திறன் பயிற்சி மையங்கள் அல்லது அதிகாரப்பூர்வ திறன் தளத்தில் பதிவு செய்யவும்.",
+   "department": "திறன் மேம்பாடு மற்றும் தொழில் முனைவோர் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

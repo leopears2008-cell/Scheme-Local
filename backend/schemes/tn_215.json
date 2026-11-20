@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_215",
+ "name": "Book Bank for Medical, Engineering, Law and Polytechnic Courses",
+ "name_local": {
+  "ta": "மருத்துவம், இன்ஜினியரிங், சட்டம் மற்றும் பாலிடெக்னிக் பாடங்களுக்கு புத்தக வங்கி"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Free textbooks maintained in library for shared use.",
+ "eligibility_rules": [
+  "SC/ST students studying in professional colleges."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through institution library or department nodal officer.",
+ "source_url": "https://www.tnadw.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxAge": 25
+ },
+ "i18n": {
+  "ta": {
+   "name": "மருத்துவம், இன்ஜினியரிங், சட்டம் மற்றும் பாலிடெக்னிக் பாடங்களுக்கு புத்தக வங்கி",
+   "benefit": "பயன்பாட்டிற்கான இலவசப் புத்தகங்கள் நூலகத்தில் வைக்கப்படும்.",
+   "eligibility": "தொழில்முறை கல்வி நிறுவனங்களில் கல்வி பயிலும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "கல்வி நிறுவன நூலகம் அல்லது துறையின் நடுத்தர அலுவலர் மூலமாக பெறலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

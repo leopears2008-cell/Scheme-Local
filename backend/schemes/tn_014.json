@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_014",
+ "name": "Girl Child Protection Scheme",
+ "name_local": {
+  "ta": "பெண் குழந்தை பாதுகாப்புத் திட்டம்"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "Fixed deposit and educational incentives for girl children.",
+ "eligibility_rules": [
+  "Families with one or two girl children, no male child."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit application to district social welfare officer with income and birth certificates.",
+ "source_url": "https://www.tnsocialwelfare.tn.gov.in/en",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 40,
+  "maxIncome": 120000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பெண் குழந்தை பாதுகாப்புத் திட்டம்",
+   "benefit": "பெண் குழந்தைகளுக்காக நிலையான வைப்பு மற்றும் கல்வி ஊக்கத்தொகைகள் வழங்கப்படும்.",
+   "eligibility": "ஒரு அல்லது இரண்டு பெண் குழந்தைகள் உள்ள, ஆண் குழந்தை இல்லாத குடும்பங்கள்.",
+   "how_to_apply": "வருமான சான்று மற்றும் பிறப்பு சான்றுடன் மாவட்ட சமூக நல அலுவலரிடம் விண்ணப்பிக்கவும்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

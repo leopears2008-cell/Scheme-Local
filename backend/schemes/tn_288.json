@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_288",
+ "name": "MSME Exhibition Hall Rent Reimbursement",
+ "name_local": {
+  "ta": "மித முயற்சி நிறுவனங்களுக்கு கண்காட்சி கூட வாடகை செலவிற்கான நிவாரணம்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "MSME Department",
+ "benefit": "Partial or full reimbursement of hall rent for exhibition purpose.",
+ "eligibility_rules": [
+  "MSME units registered under Udyam and conducting product exhibitions."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Industries Centre.",
+ "source_url": "https://www.scribd.com/document/577785341/Tamil-Nadu-MSME-Scheme-Compendium-1",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "மித முயற்சி நிறுவனங்களுக்கு கண்காட்சி கூட வாடகை செலவிற்கான நிவாரணம்",
+   "benefit": "கண்காட்சி நடத்தும் வாடகை செலவுக்கான மொத்தம்/பகுதி நிவாரணம்.",
+   "eligibility": "உத்யம் பதிவு பெற்ற எம்எஸ்எம்இ நிறுவனங்கள்.",
+   "how_to_apply": "மாவட்ட தொழில் மையத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "மைக்ரோ சிறு மற்றும் நடுத்தர தொழில் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

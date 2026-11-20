@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_085",
+ "name": "Destitute Physically Handicapped Pension Scheme",
+ "name_local": {
+  "ta": "வறிய உடல் ஊனமுற்ற நபர்களுக்கான ஓய்வூதியத் திட்டம்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue and Social Welfare Department",
+ "benefit": "Monthly pension provided by the Government of Tamil Nadu.",
+ "eligibility_rules": [
+  "Physically handicapped persons with no source of income or family support."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply with disability certificate through Taluk Office or eSevai center.",
+ "source_url": "https://web.umang.gov.in/web_new/login?redirect_to=home",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "வறிய உடல் ஊனமுற்ற நபர்களுக்கான ஓய்வூதியத் திட்டம்",
+   "benefit": "தமிழ்நாடு அரசால் மாத ஓய்வூதியம் வழங்கப்படும்.",
+   "eligibility": "வருமானமில்லாமல் குடும்ப ஆதரவின்றி வாழும் உடல் ஊனமுற்ற நபர்கள்.",
+   "how_to_apply": "மாற்றுத்திறன் சான்றுடன் தாலுகா அலுவலகம் அல்லது ஈசேவை மையம் மூலமாக விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் மற்றும் சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

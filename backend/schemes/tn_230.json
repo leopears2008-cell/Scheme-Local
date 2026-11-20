@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_230",
+ "name": "Prize Scheme – State Level Public Exam Rank Holders",
+ "name_local": {
+  "ta": "மாநில அளவிலான பொது தேர்வில் முதலிடம் பெறும் மாணவர்களுக்கு பரிசுத் திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "₹25,000 for 12th and ₹10,000 for 10th standard rank holders.",
+ "eligibility_rules": [
+  "10th and 12th standard students securing top state ranks."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Automatic selection through school records and exam results.",
+ "source_url": "https://www.myscheme.gov.in/schemes/psslp",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாநில அளவிலான பொது தேர்வில் முதலிடம் பெறும் மாணவர்களுக்கு பரிசுத் திட்டம்",
+   "benefit": "12ம் வகுப்பிற்கு ₹25,000 மற்றும் 10ம் வகுப்பிற்கு ₹10,000 பரிசு தொகை.",
+   "eligibility": "10 மற்றும் 12ம் வகுப்பில் மாநில தரவரிசை பெறும் மாணவர்கள்.",
+   "how_to_apply": "தேர்வு முடிவுகளின் அடிப்படையில் தானாகவே தேர்வு செய்யப்படும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_301",
+ "name": "Note Book Assistance – BC/MBC Welfare",
+ "name_local": {
+  "ta": "நாட்புக் உதவி – பின்தங்கியோர் மற்றும் மிகவும் பின்தங்கியோர் நலத்துறை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "BC, MBC & DNC Welfare Department",
+ "benefit": "Free supply of note books through schools.",
+ "eligibility_rules": [
+  "Students belonging to BC/MBC/DNC communities in classes 1–12."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "No application needed; provided via school annually.",
+ "source_url": "https://bcmbcmw.tn.gov.in/welfschemes.htm",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "நாட்புக் உதவி – பின்தங்கியோர் மற்றும் மிகவும் பின்தங்கியோர் நலத்துறை",
+   "benefit": "பள்ளி வாயிலாக இலவச நாட்புக் வழங்கப்படும்.",
+   "eligibility": "BC/MBC/DNC சமூகத்தைச் சேர்ந்த 1–12ம் வகுப்பு மாணவர்கள்.",
+   "how_to_apply": "தனி விண்ணப்பம் தேவையில்லை; பள்ளி வழியாக வருடாந்திரமாக வழங்கப்படும்.",
+   "department": "பின்தங்கியோர், மிகவும் பின்தங்கியோர் மற்றும் இனம் ஒதுக்கப்பட்டோர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

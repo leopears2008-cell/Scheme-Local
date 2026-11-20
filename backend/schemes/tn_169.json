@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_169",
+ "name": "Admission Scheme for Meritorious Students in Best Schools",
+ "name_local": {
+  "ta": "சிறந்த பள்ளிகளில் திறமையான மாணவர்களுக்கு சேர்க்கை திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Admission in top schools with free tuition and hostel support.",
+ "eligibility_rules": [
+  "SC/ST and BC/MBC students scoring high in 10th standard."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through CEO office after public exam results.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=NzEy",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15,
+  "maxAge": 17,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "சிறந்த பள்ளிகளில் திறமையான மாணவர்களுக்கு சேர்க்கை திட்டம்",
+   "benefit": "சிறந்த பள்ளிகளில் சேர்க்கை, இலவச கட்டணம் மற்றும் விடுதி வசதி.",
+   "eligibility": "10ம் வகுப்பில் உயர்ந்த மதிப்பெண் பெற்ற SC/ST மற்றும் BC/MBC மாணவர்கள்.",
+   "how_to_apply": "பொதுத் தேர்வு முடிவுகளுக்குப் பிறகு மாவட்ட கல்வி அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

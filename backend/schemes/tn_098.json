@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_098",
+ "name": "Support to Cooperative Spinning Mills",
+ "name_local": {
+  "ta": "கூட்டுறவு சுழற்சி ஆலைகளுக்கு அரசின் உதவி"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Handlooms and Textiles Department",
+ "benefit": "Financial support, modernization grants, and subsidies for operational sustainability.",
+ "eligibility_rules": [
+  "Registered cooperative spinning mills in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the Department of Handlooms and Textiles with project proposal.",
+ "source_url": "https://tntextiles.tn.gov.in/tanspin/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "கூட்டுறவு சுழற்சி ஆலைகளுக்கு அரசின் உதவி",
+   "benefit": "நிதி உதவி, நவீனமயமாக்கம் மானியம் மற்றும் செயல்பாட்டு சலுகைகள்.",
+   "eligibility": "தமிழ்நாட்டில் பதிவு செய்யப்பட்ட கூட்டுறவு சுழற்சி ஆலைகள்.",
+   "how_to_apply": "திட்ட அறிக்கையுடன் கைத்தறி மற்றும் துணிநூல் துறையின் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "கைத்தறி மற்றும் துணிநூல் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

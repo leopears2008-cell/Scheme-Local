@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_173",
+ "name": "Inter-Caste Marriage Assistance Scheme",
+ "name_local": {
+  "ta": "இனத்தினாற் திருமண உதவித்திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "Cash assistance up to ₹50,000 and 8 gram gold coin for thali.",
+ "eligibility_rules": [
+  "Either bride or groom must belong to SC and marriage must be registered."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at District Social Welfare Office with documents and photos.",
+ "source_url": "https://www.tnsocialwelfare.tn.gov.in/en/specilisationswoman-welfare/marriage-assistance-schemes",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 35,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இனத்தினாற் திருமண உதவித்திட்டம்",
+   "benefit": "ரூ.50,000 வரை நிதியுதவி மற்றும் தாலிக்காக 8 கிராம் தங்க நாணயம்.",
+   "eligibility": "திருமணத்தில் பங்கேற்கும் இருவரில் ஒருவராவது SC வம்சத்தைச் சேர்ந்திருக்க வேண்டும்; திருமணம் பதிவு செய்யப்பட்டிருக்க வேண்டும்.",
+   "how_to_apply": "ஆவணங்கள் மற்றும் புகைப்படங்களுடன் மாவட்ட சமூக நல அலுவலகத்தில் விண்ணப்பிக்க வேண்டும்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

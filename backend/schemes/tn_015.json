@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_015",
+ "name": "Rainwater Harvesting Scheme",
+ "name_local": {
+  "ta": "மழைநீர் சேகரிப்பு திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Public Works Department",
+ "benefit": "Incentives and guidance for installation of RWH systems.",
+ "eligibility_rules": [
+  "All residential, commercial, and public buildings."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through your local body (municipality/panchayat office).",
+ "source_url": "https://aed.tn.gov.in/en/individual-based-subsidy-schemes/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "மழைநீர் சேகரிப்பு திட்டம்",
+   "benefit": "மழைநீர் சேகரிப்பு அமைப்புகளுக்கான ஊக்கத்தொகை மற்றும் வழிகாட்டுதல் வழங்கப்படும்.",
+   "eligibility": "அனைத்து குடியிருப்பு, வாணிக மற்றும் பொது கட்டிடங்கள்.",
+   "how_to_apply": "உங்கள் உள்ளூர் நிர்வாகம் (முனிசிபாலிட்டி/பஞ்சாயத்து அலுவலகம்) மூலம் விண்ணப்பிக்கவும்.",
+   "department": "பொது பணித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

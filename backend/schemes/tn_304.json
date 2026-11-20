@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_304",
+ "name": "Widow’s Daughter Marriage Assistance Scheme",
+ "name_local": {
+  "ta": "விதவையின் மகளுக்கான திருமண உதவித் தொகை திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "Cash assistance for marriage and 4 gm gold coin for thali.",
+ "eligibility_rules": [
+  "Daughters of widows from BPL families."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at District Social Welfare Office with documents.",
+ "source_url": "https://www.myscheme.gov.in/schemes/evrmnmasfdopwsii",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 30,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "விதவையின் மகளுக்கான திருமண உதவித் தொகை திட்டம்",
+   "benefit": "திருமண செலவுக்காக பண உதவியும், தாலிக்காக 4 கிராம் தங்க நாணயமும் வழங்கப்படும்.",
+   "eligibility": "வறுமை கோட்டிற்குள் உள்ள விதவைகளின் மகள்கள்.",
+   "how_to_apply": "தேவையான ஆவணங்களுடன் மாவட்ட சமூக நல அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

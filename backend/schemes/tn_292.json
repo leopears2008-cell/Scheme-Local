@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_292",
+ "name": "Housing Scheme – Regularization of Encroachments",
+ "name_local": {
+  "ta": "வீட்டுத் திட்டம் – உள்வாங்கப்பட்ட நிலங்களை ஒழுங்குபடுத்துதல்"
+ },
+ "category": "housing",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Issuance of patta for house site after regularisation.",
+ "eligibility_rules": [
+  "Families occupying government poramboke land before cutoff date."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through Taluk Office with proof of long-time residence.",
+ "source_url": "https://cla.tn.gov.in/house_site_patta.html#:~:text=The%20Government%20have%20issued%20comprehensive,getting%20patta%20as%20endured%20earlier.",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 100000
+ },
+ "i18n": {
+  "ta": {
+   "name": "வீட்டுத் திட்டம் – உள்வாங்கப்பட்ட நிலங்களை ஒழுங்குபடுத்துதல்",
+   "benefit": "ஒழுங்குபடுத்தலுக்குப் பிறகு வீட்டுமனை பட்டா வழங்கப்படும்.",
+   "eligibility": "நிலையிட்ட தேதி வரை அரசு போரம்போக் நிலத்தை ஆக்கிரமித்துள்ள குடும்பங்கள்.",
+   "how_to_apply": "தாலுகா அலுவலகத்தில் நீண்ட கால வசிப்பை நிரூபிக்கும் ஆவணங்களுடன் விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

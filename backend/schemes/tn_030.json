@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_030",
+ "name": "Vendor Suraksha – Health & Accident Cover",
+ "name_local": {
+  "ta": "வியாபாரி பாதுகாப்பு – சுகாதார மற்றும் விபத்து காப்பீடு"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Urban Local Bodies & Health Department",
+ "benefit": "₹2 lakh accident cover and ₹50,000 annual health coverage.",
+ "eligibility_rules": [
+  "Registered street vendors in Tamil Nadu municipalities."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Via local municipal vendor registration office.",
+ "source_url": "https://www.cra.tn.gov.in/relief_sch.php#:~:text=The%20aim%20of%20the%20scheme,Nodal%20department:",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 65,
+  "maxIncome": 300000
+ },
+ "i18n": {
+  "ta": {
+   "name": "வியாபாரி பாதுகாப்பு – சுகாதார மற்றும் விபத்து காப்பீடு",
+   "benefit": "₹2 லட்சம் விபத்து காப்பீடு மற்றும் ஆண்டுக்கு ₹50,000 சுகாதார காப்பீடு.",
+   "eligibility": "தரப்பட்ட நகர்ப்புற தெருவணிகர்கள்.",
+   "how_to_apply": "நகர்ப்புற வணிகர் பதிவு அலுவலகத்தின் வாயிலாக விண்ணப்பிக்கலாம்.",
+   "department": "நகர்ப்புற உள்ளாட்சி அமைப்புகள் மற்றும் சுகாதாரத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

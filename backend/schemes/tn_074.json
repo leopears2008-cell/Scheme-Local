@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_074",
+ "name": "Sericulture Scheme",
+ "name_local": {
+  "ta": "பட்டுப்புழு வளர்ப்பு திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Sericulture",
+ "benefit": "Supply of rearing appliances, disinfectants, training, and financial support.",
+ "eligibility_rules": [
+  "Farmers interested in mulberry cultivation and silk rearing."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Assistant Director (Sericulture) at the District office.",
+ "source_url": "https://tnseriegov.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "பட்டுப்புழு வளர்ப்பு திட்டம்",
+   "benefit": "வளர்ப்பு உபகரணங்கள், கிருமிநாசினிகள், பயிற்சி மற்றும் நிதியுதவி வழங்கப்படும்.",
+   "eligibility": "முருங்கைப் பயிரிடுவதிலும் பட்டுப்புழு வளர்ப்பிலும் ஆர்வம் உள்ள விவசாயிகள்.",
+   "how_to_apply": "மாவட்ட அலுவலகத்தில் பட்டுப்புழு உதவி இயக்குநர் மூலமாக விண்ணப்பிக்கலாம்.",
+   "department": "பட்டுப்புழு வளர்ப்புத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

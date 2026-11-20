@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_146",
+ "name": "Drinking Water Facility to Adi Dravidar and Tribal Habitations",
+ "name_local": {
+  "ta": "அடித்தின மற்றும் பழங்குடியினர் குடியிருப்புகளுக்கு குடிநீர் வசதி"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Provision of hand pumps, borewells, and water pipelines.",
+ "eligibility_rules": [
+  "Adi Dravidar and Tribal hamlets lacking access to safe drinking water."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Proposal initiated by local Panchayat through District Welfare Office.",
+ "source_url": "https://www.tnrd.tn.gov.in/schemes/st_thai.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "அடித்தின மற்றும் பழங்குடியினர் குடியிருப்புகளுக்கு குடிநீர் வசதி",
+   "benefit": "கைக்குழாய்கள், பாதாள நீர்வழிகள் மற்றும் குடிநீர் குழாய்கள் அமைக்கப்படும்.",
+   "eligibility": "பாதுகாப்பான குடிநீர் வசதி இல்லாத அடித்தின மற்றும் பழங்குடியினர் குடியிருப்புகள்.",
+   "how_to_apply": "மாவட்ட நல அலுவலகத்தின் வாயிலாக உள்ளூர் பஞ்சாயத்து மூலம் திட்டம் முன்வைக்கப்படும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

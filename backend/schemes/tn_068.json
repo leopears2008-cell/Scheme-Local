@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_068",
+ "name": "Distribution of Minikits at Free of Cost",
+ "name_local": {
+  "ta": "இலவச மினிகிட்கள் வழங்கும் திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Agriculture",
+ "benefit": "Distribution of mini seed kits free of cost to promote seasonal cultivation.",
+ "eligibility_rules": [
+  "Small and marginal farmers registered with the agriculture department."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Village Administrative Officer or Agricultural Extension Officer.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=ODIy",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "இலவச மினிகிட்கள் வழங்கும் திட்டம்",
+   "benefit": "கால நிலையைப் பொருத்த பயிர் வளர்ச்சிக்காக இலவச விதை மினிகிட்கள் வழங்கப்படும்.",
+   "eligibility": "விவசாயத் துறையில் பதிவு செய்யப்பட்ட சிறு மற்றும் எல்லைக் விவசாயிகள்.",
+   "how_to_apply": "கிராம நிர்வாக அதிகாரி அல்லது விவசாய விரிவாக்க அதிகாரி மூலமாக விண்ணப்பிக்கவும்.",
+   "department": "விவசாயத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

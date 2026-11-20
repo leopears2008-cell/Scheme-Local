@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_218",
+ "name": "Reimbursement of Hall Rent for Exhibitions by MSME Associations",
+ "name_local": {
+  "ta": "MSME சங்கங்கள் நடத்திய கண்காட்சிகளுக்கான கூடம் வாடகை செலவுக்கான நிவாரணம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Micro, Small and Medium Enterprises Department",
+ "benefit": "50% of hall rent (up to ₹1 lakh) reimbursed by government.",
+ "eligibility_rules": [
+  "Registered MSME associations conducting exhibitions in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit application to the District Industries Centre with event proof.",
+ "source_url": "https://msmeonline.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "MSME சங்கங்கள் நடத்திய கண்காட்சிகளுக்கான கூடம் வாடகை செலவுக்கான நிவாரணம்",
+   "benefit": "அரசு சார்பில் கூடம் வாடகை செலவில் 50% வரை (அதிகபட்சம் ₹1 லட்சம்) நிவாரணம் வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டில் கண்காட்சி நடத்தும் பதிவு செய்யப்பட்ட MSME சங்கங்கள்.",
+   "how_to_apply": "நிகழ்வு விவரங்களுடன் மாவட்ட தொழில் மையத்தில் விண்ணப்பிக்க வேண்டும்.",
+   "department": "சிறு, குறு மற்றும் நடுத்தர நிறுவனங்கள் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

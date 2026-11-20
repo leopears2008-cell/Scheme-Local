@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_094",
+ "name": "Sericulture – Catalytic Development Programme – Twisting Units",
+ "name_local": {
+  "ta": "பட்டுப்புழு வளர்ப்பு – ஊக்கத்திட்டம் – திருப்பு அலகுகள் நிறுவுதல்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Sericulture",
+ "benefit": "Subsidy for equipment, shed construction and working capital.",
+ "eligibility_rules": [
+  "Silk reelers or entrepreneurs setting up twisting units."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Assistant Director of Sericulture in district office.",
+ "source_url": "https://tnsericulture.tn.gov.in/schemes-central",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21
+ },
+ "i18n": {
+  "ta": {
+   "name": "பட்டுப்புழு வளர்ப்பு – ஊக்கத்திட்டம் – திருப்பு அலகுகள் நிறுவுதல்",
+   "benefit": "இயந்திரங்கள், கூரை கட்டுமானம் மற்றும் வேலைநிறைவு நிதிக்கான மானியம்.",
+   "eligibility": "திருப்பும் அலகுகளை நிறுவும் பட்டுப்புழு உற்பத்தியாளர்கள் அல்லது தொழில் முனைவோர்.",
+   "how_to_apply": "மாவட்ட பட்டுப்புழு உதவி இயக்குநர் அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "பட்டுப்புழு வளர்ப்புத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

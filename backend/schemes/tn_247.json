@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_247",
+ "name": "Housing Scheme for SC/ST Families – Construction Assistance",
+ "name_local": {
+  "ta": "அடித்தின/பழங்குடியினர் குடும்பங்களுக்கு வீடமைக்கும் நிதியுதவி"
+ },
+ "category": "housing",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Financial support for house construction.",
+ "eligibility_rules": [
+  "SC/ST families without a proper house."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the Panchayat office or Welfare Department.",
+ "source_url": "https://www.myscheme.gov.in/schemes/cofhf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "அடித்தின/பழங்குடியினர் குடும்பங்களுக்கு வீடமைக்கும் நிதியுதவி",
+   "benefit": "வீடமைப்பிற்கான நிதியுதவி வழங்கப்படும்.",
+   "eligibility": "தக்க வீடில்லாத SC/ST குடும்பங்கள்.",
+   "how_to_apply": "ஊராட்சி அலுவலகம் அல்லது நலத்துறை வழியாக விண்ணப்பிக்கலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

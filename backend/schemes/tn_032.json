@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_032",
+ "name": "WE-SAFE – Women Employment & Security Project",
+ "name_local": {
+  "ta": "பெண்கள் வேலைவாய்ப்பு மற்றும் பாதுகாப்பு திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Women Empowerment & Empowerment Department (World Bank Project)",
+ "benefit": "Skill training, job placements; ₹1,185 crore over 5 years funded by World Bank.",
+ "eligibility_rules": [
+  "Women seeking employment in high-growth non-agricultural sectors in TN."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Via project portal or district women offices when launched.",
+ "source_url": "https://timesofindia.indiatimes.com/city/chennai/stalin-unveils-world-bank-funded-projects-for-women-blue-economy/articleshow/121761942.cms",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "பெண்கள் வேலைவாய்ப்பு மற்றும் பாதுகாப்பு திட்டம்",
+   "benefit": "திறன் அபிவிருத்தி, வேலைவாய்ப்புகள்; உலக வங்கி மூலம் 5 ஆண்டுகளில் ₹1,185 கோடி நிதியுதவி.",
+   "eligibility": "தமிழகத்தில் உயர்வான வளர்ச்சி கொண்ட வேளாண் துறையற்ற வேலைகளில் சேர்ந்ததிற்கு பெண்கள்.",
+   "how_to_apply": "திட்ட இணையதளம் அல்லது மாவட்ட மகளிர் அலுவலகங்கள் வழியாக விண்ணப்பிக்கலாம்.",
+   "department": "பெண் உரிமை மற்றும் இயக்கத் துறை (உலக வங்கி திட்டம்)"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "scheme_id": "nsp_scholarship",
+ "name": "National Scholarship Portal (Post-Matric)",
+ "category": "education",
+ "level": "central",
+ "state": "",
+ "benefit": "Scholarships for SC/ST/OBC/minority students pursuing post-matric education. Covers tuition and living expenses.",
+ "eligibility_rules": [
+  "SC/ST/OBC/Minority",
+  "Family income ≤ ₹2,50,000"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Marksheet",
+  "Caste Certificate",
+  "Income Certificate"
+ ],
+ "how_to_apply": "Apply on the official portal: https://scholarships.gov.in/",
+ "source_url": "https://scholarships.gov.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "राष्ट्रीय छात्रवृत्ति (पोस्ट-मैट्रिक)"
+ },
+ "department": "Ministry of Education",
+ "benefit_type": "cash",
+ "estimated_benefit_inr": 36000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "dob",
+   "label": "Date of Birth",
+   "profileKey": "dob",
+   "type": "date",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "category",
+   "label": "Category",
+   "profileKey": "category",
+   "type": "select",
+   "required": true,
+   "options": [
+    "SC",
+    "ST",
+    "OBC",
+    "Minority"
+   ]
+  },
+  {
+   "id": "income",
+   "label": "Family Income",
+   "profileKey": "annualIncome",
+   "type": "number",
+   "required": true
+  },
+  {
+   "id": "education",
+   "label": "Education Level",
+   "profileKey": "education",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "category",
+   "op": "in",
+   "value": [
+    "SC",
+    "ST",
+    "OBC",
+    "Minority"
+   ],
+   "label": "SC/ST/OBC/Minority"
+  },
+  {
+   "field": "annualIncome",
+   "op": "lte",
+   "value": 250000,
+   "label": "Family income ≤ ₹2,50,000"
+  }
+ ],
+ "rules": {
+  "occupation": [
+   "student"
+  ],
+  "maxIncome": 300000,
+  "casteCategories": [
+   "SC",
+   "ST",
+   "OBC",
+   "Minority"
+  ],
+  "hasAadhaar": true,
+  "hasBankAccount": true
+ },
+ "helpline": "0120-6619540",
+ "emoji": "🎓",
+ "points": 9,
+ "merged_from": [
+  "FormSaathi",
+  "GovBot"
+ ]
+}

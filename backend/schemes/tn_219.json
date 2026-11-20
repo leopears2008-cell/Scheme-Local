@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_219",
+ "name": "Large-sized Multi-purpose Cooperative Society – Jewel Loan (Interest Free)",
+ "name_local": {
+  "ta": "பெரும் பல்பயன் கூட்டுறவு சங்கம் – தங்க நகை கடன் (வட்டி இல்லாமல்)"
+ },
+ "category": "finance_insurance",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation Department",
+ "benefit": "Interest-free gold loan up to eligible limits.",
+ "eligibility_rules": [
+  "BPL families or SHG members with membership in the society."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at the concerned cooperative bank branch.",
+ "source_url": "https://www.myscheme.gov.in/schemes/lsmpcjl",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 120000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பெரும் பல்பயன் கூட்டுறவு சங்கம் – தங்க நகை கடன் (வட்டி இல்லாமல்)",
+   "benefit": "தகுதியான அளவிற்கு வட்டி இல்லா தங்க நகை கடன் வழங்கப்படும்.",
+   "eligibility": "கூட்டுறவு சங்கத்தில் உறுப்பினர் ஆகும் வறுமை கோட்டிற்குள் உள்ள குடும்பங்கள் அல்லது சுய உதவிக் குழு உறுப்பினர்கள்.",
+   "how_to_apply": "தக்க கூட்டுறவு வங்கி கிளையில் விண்ணப்பிக்கலாம்.",
+   "department": "கூட்டுறவுத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_097",
+ "name": "Chief Minister’s State Sports Award",
+ "name_local": {
+  "ta": "முதல்வரின் மாநில விளையாட்டு விருது"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Youth Welfare and Sports Development Department",
+ "benefit": "Cash awards and public recognition for outstanding sports achievements.",
+ "eligibility_rules": [
+  "Athletes from Tamil Nadu who have won medals at national or international level."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Automatically considered based on sports authority nominations.",
+ "source_url": "https://www.tnsports.org.in/webapp/cms_gos.aspx",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15
+ },
+ "i18n": {
+  "ta": {
+   "name": "முதல்வரின் மாநில விளையாட்டு விருது",
+   "benefit": "சிறந்த விளையாட்டு சாதனைகளுக்கான பணப் பரிசுகள் மற்றும் பொது அங்கீகாரம்.",
+   "eligibility": "தேசிய அல்லது உலகளாவிய போட்டிகளில் வென்றுள்ள தமிழ்நாட்டு விளையாட்டு வீரர்கள்.",
+   "how_to_apply": "விளையாட்டு ஆணையம் பரிந்துரைக்கும் விதமாக தானாகவே பரிசீலிக்கப்படும்.",
+   "department": "இளைஞர் நலன் மற்றும் விளையாட்டு மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

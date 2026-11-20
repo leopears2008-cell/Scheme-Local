@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_297",
+ "name": "Distribution of Rhizobium Packets – Oilseeds",
+ "name_local": {
+  "ta": "எண்ணெய் விதைகளுக்கு ரைசோபியம் உரம் வழங்கும் திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Agriculture Department",
+ "benefit": "Free or subsidised Rhizobium culture packets.",
+ "eligibility_rules": [
+  "Farmers cultivating groundnut, soybean, or pulses."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Contact Agricultural Extension Centres.",
+ "source_url": "https://www.myscheme.gov.in/schemes/dorpo",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "எண்ணெய் விதைகளுக்கு ரைசோபியம் உரம் வழங்கும் திட்டம்",
+   "benefit": "இலவசம் அல்லது மானிய விலையில் ரைசோபியம் கலாச்சாரம் தொகுப்புகள் வழங்கப்படும்.",
+   "eligibility": "நிலக்கடலை, சோயாபீன் அல்லது பருப்பு வகைகளை வளர்க்கும் விவசாயிகள்.",
+   "how_to_apply": "வேளாண்மை விரிவாக்க மையங்களை தொடர்புகொள்ளவும்.",
+   "department": "விவசாயத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

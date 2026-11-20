@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_023",
+ "name": "Natural Calamity Relief and Rehabilitation Scheme",
+ "name_local": {
+  "ta": "இயற்கை பேரழிவுகளுக்கான நிவாரண மற்றும் மறுவாழ்வு திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue and Disaster Management Department",
+ "benefit": "Financial compensation for house damage, crops, livestock, and essentials.",
+ "eligibility_rules": [
+  "Residents affected by floods, cyclones, earthquakes, or other natural disasters in TN."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Assessed and distributed through local revenue officials post-disaster.",
+ "source_url": "https://www.cra.tn.gov.in/relief_sch.php?",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 50000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இயற்கை பேரழிவுகளுக்கான நிவாரண மற்றும் மறுவாழ்வு திட்டம்",
+   "benefit": "வீட்டின சேதம், பயிர்கள், மாடுப்பிராணிகள் மற்றும் அத்தியாவசிய பொருட்களுக்கு நிதி இழப்பீடு வழங்கப்படும்.",
+   "eligibility": "வெள்ளம், புயல், நிலநடுக்கம் மற்றும் பிற இயற்கை பேரழிவுகளால் பாதிக்கப்பட்ட தமிழ்நாட்டின் குடிமக்கள்.",
+   "how_to_apply": "பேரழிவுக்குப் பிறகு உள்ளூர் வருவாய் அலுவலர்களால் மதிப்பீடு செய்து நிவாரணம் வழங்கப்படும்.",
+   "department": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

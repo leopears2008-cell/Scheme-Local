@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_112",
+ "name": "Tamil Nadu Agricultural Labourers – Social Security and Welfare Scheme, 2006 (Section 5)",
+ "name_local": {
+  "ta": "தமிழ்நாடு விவசாயத் தொழிலாளர்கள் - சமூக பாதுகாப்பு மற்றும் நலத்திட்டம், 2006 (பிரிவு 5)"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Social security benefits including pension, insurance, and maternity assistance.",
+ "eligibility_rules": [
+  "Registered agricultural labourers in Tamil Nadu under the 2006 scheme."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Village Administrative Officer or Taluk Office.",
+ "source_url": "https://prsindia.org/files/bills_acts/acts_states/tamil-nadu/2006/2006TN29.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "தமிழ்நாடு விவசாயத் தொழிலாளர்கள் - சமூக பாதுகாப்பு மற்றும் நலத்திட்டம், 2006 (பிரிவு 5)",
+   "benefit": "ஓய்வூதியம், காப்பீடு மற்றும் மகப்பேறு உதவி உள்ளிட்ட சமூக பாதுகாப்பு நலன்கள்.",
+   "eligibility": "2006 திட்டத்தின் கீழ் பதிவு செய்யப்பட்ட தமிழ்நாடு விவசாயத் தொழிலாளர்கள்.",
+   "how_to_apply": "கிராம நிர்வாக அலுவலர் அல்லது தாலுகா அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

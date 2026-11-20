@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_187",
+ "name": "Chief Minister’s Merit Award",
+ "name_local": {
+  "ta": "முதல்வரின் சிறப்பு விருது"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "₹3,000 per year for 5 years as scholarship.",
+ "eligibility_rules": [
+  "Top rank holders in 12th standard public exams from government schools."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Automatic selection based on mark list and school recommendation.",
+ "source_url": "https://www.myscheme.gov.in/schemes/cmma",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxAge": 22
+ },
+ "i18n": {
+  "ta": {
+   "name": "முதல்வரின் சிறப்பு விருது",
+   "benefit": "ஆண்டுக்கு ₹3,000 வீதம் 5 ஆண்டுகள் உதவித்தொகை வழங்கப்படும்.",
+   "eligibility": "அரசுப் பள்ளிகளில் 12ம் வகுப்பு பொதுத் தேர்வில் உயர்ந்த தரவரிசை பெற்ற மாணவர்கள்.",
+   "how_to_apply": "மாணவர் மதிப்பெண் மற்றும் பள்ளியின் பரிந்துரையின் அடிப்படையில் தானாகவே தேர்வு செய்யப்படும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

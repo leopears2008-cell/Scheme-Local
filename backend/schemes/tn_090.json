@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_090",
+ "name": "Loan for Animal Husbandry – Cooperative Agriculture and Rural Development Bank",
+ "name_local": {
+  "ta": "விலங்கு வளர்ப்பு கடன் – கூட்டுறவு வேளாண்மை மற்றும் கிராம வளர்ச்சி வங்கி"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Cooperation",
+ "benefit": "Low-interest loans for animal housing, fodder, medicines, and maintenance.",
+ "eligibility_rules": [
+  "Farmers involved in livestock, dairy, poultry or related animal rearing activities."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through local Primary Cooperative Bank branch with KYC and vet recommendation.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=ODg0",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "விலங்கு வளர்ப்பு கடன் – கூட்டுறவு வேளாண்மை மற்றும் கிராம வளர்ச்சி வங்கி",
+   "benefit": "விலங்கு விடுதி, தீவனச்சத்து, மருந்துகள் மற்றும் பராமரிப்பிற்கான குறைந்த வட்டிக் கடன்.",
+   "eligibility": "மாடுகள், பசுமாடுகள், கோழிகள் மற்றும் தொடர்புடைய விலங்கு வளர்ப்பில் ஈடுபட்ட விவசாயிகள்.",
+   "how_to_apply": "கூட்டுறவு வங்கியில் கே.வை.சி மற்றும் மிருக மருத்துவரின் பரிந்துரை கொண்டு விண்ணப்பிக்கவும்.",
+   "department": "கூட்டுறவுத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

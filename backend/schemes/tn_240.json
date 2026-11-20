@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_240",
+ "name": "Book Bank Scheme for Professional Courses",
+ "name_local": {
+  "ta": "தொழில்முறை பாடங்களுக்கான புத்தக வங்கி திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Free access to books in college library for full course duration.",
+ "eligibility_rules": [
+  "SC/ST students enrolled in Medical, Engineering, Law, MBA, etc."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Contact your college library or welfare office.",
+ "source_url": "https://www.myscheme.gov.in/schemes/bbsi",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17
+ },
+ "i18n": {
+  "ta": {
+   "name": "தொழில்முறை பாடங்களுக்கான புத்தக வங்கி திட்டம்",
+   "benefit": "படிப்பு காலத்திற்குள் நூலகத்தில் இலவசமாக புத்தகங்களைப் பயன்படுத்தலாம்.",
+   "eligibility": "மருத்துவம், இன்ஜினியரிங், சட்டம், எம்பிஏ போன்ற படிப்புகளில் சேர்க்கை பெற்ற SC/ST மாணவர்கள்.",
+   "how_to_apply": "உங்கள் கல்லூரி நூலகம் அல்லது நல அலுவலரை தொடர்புகொள்ளவும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

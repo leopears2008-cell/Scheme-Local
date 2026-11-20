@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_257",
+ "name": "Assistance for Marriage",
+ "name_local": {
+  "ta": "திருமண நிதி உதவித் தொகை"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "Marriage assistance of ₹25,000–₹50,000 and gold coin for Thali.",
+ "eligibility_rules": [
+  "Girls belonging to SC/ST/BPL or differently abled communities."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at District Social Welfare Office with community/income certificates.",
+ "source_url": "https://www.tnsocialwelfare.tn.gov.in/en",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 35,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "திருமண நிதி உதவித் தொகை",
+   "benefit": "திருமண உதவித்தொகை ₹25,000–₹50,000 மற்றும் தாலிக்காக தங்க நாணயம் வழங்கப்படும்.",
+   "eligibility": "SC/ST/வறுமை கோட்டிற்குள் அல்லது மாற்றுத்திறனாளி பெண்கள்.",
+   "how_to_apply": "சமூக/வருமான சான்றுகளுடன் மாவட்ட சமூக நல அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

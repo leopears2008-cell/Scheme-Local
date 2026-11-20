@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_250",
+ "name": "Cadet Welfare Society – NCC Scholarships",
+ "name_local": {
+  "ta": "கேடெட் நலக் கழகம் – NCC கல்வி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Youth Welfare and Sports Development Department",
+ "benefit": "Monetary scholarships for pursuing higher education.",
+ "eligibility_rules": [
+  "Cadets with excellent academic and NCC records."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through NCC unit with recommendations.",
+ "source_url": "https://www.tn.gov.in/scheme_beneficiary_list.php?id=Nw==",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 14,
+  "maxAge": 22
+ },
+ "i18n": {
+  "ta": {
+   "name": "கேடெட் நலக் கழகம் – NCC கல்வி உதவித்தொகை",
+   "benefit": "மேன்மட்டக் கல்விக்காக நிதியுதவித் தொகை வழங்கப்படும்.",
+   "eligibility": "அருமையான கல்வி மற்றும் NCC சாதனைகள் கொண்ட கேடெட்கள்.",
+   "how_to_apply": "NCC யூனிட் மூலம் பரிந்துரை உடன் விண்ணப்பிக்கலாம்.",
+   "department": "இளையோர் நல மற்றும் விளையாட்டு மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

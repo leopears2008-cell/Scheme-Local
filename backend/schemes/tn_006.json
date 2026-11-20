@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_006",
+ "name": "Unemployment Allowance Scheme",
+ "name_local": {
+  "ta": "வேலைவாய்ப்பு இல்லா தொகை திட்டம்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Employment and Training",
+ "benefit": "Monthly allowance: Rs. 200–600 depending on qualification.",
+ "eligibility_rules": [
+  "Registered unemployed youth with 10th pass or above educational qualification."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Register at employment exchanges and apply through respective district offices.",
+ "source_url": "https://tnvelaivaaippu.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 45,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "வேலைவாய்ப்பு இல்லா தொகை திட்டம்",
+   "benefit": "கல்வித் தகுதியின் அடிப்படையில் மாதத்திற்கு ரூ.200 முதல் ரூ.600 வரை நிதி உதவி.",
+   "eligibility": "10ஆம் வகுப்பு அல்லது அதற்கும் மேலான கல்வித்தகுதி உடைய வேலைவாய்ப்பு இல்லாத இளைஞர்கள் வேலைவாய்ப்பு அலுவலகத்தில் பதிவு செய்திருப்பவர்கள்.",
+   "how_to_apply": "வேலைவாய்ப்பு அலுவலகங்களில் பதிவு செய்து, சம்பந்தப்பட்ட மாவட்ட அலுவலகங்களின் வாயிலாக விண்ணப்பிக்கலாம்.",
+   "department": "வேலைவாய்ப்பு மற்றும் பயிற்சி துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

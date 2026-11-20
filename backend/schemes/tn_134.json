@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_134",
+ "name": "Award to Best Writers – Tamil Development",
+ "name_local": {
+  "ta": "சிறந்த எழுத்தாளர்களுக்கு விருது – தமிழ் வளர்ச்சி"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Development and Information Department",
+ "benefit": "Award of ₹20,000 and certificate of appreciation.",
+ "eligibility_rules": [
+  "Writers who have published acclaimed Tamil works in literature, arts, or culture."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit published work and biodata to the Tamil Development Directorate.",
+ "source_url": "https://tnadw.tn.gov.in/financial_scheme/en",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21
+ },
+ "i18n": {
+  "ta": {
+   "name": "சிறந்த எழுத்தாளர்களுக்கு விருது – தமிழ் வளர்ச்சி",
+   "benefit": "₹20,000 பரிசுத்தொகை மற்றும் பாராட்டு சான்றிதழ் வழங்கப்படும்.",
+   "eligibility": "தமிழில் புகழ்பெற்ற இலக்கிய, கலை, கலாசார நூல்களை எழுதிய எழுத்தாளர்கள்.",
+   "how_to_apply": "வெளியிடப்பட்ட நூல்களையும் பயோடேட்டாவையும் தமிழ் வளர்ச்சி இயக்குனரகம் வழியாக சமர்ப்பிக்கவும்.",
+   "department": "தமிழ் வளர்ச்சி மற்றும் தகவல் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

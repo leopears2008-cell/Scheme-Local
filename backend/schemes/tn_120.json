@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_120",
+ "name": "Book Bank – Medical, Engineering, Law, and Professional Courses",
+ "name_local": {
+  "ta": "புத்தக வங்கி – மருத்துவம், இன்ஜினியரிங், சட்டம் மற்றும் தொழில்முறை பாடநெறிகள்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Free supply of textbooks and reference books kept in college libraries.",
+ "eligibility_rules": [
+  "SC/ST students studying in professional courses in government or aided institutions."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "No application required; provided through institution based on eligibility.",
+ "source_url": "https://www.myscheme.gov.in/schemes/bbsi",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17
+ },
+ "i18n": {
+  "ta": {
+   "name": "புத்தக வங்கி – மருத்துவம், இன்ஜினியரிங், சட்டம் மற்றும் தொழில்முறை பாடநெறிகள்",
+   "benefit": "கல்லூரி நூலகங்களில் வைத்திருக்கும் பாடப் புத்தகங்கள் மற்றும் குறிப்பு புத்தகங்கள் இலவசமாக வழங்கப்படும்.",
+   "eligibility": "அரசு மற்றும் உதவி பெறும் கல்வி நிறுவனங்களில் தொழில்முறை படிப்பு pursuing செய்துவரும் அடித்தின மற்றும் பழங்குடியினர் மாணவர்கள்.",
+   "how_to_apply": "விண்ணப்பம் தேவையில்லை; தகுதியை அடிப்படையாக கொண்டு கல்வி நிறுவனத்தின் வழியாக வழங்கப்படும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

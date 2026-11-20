@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_179",
+ "name": "Free Diploma Education in Polytechnic Courses",
+ "name_local": {
+  "ta": "இலவச டிப்ளோமா கல்வி – பாலிடெக்னிக் படிப்புகள்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Reimbursement of full fees including tuition, special and exam fees.",
+ "eligibility_rules": [
+  "SC/ST students studying in diploma/polytechnic colleges."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through college with caste and income certificates.",
+ "source_url": "https://www.myscheme.gov.in/schemes/fesftydpc",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 16,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இலவச டிப்ளோமா கல்வி – பாலிடெக்னிக் படிப்புகள்",
+   "benefit": "படிப்புக்கட்டணம், தேர்வுக்கட்டணம் மற்றும் சிறப்புக் கட்டணங்கள் அரசு சார்பில் வழங்கப்படும்.",
+   "eligibility": "பாலிடெக்னிக் கல்லூரிகளில் கல்வி பயிலும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "சாதி மற்றும் வருமானச் சான்றுகளுடன் கல்லூரி மூலமாக விண்ணப்பிக்கவும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

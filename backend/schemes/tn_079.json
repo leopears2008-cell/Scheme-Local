@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_079",
+ "name": "Subsidy for Purchase of Generator Set",
+ "name_local": {
+  "ta": "ஜெனரேட்டர் வாங்குவதற்கான மானியம்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of MSME",
+ "benefit": "Capital subsidy on the purchase of generator sets for production continuity.",
+ "eligibility_rules": [
+  "Registered Micro, Small Enterprises (MSEs) in Tamil Nadu needing backup power for operations."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Industries Centre with purchase and enterprise documents.",
+ "source_url": "https://www.tiic.org/generator-subsidy/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "ஜெனரேட்டர் வாங்குவதற்கான மானியம்",
+   "benefit": "தயாரிப்பு தொடர்ந்து நடைபெற ஜெனரேட்டர் வாங்குவதற்கான மூலதன மானியம்.",
+   "eligibility": "தமிழ்நாட்டில் பதிவு செய்யப்பட்ட சிறு மற்றும் மிகச் சிறு தொழிற்சாலைகள்.",
+   "how_to_apply": "வாங்கிய பில் மற்றும் நிறுவன ஆவணங்களுடன் மாவட்ட தொழில் மையத்தில் விண்ணப்பிக்கவும்.",
+   "department": "மிகச் சிறு, சிறு மற்றும் நடுத்தர தொழில் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_255",
+ "name": "Crop Loan Scheme for Sugarcane Cultivators",
+ "name_local": {
+  "ta": "கரும்பு விவசாயிகளுக்கான பயிர் கடன் திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation Department",
+ "benefit": "Seasonal crop loans with low interest rate.",
+ "eligibility_rules": [
+  "Farmers registered for sugarcane cultivation under cooperative societies."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Primary Agricultural Cooperative Credit Society.",
+ "source_url": "https://www.tnpscthervupettagam.com/articles-detail/tamil-nadu-agriculture-budget-2025-26",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "கரும்பு விவசாயிகளுக்கான பயிர் கடன் திட்டம்",
+   "benefit": "குறைந்த வட்டியுடன் பருவ பயிர் கடன் வழங்கப்படும்.",
+   "eligibility": "கூட்டுறவு சங்கங்களில் பதிவு செய்யப்பட்ட கரும்பு விவசாயிகள்.",
+   "how_to_apply": "முதன்மை வேளாண்மை கூட்டுறவு சங்கத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "கூட்டுறவுத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

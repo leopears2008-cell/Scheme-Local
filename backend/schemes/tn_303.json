@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_303",
+ "name": "Housing Scheme for Poor – Government Subsidised Sites",
+ "name_local": {
+  "ta": "வறியவர்களுக்கான வீடு வழங்கும் திட்டம் – அரசு மானியமான மனை இடங்கள்"
+ },
+ "category": "housing",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Free or subsidised house sites from government.",
+ "eligibility_rules": [
+  "Landless poor families without pucca house."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through VAO and Taluk Office.",
+ "source_url": "https://www.india.gov.in/evr-maniammaiyar-ninaivu-poor-widows-daughters-marriage-assistance-scheme-application-form-1",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "வறியவர்களுக்கான வீடு வழங்கும் திட்டம் – அரசு மானியமான மனை இடங்கள்",
+   "benefit": "அரசு மூலம் இலவசம் அல்லது மானிய விலையில் வீட்டு மனைகள் வழங்கப்படும்.",
+   "eligibility": "நிலம் இல்லாத மற்றும் தக்க வீடு இல்லாத வறிய குடும்பங்கள்.",
+   "how_to_apply": "வி.ஏ.ஓ மற்றும் தாலுகா அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_225",
+ "name": "Professional Education Scholarship for SC/ST – Fee Waiver",
+ "name_local": {
+  "ta": "SC/ST மாணவர்களுக்கு தொழில்முறை கல்வி கட்டணச் சலுகை உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Full tuition and exam fee waived or reimbursed.",
+ "eligibility_rules": [
+  "SC/ST students pursuing Engineering, Medicine, Law, Agriculture etc."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at institution during admission with community certificate.",
+ "source_url": "https://www.myscheme.gov.in/schemes/fwsscstsphe",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "SC/ST மாணவர்களுக்கு தொழில்முறை கல்வி கட்டணச் சலுகை உதவித்தொகை",
+   "benefit": "முழு கல்வி மற்றும் தேர்வுக்கட்டணம் மன்னிப்பு/திருப்பிச் செலுத்துதல்.",
+   "eligibility": "இன்ஜினியரிங், மருத்துவம், சட்டம், விவசாயம் போன்ற படிப்புகளில் SC/ST மாணவர்கள்.",
+   "how_to_apply": "சாதிச் சான்றுடன் சேர்க்கையின் போது கல்வி நிறுவனத்தில் விண்ணப்பிக்க வேண்டும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

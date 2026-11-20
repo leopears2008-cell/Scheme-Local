@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_184",
+ "name": "Certificate of Destitution – For Orphanage Admission",
+ "name_local": {
+  "ta": "அனாதை மாணவர்களுக்கு தங்குமிட வசதி பெற தகுதி சான்றிதழ்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Certificate enables admission to government orphanages and hostels.",
+ "eligibility_rules": [
+  "Orphaned or destitute children with no guardian or support."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply to Taluk Office with police and local official verification.",
+ "source_url": "https://www.tnsocialwelfare.tn.gov.in/en/specilisationswoman-welfare/widow-and-destitute-welfare-board",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 0,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "அனாதை மாணவர்களுக்கு தங்குமிட வசதி பெற தகுதி சான்றிதழ்",
+   "benefit": "அரசு அனாதை இல்லங்கள் மற்றும் விடுதிகளில் சேர்க்கைக்கு சான்றிதழ் வழங்கப்படும்.",
+   "eligibility": "தாய்/தந்தை இருவரும் இல்லாத அனாதை குழந்தைகள்.",
+   "how_to_apply": "போலீஸ் மற்றும் உள்ளாட்சி நிர்வாகியுடன் ஒப்புதல் பெற்ற நிலையில் தாலுகா அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

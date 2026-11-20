@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_161",
+ "name": "Free Dhoti and Saree Distribution Scheme",
+ "name_local": {
+  "ta": "இலவச வேஷ்டி மற்றும் சேலை வழங்கும் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation, Food and Consumer Protection Department",
+ "benefit": "One set of dhoti or saree distributed during Pongal festival.",
+ "eligibility_rules": [
+  "Below Poverty Line (BPL) families holding ration cards in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Automatically delivered via PDS shops based on ration card.",
+ "source_url": "https://www.cra.tn.gov.in/pongal.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இலவச வேஷ்டி மற்றும் சேலை வழங்கும் திட்டம்",
+   "benefit": "ஒவ்வொரு பொங்கல் திருநாளிலும் ஒரு வேஷ்டி அல்லது சேலை வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டில் இருப்பு அட்டை கொண்ட வறுமை கோட்டுக்கு கீழே உள்ள குடும்பங்கள்.",
+   "how_to_apply": "ரேஷன் கடைகளின் வாயிலாக வழங்கப்படும்; விண்ணப்பம் தேவையில்லை.",
+   "department": "கூட்டுறவு, உணவு மற்றும் நுகர்வோர் பாதுகாப்பு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

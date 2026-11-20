@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_130",
+ "name": "Free Textbook Supply – School Education Department",
+ "name_local": {
+  "ta": "இலவச பாடப்புத்தகங்கள் வழங்கும் திட்டம் – பள்ளிக் கல்வித்துறை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Free supply of textbooks every academic year by government.",
+ "eligibility_rules": [
+  "All students studying in government and aided schools from 1st to 12th standard."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Distributed automatically through schools.",
+ "source_url": "https://www.textbookcorp.tn.gov.in/faq_tam.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "இலவச பாடப்புத்தகங்கள் வழங்கும் திட்டம் – பள்ளிக் கல்வித்துறை",
+   "benefit": "ஒவ்வொரு கல்வியாண்டிலும் மாணவர்களுக்கு இலவசமாக பாடப்புத்தகங்கள் வழங்கப்படும்.",
+   "eligibility": "அரசு மற்றும் அரசு உதவி பெறும் பள்ளிகளில் 1 முதல் 12ஆம் வகுப்பு வரை படிக்கும் மாணவர்கள்.",
+   "how_to_apply": "பள்ளிகளின் வாயிலாக தானாகவே வழங்கப்படும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

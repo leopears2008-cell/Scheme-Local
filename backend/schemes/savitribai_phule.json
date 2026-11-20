@@ -1,0 +1,38 @@
+{
+ "scheme_id": "savitribai_phule",
+ "name": "Savitribai Phule Scholarship for Girl Students (Classes 5-10, Maharashtra)",
+ "category": "education",
+ "level": "state_maharashtra",
+ "benefit": "Monthly scholarship to reduce dropout of backward-class girl students in Maharashtra schools: Rs 60 per month for 10 months (Rs 600/year) for girls in classes 5th to 7th, and Rs 100 per month for 10 months (Rs 1,000/year) for girls in classes 8th to 10th. Paid via DBT into an Aadhaar-seeded bank account, in two installments. The scheme runs as parallel variants for SC girls, OBC girls, and VJNT/SBC girls (each administered by its department).",
+ "eligibility_rules": [
+  "Only girl students are eligible",
+  "Must belong to Scheduled Caste (SC), OBC, VJNT (Vimukta Jati Nomadic Tribes) or SBC (Special Backward Class) category, depending on the variant",
+  "Must be studying in classes 5th to 10th in a government or government-aided school in Maharashtra",
+  "Must be a resident of Maharashtra",
+  "There is NO income limit and NO minimum marks requirement",
+  "No individual application is needed - the school headmaster submits a consolidated list of eligible girls on the MahaDBT portal to the District Social Welfare Officer (classes 5-7) or Assistant Commissioner of Social Welfare (classes 8-10)",
+  "Attendance conditions apply: minimum attendance is required (60% for the second installment; some districts cite 75% overall)"
+ ],
+ "exclusions": [
+  "Boys are not eligible",
+  "Girls in self-financed schools are not eligible (government and government-aided schools only)",
+  "A student who fails the year is not eligible until she passes that class",
+  "No benefit beyond 10 months per year; students enrolled mid-year are paid only for months attended",
+  "Girls not belonging to the covered categories (SC/OBC/VJNT/SBC) are not covered by this scheme"
+ ],
+ "documents_required": [
+  "Caste certificate / category proof (SC, OBC, VJNT or SBC)",
+  "Aadhaar card with Aadhaar-seeded bank account",
+  "School enrollment proof (handled by the school - the headmaster submits the consolidated proposal)"
+ ],
+ "how_to_apply": "No application needed from the student or parents. The school headmaster submits the list of eligible girl students online on the MahaDBT portal (mahadbt.maharashtra.gov.in) - to the District Social Welfare Officer, Zilla Parishad for classes 5-7, or the Assistant Commissioner of Social Welfare for classes 8-10. Parents can contact the school headmaster or the district social welfare office to ensure their daughter is included.",
+ "source_url": "https://socialwelfare.maharashtra.gov.in/en/scheme/savitribai-phule-scholarship-scheme/",
+ "source_document": "Commissionerate of Social Welfare Maharashtra; SJSA Department; MahaDBT scheme pages; GRs dated 12/01/1996 and 25/07/2003",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "merged_from": [
+  "scheme-sahayak"
+ ]
+}

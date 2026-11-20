@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_167",
+ "name": "State Level Prize for Meritorious Students",
+ "name_local": {
+  "ta": "திறமையான மாணவர்களுக்கு மாநில அளவிலான பரிசு"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Cash awards and certificates of recognition.",
+ "eligibility_rules": [
+  "Students who achieve state ranks in public exams."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Awarded based on performance; no separate application needed.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=Njk2",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 14,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "திறமையான மாணவர்களுக்கு மாநில அளவிலான பரிசு",
+   "benefit": "பணப்பரிசு மற்றும் பாராட்டு சான்றிதழ்கள் வழங்கப்படும்.",
+   "eligibility": "பொதுத் தேர்வுகளில் மாநில அளவில் தரவரிசை பெற்ற மாணவர்கள்.",
+   "how_to_apply": "தேர்வுப் பெறுபேறுகளின் அடிப்படையில் வழங்கப்படும்; தனியான விண்ணப்பம் தேவையில்லை.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

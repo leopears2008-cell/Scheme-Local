@@ -1,0 +1,129 @@
+{
+ "scheme_id": "pm_kisan",
+ "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+ "category": "agriculture",
+ "level": "central",
+ "benefit": "Rs 6,000 per year in three equal installments of Rs 2,000, transferred directly to the farmer's bank account.",
+ "eligibility_rules": [
+  "Must be a landholding farmer family (husband, wife and minor children) with cultivable land in their name",
+  "Land records must be in the farmer's name as per state land records"
+ ],
+ "exclusions": [
+  "Institutional landholders",
+  "Current or former holders of constitutional posts",
+  "Current or former ministers, MPs, MLAs, mayors, district panchayat chairpersons",
+  "Serving or retired government employees (except Group D / multi-tasking staff)",
+  "Persons who paid income tax in the last assessment year",
+  "Professionals like doctors, engineers, lawyers, CAs registered with professional bodies and practicing",
+  "Pensioners receiving Rs 10,000 or more per month (except Group D)"
+ ],
+ "documents_required": [
+  "Aadhaar card",
+  "Bank account details (linked to Aadhaar)",
+  "Land ownership records (e.g. 7/12 extract in Maharashtra)",
+  "Citizenship certificate / proof"
+ ],
+ "how_to_apply": "Register online at pmkisan.gov.in or visit the nearest Common Service Centre (CSC) or local revenue officer (Patwari/Talathi).",
+ "source_url": "https://pmkisan.gov.in/",
+ "source_document": "pm_kisan_guidelines.pdf",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "name_local": {
+  "hi": "पीएम-किसान"
+ },
+ "department": "Ministry of Agriculture",
+ "benefit_type": "cash",
+ "estimated_benefit_inr": 6000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "state",
+   "label": "State",
+   "profileKey": "state",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "district",
+   "label": "District",
+   "profileKey": "district",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "land",
+   "label": "Land Ownership Type",
+   "profileKey": "landOwnership",
+   "type": "select",
+   "required": true,
+   "options": [
+    "owned",
+    "leased"
+   ]
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "occupation",
+   "op": "in",
+   "value": [
+    "farmer",
+    "agriculture",
+    "kisan"
+   ],
+   "label": "Occupation is farming"
+  },
+  {
+   "field": "landOwnership",
+   "op": "in",
+   "value": [
+    "owned",
+    "leased",
+    "small",
+    "marginal"
+   ],
+   "label": "Owns or leases farm land"
+  }
+ ],
+ "rules": {
+  "occupation": [
+   "farmer"
+  ],
+  "maxLandHectares": 2,
+  "hasAadhaar": true,
+  "hasBankAccount": true,
+  "disqualifiers": [
+   "govt"
+  ]
+ },
+ "helpline": "155261",
+ "emoji": "🌾",
+ "points": 10,
+ "merged_from": [
+  "scheme-sahayak",
+  "FormSaathi",
+  "GovBot"
+ ]
+}

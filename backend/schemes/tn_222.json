@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_222",
+ "name": "ST Community Certificate – Issuance",
+ "name_local": {
+  "ta": "பழங்குடியினர் சமூகச் சான்றிதழ் வழங்கல்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Certificate enables access to reserved education, jobs and welfare schemes.",
+ "eligibility_rules": [
+  "ST individuals residing in Tamil Nadu with proof of community."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at VAO or Taluk office with supporting documents.",
+ "source_url": "https://www.tn.gov.in/scheme_beneficiary_list.php?id=Nw==",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "பழங்குடியினர் சமூகச் சான்றிதழ் வழங்கல்",
+   "benefit": "சான்றிதழ் வழியாக கல்வி, வேலை வாய்ப்பு மற்றும் நலத்திட்டங்களில் இடஒதுக்கீடு பெற முடியும்.",
+   "eligibility": "தமிழ்நாட்டில் வசிக்கும் பழங்குடியினர் சமூகத்தைச் சேர்ந்த நபர்கள்.",
+   "how_to_apply": "VAO அல்லது தாலுகா அலுவலகத்தில் ஆதார ஆவணங்களுடன் விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

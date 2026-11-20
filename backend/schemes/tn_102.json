@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_102",
+ "name": "District Collector’s Discretionary Fund",
+ "name_local": {
+  "ta": "மாவட்ட ஆட்சியரின் விருப்ப நிதி"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue and Disaster Management Department",
+ "benefit": "Immediate relief in cash or kind based on Collector’s discretion.",
+ "eligibility_rules": [
+  "Persons or families affected by unforeseen incidents, fire, accident or crisis."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Written request to be submitted to District Collector with full justification.",
+ "source_url": "https://ariyalur.nic.in/scheme/district-collectors-discretionary-fundcdf/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "மாவட்ட ஆட்சியரின் விருப்ப நிதி",
+   "benefit": "ஆட்சியரின் பரிந்துரையின் அடிப்படையில் பணம் அல்லது பொருளாக உடனடி நிவாரணம் வழங்கப்படும்.",
+   "eligibility": "திடீர் தீ விபத்து, விபத்து அல்லது பிற அனாயாசச் சூழ்நிலைகளால் பாதிக்கப்பட்ட நபர்கள்/குடும்பங்கள்.",
+   "how_to_apply": "முழுமையான விவரங்களுடன் மாவட்ட ஆட்சியரிடம் எழுத்து மூலம் மனு சமர்ப்பிக்க வேண்டும்.",
+   "department": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

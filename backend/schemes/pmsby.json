@@ -1,0 +1,79 @@
+{
+ "scheme_id": "pmsby",
+ "name": "PM Suraksha Bima Yojana",
+ "category": "finance_insurance",
+ "level": "central",
+ "state": "",
+ "benefit": "Accident insurance cover of ₹2 lakh for death and full disability at ₹20/year premium (auto-debit from bank).",
+ "eligibility_rules": [
+  "Has a bank account"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Bank Passbook"
+ ],
+ "how_to_apply": "Apply on the official portal: https://www.jansuraksha.gov.in/",
+ "source_url": "https://www.jansuraksha.gov.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "पीएम सुरक्षा बीमा योजना"
+ },
+ "department": "Ministry of Finance",
+ "benefit_type": "insurance",
+ "estimated_benefit_inr": 200000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "dob",
+   "label": "Date of Birth",
+   "profileKey": "dob",
+   "type": "date",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "bankAccount",
+   "op": "exists",
+   "value": null,
+   "label": "Has a bank account"
+  }
+ ],
+ "rules": {
+  "minAge": 18,
+  "maxAge": 70,
+  "hasBankAccount": true,
+  "hasAadhaar": true
+ },
+ "helpline": "1800-180-1111",
+ "emoji": "⚡",
+ "points": 9,
+ "merged_from": [
+  "FormSaathi",
+  "GovBot"
+ ]
+}

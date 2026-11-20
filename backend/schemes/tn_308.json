@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_308",
+ "name": "Training to the Speech and Hearing Impaired (Male)",
+ "name_local": {
+  "ta": "பேச்சும் செவியும் பாதிக்கப்பட்ட ஆண்களுக்கு பயிற்சி"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Vocational training and monthly stipend provided.",
+ "eligibility_rules": [
+  "Male individuals with certified speech and hearing disability."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through government training institute for the disabled.",
+ "source_url": "https://skilltraining.tn.gov.in/special.html",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 40
+ },
+ "i18n": {
+  "ta": {
+   "name": "பேச்சும் செவியும் பாதிக்கப்பட்ட ஆண்களுக்கு பயிற்சி",
+   "benefit": "தொழில் சார்ந்த பயிற்சி மற்றும் மாதாந்திர உதவித்தொகை வழங்கப்படும்.",
+   "eligibility": "பேச்சும் செவியும் பாதிக்கப்பட்ட ஆண்கள், சான்று பெற்ற மாற்றுத்திறனாளிகள்.",
+   "how_to_apply": "மாற்றுத்திறனாளிகளுக்கான அரசு பயிற்சி மையத்தில் விண்ணப்பிக்கவும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

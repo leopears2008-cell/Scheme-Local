@@ -1,0 +1,93 @@
+{
+ "scheme_id": "pmmvy",
+ "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY 2.0) - Maternity Benefit",
+ "category": "health",
+ "level": "central",
+ "benefit": "Cash maternity benefit via DBT to the mother's Aadhaar-seeded bank/post office account: Rs 5,000 for the FIRST living child in two installments (Rs 3,000 after pregnancy registration and at least one antenatal check-up; Rs 2,000 after birth registration and completion of the 14-week immunization cycle). For the SECOND child, Rs 6,000 in a single installment after birth and immunization, ONLY if the second child is a girl (PMMVY 2.0 provision to promote the girl child, effective 01/04/2022). Institutional delivery additionally qualifies for the Janani Suraksha Yojana incentive, taking the first-child total to about Rs 6,000 on average. If twins/triplets are born in the second pregnancy and any is a girl, the benefit for one second girl child applies.",
+ "eligibility_rules": [
+  "Pregnant women and lactating mothers, for the first two living children (second child benefit only if the second child is a girl)",
+  "Must belong to a socially/economically disadvantaged category - ANY ONE of the following qualifies: SC or ST women; women partially (40%) or fully disabled (Divyangjan); women holding a ration card under NFSA 2013; beneficiaries of PM-JAY/Ayushman Bharat; women with net family income below Rs 8,00,000 per annum; and other categories notified by the government (e.g. MGNREGA job card, e-Shram registration, BPL)",
+  "Aadhaar of the beneficiary is mandatory (Mission Shakti / Aadhaar Act provision) along with an Aadhaar-linked bank or post office account",
+  "For the second-child (girl) benefit, registration during the pregnancy is mandatory",
+  "Application must be made within 270 days of childbirth",
+  "Cases of miscarriage or stillbirth are treated as fresh cases for a future pregnancy"
+ ],
+ "exclusions": [
+  "Women in regular employment with the Central Government, State Government or PSUs are not eligible",
+  "Women already receiving similar maternity benefits under any law (e.g. paid maternity leave) are not eligible",
+  "Second child benefit is NOT available if the second child is a boy",
+  "Benefit applies only to the first two living children; third and subsequent children are not covered",
+  "If the child does not survive after the beneficiary has claimed all installments, she is not eligible for the benefit again for future pregnancies",
+  "The scheme is not implemented in Telangana and Odisha (they run their own maternity schemes) - not relevant for Maharashtra users"
+ ],
+ "documents_required": [
+  "MCP Card (Mother and Child Protection card)",
+  "Aadhaar card of the beneficiary (mandatory)",
+  "Aadhaar-linked bank or post office account details",
+  "Mobile number (mandatory for status updates)",
+  "Proof of eligibility category (e.g. caste certificate, ration card, PM-JAY card, income proof, disability certificate - any one)",
+  "For second installment: child's birth registration certificate and immunization record (BCG, OPV, DPT/IPV, Hepatitis-B)"
+ ],
+ "how_to_apply": "Three ways: (1) self-register online at pmmvy.wcd.gov.in via Citizen Login with mobile OTP; (2) through the PMMVY mobile app; (3) ask the local Anganwadi Worker or ASHA worker to fill the application - they do this free of cost. Helpline: 1515 (9am-6pm), email pmmvy-mwcd@gov.in.",
+ "source_url": "https://www.myscheme.gov.in/schemes/pmmvy",
+ "source_document": "myScheme PMMVY page; PIB; Ministry of Women and Child Development PMMVY 2.0 / Mission Shakti guidelines (w.e.f. 01/04/2022)",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "name_local": {
+  "hi": "पीएम मातृ वंदना योजना"
+ },
+ "department": "Ministry of Women & Child Development",
+ "benefit_type": "cash",
+ "estimated_benefit_inr": 5000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "dob",
+   "label": "Date of Birth",
+   "profileKey": "dob",
+   "type": "date",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "phone",
+   "label": "Mobile Number",
+   "profileKey": "phone",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "gender",
+   "op": "eq",
+   "value": "female",
+   "label": "Applicant is female"
+  }
+ ],
+ "merged_from": [
+  "scheme-sahayak",
+  "FormSaathi"
+ ]
+}

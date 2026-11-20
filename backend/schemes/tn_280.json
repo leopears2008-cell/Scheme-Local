@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_280",
+ "name": "Destitute and Deserted Wife Pension Scheme",
+ "name_local": {
+  "ta": "ஏழை மற்றும் கைவிடப்பட்ட மனைவிக்கான ஓய்வூதியத் திட்டம்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "Monthly pension of ₹1,000.",
+ "eligibility_rules": [
+  "Women without support and no regular income, above 30 years."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through VAO or Social Welfare Office with affidavit.",
+ "source_url": "https://www.myscheme.gov.in/schemes/ddwps",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 30,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "ஏழை மற்றும் கைவிடப்பட்ட மனைவிக்கான ஓய்வூதியத் திட்டம்",
+   "benefit": "மாதம் ₹1,000 ஓய்வூதியமாக வழங்கப்படும்.",
+   "eligibility": "முதுமை குறைந்த ஆதரவற்ற, தொழிலின்றி வாழும் 30 வயதுக்கு மேற்பட்ட பெண்கள்.",
+   "how_to_apply": "வ.ஆ.அ. அல்லது சமூக நல அலுவலகத்தில் உறுதிமொழியுடன் விண்ணப்பிக்க வேண்டும்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

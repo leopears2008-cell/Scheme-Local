@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_033",
+ "name": "Nalam Kakkum Stalin Medical Camps",
+ "name_local": {
+  "ta": "நலம் காக்கும் ஸ்டாலின் மருத்துவ முகாம்கள்"
+ },
+ "category": "health",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Health & Family Welfare Department",
+ "benefit": "Free health check-ups, disease screening, disability certificates; 1,256 camps launched.",
+ "eligibility_rules": [
+  "All residents, with special outreach to economically disadvantaged & disabled."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Attend camps; carry ID proof. Certificates issued on site.",
+ "source_url": "https://timesofindia.indiatimes.com/city/coimbatore/tamil-nadu-chief-minister-to-unveil-nalam-kakkum-stalin-initiative-soon/articleshow/121700246.cms",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "நலம் காக்கும் ஸ்டாலின் மருத்துவ முகாம்கள்",
+   "benefit": "இலவச சுகாதார பரிசோதனை, நோய்திறன் சோதனை, மாற்றுத்திறன் சான்றிதழ்; 1,256 முகாம்கள்.",
+   "eligibility": "அனைத்து குடிமக்கள், பொருளாதார ரீதியாக பின்தங்கியோர் மற்றும் மாற்றுத்திறனாளிகளுக்கு சிறப்பு.",
+   "how_to_apply": "முகாம்களில் கலந்து கொள்ளவும்; ஐடி ஆதாரம் கொண்டு செல்லவும். சான்றிதழ்கள் முகாமில் வழங்கப்படும்.",
+   "department": "ஆரோக்கியம் மற்றும் குடும்ப நலத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

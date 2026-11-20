@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_114",
+ "name": "Free Travel Concession to the Disabled in State-Owned Buses",
+ "name_local": {
+  "ta": "மாநில பேருந்துகளில் மாற்றுத்திறனாளிகளுக்கான இலவச பயண சலுகை"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Free bus pass for travel within Tamil Nadu in government buses.",
+ "eligibility_rules": [
+  "All persons with 40% or more disability in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Disabled Welfare Office with disability ID.",
+ "source_url": "https://www.scd.tn.gov.in/social_sec_schemes.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாநில பேருந்துகளில் மாற்றுத்திறனாளிகளுக்கான இலவச பயண சலுகை",
+   "benefit": "தமிழ்நாடு முழுவதும் அரசு பேருந்துகளில் பயணிக்க இலவச பஸ் பாஸ்.",
+   "eligibility": "தமிழ்நாட்டில் 40% மற்றும் அதற்கு மேற்பட்ட மாற்றுத்திறனுடன் உள்ள நபர்கள்.",
+   "how_to_apply": "மாற்றுத்திறனாளிகள் நல அலுவலகத்தில் மாற்றுத்திறன் அடையாள அட்டையுடன் விண்ணப்பிக்கவும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

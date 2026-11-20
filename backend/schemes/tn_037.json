@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_037",
+ "name": "Magalir Vidiyal Payanam Thittam",
+ "name_local": {
+  "ta": "மகளிர் விடியல் பயணம் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Transport Department",
+ "benefit": "Free bus travel; ~682 crore rides taken; average saving ₹888/month per woman.",
+ "eligibility_rules": [
+  "Women, differently-abled, transgender persons using TNSTC state buses."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Simply board government bus and show ID; no pass required.",
+ "source_url": "https://timesofindia.indiatimes.com/city/chennai/women-saved-888-a-month-through-free-bus-rides/articleshow/121146626.cms",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "மகளிர் விடியல் பயணம் திட்டம்",
+   "benefit": "ஏலம் பயணம் இலவசம்; ~682 கோடி பயணங்கள்; மாதம் ₹888 சேமிப்பு சராசரி.",
+   "eligibility": "மகளிர், மாற்றுத்திறனாளி, பாலின மாற்று அடையாளவர்கள் TNSTC அரசு பேருந்துகளில் பயணிக்கிறார்கள்.",
+   "how_to_apply": "அரசு பேருந்தில் ஏறி ஐடி காட்டவும்; செல்லுபடியாகும் கடவுச்சீட்டு தேவையில்லை.",
+   "department": "போக்குவரத்து துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

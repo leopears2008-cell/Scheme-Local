@@ -1,0 +1,48 @@
+# Render blueprint: FastAPI backend. Set secret values in the Render dashboard, never in this file.
+services:
+  - type: web
+    name: myschemeguide-api
+    runtime: python
+    rootDir: backend          # Render reads this blueprint from the repo root; the service builds from backend/
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT --proxy-headers --forwarded-allow-ips="*"
+    healthCheckPath: /health
+    envVars:
+      - key: ENV
+        value: production
+      - key: TRUST_PROXY
+        value: "true"
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: CORS_ORIGINS
+        sync: false            # e.g. https://myschemeguide.vercel.app
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false            # secret; server only
+      - key: SUPABASE_JWT_SECRET
+        sync: false            # only if your project uses the legacy HS256 secret
+      - key: GEMINI_API_KEY
+        sync: false            # secret; server only
+      - key: SUPER_ADMIN_PHONES
+        sync: false            # E.164, comma separated; bootstrap only
+      - key: GUEST_ENABLED
+        value: "true"          # guests: no OTP, no password, limited to schemes, eligibility and chat
+      - key: GUEST_TOKEN_SECRET
+        sync: false            # REQUIRED when GUEST_ENABLED=true in production: a long random value (openssl rand -hex 32)
+      - key: GUEST_ASK_PER_10MIN
+        value: "10"
+      - key: GUEST_ASK_PER_DAY
+        value: "40"
+      - key: GUEST_SESSIONS_PER_IP_PER_HOUR
+        value: "5"
+      - key: DEMO_AUTH_ENABLED
+        value: "false"         # set "true" ONLY for a judging session; then list demo emails below
+      - key: DEMO_AUTH_EMAILS
+        sync: false            # comma-separated judge emails, e.g. judge1@example.com,judge2@example.com
+      - key: ALLOW_JSON_FALLBACK
+        value: "false"         # "true" only if the Supabase table is not seeded yet (serves bundled JSON, logs a warning)
+      - key: ALLOWED_SOURCE_DOMAINS
+        sync: false            # e.g. pmkisan.gov.in,tn.gov.in

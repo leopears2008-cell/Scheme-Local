@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_144",
+ "name": "Tamil Nadu Agriculture Labourers Welfare Scheme – Section 1",
+ "name_local": {
+  "ta": "தமிழ்நாடு விவசாயத் தொழிலாளர் நலத்திட்டம் – பிரிவு 1"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Benefits include pension, accidental relief, and maternity assistance.",
+ "eligibility_rules": [
+  "Registered agricultural labourers under TN welfare scheme 2006."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through VAO or Taluk Office with scheme registration number.",
+ "source_url": "https://www.stationeryprinting.tn.gov.in/extraordinary/2024/342_Ex_II_1_2024.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "தமிழ்நாடு விவசாயத் தொழிலாளர் நலத்திட்டம் – பிரிவு 1",
+   "benefit": "ஓய்வூதியம், விபத்து நிவாரணம் மற்றும் மகப்பேறு உதவிகள் உள்ளிட்ட நலன்கள்.",
+   "eligibility": "2006 நலத்திட்டத்தில் பதிவு செய்யப்பட்ட விவசாயத் தொழிலாளர்கள்.",
+   "how_to_apply": "திட்ட பதிவு எண் கொண்டு கிராம நிர்வாக அலுவலர் அல்லது தாலுகா அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

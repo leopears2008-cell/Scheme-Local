@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_189",
+ "name": "Insurance Scheme for Primitive Tribal Groups (Janasree Bima Yojana)",
+ "name_local": {
+  "ta": "மூல பழங்குடியினருக்கான காப்பீட்டுத் திட்டம் (ஜனஸ்ரீ பீமா யோஜனா)"
+ },
+ "category": "finance_insurance",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Life insurance cover for head of family and accidental death compensation.",
+ "eligibility_rules": [
+  "Primitive tribal group families registered with government schemes."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Enroll through local Tribal Welfare Office or Village Administrative Officer.",
+ "source_url": "https://pib.gov.in/newsite/erelcontent.aspx?relid=13484",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 60,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "மூல பழங்குடியினருக்கான காப்பீட்டுத் திட்டம் (ஜனஸ்ரீ பீமா யோஜனா)",
+   "benefit": "முக்கிய குடும்ப உறுப்பினருக்கு உயிர் காப்பீடு மற்றும் விபத்து மரண நிவாரணம்.",
+   "eligibility": "அரசு திட்டங்களில் பதிவு செய்யப்பட்ட பழங்குடியினர் குடும்பங்கள்.",
+   "how_to_apply": "வட்ட பழங்குடியினர் நல அலுவலகம் அல்லது VAO மூலமாக பதிவு செய்யலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

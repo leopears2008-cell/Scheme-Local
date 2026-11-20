@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_212",
+ "name": "Free Computer Training Course for Women and Youth",
+ "name_local": {
+  "ta": "பெண்கள் மற்றும் இளைஞர்களுக்கான இலவசக் கணினி பயிற்சி"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu Corporation for Development of Women",
+ "benefit": "Free certificate course in basic computer applications.",
+ "eligibility_rules": [
+  "Women and youth (18–35) from BPL or SC/ST/MBC communities."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Enroll through local training centre or Women Development Office.",
+ "source_url": "https://tncdw.org/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 35,
+  "maxIncome": 120000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பெண்கள் மற்றும் இளைஞர்களுக்கான இலவசக் கணினி பயிற்சி",
+   "benefit": "அடிப்படை கணினி பயன்பாடுகளில் இலவச சான்றிதழ் பயிற்சி வழங்கப்படும்.",
+   "eligibility": "வறுமை கோட்டிற்குட்பட்ட அல்லது SC/ST/MBC சமூகத்தை சேர்ந்த 18–35 வயதுடைய பெண்கள் மற்றும் இளைஞர்கள்.",
+   "how_to_apply": "உள்ளூர் பயிற்சி மையம் அல்லது மகளிர் மேம்பாட்டு அலுவலகத்தில் பதிவு செய்யலாம்.",
+   "department": "தமிழ்நாடு மகளிர் மேம்பாட்டுக் கழகம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

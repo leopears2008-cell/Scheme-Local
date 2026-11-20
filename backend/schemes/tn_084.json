@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_084",
+ "name": "Chief Minister’s Award – Sports School Hostel",
+ "name_local": {
+  "ta": "முதல்வரின் விருது – விளையாட்டு பள்ளி விடுதி மாணவர்கள்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Youth Welfare and Sports Development Department",
+ "benefit": "Annual cash incentive and recognition from Chief Minister’s fund.",
+ "eligibility_rules": [
+  "Outstanding school athletes in residential sports schools of Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Awarded directly based on performance; no application needed.",
+ "source_url": "https://www.sdat.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 12,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "முதல்வரின் விருது – விளையாட்டு பள்ளி விடுதி மாணவர்கள்",
+   "benefit": "முதல்வரின் நிதியிலிருந்து வருடாந்திர பண ஊக்கம் மற்றும் அங்கீகாரம்.",
+   "eligibility": "தமிழ்நாட்டில் உள்ள விளையாட்டு பள்ளி விடுதிகளில் கல்வி பயிலும் சிறந்த விளையாட்டு மாணவர்கள்.",
+   "how_to_apply": "செயல்திறன் அடிப்படையில் நேரடியாக வழங்கப்படும்; தனி விண்ணப்பம் தேவையில்லை.",
+   "department": "இளைஞர் நலன் மற்றும் விளையாட்டு மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

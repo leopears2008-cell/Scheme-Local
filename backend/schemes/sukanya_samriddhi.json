@@ -1,0 +1,99 @@
+{
+ "scheme_id": "sukanya_samriddhi",
+ "name": "Sukanya Samriddhi Yojana (SSY) - Girl Child Savings Account",
+ "category": "social_welfare",
+ "level": "central",
+ "benefit": "Government-backed savings account for a girl child under the Beti Bachao Beti Padhao initiative. Interest rate 8.2% per annum compounded annually (current rate as of July-Sept 2026; reviewed quarterly by the government - the highest among small savings schemes). Deposits: minimum Rs 250 and maximum Rs 1.5 lakh per financial year, for 15 years from account opening; the account matures 21 years after opening. Fully tax-free (EEE): deposits qualify for Section 80C deduction, and interest plus maturity amount are income-tax free. Partial withdrawal up to 50% of balance allowed for the girl's higher education after she turns 18 (or passes class 10); premature closure permitted on her marriage after age 18. Account is transferable across any post office or authorized bank in India. Illustration: Rs 1.5 lakh/year for 15 years grows to roughly Rs 63-65 lakh at maturity at the current rate.",
+ "eligibility_rules": [
+  "Account can be opened in the name of a girl child any time before she turns 10 years old",
+  "Only a parent or court-appointed legal guardian can open and operate the account (until the girl turns 18); grandparents cannot open it unless they are the legal guardian",
+  "The girl child must be a resident Indian at account opening",
+  "Only ONE account per girl child",
+  "Maximum two accounts per family (i.e. for two daughters); exception: twins/triplets allow a third account with birth certificates as proof",
+  "Account can be opened at any post office or authorized bank branch with a minimum deposit of Rs 250"
+ ],
+ "exclusions": [
+  "Girls aged 10 or above at the time of opening are not eligible",
+  "Boys are not eligible - the scheme is exclusively for girl children",
+  "A third account in a family is not allowed (except for twins/triplets)",
+  "NRI families cannot open the account; if the girl/family becomes non-resident after opening, interest stops accruing from that date and the account must be closed",
+  "Depositing more than Rs 1.5 lakh in a financial year earns no interest on the excess",
+  "If the minimum Rs 250 yearly deposit is missed, the account becomes 'defaulted' (revivable with a Rs 50 penalty per year)"
+ ],
+ "documents_required": [
+  "Birth certificate of the girl child",
+  "Identity proof of the parent/guardian (Aadhaar / PAN)",
+  "Address proof of the parent/guardian",
+  "Photographs",
+  "Account opening form (Form-1) at the post office or bank"
+ ],
+ "how_to_apply": "Visit any post office or authorized bank branch (SBI, HDFC, ICICI etc.), fill Form-1 with the girl's birth certificate and guardian's KYC documents, and make the first deposit (Rs 250 to Rs 1.5 lakh) by cash, cheque or DD. A passbook is issued. Some banks (e.g. HDFC, Axis, IPPB) allow online opening for existing customers; subsequent deposits can usually be made via net banking or the India Post app.",
+ "source_url": "https://www.nsiindia.gov.in/",
+ "source_document": "National Savings Institute - Sukanya Samriddhi Account Scheme Rules (2014/2016/2019); Ministry of Finance quarterly interest rate notifications",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "name_local": {
+  "hi": "सुकन्या समृद्धि योजना"
+ },
+ "department": "Ministry of Finance",
+ "benefit_type": "service",
+ "estimated_benefit_inr": 50000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Girl's Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "dob",
+   "label": "Date of Birth",
+   "profileKey": "dob",
+   "type": "date",
+   "required": true
+  },
+  {
+   "id": "father_name",
+   "label": "Father's Name",
+   "profileKey": "fatherName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "address",
+   "label": "Address",
+   "profileKey": "address",
+   "type": "textarea",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "gender",
+   "op": "eq",
+   "value": "female",
+   "label": "For girl child"
+  }
+ ],
+ "rules": {
+  "gender": [
+   "female",
+   "woman",
+   "f"
+  ],
+  "maxAge": 45,
+  "hasAadhaar": true,
+  "hasBankAccount": true
+ },
+ "helpline": "1800-11-2211",
+ "emoji": "👧",
+ "points": 7,
+ "merged_from": [
+  "scheme-sahayak",
+  "FormSaathi",
+  "GovBot"
+ ]
+}

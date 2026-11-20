@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_252",
+ "name": "Sports Quota – Marks Allocation for Recruitment",
+ "name_local": {
+  "ta": "விளையாட்டு கோட்டா – ஆசிரியர் நியமன தேர்வில் கூடுதல் மதிப்பெண்கள்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education & Sports Development",
+ "benefit": "Additional 0.5 marks in oral test.",
+ "eligibility_rules": [
+  "National/state-level sports participants appearing for teacher recruitment."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit sports participation proof during teacher recruitment process.",
+ "source_url": "https://www.tnusrb.tn.gov.in/commonrecruitment-tnusrb.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21
+ },
+ "i18n": {
+  "ta": {
+   "name": "விளையாட்டு கோட்டா – ஆசிரியர் நியமன தேர்வில் கூடுதல் மதிப்பெண்கள்",
+   "benefit": "வாய்மொழித் தேர்வில் கூடுதல் 0.5 மதிப்பெண் வழங்கப்படும்.",
+   "eligibility": "மாநில/தேசிய அளவிலான விளையாட்டு போட்டியில் பங்கேற்ற ஆசிரியர் நியமன தேர்வுத் தேர்வாளர்கள்.",
+   "how_to_apply": "விளையாட்டு பங்கேற்புச் சான்றுடன் ஆசிரியர் நியமனப் பணியில் சமர்ப்பிக்க வேண்டும்.",
+   "department": "பள்ளிக்கல்வி மற்றும் விளையாட்டு மேம்பாட்டுத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

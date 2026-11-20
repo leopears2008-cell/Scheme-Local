@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_053",
+ "name": "Punnagai Scheme (Dental Health for Students)",
+ "name_local": {
+  "ta": "புன்னகை திட்டம் (மாணவர்களுக்கு பல் சுகாதாரம்)"
+ },
+ "category": "health",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Health & School Education Departments",
+ "benefit": "Provides dental check-ups and treatment awareness in schools.",
+ "eligibility_rules": [
+  "Students in grades 6–8 across TN."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Conducted at school; parents informed via school channel.",
+ "source_url": "https://nhm.tn.gov.in/en/comprehensive-school-dental-camps",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "புன்னகை திட்டம் (மாணவர்களுக்கு பல் சுகாதாரம்)",
+   "benefit": "பள்ளிகளில் பல் பரிசோதனை மற்றும் சிகிச்சை விழிப்புணர்வு.",
+   "eligibility": "மாணவர்கள்: தொடக்க வகுப்பு 6–8.",
+   "how_to_apply": "பள்ளிகளில் செயல்படுத்தப்படுகிறது; பெற்றோர்களுக்கு பள்ளி மூலம் தெரிவிக்கப்படுகிறது.",
+   "department": "ஆரோக்கியம் & பள்ளிக் கல்வித் துறைகள்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

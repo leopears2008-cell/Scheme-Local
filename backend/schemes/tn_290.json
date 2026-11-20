@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_290",
+ "name": "Special Fee & Exam Fee Reimbursement – Degree Students (Girls)",
+ "name_local": {
+  "ta": "இளங்கலை படிக்கும் மாணவியருக்கு சிறப்பு கட்டணம் மற்றும் தேர்வுக்கட்டண நிவாரணம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Special fee and exam fee exempted fully.",
+ "eligibility_rules": [
+  "SC/ST/Converted Christian girl students in govt/government-aided institutions."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the institution during admission.",
+ "source_url": "https://www.myscheme.gov.in/schemes/frs",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இளங்கலை படிக்கும் மாணவியருக்கு சிறப்பு கட்டணம் மற்றும் தேர்வுக்கட்டண நிவாரணம்",
+   "benefit": "சிறப்பு கட்டணமும் தேர்வுக்கட்டணமும் முழுமையாக மன்னிக்கப்படும்.",
+   "eligibility": "அரசு/அரசு உதவிபெறும் கல்வி நிறுவனங்களில் கல்வி பயிலும் SC/ST மாணவிகள்.",
+   "how_to_apply": "சேர்க்கை நேரத்தில் கல்வி நிறுவனத்தில் விண்ணப்பிக்க வேண்டும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

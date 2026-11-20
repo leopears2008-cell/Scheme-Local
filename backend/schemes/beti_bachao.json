@@ -1,0 +1,69 @@
+{
+ "scheme_id": "beti_bachao",
+ "name": "Beti Bachao Beti Padhao",
+ "category": "women_child",
+ "level": "central",
+ "state": "",
+ "benefit": "Awareness and direct benefit transfer for families with girl children, including education support and protection services.",
+ "eligibility_rules": [
+  "For girl child"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Birth Certificate"
+ ],
+ "how_to_apply": "Apply on the official portal: https://wcd.nic.in/bbbp-schemes",
+ "source_url": "https://wcd.nic.in/bbbp-schemes",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "बेटी बचाओ बेटी पढ़ाओ"
+ },
+ "department": "Ministry of Women & Child Development",
+ "benefit_type": "service",
+ "estimated_benefit_inr": 25000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Girl's Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "dob",
+   "label": "Date of Birth",
+   "profileKey": "dob",
+   "type": "date",
+   "required": true
+  },
+  {
+   "id": "father_name",
+   "label": "Father's Name",
+   "profileKey": "fatherName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "address",
+   "label": "Address",
+   "profileKey": "address",
+   "type": "textarea",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "gender",
+   "op": "eq",
+   "value": "female",
+   "label": "For girl child"
+  }
+ ],
+ "merged_from": [
+  "FormSaathi"
+ ]
+}

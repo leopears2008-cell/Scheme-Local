@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_296",
+ "name": "Awards to Bright Students – District Level",
+ "name_local": {
+  "ta": "திகழும் மாணவர்களுக்கு விருதுகள் – மாவட்ட அளவில்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Cash prizes and certificates of appreciation.",
+ "eligibility_rules": [
+  "Top-performing students in public examinations at district level."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Selected based on exam records; no separate application needed.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=OTEx",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 14,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "திகழும் மாணவர்களுக்கு விருதுகள் – மாவட்ட அளவில்",
+   "benefit": "பணப்பரிசும் பாராட்டு சான்றிதழும் வழங்கப்படும்.",
+   "eligibility": "மாவட்ட அளவில் பொதுத்தேர்வுகளில் சிறந்த மதிப்பெண் பெற்ற மாணவர்கள்.",
+   "how_to_apply": "தேர்வுத் தரவுகளின் அடிப்படையில் தேர்வு செய்யப்படும்; தனியாக விண்ணப்பிக்க தேவையில்லை.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

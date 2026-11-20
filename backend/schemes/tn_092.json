@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_092",
+ "name": "Link Road Facility for Tribal Villages",
+ "name_local": {
+  "ta": "பழங்குடி கிராமங்களுக்கு இணைப்புச் சாலை வசதி"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Highways and Minor Ports Department",
+ "benefit": "Construction of link roads to connect remote tribal villages to public infrastructure.",
+ "eligibility_rules": [
+  "Tribal habitations without road connectivity to nearby villages or towns."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Proposal submitted through District Collector to appropriate department.",
+ "source_url": "https://www.tnrd.tn.gov.in/schemes/st_thai.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "பழங்குடி கிராமங்களுக்கு இணைப்புச் சாலை வசதி",
+   "benefit": "தொலைவிலுள்ள பழங்குடி கிராமங்களை பொது வசதிகளுடன் இணைக்கும் சாலை அமைப்பு.",
+   "eligibility": "அருகிலுள்ள கிராமங்கள் அல்லது நகரங்களுடன் சாலை இணைப்பு இல்லாத பழங்குடி குடியிருப்புகள்.",
+   "how_to_apply": "மாவட்ட ஆட்சியர் மூலம் தொடர்புடைய துறையில் திட்டம் சமர்ப்பிக்கப்படுகிறது.",
+   "department": "வழித்தடங்கள் மற்றும் சிறிய துறைமுகங்கள் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

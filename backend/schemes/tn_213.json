@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_213",
+ "name": "Free Supply of Dhothies and Sarees Scheme",
+ "name_local": {
+  "ta": "இலவச வேஷ்டி மற்றும் சேலை வழங்கும் பொங்கல் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation, Food and Consumer Protection Department",
+ "benefit": "One set of dhothi or saree distributed annually during Pongal.",
+ "eligibility_rules": [
+  "BPL cardholders in Tamil Nadu with ration cards."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Distributed automatically through ration shops.",
+ "source_url": "https://www.myscheme.gov.in/schemes/fssdpp",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இலவச வேஷ்டி மற்றும் சேலை வழங்கும் பொங்கல் திட்டம்",
+   "benefit": "ஒவ்வொரு பொங்கல் திருநாளிலும் ஒரு வேஷ்டி அல்லது சேலை வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டில் வசிக்கும் ரேஷன் அட்டை கொண்ட வறுமை கோட்டிற்கு கீழுள்ள குடும்பங்கள்.",
+   "how_to_apply": "ரேஷன் கடைகள் மூலம் தானாகவே வழங்கப்படும்.",
+   "department": "கூட்டுறவு, உணவு மற்றும் நுகர்வோர் பாதுகாப்பு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

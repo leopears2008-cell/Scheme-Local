@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_031",
+ "name": "Kalaignar Magalir Urimai Thogai Scheme",
+ "name_local": {
+  "ta": "கலைஞர் மகளிர் உரிமைத் தொகை திட்டம்"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Women Empowerment and Child Development",
+ "benefit": "₹1,000 per month directly transferred to beneficiaries; over 1.15 crore women enrolled.",
+ "eligibility_rules": [
+  "Women heads of households residing in TN; registration through camps or online platform."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply via district camps or soon-to-be-online. Keep ID proof and registration certificate.",
+ "source_url": "https://www.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "கலைஞர் மகளிர் உரிமைத் தொகை திட்டம்",
+   "benefit": "மாதம் ரூ.1,000 பயனாளர்களின் வங்கிக் கணக்கில் நேரடியாக அனுப்பப்படுகிறது; 1.15 கோடி ++ பெண்கள் பதிவு செய்துள்ளனர்.",
+   "eligibility": "தமிழகத்தில் வசிக்கும் குடும்பத் தலைவியாக இருக்கும் பெண்கள்; முகாம் அல்லது ஆன்லைன் மூலம் பதிவு செய்திருக்க வேண்டும்.",
+   "how_to_apply": "மாவட்ட முகாம்களில் விண்ணப்பிக்கலாம்; ஆன்லைனில் விரைவில். ஐடி ஆதாரம் மற்றும் பதிவு சான்று தயாராக வைக்கவும்.",
+   "department": "பெண்கள் மேம்பாடு மற்றும் குழந்தைகள் வளர்ச்சி துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

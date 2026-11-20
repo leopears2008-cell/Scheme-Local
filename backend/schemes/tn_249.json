@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_249",
+ "name": "Complaint Redressal under Persons with Disabilities Act",
+ "name_local": {
+  "ta": "மாற்றுத்திறனாளிகள் சட்டத்தின் கீழ் புகார் தெரிவிக்கும் வசதி"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Official grievance redressal mechanism through district-level committees.",
+ "eligibility_rules": [
+  "All persons with disabilities facing rights violation or denial of benefits."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "File complaint to District Welfare Officer for the Disabled.",
+ "source_url": "https://www.scd.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "மாற்றுத்திறனாளிகள் சட்டத்தின் கீழ் புகார் தெரிவிக்கும் வசதி",
+   "benefit": "மாவட்ட மட்டத்தில் உள்ள குழுக்களின் மூலம் புகார் நிவாரணம் செய்யப்படும்.",
+   "eligibility": "உரிமை மீறல் அல்லது நலன்கள் மறுப்பு சந்திக்கும் மாற்றுத்திறனாளிகள்.",
+   "how_to_apply": "மாவட்ட மாற்றுத்திறனாளிகள் நல அலுவலரிடம் புகார் அளிக்கலாம்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

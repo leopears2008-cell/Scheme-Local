@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_266",
+ "name": "Incentive / Award for District-Level Rank Holders – Public Exams",
+ "name_local": {
+  "ta": "மாவட்ட அளவிலான தரவரிசைப் பெறும் மாணவர்களுக்கு பரிசு/ஊக்கம் – பொதுத் தேர்வுகள்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Cash awards – ₹3,000 for 12th Std, ₹1,000/₹500/₹300 for 10th Std (1st to 3rd rank).",
+ "eligibility_rules": [
+  "10th and 12th standard students who secured top ranks at district level."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Awarded automatically based on exam records.",
+ "source_url": "https://new.tnschools.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாவட்ட அளவிலான தரவரிசைப் பெறும் மாணவர்களுக்கு பரிசு/ஊக்கம் – பொதுத் தேர்வுகள்",
+   "benefit": "பரிசுத் தொகைகள் – 12ம் வகுப்பு ₹3,000, 10ம் வகுப்பு 1வது ₹1,000, 2வது ₹500, 3வது ₹300.",
+   "eligibility": "மாவட்ட அளவில் முதல் நிலை பெற்ற 10 மற்றும் 12ம் வகுப்பு மாணவர்கள்.",
+   "how_to_apply": "தேர்வுத் தரவுகளின் அடிப்படையில் தானாகவே வழங்கப்படும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

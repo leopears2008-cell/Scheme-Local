@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_305",
+ "name": "Sports Persons’ Welfare Fund",
+ "name_local": {
+  "ta": "விளையாட்டு வீரர்கள் நல நிதி"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Youth Welfare and Sports Development Department",
+ "benefit": "Medical assistance or one-time financial relief.",
+ "eligibility_rules": [
+  "Retired sports persons or those injured during sports activities."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Sports Officer with supporting documents.",
+ "source_url": "https://yas.gov.in/sports/schemes",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "விளையாட்டு வீரர்கள் நல நிதி",
+   "benefit": "மருத்துவ நிதி உதவிகள் அல்லது ஒருமுறை நிவாரண தொகை வழங்கப்படும்.",
+   "eligibility": "ஓய்வு பெற்ற விளையாட்டு வீரர்கள் அல்லது விளையாட்டுப் போட்டிகளில் காயமடைந்தோர்.",
+   "how_to_apply": "ஆவணங்களுடன் மாவட்ட விளையாட்டு அலுவலரின் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "இளையோர் நல மற்றும் விளையாட்டு மேம்பாட்டுத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

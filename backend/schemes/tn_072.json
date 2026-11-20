@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_072",
+ "name": "Interated Child Deveglopment Services (ICDS) Scheme",
+ "name_local": {
+  "ta": "ஒற்றுமையான குழந்தை வளர்ச்சி திட்டம் (ICDS)"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Social Welfare and Nutritious Meal Programme",
+ "benefit": "Supplementary nutrition, immunization, health check-ups, pre-school education.",
+ "eligibility_rules": [
+  "Pregnant women, lactating mothers, and children under 6 years of age."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Contact the nearest Anganwadi Centre.",
+ "source_url": "https://icds.tn.gov.in/icdstn/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "maxAge": 6
+ },
+ "i18n": {
+  "ta": {
+   "name": "ஒற்றுமையான குழந்தை வளர்ச்சி திட்டம் (ICDS)",
+   "benefit": "பூரண ஊட்டச்சத்து, தடுப்பூசி, மருத்துவ பரிசோதனை மற்றும் முன்தொடர் கல்வி.",
+   "eligibility": "கர்ப்பிணிகள், பாலூட்டும் தாய்மார்கள் மற்றும் 6 வயதிற்குட்பட்ட குழந்தைகள்.",
+   "how_to_apply": "அருகிலுள்ள அங்கன்வாடி மையத்தில் தொடர்பு கொள்ளவும்.",
+   "department": "சமூக நலன் மற்றும் ஊட்டச்சத்து உணவு திட்டத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_217",
+ "name": "Quality Paddy Seed Distribution",
+ "name_local": {
+  "ta": "தரமான நெல் விதைகள் விநியோகம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Agriculture Department",
+ "benefit": "Certified high-yielding paddy seeds at subsidised rates.",
+ "eligibility_rules": [
+  "Farmers cultivating paddy in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through Primary Agricultural Cooperative Societies or Agricultural offices.",
+ "source_url": "https://www.myscheme.gov.in/schemes/qpsd",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "தரமான நெல் விதைகள் விநியோகம்",
+   "benefit": "அங்கீகரிக்கப்பட்ட உயர் விளைச்சல் தரமான நெல் விதைகள் மானிய விலையில்.",
+   "eligibility": "தமிழ்நாட்டில் நெல் விளைக்கும் விவசாயிகள்.",
+   "how_to_apply": "முதன்மை வேளாண்மை கூட்டுறவு சங்கங்கள் அல்லது வேளாண்மை அலுவலகங்களில் விண்ணப்பிக்கலாம்.",
+   "department": "விவசாயத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

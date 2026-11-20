@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_186",
+ "name": "Scheme for Meritorious Students to Pursue Higher Secondary Education in Best Schools",
+ "name_local": {
+  "ta": "சிறந்த பள்ளிகளில் மேல் நிலைப் படிப்பு தொடரும் திறமையான மாணவர்களுக்கான திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Admission in reputed schools with free education and hostel facilities.",
+ "eligibility_rules": [
+  "Students who perform exceptionally in 10th public exams."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Chief Educational Office with exam mark sheet.",
+ "source_url": "https://www.myscheme.gov.in/schemes/sfmstn",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15,
+  "maxAge": 17,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "சிறந்த பள்ளிகளில் மேல் நிலைப் படிப்பு தொடரும் திறமையான மாணவர்களுக்கான திட்டம்",
+   "benefit": "புகழ்பெற்ற பள்ளிகளில் இலவச கல்வி மற்றும் விடுதி வசதியுடன் சேர்க்கை வழங்கப்படும்.",
+   "eligibility": "10ம் வகுப்புப் பொதுத் தேர்வுகளில் சிறப்பாக தேர்ச்சி பெறும் மாணவர்கள்.",
+   "how_to_apply": "மாணவர் மதிப்பெண் அட்டையுடன் முதன்மை கல்வி அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

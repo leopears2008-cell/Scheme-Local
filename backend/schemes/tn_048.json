@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_048",
+ "name": "Free LPG Connection & Stove for BPL Families",
+ "name_local": {
+  "ta": "BPL குடும்பங்களுக்கு இலவச LPG இணைப்பு மற்றும் அடுப்பு"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Civil Supplies & Consumer Protection Department",
+ "benefit": "Free LPG cylinder connection and stove; recipients pay refill cost.",
+ "eligibility_rules": [
+  "BPL families without an existing LPG connection."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply to AC/TSO office; field verification; safety check by LPG dealer.",
+ "source_url": "https://pmuy.gov.in/ujjwala2.html",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "BPL குடும்பங்களுக்கு இலவச LPG இணைப்பு மற்றும் அடுப்பு",
+   "benefit": "இலவச LPG இணைப்பு மற்றும் அடுப்பு; பிறகு ரீபில் செலவு பயனாளர்களின் பொறுப்பில்.",
+   "eligibility": "தற்போது LPG இணைப்பு இல்லாத BPL குடும்பங்கள்.",
+   "how_to_apply": "AC/TSO அலுவலகத்தில் விண்ணப்பியுங்கள்; தணிக்கை; பாதுகாப்பு சரிபார்ப்பு LPG டீலர் மூலம்.",
+   "department": "உடலியல் வழங்குதல்களும் நுகர்பவர் பாதுகாப்புத் துறையும்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

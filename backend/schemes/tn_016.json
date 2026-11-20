@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_016",
+ "name": "Free Bus Pass for Students",
+ "name_local": {
+  "ta": "மாணவர்களுக்கு இலவச பேருந்து சீட்டு"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Transport Department",
+ "benefit": "Free bus travel in government buses.",
+ "eligibility_rules": [
+  "School and college students studying in recognized institutions."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through school/college or local transport office.",
+ "source_url": "https://tnstcmadurai.com/student-free-pass-forms/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 35
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாணவர்களுக்கு இலவச பேருந்து சீட்டு",
+   "benefit": "அரசுப் பேருந்துகளில் இலவச பயண வசதி வழங்கப்படும்.",
+   "eligibility": "அங்கீகரிக்கப்பட்ட பள்ளி மற்றும் கல்லூரிகளில் கல்வி பெறும் மாணவர்கள்.",
+   "how_to_apply": "பள்ளி/கல்லூரி அல்லது உள்ளூர் போக்குவரத்து அலுவலகம் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "போக்குவரத்து துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

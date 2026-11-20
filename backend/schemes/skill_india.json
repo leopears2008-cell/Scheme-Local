@@ -1,0 +1,69 @@
+{
+ "scheme_id": "skill_india",
+ "name": "Skill India (PMKVY)",
+ "category": "employment_skill",
+ "level": "central",
+ "state": "",
+ "benefit": "Free short-term training (150-300 hours) with certification, assessment fee, and reward of ₹8,000 on passing.",
+ "eligibility_rules": [
+  "Name is known"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Education Certificate"
+ ],
+ "how_to_apply": "Apply on the official portal: https://www.pmkvyofficial.org/",
+ "source_url": "https://www.pmkvyofficial.org/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "स्किल इंडिया (PMKVY)"
+ },
+ "department": "Ministry of Skill Development",
+ "benefit_type": "service",
+ "estimated_benefit_inr": 8000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "education",
+   "label": "Education Level",
+   "profileKey": "education",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "phone",
+   "label": "Mobile Number",
+   "profileKey": "phone",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "fullName",
+   "op": "exists",
+   "value": null,
+   "label": "Name is known"
+  }
+ ],
+ "merged_from": [
+  "FormSaathi"
+ ]
+}

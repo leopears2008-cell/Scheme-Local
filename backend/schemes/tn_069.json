@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_069",
+ "name": "Reader’s Allowance to Visually Handicapped Persons",
+ "name_local": {
+  "ta": "பார்வை குறைபாடுள்ளோருக்கு ரீடர்ஸ் அலவன்ஸ்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Monthly allowance to support hiring readers or scribes.",
+ "eligibility_rules": [
+  "Visually impaired persons pursuing higher studies or government-recognized exams."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Disabled Rehabilitation Office with required certificates.",
+ "source_url": "https://chennai.nic.in/ta/differently-abled-welfare-schemes/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 16,
+  "maxAge": 35,
+  "maxIncome": 100000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பார்வை குறைபாடுள்ளோருக்கு ரீடர்ஸ் அலவன்ஸ்",
+   "benefit": "ரீடர் அல்லது எழுத்தாளர் நியமிப்பதற்கான மாத ஆலவன்ஸ்.",
+   "eligibility": "உயர் கல்வி அல்லது அரசு அங்கீகரிக்கப்பட்ட தேர்வுகளை எழுதும் பார்வை குறைபாடுள்ள நபர்கள்.",
+   "how_to_apply": "தேவையான சான்றுகள் மூலம் மாவட்ட மாற்றுத்திறன் மறுவாழ்வு அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

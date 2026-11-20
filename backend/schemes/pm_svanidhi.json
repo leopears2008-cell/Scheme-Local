@@ -1,0 +1,74 @@
+{
+ "scheme_id": "pm_svanidhi",
+ "name": "PM SVANidhi",
+ "category": "finance_insurance",
+ "level": "central",
+ "state": "",
+ "benefit": "Working capital loan of ₹10K-₹50K for street vendors. 7% interest subsidy and ₹1,200/year cashback for digital payments.",
+ "eligibility_rules": [
+  "Street vendor"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Vending Certificate or Letter of Recommendation"
+ ],
+ "how_to_apply": "Apply on the official portal: https://pmsvanidhi.mohua.gov.in/",
+ "source_url": "https://pmsvanidhi.mohua.gov.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "पीएम स्वनिधि"
+ },
+ "department": "Ministry of Housing & Urban Affairs",
+ "benefit_type": "loan",
+ "estimated_benefit_inr": 50000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "phone",
+   "label": "Mobile Number",
+   "profileKey": "phone",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "address",
+   "label": "Vending Location",
+   "profileKey": "address",
+   "type": "textarea",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "occupation",
+   "op": "in",
+   "value": [
+    "vendor",
+    "street-vendor",
+    "hawker",
+    "shopkeeper"
+   ],
+   "label": "Street vendor"
+  }
+ ],
+ "merged_from": [
+  "FormSaathi"
+ ]
+}

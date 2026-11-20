@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_279",
+ "name": "Free Education for Adi Dravidar/Tribal Girls – Degree & PG",
+ "name_local": {
+  "ta": "அடித்தின/பழங்குடியினர் பெண்களுக்கு இலவச கல்வி – இளநிலை மற்றும் முதுநிலை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Covers admission, registration, tuition, and exam fees.",
+ "eligibility_rules": [
+  "Adi Dravidar/Tribal/Converted Christian girls in higher studies."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through educational institution with required documents.",
+ "source_url": "https://www.tnadw.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "அடித்தின/பழங்குடியினர் பெண்களுக்கு இலவச கல்வி – இளநிலை மற்றும் முதுநிலை",
+   "benefit": "சேர்க்கை, பதிவு, கல்வி மற்றும் தேர்வுக்கட்டணங்கள் முழுமையாக அரசு செலுத்தும்.",
+   "eligibility": "அடித்தின/பழங்குடியினர்/மாற்று மதம் கொண்ட பெண்கள் மேல்நிலை கல்வியில் பயிலுபவர்கள்.",
+   "how_to_apply": "தேவையான ஆவணங்களுடன் கல்வி நிறுவனத்தில் விண்ணப்பிக்க வேண்டும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

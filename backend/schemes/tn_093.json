@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_093",
+ "name": "Sathiyavani Muthu Ammaiyar Ninaivu Free Sewing Machine Scheme",
+ "name_local": {
+  "ta": "சத்தியவாணி மூத்து அம்மையார் நினைவுத் தையல் மெஷின் வழங்கும் இலவசத் திட்டம்"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare and Nutritious Meal Programme Department",
+ "benefit": "Free sewing machine to support livelihood and self-employment.",
+ "eligibility_rules": [
+  "Destitute, widowed, deserted and economically backward women aged 20–40."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Social Welfare Officer with income and ID proof.",
+ "source_url": "https://tnsocialwelfare.tn.gov.in/en/specilisationsspecial-programme-section/free-supply-of-sewing-machine-scheme",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 20,
+  "maxAge": 40,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "சத்தியவாணி மூத்து அம்மையார் நினைவுத் தையல் மெஷின் வழங்கும் இலவசத் திட்டம்",
+   "benefit": "தொழில் ஆரம்பிக்க இலவச தையல் மெஷின் வழங்கப்படும்.",
+   "eligibility": "வறிய, விதவை, கழிவிடப்பட்ட மற்றும் பொருளாதார ரீதியாக பின்னடைந்த 20–40 வயதுடைய பெண்கள்.",
+   "how_to_apply": "வருமான சான்று மற்றும் அடையாள ஆவணங்களுடன் மாவட்ட சமூக நல அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "சமூக நலன் மற்றும் ஊட்டச்சத்து உணவு திட்டத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

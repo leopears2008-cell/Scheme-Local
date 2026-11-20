@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_115",
+ "name": "Loans for Registered Medical Practitioners and Engineering Graduates",
+ "name_local": {
+  "ta": "பதிவு செய்யப்பட்ட மருத்துவர்கள் மற்றும் இன்ஜினியரிங் பட்டதாரிகளுக்கு கடனுதவி"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation Department",
+ "benefit": "Professional loan at subsidized interest rates through cooperative banks.",
+ "eligibility_rules": [
+  "Young professionals from medical and engineering backgrounds starting practice or business."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through respective district central cooperative banks.",
+ "source_url": "https://loansubsidy.in/professional-loan-scheme-for-doctors-engineers",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21,
+  "maxAge": 40
+ },
+ "i18n": {
+  "ta": {
+   "name": "பதிவு செய்யப்பட்ட மருத்துவர்கள் மற்றும் இன்ஜினியரிங் பட்டதாரிகளுக்கு கடனுதவி",
+   "benefit": "கூட்டுறவு வங்கிகளின் வாயிலாக குறைந்த வட்டியுடன் தொழில்முறை கடன்.",
+   "eligibility": "தொழில் அல்லது சேவை துவங்கும் இளம் மருத்துவர்கள் மற்றும் இன்ஜினியர்கள்.",
+   "how_to_apply": "தங்கள் மாவட்ட மைய கூட்டுறவு வங்கிகளின் வாயிலாக விண்ணப்பிக்கலாம்.",
+   "department": "கூட்டுறவுத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

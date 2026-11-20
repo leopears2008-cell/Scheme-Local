@@ -1,0 +1,40 @@
+{
+ "scheme_id": "old_age_pension",
+ "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS) - with Maharashtra Shravan Bal top-up",
+ "category": "social_welfare",
+ "level": "central",
+ "benefit": "Monthly pension for elderly persons from BPL households under the National Social Assistance Programme (NSAP): central share of Rs 200 per month for ages 60-79 and Rs 500 per month for ages 80+. States add their own contribution - in Maharashtra, IGNOAPS beneficiaries also receive the state's Shravan Bal Seva Rajya Nivruttivetan Yojana top-up, taking the combined pension to about Rs 1,500 per month. Paid directly to the beneficiary's bank account.",
+ "eligibility_rules": [
+  "Applicant must be a citizen of India",
+  "Applicant must belong to a Below Poverty Line (BPL) household as per the BPL list",
+  "Applicant must be 60 years of age or above",
+  "Applies in both rural and urban areas; beneficiaries are identified from BPL lists by Gram Panchayats (rural) and municipalities (urban)",
+  "For the Maharashtra Shravan Bal top-up, state rules on residence and income apply (destitute seniors 65+ are covered even without BPL listing under the state's own Shravan Bal Group A)"
+ ],
+ "exclusions": [
+  "Persons below 60 years of age are not eligible",
+  "Households not on the BPL list are not eligible for the central IGNOAPS pension",
+  "Applicants already receiving any other pension or financial assistance must declare it - an affidavit of not receiving other pension/assistance is required, and double-drawing is not permitted",
+  "Non-citizens are not eligible"
+ ],
+ "documents_required": [
+  "Passport-size photo",
+  "Domicile certificate",
+  "Residential proof (Voter card / electricity bill / Aadhaar card)",
+  "Age proof (birth certificate from school last attended, municipal authority, SHO, or medical board certificate)",
+  "Aadhaar number",
+  "Bank passbook",
+  "Ration card (BPL)",
+  "Affidavit attested by Judicial/Executive Magistrate stating the applicant receives no other pension or financial assistance"
+ ],
+ "how_to_apply": "Online: via the UMANG app or web.umang.gov.in - log in with mobile OTP, search 'NSAP', click 'Apply Online', fill details, choose pension payment mode, upload photo and submit. Offline: apply through the Gram Panchayat / Talathi (rural) or municipal office (urban); in Maharashtra the Sanjay Gandhi Yojana branch of the Tehsil office handles these pensions.",
+ "source_url": "https://www.myscheme.gov.in/schemes/ignoaps",
+ "source_document": "myScheme IGNOAPS page, NSAP Ministry of Rural Development; Maharashtra Shravan Bal Seva Rajya Nivruttivetan Yojana (state top-up)",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "merged_from": [
+  "scheme-sahayak"
+ ]
+}

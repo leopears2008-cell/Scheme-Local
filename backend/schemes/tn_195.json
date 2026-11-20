@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_195",
+ "name": "Provision of Burial Grounds and Access Paths",
+ "name_local": {
+  "ta": "கல்லறை மற்றும் செல்லும் பாதை வசதி"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Government allocates land and funds for burial ground and approach roads.",
+ "eligibility_rules": [
+  "Adi Dravidar/Tribal habitations lacking proper burial grounds."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Proposal via Panchayat to District Welfare Officer.",
+ "source_url": "https://www.myscheme.gov.in/schemes/bgpbg",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "கல்லறை மற்றும் செல்லும் பாதை வசதி",
+   "benefit": "அரசால் கல்லறைக்காக நிலம் மற்றும் செல்லும் பாதை அமைக்க நிதி ஒதுக்கப்படும்.",
+   "eligibility": "பதிவுசெய்யப்பட்ட அடித்தின/பழங்குடியினர் குடியிருப்புகளில் கல்லறை வசதி இல்லாத பகுதிகள்.",
+   "how_to_apply": "ஊராட்சி மூலம் மாவட்ட நல அலுவலருக்கு திட்டம் சமர்ப்பிக்க வேண்டும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

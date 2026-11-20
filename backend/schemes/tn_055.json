@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_055",
+ "name": "Warehouse Policy 2025",
+ "name_local": {
+  "ta": "களஞ்சிய கொள்கை 2025"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu Industrial Development Corporation",
+ "benefit": "Support for warehousing clusters, cold storage, integration with multi-modal logistics.",
+ "eligibility_rules": [
+  "Investors in warehousing/logistics in delta & tier‑2/3 towns."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply post-launch (by Oct 2025) via TNIDC’s logistics portal.",
+ "source_url": "https://wdra.gov.in/web/wdra/rules",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "களஞ்சிய கொள்கை 2025",
+   "benefit": "குளிர் சேமிப்பு, பல்வேறு போக்குவரத்து విడைகள் சேர்க்கை வழங்கபடுதல்.",
+   "eligibility": "சரக்கு களஞ்சிய/அளவீட்டு முதலீட்டாளர்கள்.",
+   "how_to_apply": "TNIDC-ல் வரும் களஞ்சிய கொள்கை இணையதளத்தில் விண்ணப்பிக்கவும் (அக்டோபர் 2025).",
+   "department": "தமிழ்நாடு தொழிற்பழையாக்க கழகம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

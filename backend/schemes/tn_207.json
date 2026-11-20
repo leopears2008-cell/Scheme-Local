@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_207",
+ "name": "Training in Basket Making and Tailoring for Women",
+ "name_local": {
+  "ta": "பெண்களுக்கான கூடை நெசவுத் தொழில் மற்றும் தையல் பயிற்சி"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "Free vocational training with stipend and certificate.",
+ "eligibility_rules": [
+  "Women belonging to BPL families or SHG members."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through local Women Development Corporation office.",
+ "source_url": "",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 45,
+  "maxIncome": 120000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பெண்களுக்கான கூடை நெசவுத் தொழில் மற்றும் தையல் பயிற்சி",
+   "benefit": "இலவச தொழில் பயிற்சி, மாத இதழ் உதவித்தொகை மற்றும் பயிற்சி சான்றிதழ் வழங்கப்படும்.",
+   "eligibility": "வறுமை கோட்டிற்குக் கீழ் உள்ள குடும்பங்களைச் சேர்ந்த பெண்கள் அல்லது சுய உதவிக் குழு உறுப்பினர்கள்.",
+   "how_to_apply": "மாவட்ட மகளிர் மேம்பாட்டு அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

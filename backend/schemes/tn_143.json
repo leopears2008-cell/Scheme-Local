@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_143",
+ "name": "Individual Term Loan Scheme",
+ "name_local": {
+  "ta": "தனிநபர் கால அவகாச கடன் திட்டம்"
+ },
+ "category": "finance_insurance",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu Backward Classes Economic Development Corporation (TABCEDCO)",
+ "benefit": "Subsidised term loan up to ₹1 lakh for starting self-employment ventures.",
+ "eligibility_rules": [
+  "Backward Class / Most Backward Class / Denotified Communities with business plan."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through TABCEDCO district office with project and ID proof.",
+ "source_url": "https://tamco.tn.gov.in/individual.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21,
+  "maxAge": 50,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "தனிநபர் கால அவகாச கடன் திட்டம்",
+   "benefit": "தனிநபர் தொழில் தொடங்க ₹1 லட்சம் வரை மானிய கடன் வழங்கப்படும்.",
+   "eligibility": "பின்தங்கியோர் / மிகவும் பின்தங்கியோர் / நீக்கப்பட்ட சமூகத்தை சேர்ந்த தொழில் முனைவோர்.",
+   "how_to_apply": "திட்ட அறிக்கையும் அடையாள ஆவணங்களுடன் TABCEDCO மாவட்ட அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "தமிழ்நாடு பின்தங்கியோர் பொருளாதார மேம்பாட்டு கழகம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

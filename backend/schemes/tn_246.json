@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_246",
+ "name": "Provision of Pathways to Burial Grounds",
+ "name_local": {
+  "ta": "கல்லறை இடங்களுக்கு செல்லும் பாதை அமைக்கும் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Road/pathway construction funded by government.",
+ "eligibility_rules": [
+  "SC/ST habitations without access roads to burial grounds."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Proposal submitted by local Panchayat to Welfare Department.",
+ "source_url": "https://www.myscheme.gov.in/schemes/bgpbg",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "கல்லறை இடங்களுக்கு செல்லும் பாதை அமைக்கும் திட்டம்",
+   "benefit": "அரசு செலவில் கல்லறைக்குச் செல்லும் பாதை அமைக்கப்படும்.",
+   "eligibility": "அடித்தின/பழங்குடியினர் பகுதிகளில் கல்லறைக்கு செல்லும் பாதை இல்லாத பகுதிகள்.",
+   "how_to_apply": "ஊராட்சி மூலம் நலத்துறைக்கு திட்டம் சமர்ப்பிக்கப்படும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

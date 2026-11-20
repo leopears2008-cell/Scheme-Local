@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_140",
+ "name": "Scholarship – Free Education up to 12th Standard",
+ "name_local": {
+  "ta": "12ம் வகுப்பு வரை இலவச கல்விக்கான உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Free tuition up to Class 12. Fees reimbursed to institutions by the government.",
+ "eligibility_rules": [
+  "SC/ST students in Government or Government-aided schools."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Provided automatically via schools, based on caste and income documents.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTEzMA==",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 6,
+  "maxAge": 18,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "12ம் வகுப்பு வரை இலவச கல்விக்கான உதவித்தொகை",
+   "benefit": "12ம் வகுப்பு வரை கட்டணம் செலுத்தத் தேவையில்லை. அரசால் கல்வி கட்டணம் நிபந்தனையுடன் வழங்கப்படும்.",
+   "eligibility": "அரசு மற்றும் அரசு உதவி பெறும் பள்ளிகளில் கல்வி பயிலும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "சாதி மற்றும் வருமான ஆவணங்களை அடிப்படையாகக் கொண்டு பள்ளிகள் மூலம் வழங்கப்படும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

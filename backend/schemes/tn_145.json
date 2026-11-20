@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_145",
+ "name": "Hill Area Development Programme",
+ "name_local": {
+  "ta": "மலைப்பகுதி மேம்பாட்டு திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Planning and Development Department",
+ "benefit": "Infrastructure, agriculture support, drinking water and tribal welfare schemes.",
+ "eligibility_rules": [
+  "Residents of hilly and tribal-dominated districts like Nilgiris, Dindigul, etc."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Implemented via District Collector and line departments automatically.",
+ "source_url": "http://164.100.161.239/plans/planrel/fiveyr/6th/6planch25.html",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "மலைப்பகுதி மேம்பாட்டு திட்டம்",
+   "benefit": "அடித்தள வசதி, விவசாய உதவி, குடிநீர் மற்றும் பழங்குடியினர் நலத்திட்டங்கள் வழங்கப்படும்.",
+   "eligibility": "நீலகிரி, திண்டுக்கல் போன்ற மலைப்பகுதி மற்றும் பழங்குடி அதிகமான மாவட்டங்களின் குடிமக்கள்.",
+   "how_to_apply": "மாவட்ட ஆட்சியர் மற்றும் சம்பந்தப்பட்ட துறைகள் மூலம் தானாகவே செயல்படுத்தப்படுகிறது.",
+   "department": "திட்டமிடல் மற்றும் மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

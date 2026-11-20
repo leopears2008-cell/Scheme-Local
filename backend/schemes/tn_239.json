@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_239",
+ "name": "Jewel Loan through Cooperative Banks",
+ "name_local": {
+  "ta": "கூட்டுறவுச் சங்கங்கள் மூலமாக நகைக்கடன்"
+ },
+ "category": "finance_insurance",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation Department",
+ "benefit": "Low-interest or interest-free gold loans through co-operative banks.",
+ "eligibility_rules": [
+  "Small and marginal farmers, SHG women, and low-income families."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at nearby District Central Cooperative Bank branch.",
+ "source_url": "https://www.myscheme.gov.in/schemes/dccbfjl",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 120000
+ },
+ "i18n": {
+  "ta": {
+   "name": "கூட்டுறவுச் சங்கங்கள் மூலமாக நகைக்கடன்",
+   "benefit": "கூட்டுறவு வங்கிகள் மூலம் குறைந்த வட்டியுடன் அல்லது வட்டி இல்லாத நகைக்கடன்.",
+   "eligibility": "சிறு மற்றும் எல்லை விவசாயிகள், சுயஉதவிக் குழு பெண்கள் மற்றும் குறைந்த வருமானம் உள்ளவர்கள்.",
+   "how_to_apply": "அருகிலுள்ள மாவட்ட மைய கூட்டுறவு வங்கி கிளையில் விண்ணப்பிக்கவும்.",
+   "department": "கூட்டுறவுத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

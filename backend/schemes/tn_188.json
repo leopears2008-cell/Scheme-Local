@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_188",
+ "name": "Early Intervention Centre for Infant and Young Children with Hearing Impairment",
+ "name_local": {
+  "ta": "குழந்தைகளுக்கான செவிவழி குறைபாடுகளை சீர்செய்யும் முன்னெச்சரிக்கை மையம்"
+ },
+ "category": "health",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Free early intervention therapy, audiology support, and parent counseling.",
+ "eligibility_rules": [
+  "Infants and children under 6 years with diagnosed hearing impairment."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Approach nearest Early Intervention Centre under District Welfare Office.",
+ "source_url": "https://scd.tn.gov.in/earlyinvencntr.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 0,
+  "maxAge": 6
+ },
+ "i18n": {
+  "ta": {
+   "name": "குழந்தைகளுக்கான செவிவழி குறைபாடுகளை சீர்செய்யும் முன்னெச்சரிக்கை மையம்",
+   "benefit": "இலவச சிகிச்சை, செவிச் சோதனை, பெற்றோர் ஆலோசனை உள்ளிட்ட சேவைகள் வழங்கப்படும்.",
+   "eligibility": "செவிவழி குறைபாடுள்ள 6 வயதிற்குட்பட்ட குழந்தைகள்.",
+   "how_to_apply": "மாவட்ட நல அலுவலகத்தின் கீழ் இயங்கும் முன்னெச்சரிக்கை மையத்தில் தொடர்புகொள்ளவும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

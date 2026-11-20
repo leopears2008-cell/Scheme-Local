@@ -1,0 +1,103 @@
+{
+ "scheme_id": "ration_card_nfsa",
+ "name": "Ration Card (NFSA)",
+ "category": "food",
+ "level": "central",
+ "state": "",
+ "benefit": "Subsidised food grains under the National Food Security Act. Wheat at ₹2/kg, rice at ₹3/kg for priority households.",
+ "eligibility_rules": [
+  "Annual income ≤ ₹3,00,000",
+  "State is known"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Address Proof",
+  "Income Certificate"
+ ],
+ "how_to_apply": "Apply on the official portal: https://nfsa.gov.in/",
+ "source_url": "https://nfsa.gov.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "राशन कार्ड (NFSA)"
+ },
+ "department": "Department of Food & Public Distribution",
+ "benefit_type": "ration",
+ "estimated_benefit_inr": 12000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "father_name",
+   "label": "Father's Name",
+   "profileKey": "fatherName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "dob",
+   "label": "Date of Birth",
+   "profileKey": "dob",
+   "type": "date",
+   "required": true
+  },
+  {
+   "id": "address",
+   "label": "Address",
+   "profileKey": "address",
+   "type": "textarea",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "income",
+   "label": "Annual Income",
+   "profileKey": "annualIncome",
+   "type": "number",
+   "required": true
+  },
+  {
+   "id": "ration_type",
+   "label": "Ration Card Type",
+   "profileKey": "rationCardType",
+   "type": "select",
+   "required": true,
+   "options": [
+    "APL",
+    "BPL",
+    "AAY"
+   ]
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "annualIncome",
+   "op": "lte",
+   "value": 300000,
+   "label": "Annual income ≤ ₹3,00,000"
+  },
+  {
+   "field": "state",
+   "op": "exists",
+   "value": null,
+   "label": "State is known"
+  }
+ ],
+ "merged_from": [
+  "FormSaathi"
+ ]
+}

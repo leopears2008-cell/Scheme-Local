@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_242",
+ "name": "Free Supply of Uniforms for Tribal Hostel Students",
+ "name_local": {
+  "ta": "பழங்குடியினர் விடுதிகளில் உள்ள மாணவர்களுக்கு இலவச யூனிஃபாரம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Two sets of uniforms annually.",
+ "eligibility_rules": [
+  "Students staying in tribal hostels across Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Distributed directly through hostel wardens.",
+ "source_url": "https://www.tnadw.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 10,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "பழங்குடியினர் விடுதிகளில் உள்ள மாணவர்களுக்கு இலவச யூனிஃபாரம்",
+   "benefit": "ஒவ்வொரு ஆண்டும் இரண்டு ஜோடி யூனிஃபாரங்கள் வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டிலுள்ள பழங்குடியினர் விடுதிகளில் தங்கும் மாணவர்கள்.",
+   "how_to_apply": "விடுதி வார்டன் மூலமாக நேரடியாக வழங்கப்படும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

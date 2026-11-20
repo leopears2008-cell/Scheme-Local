@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_294",
+ "name": "Distribution of Free Bicycles – School Education",
+ "name_local": {
+  "ta": "இலவச மிதிவண்டி வழங்கும் திட்டம் – பள்ளிக் கல்வி துறை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "One free bicycle per eligible student.",
+ "eligibility_rules": [
+  "Students in 11th and 12th standard of govt and aided schools."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Distributed automatically via school.",
+ "source_url": "https://www.myscheme.gov.in/schemes/fbds",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 16,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "இலவச மிதிவண்டி வழங்கும் திட்டம் – பள்ளிக் கல்வி துறை",
+   "benefit": "ஒவ்வொரு தகுதியுள்ள மாணவருக்கும் ஒரு இலவச மிதிவண்டி வழங்கப்படும்.",
+   "eligibility": "அரசு மற்றும் உதவிபெறும் பள்ளிகளில் 11 மற்றும் 12ம் வகுப்பு மாணவர்கள்.",
+   "how_to_apply": "பள்ளி வழியாக தானாகவே வழங்கப்படும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

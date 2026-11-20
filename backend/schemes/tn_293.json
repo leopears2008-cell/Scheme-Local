@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_293",
+ "name": "Loan for Two-Wheelers – Cooperative Societies",
+ "name_local": {
+  "ta": "இருசக்கர வாகனக் கடன் – கூட்டுறவு சங்கங்கள் மூலம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation Department",
+ "benefit": "Loan at reduced interest rate for purchase of 2-wheelers.",
+ "eligibility_rules": [
+  "Self-employed youth or women SHG members."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at District Central Cooperative Bank.",
+ "source_url": "https://www.myscheme.gov.in/schemes/dccbfcd",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 45,
+  "maxIncome": 150000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இருசக்கர வாகனக் கடன் – கூட்டுறவு சங்கங்கள் மூலம்",
+   "benefit": "இருசக்கர வாகனங்களை வாங்க குறைந்த வட்டியில் கடன் வழங்கப்படும்.",
+   "eligibility": "சுயதொழில் செய்து வரும் இளைஞர்கள் அல்லது பெண்கள் சுய உதவிக்குழு உறுப்பினர்கள்.",
+   "how_to_apply": "மாவட்ட மைய கூட்டுறவு வங்கியில் விண்ணப்பிக்கலாம்.",
+   "department": "கூட்டுறவுத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

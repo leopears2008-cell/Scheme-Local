@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_089",
+ "name": "Scheme for Integrated Textile Parks (SITP)",
+ "name_local": {
+  "ta": "ஒருங்கிணைந்த துணிநூல் பூங்கா திட்டம்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Handlooms and Textiles Department",
+ "benefit": "Financial assistance for infrastructure development, machinery, and support services.",
+ "eligibility_rules": [
+  "Textile industries or private developers setting up textile parks under SITP guidelines."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply via the State Nodal Agency for SITP along with DPR and land details.",
+ "source_url": "https://texmin.nic.in/schemes/scheme-integrated-textile-parks-sitp",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "ஒருங்கிணைந்த துணிநூல் பூங்கா திட்டம்",
+   "benefit": "அடித்தள வசதிகள், இயந்திரங்கள் மற்றும் துணை சேவைகளுக்கான நிதி உதவி.",
+   "eligibility": "SITP வழிகாட்டுதல்களின்படி துணிநூல் பூங்காக்களை நிறுவும் நிறுவனங்கள் அல்லது தனியார் மேம்பாட்டு நிறுவனங்கள்.",
+   "how_to_apply": "மாநில SITP முடுக்கி முகாம் வழியாக திட்ட அறிக்கையுடன் விண்ணப்பிக்க வேண்டும்.",
+   "department": "கைத்தறி மற்றும் துணிநூல் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

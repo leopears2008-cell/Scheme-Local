@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_127",
+ "name": "Training in Basket Making, Tailoring, etc. for Women",
+ "name_local": {
+  "ta": "பெண்களுக்கு கூடை உருவாக்குதல், தையல் போன்ற கைத்தொழில் பயிற்சி"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare and Women Empowerment Department",
+ "benefit": "Free skill development training and tool kits after completion.",
+ "eligibility_rules": [
+  "Economically and socially disadvantaged women in rural and urban areas."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Social Welfare Office or ICDS Centres.",
+ "source_url": "https://www.tn.gov.in/rti/proactive/adtw/handbook-adtw.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 100000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பெண்களுக்கு கூடை உருவாக்குதல், தையல் போன்ற கைத்தொழில் பயிற்சி",
+   "benefit": "இலவச கைத்தொழில் பயிற்சி மற்றும் பயிற்சி முடித்த பின் கருவிகள் வழங்கப்படும்.",
+   "eligibility": "பொருளாதார மற்றும் சமூக ரீதியாக பின்தங்கிய பெண்கள் (நகரம் மற்றும் கிராமம்).",
+   "how_to_apply": "மாவட்ட சமூக நல அலுவலகம் அல்லது ICDS மையங்கள் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "சமூக நல மற்றும் பெண்கள் மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

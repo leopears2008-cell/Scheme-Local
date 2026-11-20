@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_243",
+ "name": "Grant-cum-Loan Scheme for Small and Medium Farmers",
+ "name_local": {
+  "ta": "சிறு மற்றும் நடுத்தர விவசாயிகளுக்கான மானியம் மற்றும் கடன் திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Agriculture Department",
+ "benefit": "Partial grant and low-interest loan for agricultural improvements.",
+ "eligibility_rules": [
+  "Small and medium farmers with landholding less than 5 acres."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Primary Agricultural Cooperative Banks.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTE5Nw==",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "சிறு மற்றும் நடுத்தர விவசாயிகளுக்கான மானியம் மற்றும் கடன் திட்டம்",
+   "benefit": "விவசாய மேம்பாட்டிற்கான பகுதி மானியம் மற்றும் குறைந்த வட்டி கடன்.",
+   "eligibility": "5 ஏக்கருக்கு குறைவான நிலம் வைத்திருக்கும் சிறு மற்றும் நடுத்தர விவசாயிகள்.",
+   "how_to_apply": "முதன்மை வேளாண்மை கூட்டுறவு வங்கிகள் வழியாக விண்ணப்பிக்கவும்.",
+   "department": "விவசாயத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

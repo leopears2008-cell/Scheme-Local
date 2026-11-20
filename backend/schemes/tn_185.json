@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_185",
+ "name": "Higher Secondary Scholarship for Meritorious Students",
+ "name_local": {
+  "ta": "திறமையான மாணவர்களுக்கு மேல்நிலைப் பள்ளி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Monthly scholarship during 11th and 12th standard education.",
+ "eligibility_rules": [
+  "Students who excel in 10th standard board exams."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through school headmaster with mark sheet.",
+ "source_url": "https://www.myscheme.gov.in/schemes/sfmstn",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15,
+  "maxAge": 18,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "திறமையான மாணவர்களுக்கு மேல்நிலைப் பள்ளி உதவித்தொகை",
+   "benefit": "11 மற்றும் 12ம் வகுப்பில் பயிலும் போது மாதாந்திர உதவித்தொகை வழங்கப்படும்.",
+   "eligibility": "10ம் வகுப்பில் சிறந்த மதிப்பெண் பெற்ற மாணவர்கள்.",
+   "how_to_apply": "மதிப்பெண் அட்டையுடன் பள்ளி தலைமையாசிரியர் மூலமாக விண்ணப்பிக்கவும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

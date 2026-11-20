@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_139",
+ "name": "Pulses Production Technology – Training of Farmers",
+ "name_local": {
+  "ta": "பருப்பு உற்பத்தி தொழில்நுட்ப பயிற்சி விவசாயிகளுக்கு"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Agriculture Department",
+ "benefit": "Free training programs on high-yielding techniques, pest control and marketing.",
+ "eligibility_rules": [
+  "Farmers engaged in pulses cultivation across Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Approach block-level Agricultural Officer or Krishi Vigyan Kendra (KVK).",
+ "source_url": "https://www.myscheme.gov.in/schemes/tfppt",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "பருப்பு உற்பத்தி தொழில்நுட்ப பயிற்சி விவசாயிகளுக்கு",
+   "benefit": "உயர் விளைச்சல், பூச்சி கட்டுப்பாடு மற்றும் சந்தைப்படுத்தல் தொடர்பான இலவச பயிற்சி.",
+   "eligibility": "தமிழ்நாட்டில் பருப்பு வகை பயிர்கள் பயிரிடும் விவசாயிகள்.",
+   "how_to_apply": "வட்ட விவசாய அலுவலர் அல்லது கிருஷி விக்யான் கேந்திரா (KVK) மூலம் அணுகவும்.",
+   "department": "விவசாயத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

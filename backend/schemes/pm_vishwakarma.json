@@ -1,0 +1,89 @@
+{
+ "scheme_id": "pm_vishwakarma",
+ "name": "PM Vishwakarma Yojana",
+ "category": "employment_skill",
+ "level": "central",
+ "state": "",
+ "benefit": "Training, toolkit, and loan up to ₹3 lakh at 5% for traditional artisans and craftspeople in 18 trades.",
+ "eligibility_rules": [
+  "Traditional artisan/craftsperson"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Bank Passbook",
+  "Trade Proof"
+ ],
+ "how_to_apply": "Apply on the official portal: https://pmvishwakarma.gov.in/",
+ "source_url": "https://pmvishwakarma.gov.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "पीएम विश्वकर्मा योजना"
+ },
+ "department": "Ministry of MSME",
+ "benefit_type": "subsidy",
+ "estimated_benefit_inr": 300000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "occupation",
+   "label": "Trade/Craft",
+   "profileKey": "occupation",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "occupation",
+   "op": "in",
+   "value": [
+    "artisan",
+    "carpenter",
+    "blacksmith",
+    "goldsmith",
+    "potter",
+    "weaver",
+    "sculptor",
+    "cobbler",
+    "tailor",
+    "mason",
+    "basket-maker",
+    "toymaker",
+    "barber",
+    "garland-maker",
+    "washerman",
+    "fishnet-maker",
+    "locksmith",
+    "armourer"
+   ],
+   "label": "Traditional artisan/craftsperson"
+  }
+ ],
+ "merged_from": [
+  "FormSaathi"
+ ]
+}

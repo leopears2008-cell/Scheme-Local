@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_316",
+ "name": "Kalaignar Innovation Fellowship",
+ "name_local": {
+  "ta": "கலைஞர் கண்டுபிடிப்பு புலமைத் தொகை"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu State Council for Science and Technology",
+ "benefit": "Monthly stipend, mentorship, patent support.",
+ "eligibility_rules": [
+  "Rural inventors and student innovators with a working prototype."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit project via TNSTC innovation portal.",
+ "source_url": "https://www.myscheme.gov.in/schemes/aktinf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 45,
+  "maxIncome": 600000
+ },
+ "i18n": {
+  "ta": {
+   "name": "கலைஞர் கண்டுபிடிப்பு புலமைத் தொகை",
+   "benefit": "மாதாந்திர தொகை, வழிகாட்டுதல் மற்றும் காப்புரிமை பதிவு உதவி.",
+   "eligibility": "வேலை செய்யக்கூடிய மாதிரியுடன் உள்ள கிராமப்புற கண்டுபிடிப்பாளர்கள் மற்றும் மாணவர்கள்.",
+   "how_to_apply": "TNSTC கண்டுபிடிப்பு இணையதளம் வழியாக திட்டத்தை சமர்ப்பிக்கவும்.",
+   "department": "தமிழ்நாடு அறிவியல் மற்றும் தொழில்நுட்பக் கழகம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_174",
+ "name": "Health Insurance Scheme for Weavers",
+ "name_local": {
+  "ta": "நெசவாளர்களுக்கான சுகாதார காப்பீட்டுத் திட்டம்"
+ },
+ "category": "health",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Handlooms and Textiles Department",
+ "benefit": "Coverage up to ₹1 lakh per family per year for hospitalization and treatment.",
+ "eligibility_rules": [
+  "Registered handloom weavers and their families."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Weaver's Cooperative Society or Insurance Help Desk.",
+ "source_url": "https://www.tnhandlooms.tn.gov.in/english/schemeshandloom.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "நெசவாளர்களுக்கான சுகாதார காப்பீட்டுத் திட்டம்",
+   "benefit": "மருத்துவ சிகிச்சைக்காக குடும்பத்திற்காக ஆண்டுக்கு ₹1 லட்சம் வரை காப்பீட்டு பாதுகாப்பு.",
+   "eligibility": "பதிவு செய்யப்பட்ட கைத்தறி நெசவாளர்கள் மற்றும் அவர்களது குடும்பத்தினர்.",
+   "how_to_apply": "நெசவாளர் கூட்டுறவுகள் அல்லது காப்பீட்டு உதவிக்குழு வழியாக விண்ணப்பிக்கலாம்.",
+   "department": "கைத்தறி மற்றும் துணிநூல் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

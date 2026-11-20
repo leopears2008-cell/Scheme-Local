@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_036",
+ "name": "Uzhavar Santhai – Farmers’ Market Scheme",
+ "name_local": {
+  "ta": "உழவர் சந்தை – விவசாயிகள் சந்தைத் திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Agricultural Marketing Board",
+ "benefit": "Eliminates middlemen; improves farmer income; markets regulated and price-fixed daily.",
+ "eligibility_rules": [
+  "Farmers selling directly to consumers via state-authorised weekly markets."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Register with Agricultural Marketing Board through local Uzhavar Santhai office.",
+ "source_url": "https://en.wikipedia.org/wiki/Uzhavar_Santhai",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "உழவர் சந்தை – விவசாயிகள் சந்தைத் திட்டம்",
+   "benefit": "நிலை நடுவர்களை நீக்குகிறது; விவசாய வருமானம் உயரும்; சந்தைகள் ஒழுங்காக, தினசரி விலை நிர்ணயம்.",
+   "eligibility": "அரசுத் தணிக்கை உடைய வார சந்தைகளில் நேரடியாக விளைபொருள் விற்கும் விவசாயிகள்.",
+   "how_to_apply": "பாராளர சந்தை அலுவலகத்தில் உள்ள விவசாய சந்தைப் பலகையுடன் பதிவு செய்யவும்.",
+   "department": "விவசாய சந்தைப் பலகை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

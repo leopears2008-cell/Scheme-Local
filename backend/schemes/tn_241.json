@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_241",
+ "name": "Scholarship for NCC Cadets – High Risk Activities",
+ "name_local": {
+  "ta": "NCC கேடெட்களுக்கு உயர் அபாய செயல்பாடுகளுக்கான கல்வி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Youth Welfare and Sports Development Department",
+ "benefit": "One-time compensation based on severity.",
+ "eligibility_rules": [
+  "NCC cadets injured during high-risk training activities."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through NCC command with medical and event report.",
+ "source_url": "https://www.scribd.com/document/782318582/ywsd-e-pn-2024-25",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 14,
+  "maxAge": 21
+ },
+ "i18n": {
+  "ta": {
+   "name": "NCC கேடெட்களுக்கு உயர் அபாய செயல்பாடுகளுக்கான கல்வி உதவித்தொகை",
+   "benefit": "பாதிப்பு நிலையைப் பொருத்து ஒருமுறை நிவாரணம் வழங்கப்படும்.",
+   "eligibility": "உயர் அபாய பயிற்சி நடவடிக்கைகளில் காயம் அடையும் NCC கேடெட்கள்.",
+   "how_to_apply": "மருத்துவ மற்றும் நிகழ்வு அறிக்கையுடன் NCC அதிகாரி மூலமாக விண்ணப்பிக்கவும்.",
+   "department": "இளையோர் நலன் மற்றும் விளையாட்டு மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

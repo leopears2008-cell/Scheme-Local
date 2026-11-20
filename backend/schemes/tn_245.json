@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_245",
+ "name": "Provision of Burial Grounds for Adi Dravidar Communities",
+ "name_local": {
+  "ta": "அடித்தின சமூகங்களுக்கு கல்லறை வசதி வழங்கும் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Government allots land and constructs approach path to burial site.",
+ "eligibility_rules": [
+  "Adi Dravidar localities without access to proper cremation/burial space."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Proposal to be submitted via local panchayat.",
+ "source_url": "https://www.myscheme.gov.in/schemes/bgpbg",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "அடித்தின சமூகங்களுக்கு கல்லறை வசதி வழங்கும் திட்டம்",
+   "benefit": "அரசு நிலம் ஒதுக்கி, செல்லும் பாதை உள்பட அடக்கம் செய்யும் இடத்தை அமைக்கும்.",
+   "eligibility": "சீரான கல்லறை அல்லது அடக்கம் செய்யும் இடமில்லாத அடித்தின பகுதிகள்.",
+   "how_to_apply": "ஊராட்சி மன்றம் மூலம் திட்டம் சமர்ப்பிக்க வேண்டும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

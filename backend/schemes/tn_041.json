@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_041",
+ "name": "Old Age & Disability Social Security Pension",
+ "name_local": {
+  "ta": "மூத்தோர் மற்றும் மாற்றுத்திறனாளி பென்ஷன்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "Monthly pension payment (₹750–1,250) to eligible elderly and disabled individuals.",
+ "eligibility_rules": [
+  "Citizens aged ≥60 and/or persons with disability; family income ≤₹72,000/year."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply online via CRA portal or offline at Social Welfare office with age/disability & income proofs.",
+ "source_url": "https://www.cra.tn.gov.in/eleg_schemes.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 60,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "மூத்தோர் மற்றும் மாற்றுத்திறனாளி பென்ஷன்",
+   "benefit": "தகுதி கொண்ட மூத்தோர் மற்றும் மாற்றுத்திறனாளிகளுக்கு மாதத்தில் ₹750–1,250 பென்ஷன்.",
+   "eligibility": "60 வயது அல்லது அதற்கு மேற்பட்டோர் மற்றும்/அல்லது மாற்றுத்திறனாளிகள்; குடும்ப ஆண்டு வருமானம் ₹72,000 அல்லது அதற்கு குறைவாக.",
+   "how_to_apply": "CRA இணையதளம் மூலமாக ஆன்லைன் அல்லது சமூக நல அலுவலகத்தில் வயது/மாற்றுத்திறன் மற்றும் வருமானம் சான்றுகள் உடன் விண்ணப்பிக்கவும்.",
+   "department": "சமூக நலத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

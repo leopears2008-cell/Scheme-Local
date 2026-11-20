@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_263",
+ "name": "Post-Matric Scholarship for SC/ST Students",
+ "name_local": {
+  "ta": "SC/ST மாணவர்களுக்கு பின் மெட்ரிக் கல்வி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Reimbursement of tuition, exam and maintenance fees.",
+ "eligibility_rules": [
+  "SC/ST students studying in 11th standard up to research level."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply online via NSP portal or through institution.",
+ "source_url": "https://www.tnadw.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 16,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "SC/ST மாணவர்களுக்கு பின் மெட்ரிக் கல்வி உதவித்தொகை",
+   "benefit": "கல்விக் கட்டணம், தேர்வுக்கட்டணம் மற்றும் பராமரிப்பு செலவுகள் திருப்பிச் செலுத்தப்படும்.",
+   "eligibility": "11ம் வகுப்பு முதல் ஆராய்ச்சி படிப்பு வரை கல்வி பயிலும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "NSP இணையதளம் அல்லது கல்வி நிறுவனத்தின் வழியாக விண்ணப்பிக்கலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

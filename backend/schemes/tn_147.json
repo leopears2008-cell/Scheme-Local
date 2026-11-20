@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_147",
+ "name": "Rebate Subsidy Scheme",
+ "name_local": {
+  "ta": "விலைவாசி தள்ளுபடி மானியத் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation, Food and Consumer Protection Department",
+ "benefit": "5% to 10% discount on selected groceries and goods during festive times.",
+ "eligibility_rules": [
+  "Consumers purchasing from cooperative societies during Pongal or festival season."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "No application required. Offered automatically via registered societies.",
+ "source_url": "https://msmeonline.tn.gov.in/incentives/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "விலைவாசி தள்ளுபடி மானியத் திட்டம்",
+   "benefit": "விழாக்காலங்களில் தேர்ந்தெடுக்கப்பட்ட பொருட்களுக்கு 5% முதல் 10% வரை தள்ளுபடி.",
+   "eligibility": "பொங்கல் அல்லது விழா காலங்களில் கூட்டுறவுத் திட்டங்கள் மூலம் வாங்கும் நுகர்வோர்.",
+   "how_to_apply": "விண்ணப்பம் தேவையில்லை. பதிவு செய்யப்பட்ட கூட்டுறவுகளின் மூலம் தானாகவே வழங்கப்படும்.",
+   "department": "கூட்டுறவு, உணவு மற்றும் நுகர்வோர் பாதுகாப்பு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

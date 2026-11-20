@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_142",
+ "name": "Marriage Assistance to Normal Persons Marrying Orthopaedically Handicapped",
+ "name_local": {
+  "ta": "நிறைமையற்ற உடல் ஊனமுற்ற நபருடன் திருமணம் செய்யும் சாதாரண நபர்களுக்கான திருமண உதவி"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "One-time marriage assistance provided by the Government of Tamil Nadu.",
+ "eligibility_rules": [
+  "Either the bride or groom must be orthopaedically disabled (40% or more)."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Social Welfare Office with certificates.",
+ "source_url": "https://www.scd.tn.gov.in/marg_ass.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 40,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "நிறைமையற்ற உடல் ஊனமுற்ற நபருடன் திருமணம் செய்யும் சாதாரண நபர்களுக்கான திருமண உதவி",
+   "benefit": "தமிழ்நாடு அரசு ஒருமுறை திருமண நிதியுதவி வழங்குகிறது.",
+   "eligibility": "மணமுடிக்கும் இருவரில் ஒருவராவது 40% அல்லது அதற்கு மேற்பட்ட உடல் ஊனமுற்ற நபர் இருக்க வேண்டும்.",
+   "how_to_apply": "சான்றுகள் சமர்ப்பித்து மாவட்ட சமூக நல அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

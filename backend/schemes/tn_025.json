@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_025",
+ "name": "Chief Minister’s Breakfast Scheme",
+ "name_local": {
+  "ta": "முதல்வரின் காலை உணவு திட்டம்"
+ },
+ "category": "health",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Nutritious breakfast provided on all working days.",
+ "eligibility_rules": [
+  "Primary school children in government schools (Classes 1–5)."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Implemented automatically in selected schools.",
+ "source_url": "https://www.tnschools.gov.in",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxAge": 10
+ },
+ "i18n": {
+  "ta": {
+   "name": "முதல்வரின் காலை உணவு திட்டம்",
+   "benefit": "அனைத்து வேலை நாள்களிலும் சத்தான காலை உணவு வழங்கப்படும்.",
+   "eligibility": "அரசுப் பள்ளிகளில் படிக்கும் தொடக்க நிலை மாணவர்கள் (1ம் வகுப்பு முதல் 5ம் வகுப்பு வரை).",
+   "how_to_apply": "தேர்ந்தெடுக்கப்பட்ட பள்ளிகளில் தானாக செயல்படுத்தப்படுகிறது.",
+   "department": "பள்ளி கல்வித்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

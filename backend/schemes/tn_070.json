@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_070",
+ "name": "Distribution of Calipers and Crutches",
+ "name_local": {
+  "ta": "காலிப்பர்ஸ் மற்றும் குறட்சி வழங்கல்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Free supply of mobility aids like calipers, crutches, and walking sticks.",
+ "eligibility_rules": [
+  "Orthopedically disabled persons with medical certification."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Rehabilitation Centre or camps organized.",
+ "source_url": "https://www.scd.tn.gov.in/assistive_device.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxIncome": 100000
+ },
+ "i18n": {
+  "ta": {
+   "name": "காலிப்பர்ஸ் மற்றும் குறட்சி வழங்கல்",
+   "benefit": "நடக்கும் சாதனங்கள் – காலிப்பர்ஸ், குறட்சி, நடைக்கோல் ஆகியவை இலவசமாக வழங்கப்படும்.",
+   "eligibility": "மருத்துவ சான்றுடன் இருப்பவரான உடல் ஊனமுற்ற நபர்கள்.",
+   "how_to_apply": "மாவட்ட மறுவாழ்வு மையம் அல்லது நடக்கக்கூடிய முகாம்கள் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

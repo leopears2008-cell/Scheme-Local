@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_022",
+ "name": "Green Skills Development Program",
+ "name_local": {
+  "ta": "பசுமை தொழிற்திறன் மேம்பாட்டு திட்டம்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Skill Development & Entrepreneurship Department",
+ "benefit": "Free training in solar installation, EV servicing, waste upcycling.",
+ "eligibility_rules": [
+  "Youth aged 18–35 interested in renewable energy or environmental work."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Register on Tamil Nadu Skill Portal or District Employment Office.",
+ "source_url": "https://www.tnskill.tn.gov.in",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 35,
+  "maxIncome": 300000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பசுமை தொழிற்திறன் மேம்பாட்டு திட்டம்",
+   "benefit": "சோலார் அமைப்பு, மின்சார வாகன பராமரிப்பு, கழிவுகளை மீட்டல் ஆகியவற்றில் இலவச பயிற்சி.",
+   "eligibility": "18 முதல் 35 வயதிற்குட்பட்ட பசுமை தொழில்கள் மற்றும் புதுப்பிக்கத்தக்க ஆற்றல்களில் ஆர்வமுள்ள இளைஞர்கள்.",
+   "how_to_apply": "தமிழ்நாடு திறன் தளத்தில் அல்லது மாவட்ட வேலைவாய்ப்பு அலுவலகத்தில் பதிவு செய்யவும்.",
+   "department": "திறன் மேம்பாடு மற்றும் தொழில் முனைவோர் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

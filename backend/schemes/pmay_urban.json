@@ -1,0 +1,86 @@
+{
+ "scheme_id": "pmay_urban",
+ "name": "PM Awas Yojana (Urban)",
+ "category": "housing",
+ "level": "central",
+ "state": "",
+ "benefit": "Interest subsidy of up to ₹2.67 lakh on home loans for EWS/LIG families in urban areas.",
+ "eligibility_rules": [
+  "Annual income ≤ ₹6,00,000"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Income Certificate",
+  "Bank Passbook"
+ ],
+ "how_to_apply": "Apply on the official portal: https://pmaymis.gov.in/",
+ "source_url": "https://pmaymis.gov.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "पीएम आवास योजना (शहरी)"
+ },
+ "department": "Ministry of Housing & Urban Affairs",
+ "benefit_type": "subsidy",
+ "estimated_benefit_inr": 250000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "income",
+   "label": "Annual Income",
+   "profileKey": "annualIncome",
+   "type": "number",
+   "required": true
+  },
+  {
+   "id": "address",
+   "label": "Current Address",
+   "profileKey": "address",
+   "type": "textarea",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "annualIncome",
+   "op": "lte",
+   "value": 600000,
+   "label": "Annual income ≤ ₹6,00,000"
+  }
+ ],
+ "rules": {
+  "maxIncome": 800000,
+  "hasAadhaar": true,
+  "hasBankAccount": true
+ },
+ "helpline": "1800-11-3388",
+ "emoji": "🏢",
+ "points": 8,
+ "merged_from": [
+  "FormSaathi",
+  "GovBot"
+ ]
+}

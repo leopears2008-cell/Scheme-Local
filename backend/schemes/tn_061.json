@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_061",
+ "name": "Issue of Tools and Appliances to ITI Holders",
+ "name_local": {
+  "ta": "ஐ.டி.ஐ பட்டதாரிகளுக்கு கருவிகள் மற்றும் உபகரணங்களை வழங்கும் திட்டம்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Labour and Employment",
+ "benefit": "Provision of toolkits like sewing machines, carpentry tools, and iron boxes.",
+ "eligibility_rules": [
+  "Unemployed ITI certificate holders in trades such as tailoring, carpentry, and ironing."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Employment Exchange or District Skill Centres.",
+ "source_url": "https://ncvtmis.gov.in/pages/iti/count.aspx",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 40
+ },
+ "i18n": {
+  "ta": {
+   "name": "ஐ.டி.ஐ பட்டதாரிகளுக்கு கருவிகள் மற்றும் உபகரணங்களை வழங்கும் திட்டம்",
+   "benefit": "தையல் மெஷின், மர வேலை கருவிகள் மற்றும் கம்பளி உலர்த்தும் பெட்டிகள் வழங்கப்படும்.",
+   "eligibility": "தையல், மர வேலை, கம்பளி உலர்த்தல் போன்ற துறைகளில் ஐ.டி.ஐ பட்டம் பெற்ற வேலைவாய்ப்பு இல்லாத இளைஞர்கள்.",
+   "how_to_apply": "வேலைவாய்ப்பு அலுவலகம் அல்லது மாவட்ட திறன் மையம் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "தொழில் மற்றும் வேலைவாய்ப்பு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

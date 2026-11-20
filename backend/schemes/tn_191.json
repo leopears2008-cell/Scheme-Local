@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_191",
+ "name": "Scheme for Tribals – Housing and Land Assignment",
+ "name_local": {
+  "ta": "பழங்குடியினருக்கான வீடு மற்றும் நிலம் வழங்கும் திட்டம்"
+ },
+ "category": "housing",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Provision of free house sites and construction assistance.",
+ "eligibility_rules": [
+  "Landless tribal families in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the Revenue Department and Panchayat Union.",
+ "source_url": "https://cla.tn.gov.in/house_site_patta.html",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பழங்குடியினருக்கான வீடு மற்றும் நிலம் வழங்கும் திட்டம்",
+   "benefit": "இலவச வீட்டு மனை மற்றும் வீடமைக்கும் நிதியுதவி வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டில் நிலம் இல்லாத பழங்குடியினர் குடும்பங்கள்.",
+   "how_to_apply": "வருவாய் துறை மற்றும் ஊராட்சித் துறையின் வழியாக விண்ணப்பிக்கலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

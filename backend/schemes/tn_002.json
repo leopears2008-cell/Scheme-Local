@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_002",
+ "name": "Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS)",
+ "name_local": {
+  "ta": "முதல்வரின் விரிவான மருத்துவக் காப்பீட்டுத் திட்டம் (CMCHIS)"
+ },
+ "category": "health",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Health and Family Welfare",
+ "benefit": "Cashless coverage of up to Rs. 5 lakhs per year per family in empanelled hospitals across India.",
+ "eligibility_rules": [
+  "Families with annual income below Rs. 1.5 lakh."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at e-Sevai centers with ration card, income certificate, and ID proof.",
+ "source_url": "https://www.cmchistn.com",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 25,
+  "maxAge": 100,
+  "maxIncome": 125000
+ },
+ "i18n": {
+  "ta": {
+   "name": "முதல்வரின் விரிவான மருத்துவக் காப்பீட்டுத் திட்டம் (CMCHIS)",
+   "benefit": "இந்தியாவில் உள்ள ஒப்பந்த வைத்தியசாலைகளில், ஒவ்வொரு குடும்பத்திற்கும் ஆண்டுக்கு ரூ.5 லட்சம் வரை பணமில்லா காப்பீடு வழங்கப்படும்.",
+   "eligibility": "ஆண்டுவருமானம் ரூ.1.5 லட்சத்திற்கு குறைவாக உள்ள குடும்பங்கள்.",
+   "how_to_apply": "ரேஷன் கார்டு, வருமானச் சான்றிதழ் மற்றும் அடையாள ஆவணத்துடன் e-Sevai மையங்களில் விண்ணப்பிக்கவும்.",
+   "department": "சுகாதாரம் மற்றும் குடும்ப நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

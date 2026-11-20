@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_180",
+ "name": "Free Professional Education for SC/ST Students",
+ "name_local": {
+  "ta": "SC/ST மாணவர்களுக்கு இலவச தொழில்முறை கல்வி"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Government reimburses tuition and special fees directly to the institution.",
+ "eligibility_rules": [
+  "SC/ST students admitted to professional courses in govt/aided colleges."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through institution during admission.",
+ "source_url": "https://www.myscheme.gov.in/schemes/fesfpc",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "SC/ST மாணவர்களுக்கு இலவச தொழில்முறை கல்வி",
+   "benefit": "படிப்புக் கட்டணம் மற்றும் சிறப்புக் கட்டணங்கள் அரசு கல்வி நிறுவனத்திற்கு நேரடியாக செலுத்தும்.",
+   "eligibility": "அரசு/உதவிபெறும் தொழில்முறை கல்லூரிகளில் சேர்க்கை பெற்ற SC/ST மாணவர்கள்.",
+   "how_to_apply": "சேர்க்கை நேரத்தில் கல்வி நிறுவனத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

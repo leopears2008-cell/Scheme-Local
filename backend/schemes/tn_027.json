@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_027",
+ "name": "Wildlife Conflict Compensation Scheme",
+ "name_local": {
+  "ta": "காட்டுயிர் மோதல் இழப்பீட்டுத் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Forests and Wildlife",
+ "benefit": "Compensation for crop damage, livestock loss, or human injury.",
+ "eligibility_rules": [
+  "Farmers or residents affected by wild animal attacks."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply via local forest ranger or district wildlife office.",
+ "source_url": "https://www.forests.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "காட்டுயிர் மோதல் இழப்பீட்டுத் திட்டம்",
+   "benefit": "பயிர், மாடுபிராணி இழப்பு அல்லது மனிதருக்கு ஏற்பட்ட பாதிப்பிற்கான இழப்பீடு.",
+   "eligibility": "விலங்குகளால் பயிர்/வீடு/மக்கள் பாதிக்கப்பட்ட கிராமப்புற குடிமக்கள்.",
+   "how_to_apply": "உள்ளூர் வனக்காப்பாளர் அல்லது மாவட்ட வனவிலங்கு அலுவலகம் வழியாக விண்ணப்பிக்கவும்.",
+   "department": "காடுகள் மற்றும் காட்டுயிர் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

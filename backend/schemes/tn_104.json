@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_104",
+ "name": "Track Rent Assistance – Revenue Department",
+ "name_local": {
+  "ta": "வருவாய் துறை – தடம் வாடகை உதவி"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Partial or full reimbursement of railway track rent for movement of agricultural goods.",
+ "eligibility_rules": [
+  "Farmers or traders using railway tracks for produce movement in rural areas."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit application via Taluk Office with transport and invoice details.",
+ "source_url": "https://www.cra.tn.gov.in/errorpage.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "வருவாய் துறை – தடம் வாடகை உதவி",
+   "benefit": "விவசாய உற்பத்திகளுக்கான ரயில்வே தடம் வாடகையின் முழுமையோ அல்லது ஒரு பகுதிக்கோ நிவாரணம்.",
+   "eligibility": "கிராமப்புறங்களில் விவசாய உற்பத்திகளை ரயில்வே தடங்கள் வழியாக அனுப்பும் விவசாயிகள்/வியாபாரிகள்.",
+   "how_to_apply": "போக்குவரத்து மற்றும் பில் விவரங்களுடன் தாலுகா அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

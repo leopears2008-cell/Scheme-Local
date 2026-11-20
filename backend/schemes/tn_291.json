@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_291",
+ "name": "Destitute Widow Pension Scheme",
+ "name_local": {
+  "ta": "ஆதரவற்ற விதவைகளுக்கான ஓய்வூதியத் திட்டம்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "Monthly pension of ₹1,000.",
+ "eligibility_rules": [
+  "Widows with no income or support and no remarriage."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply via VAO with death and income certificates.",
+ "source_url": "https://www.myscheme.gov.in/schemes/dwps",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 30,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "ஆதரவற்ற விதவைகளுக்கான ஓய்வூதியத் திட்டம்",
+   "benefit": "மாதம் ₹1,000 ஓய்வூதியம் வழங்கப்படும்.",
+   "eligibility": "மீண்டும் திருமணம் செய்யாத, ஆதரவற்ற மற்றும் வருமானமற்ற விதவைகள்.",
+   "how_to_apply": "மரணச் சான்று மற்றும் வருமானச் சான்றுடன் வி.ஏ.ஓ. மூலமாக விண்ணப்பிக்கவும்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_136",
+ "name": "Degree Courses for Hearing Impaired Students",
+ "name_local": {
+  "ta": "செவிவழி குறைபாடுள்ள மாணவர்களுக்கான பட்டப் படிப்புகள்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Specialised degree-level courses in selected institutions for hearing impaired students.",
+ "eligibility_rules": [
+  "Hearing impaired candidates with a minimum of 40% disability and required academic qualifications."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the respective special education institutions or District Welfare Office.",
+ "source_url": "https://tiruvallur.nic.in/differently-abled-welfare-schemes/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17
+ },
+ "i18n": {
+  "ta": {
+   "name": "செவிவழி குறைபாடுள்ள மாணவர்களுக்கான பட்டப் படிப்புகள்",
+   "benefit": "செவிவழி குறைபாடுள்ள மாணவர்களுக்காக தேர்ந்தெடுக்கப்பட்ட நிறுவனங்களில் பட்டப் படிப்புகள் வழங்கப்படுகின்றன.",
+   "eligibility": "குறைந்தபட்சம் 40% செவிவழி குறைபாடு மற்றும் தேவையான கல்வித் தகுதிகள் உள்ளவர்கள்.",
+   "how_to_apply": "தகுந்த சிறப்பு கல்வி நிறுவனங்கள் அல்லது மாவட்ட நல அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_088",
+ "name": "Distribution of Goggles and Folding Sticks to Visually Handicapped",
+ "name_local": {
+  "ta": "பார்வை குறைபாடுள்ளோருக்காக கண்ணாடிகள் மற்றும் மடிக்கக்கூடிய நடைக்கோல்கள் வழங்கல்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Free supply of assistive devices like protective goggles and white canes.",
+ "eligibility_rules": [
+  "Visually impaired persons certified by District Medical Board."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Differently Abled Welfare Office with disability certificate.",
+ "source_url": "https://chennai.nic.in/ta/differently-abled-welfare-schemes/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 10,
+  "maxIncome": 100000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பார்வை குறைபாடுள்ளோருக்காக கண்ணாடிகள் மற்றும் மடிக்கக்கூடிய நடைக்கோல்கள் வழங்கல்",
+   "benefit": "பாதுகாப்பு கண்ணாடிகள் மற்றும் வெள்ளை நடைக்கோல் ஆகியவை இலவசமாக வழங்கப்படும்.",
+   "eligibility": "மாவட்ட மருத்துவ குழு சான்றளித்த பார்வை குறைபாடுள்ள நபர்கள்.",
+   "how_to_apply": "மாற்றுத்திறன் சான்றுடன் மாவட்ட மாற்றுத்திறனாளிகள் நல அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

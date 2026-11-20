@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_261",
+ "name": "Perarignar Anna Memorial Award",
+ "name_local": {
+  "ta": "பேரறிஞர் அண்ணா நினைவுப் பரிசுத் தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "One-time award of ₹50,000 for higher education encouragement.",
+ "eligibility_rules": [
+  "Top rankers in 12th exam from SC/ST communities."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Automatically selected based on exam results.",
+ "source_url": "https://www.myscheme.gov.in/schemes/pamatn",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxAge": 19,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பேரறிஞர் அண்ணா நினைவுப் பரிசுத் தொகை",
+   "benefit": "மேன்மட்டக் கல்விக்கான ஊக்கமாக ₹50,000 ஒரு முறை பரிசு வழங்கப்படும்.",
+   "eligibility": "12ம் வகுப்பு பொதுத்தேர்வில் மாநில தரவரிசையில் முன்னிலை வகிக்கும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "தேர்வு முடிவுகளின் அடிப்படையில் தானாகவே தேர்வு செய்யப்படும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

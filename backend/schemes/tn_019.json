@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_019",
+ "name": "Scholarships for Backward Classes",
+ "name_local": {
+  "ta": "பின்தங்கிய வகுப்புகளுக்கான கல்வி உதவித் தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "BC, MBC & Minorities Welfare Department",
+ "benefit": "Reimbursement of tuition fees, hostel charges, exam fees.",
+ "eligibility_rules": [
+  "Students from backward classes enrolled in school/college."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through school or online portals.",
+ "source_url": "https://bcmbcmw.tn.gov.in/forms/Scholarship_Fresh_application.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "பின்தங்கிய வகுப்புகளுக்கான கல்வி உதவித் தொகை",
+   "benefit": "கல்விக் கட்டணம், விடுதி கட்டணம் மற்றும் தேர்வு கட்டணம் ஆகியவை திருப்பிச் செலுத்தப்படும்.",
+   "eligibility": "பள்ளி/கல்லூரிகளில் சேர்க்கை பெற்ற பின்தங்கிய வகுப்பைச் சேர்ந்த மாணவர்கள்.",
+   "how_to_apply": "பள்ளி அல்லது ஆன்லைன் தளங்களின் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "பின்தங்கிய, மிகப்பின்தங்கிய மற்றும் சிறுபான்மையினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

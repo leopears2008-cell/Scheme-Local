@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_236",
+ "name": "Subamathi Self Help Group Scheme",
+ "name_local": {
+  "ta": "சுபமதி சுய உதவிக் குழு திட்டம்"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu Corporation for Development of Women",
+ "benefit": "Group-based loans, training, and livelihood support.",
+ "eligibility_rules": [
+  "Women belonging to Below Poverty Line (BPL) households."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply via Block Development Office or Mahalir Thittam.",
+ "source_url": "https://tncdw.org/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 120000
+ },
+ "i18n": {
+  "ta": {
+   "name": "சுபமதி சுய உதவிக் குழு திட்டம்",
+   "benefit": "குழு அடிப்படையிலான கடன், பயிற்சி மற்றும் வாழ்க்கைத் திறன் மேம்பாடு உதவிகள்.",
+   "eligibility": "வறுமை கோட்டிற்கு கீழ் உள்ள குடும்பங்களை சேர்ந்த பெண்கள்.",
+   "how_to_apply": "வட்ட அபிவிருத்தி அலுவலகம் அல்லது மகளிர் திட்டம் அலுவலகம் வழியாக விண்ணப்பிக்கவும்.",
+   "department": "தமிழ்நாடு மகளிர் மேம்பாட்டுக் கழகம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

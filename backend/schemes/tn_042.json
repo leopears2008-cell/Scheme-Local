@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_042",
+ "name": "TNSHORE – Coastal Restoration & Marine Conservation",
+ "name_local": {
+  "ta": "TNSHORE – கரையோர சீரமைப்பு மற்றும் கடல் பாதுகாப்பு"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Environment & Forest Department",
+ "benefit": "₹50 crore project: deploy 8,500 reef modules to restore Kariyachalli Island’s ecosystem.",
+ "eligibility_rules": [
+  "Coastal communities, local NGOs, divers in Gulf of Mannar region."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Participation through NGOs/community groups coordinated by local Forest/Environment offices.",
+ "source_url": "https://www.newindianexpress.com/states/tamil-nadu/2024/Jan/11/tamil-nadu-coastal-restoration-mission-launched-with-world-bank-support-2650072.html",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "TNSHORE – கரையோர சீரமைப்பு மற்றும் கடல் பாதுகாப்பு",
+   "benefit": "₹50 கோடி திட்டம்: காரியச்சல்லி தீவை பசுமை செய்ய 8,500 ரீஃஃப் மோட்யூல்கள் பிரயோகிக்கப்படுகிறது.",
+   "eligibility": "கரையோர சமூகங்கள், உள்ளூர் தொண்டு நிறுவனங்கள், கோல்ஃப் ஆஃப் மன்னார் பகுதியில் உள்ள டைவர்கள்.",
+   "how_to_apply": "மூலவாக தொடக்கப்படும் டி.ஓ., சுற்றுச்சூழல் அலுவலகங்கள் வழியாக தொண்டு நிறுவனங்கள்/சமூக குழுக்கள் மூலம் பங்கேற்கலாம்.",
+   "department": "சூழல் மற்றும் காடு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "scheme_id": "ramai_awas",
+ "name": "Ramai Awas Yojana (Rural & Urban Housing for SC/Neo-Buddhist, Maharashtra)",
+ "category": "housing",
+ "level": "state_maharashtra",
+ "benefit": "Financial assistance for construction of a permanent (pucca) house for Scheduled Caste and Neo-Buddhist families in Maharashtra, implemented since 2010-11: Rs 1.32 lakh in rural areas and Rs 1.42 lakh in hilly/Naxal-affected areas (both including Rs 12,000 for toilet construction), and Rs 2.50 lakh in urban areas (Municipal Council/Nagar Parishad and Municipal Corporation areas).",
+ "eligibility_rules": [
+  "Beneficiary must belong to the Scheduled Castes or Neo-Buddhist category",
+  "Must have resided in Maharashtra for at least 15 years",
+  "Only one person per family can receive the benefit",
+  "Beneficiary must own a plot of land or a temporary (kutcha) house on which the pucca house will be built",
+  "Annual family income must not exceed Rs 1.20 lakh in rural areas or Rs 3.00 lakh in urban areas",
+  "Beneficiary should be OUTSIDE the SECC 2011 priority list criteria (the scheme targets SC/Neo-Buddhist families not covered under PMAY-G's SECC-based selection)",
+  "Rural selection: by the Gram Sabha, finalized by the House Construction Committee chaired by the CEO, Zilla Parishad; Urban selection: by the committee chaired by the Municipal Commissioner (Corporations) or District Collector (Councils/Nagar Panchayats)",
+  "Slum-dweller relaxation: per GR dated 15/03/2016, the 7/12 land-record requirement is relaxed for protected slum dwellers residing on government/municipal/MMRDA land since 01/01/1995"
+ ],
+ "exclusions": [
+  "Families that have already availed benefits from any other housing scheme are not eligible",
+  "Persons not belonging to SC/Neo-Buddhist category are not covered (other categories have separate schemes like PMAY-G or Shabari Awas for ST)",
+  "Family income above Rs 1.20 lakh (rural) / Rs 3.00 lakh (urban) disqualifies",
+  "Residence in Maharashtra for less than 15 years disqualifies",
+  "More than one beneficiary per family is not allowed",
+  "Beneficiaries without any plot or temporary house of their own (unless covered by the slum-dweller relaxation) are not eligible"
+ ],
+ "documents_required": [
+  "Land/property proof: 7/12 extract, Property Registered Card, or Gram Panchayat property register extract (relaxed for protected slum dwellers per GR 15/03/2016)",
+  "House tax, water tax, or electricity bill (any one)",
+  "Caste certificate from a competent authority (SC/Neo-Buddhist)",
+  "Income certificate from a competent authority",
+  "Voter list extract as of 01/01/1995 and Election Voter ID card",
+  "Ration card",
+  "Certificate from the Sarpanch / Talathi",
+  "Property tax payment receipt (for urban/municipal areas)"
+ ],
+ "how_to_apply": "Rural: apply through your Gram Panchayat - beneficiary selection happens via the Gram Sabha and is finalized by the Zilla Parishad House Construction Committee. Urban: apply through the Municipal Corporation/Council, where the committee chaired by the Commissioner or District Collector selects beneficiaries. Contact the local Social Justice department office or Gram Panchayat/municipal office to get on the list.",
+ "source_url": "https://sjsa.maharashtra.gov.in/",
+ "source_document": "Maharashtra Social Justice & Special Assistance Department - Ramai Awas Yojana; GR No. VISAA-2015/PR.NO.85/CONSTRUCTION dated 15/03/2016",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "merged_from": [
+  "scheme-sahayak"
+ ]
+}

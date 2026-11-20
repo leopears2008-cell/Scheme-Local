@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_109",
+ "name": "Post Matric Scholarship for Minority Students",
+ "name_local": {
+  "ta": "சிறுபான்மையினர் மாணவர்களுக்கான பிந்தைய பருவ உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department for Welfare of Minorities",
+ "benefit": "Covers tuition fee, maintenance allowance, exam fee, and book grant.",
+ "eligibility_rules": [
+  "Minority community students studying from Class XI to Postgraduate level with income below ₹2 lakhs."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply online through the National Scholarship Portal (NSP).",
+ "source_url": "https://www.indiascienceandtechnology.gov.in/nurturing-minds/scholarships/school/post-matric-scholarship-scheme-minorities",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 16,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "சிறுபான்மையினர் மாணவர்களுக்கான பிந்தைய பருவ உதவித்தொகை",
+   "benefit": "கல்வி கட்டணம், பராமரிப்பு கொடுப்பனவு, தேர்வு கட்டணம் மற்றும் புத்தக உதவி உள்ளிட்டவை.",
+   "eligibility": "வட்டமான வருமானம் ₹2 லட்சத்திற்குள் உள்ள 11ம் வகுப்பு முதல் பட்டமேற்படிப்பு வரை படிக்கும் சிறுபான்மையினர் மாணவர்கள்.",
+   "how_to_apply": "தேசிய உதவித்தொகை இணையதளம் (NSP) மூலம் ஆன்லைனில் விண்ணப்பிக்கலாம்.",
+   "department": "சிறுபான்மையினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

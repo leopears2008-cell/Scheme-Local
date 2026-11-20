@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_235",
+ "name": "Zari Industry Development Support – Tamil Nadu Zari Ltd.",
+ "name_local": {
+  "ta": "தமிழ்நாடு ஜரி நிறுவனத்தால் ஜரி தொழில் மேம்பாட்டு உதவி"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Handlooms and Textiles Department",
+ "benefit": "Raw material support, design training and marketing linkage.",
+ "eligibility_rules": [
+  "Registered zari weavers and small zari businesses in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Tamil Nadu Zari Ltd. Kancheepuram.",
+ "source_url": "https://www.tnhandlooms.tn.gov.in/english/kancheepuram.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "தமிழ்நாடு ஜரி நிறுவனத்தால் ஜரி தொழில் மேம்பாட்டு உதவி",
+   "benefit": "மூலப்பொருள் உதவி, வடிவமைப்பு பயிற்சி மற்றும் சந்தை இணைப்பு வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டில் பதிவு செய்யப்பட்ட ஜரி நெசவாளர்கள் மற்றும் சிறு ஜரி தொழிலாளர்கள்.",
+   "how_to_apply": "தமிழ்நாடு ஜரி லிமிடெட், காஞ்சிபுரம் அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "கைத்தறி மற்றும் துணிநூல் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

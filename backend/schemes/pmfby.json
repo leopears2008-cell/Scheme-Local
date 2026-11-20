@@ -1,0 +1,104 @@
+{
+ "scheme_id": "pmfby",
+ "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY) - Crop Insurance",
+ "category": "agriculture",
+ "level": "central",
+ "benefit": "Crop insurance at very low premium: farmer pays only 2% of sum insured for Kharif crops, 1.5% for Rabi crops, and 5% for commercial/horticultural crops; the remaining premium is subsidised by central and state governments. Covers yield losses from sowing to post-harvest due to natural calamities, pests and diseases. Sum insured equals Scale of Finance per hectare multiplied by the insured area.",
+ "eligibility_rules": [
+  "All farmers, including sharecroppers and tenant farmers, growing notified crops in notified areas are eligible",
+  "The farmer must have an insurable interest in the notified/insured crop",
+  "Enrollment is voluntary for all farmers (including loanee farmers) since 2020",
+  "Non-loanee farmers must submit land records prevailing in the state such as Records of Right (RoR) or Land Possession Certificate (LPC); sharecroppers/tenant farmers must submit applicable contract/agreement details or other documents permitted by the state government",
+  "The crop must be a notified crop for that season in the farmer's notified area (village/village panchayat level for major crops)"
+ ],
+ "exclusions": [
+  "Losses arising from war and kindred perils, nuclear risks, riots, malicious damage, theft, or act of enmity are not covered",
+  "Losses from crops grazed and/or destroyed by domestic and/or wild animals are excluded (per general exclusions in the operational guidelines)",
+  "Post-harvest losses to harvested crop bundled and heaped at a place before threshing are excluded",
+  "Other preventable risks and losses caused by farmer negligence are not covered",
+  "Crops that are not notified for that season/area are not covered",
+  "Farmers who have not paid the premium for the season are not eligible for claims",
+  "Crop loss must be reported within 72 hours of the damage; late reporting can invalidate the claim"
+ ],
+ "documents_required": [
+  "Aadhaar card",
+  "Bank account passbook (Aadhaar-linked)",
+  "Land records: Records of Right (RoR) / Land Possession Certificate (e.g. 7/12 extract in Maharashtra)",
+  "Sowing declaration / crop sown certificate as required by the state",
+  "For tenant farmers/sharecroppers: applicable contract or agreement documents as permitted by the state government"
+ ],
+ "how_to_apply": "Apply online at pmfby.gov.in (Farmer Corner) or through the nearest Common Service Centre (CSC), bank branch, or authorised insurance intermediary. Report any crop loss within 72 hours via the PMFBY app, portal, insurance company helpline (14447), bank, or local agriculture department.",
+ "source_url": "https://pmfby.gov.in/",
+ "source_document": "PMFBY operational guidelines (pmfby.gov.in/pdf/New Schemes-english_.pdf)",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "name_local": {
+  "hi": "पीएम फसल बीमा योजना"
+ },
+ "department": "Ministry of Agriculture",
+ "benefit_type": "insurance",
+ "estimated_benefit_inr": 25000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "land",
+   "label": "Land Type",
+   "profileKey": "landOwnership",
+   "type": "select",
+   "required": true,
+   "options": [
+    "owned",
+    "leased"
+   ]
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "occupation",
+   "op": "in",
+   "value": [
+    "farmer",
+    "agriculture",
+    "kisan"
+   ],
+   "label": "Occupation is farming"
+  }
+ ],
+ "rules": {
+  "occupation": [
+   "farmer"
+  ],
+  "hasAadhaar": true,
+  "hasBankAccount": true
+ },
+ "helpline": "14447",
+ "emoji": "🌱",
+ "points": 8,
+ "merged_from": [
+  "scheme-sahayak",
+  "FormSaathi",
+  "GovBot"
+ ]
+}

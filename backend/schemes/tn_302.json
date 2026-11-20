@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_302",
+ "name": "Loan for Transport Sector – Purchase of Bus/Van/Jeep",
+ "name_local": {
+  "ta": "போக்குவரத்து துறைக்கான கடன் – பேருந்து/வேன்/ஜீப் வாங்குதல்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation Department",
+ "benefit": "Loan for purchasing vehicles under transport category.",
+ "eligibility_rules": [
+  "Self-employed drivers or SHG members involved in transport services."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through cooperative bank.",
+ "source_url": "https://www.tiic.org/transport-loan-scheme/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "போக்குவரத்து துறைக்கான கடன் – பேருந்து/வேன்/ஜீப் வாங்குதல்",
+   "benefit": "போக்குவரத்து பயன்பாட்டுக்கான வாகனங்களை வாங்க கடன் வழங்கப்படும்.",
+   "eligibility": "சுயதொழில் சாரதி அல்லது சுயஉதவி குழு உறுப்பினர்கள்.",
+   "how_to_apply": "கூட்டுறவு வங்கி வழியாக விண்ணப்பிக்கலாம்.",
+   "department": "கூட்டுறவுத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

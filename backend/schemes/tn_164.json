@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_164",
+ "name": "Book Bank for Professional Courses",
+ "name_local": {
+  "ta": "தொழில்முறை படிப்புகளுக்கான புத்தக வங்கி"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Free use of reference books through book banks set up in colleges.",
+ "eligibility_rules": [
+  "SC/ST students in engineering, medicine, law, agriculture, etc."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Distributed automatically through institution libraries.",
+ "source_url": "https://www.myscheme.gov.in/schemes/bbsi",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17
+ },
+ "i18n": {
+  "ta": {
+   "name": "தொழில்முறை படிப்புகளுக்கான புத்தக வங்கி",
+   "benefit": "கல்லூரிகளில் அமைக்கப்பட்ட புத்தக வங்கிகள் மூலம் இலவசமாக குறிப்பு புத்தகங்கள் வழங்கப்படும்.",
+   "eligibility": "இன்ஜினியரிங், மருத்துவம், சட்டம், விவசாயம் போன்ற படிப்புகளில் பயிலும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "நிறுவன நூலகங்கள் மூலம் தானாகவே வழங்கப்படும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

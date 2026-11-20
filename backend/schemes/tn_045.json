@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_045",
+ "name": "Cyber Shield – Online Safety Program for Women & Seniors",
+ "name_local": {
+  "ta": "சைபர் ஷீல்டு – பெண்கள் மற்றும் மூத்த குடிமக்களுக்கு ஆன்லைன் பாதுகாப்புத் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu e-Governance Agency (TNeGA)",
+ "benefit": "Free workshops on scams, data protection, app safety & emergency cyberhelpline access.",
+ "eligibility_rules": [
+  "Women above 18 and senior citizens with mobile or internet access."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Register via local digital service centers or online at TNeGA portal.",
+ "source_url": "https://www.dsci.in/cyber-shikshaa/programs/cyber-security-training-program",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "சைபர் ஷீல்டு – பெண்கள் மற்றும் மூத்த குடிமக்களுக்கு ஆன்லைன் பாதுகாப்புத் திட்டம்",
+   "benefit": "மோசடிகள், தரவுப் பாதுகாப்பு, செயலி பாதுகாப்பு மற்றும் அவசர சைபர் உதவி எண்ணுக்கு இலவச பயிற்சி.",
+   "eligibility": "18 வயதிற்கு மேற்பட்ட பெண்கள் மற்றும் இணையம்/மொபைல் வைத்த மூத்த குடிமக்கள்.",
+   "how_to_apply": "உள்ளூர் மின் சேவை மையங்கள் அல்லது TNeGA தளத்தில் பதிவு செய்யலாம்.",
+   "department": "தமிழ்நாடு மின்னணு ஆட்சி நிறுவனம் (TNeGA)"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_012",
+ "name": "Pudhumai Penn Scheme",
+ "name_local": {
+  "ta": "புதுமை பெண் திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Higher Education",
+ "benefit": "Monthly stipend until completion of undergraduate studies.",
+ "eligibility_rules": [
+  "Girls entering higher education after studying in TN government schools."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Register at penkalvi.tn.gov.in with supporting school/college documents.",
+ "source_url": "https://shctpt.edu/downloads/07%20PUDHUMAI%20PENN%20THITTAM_APPLICATION_2024-2025.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 11,
+  "maxAge": 30,
+  "maxIncome": 120000
+ },
+ "i18n": {
+  "ta": {
+   "name": "புதுமை பெண் திட்டம்",
+   "benefit": "பட்டப்படிப்பு முடிக்கும் வரை மாதாந்திர உதவித்தொகை வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாடு அரசுப் பள்ளிகளில் கல்வி முடித்து உயர் கல்விக்கு செல்லும் பெண்கள்.",
+   "how_to_apply": "பள்ளி/கல்லூரி ஆதார ஆவணங்களுடன் penkalvi.tn.gov.in இல் பதிவு செய்யவும்.",
+   "department": "உயர் கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

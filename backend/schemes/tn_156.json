@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_156",
+ "name": "Scholarship for Hearing and Orthopaedically Handicapped Teachers",
+ "name_local": {
+  "ta": "செவிவழி மற்றும் உடல் ஊனமுற்ற ஆசிரியை/ஆசிரியர்களுக்கான உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Scholarship covering fees and materials during D.T.Ed training.",
+ "eligibility_rules": [
+  "Hearing impaired or orthopaedically handicapped teachers pursuing D.T.Ed."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply via training institute or through the District Education Officer.",
+ "source_url": "https://www.tn.gov.in/scheme/data_view/3336",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 40
+ },
+ "i18n": {
+  "ta": {
+   "name": "செவிவழி மற்றும் உடல் ஊனமுற்ற ஆசிரியை/ஆசிரியர்களுக்கான உதவித்தொகை",
+   "benefit": "D.T.Ed பயிற்சி காலத்தில் கட்டணங்கள் மற்றும் கற்றல் பொருட்களுக்கான உதவித்தொகை.",
+   "eligibility": "செவிவழி குறைபாடுகள் அல்லது உடல் ஊனமுற்று இருக்கும் ஆசிரியர் பயிலும் டிப்ளோமா பயில்வோர்.",
+   "how_to_apply": "பயிற்சி நிலையம் அல்லது மாவட்ட கல்வி அலுவலரின் வாயிலாக விண்ணப்பிக்கலாம்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

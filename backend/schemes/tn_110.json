@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_110",
+ "name": "Free Power Supply to Handloom and Powerloom Weavers",
+ "name_local": {
+  "ta": "கைத்தறி மற்றும் பவர் லூம் நெசவாளர்களுக்கு இலவச மின்சாரம்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Handlooms and Textiles Department",
+ "benefit": "Subsidy or full exemption on electricity charges up to specified units.",
+ "eligibility_rules": [
+  "Registered handloom/powerloom weavers or societies in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Weaver's Cooperative Society or respective Regional Office.",
+ "source_url": "https://www.tnhandlooms.tn.gov.in/english/schemes.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "கைத்தறி மற்றும் பவர் லூம் நெசவாளர்களுக்கு இலவச மின்சாரம்",
+   "benefit": "ஒரு வரையறுக்கப்பட்ட அலகுகளுக்கு மின்சாரக் கட்டணங்களில் சலுகை அல்லது முழுமையான விலக்கு.",
+   "eligibility": "தமிழ்நாட்டில் பதிவு செய்யப்பட்ட கைத்தறி/பவர் லூம் நெசவாளர்கள் அல்லது கூட்டுறவுகள்.",
+   "how_to_apply": "நெசவாளர் கூட்டுறவுகள் அல்லது பிராந்திய அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "கைத்தறி மற்றும் துணிநூல் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

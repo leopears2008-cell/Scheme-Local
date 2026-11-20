@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_073",
+ "name": "Grants to Institutions for Children in Need of Care and Protection",
+ "name_local": {
+  "ta": "கவனத்துக்கும் பாதுகாப்புக்கும் உட்பட்ட குழந்தைகளுக்கான நிறுவனங்களுக்கு மானியங்கள்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Social Welfare",
+ "benefit": "Government grant for food, shelter, clothing, education, and rehabilitation support.",
+ "eligibility_rules": [
+  "Registered institutions working with destitute, orphaned or abandoned children."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply with registration and audit details to District Social Welfare Office.",
+ "source_url": "https://dsdcpimms.tn.gov.in/landing/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "கவனத்துக்கும் பாதுகாப்புக்கும் உட்பட்ட குழந்தைகளுக்கான நிறுவனங்களுக்கு மானியங்கள்",
+   "benefit": "அரசு நிதியுதவி உணவு, உறைவிடம், உடைகள், கல்வி மற்றும் மறுவாழ்வுத் தேவைகளுக்காக வழங்கப்படும்.",
+   "eligibility": "அனாதைகள், ஆதரவற்றவர்கள் அல்லது விட்டுச்செல்லப்பட்ட குழந்தைகளை பராமரிக்கும் பதிவு செய்யப்பட்ட நிறுவனங்கள்.",
+   "how_to_apply": "பதிவு மற்றும் கணக்கெடுப்பு விவரங்களுடன் மாவட்ட சமூக நல அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

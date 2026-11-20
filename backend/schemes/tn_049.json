@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_049",
+ "name": "Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY)",
+ "name_local": {
+  "ta": "பிரதம மந்திரி களிபார க welfare anna திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Central Govt, Food & Public Distribution Dept",
+ "benefit": "Free 5 kg grain + 1 kg dal per person monthly via PDS.",
+ "eligibility_rules": [
+  "Antyodaya & priority ration card holders under NFSA."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Automatically provided via ration card at ration shops—no application.",
+ "source_url": "https://dfpd.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "பிரதம மந்திரி களிபார க welfare anna திட்டம்",
+   "benefit": "PDS மூலம் ஒருவருக்கு மாதத்திற்கு 5 கிலோ தானியம் + 1 கிலோ பருப்பு இலவசமாக.",
+   "eligibility": "NFSA கீழ் Antyodaya மற்றும் முன்னுரிமை ரேஷன் கார்டு வைத்தோர்.",
+   "how_to_apply": "ரேஷன் கடைகளில் கார்டுடன் தானாகவே வழங்கப்படும்—விண்ணப்பம் தேவையில்லை.",
+   "department": "மத்திய அரசு, உணவு மற்றும் பொது விநியோகத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_009",
+ "name": "Marriage Assistance Scheme",
+ "name_local": {
+  "ta": "திருமண உதவித் திட்டம்"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "Financial assistance up to Rs. 25,000 and gold coin for ‘Thirumangalyam’.",
+ "eligibility_rules": [
+  "Girls from poor families, should be 18+ and have passed 10th standard."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply before marriage via District Social Welfare Office.",
+ "source_url": "https://agritech.tnau.ac.in/govt_schemes_services/pdf/forms/social_welfare_form12.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "திருமண உதவித் திட்டம்",
+   "benefit": "ரூ.25,000 வரையிலான நிதியுதவி மற்றும் திருமாங்கல்யம் varten தங்க நாணயம் வழங்கப்படும்.",
+   "eligibility": "வறுமைக் குடும்பங்களைச் சேர்ந்த 18 வயதிற்கு மேற்பட்ட மற்றும் 10ம் வகுப்பு தேர்ச்சி பெற்ற பெண்கள்.",
+   "how_to_apply": "மணத்திற்கு முன் மாவட்ட சமூக நல அலுவலகம் வாயிலாக விண்ணப்பிக்கவும்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

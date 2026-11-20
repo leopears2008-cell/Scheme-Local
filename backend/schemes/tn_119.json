@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_119",
+ "name": "Jewel Loan through Cooperative Banks",
+ "name_local": {
+  "ta": "கூட்டுறவு வங்கிகள் மூலம் நகைக்கடன்"
+ },
+ "category": "finance_insurance",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation Department",
+ "benefit": "Loan against pledged gold at lower interest rates for agriculture and personal use.",
+ "eligibility_rules": [
+  "Any individual member of Primary Cooperative Agriculture and Rural Development Banks."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply with identity proof and jewels to cooperative bank branch.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTI2NA==",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "கூட்டுறவு வங்கிகள் மூலம் நகைக்கடன்",
+   "benefit": "வேளாண்மை மற்றும் தனிநபர் தேவைகளுக்காக குறைந்த வட்டி விகிதத்தில் நகைக்கடன் வழங்கப்படும்.",
+   "eligibility": "முதன்மை கூட்டுறவு வேளாண்மை மற்றும் கிராம வளர்ச்சி வங்கியின் உறுப்பினர்கள்.",
+   "how_to_apply": "அடையாள சான்றும் நகைகளுடன் கூட்டுறவு வங்கி கிளையில் விண்ணப்பிக்கவும்.",
+   "department": "கூட்டுறவுத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

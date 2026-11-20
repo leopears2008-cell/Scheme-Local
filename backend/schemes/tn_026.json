@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_026",
+ "name": "Thalikku Thangam Scheme",
+ "name_local": {
+  "ta": "தாலிக்கு தங்கம் திட்டம்"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Social Welfare",
+ "benefit": "Financial assistance of Rs. 25,000 and 4-gram gold coin for 'Thirumangalyam'.",
+ "eligibility_rules": [
+  "Girls aged 18+, from families with annual income below Rs. 72,000."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Application through e-Sevai centers before marriage.",
+ "source_url": "https://www.myscheme.gov.in/schemes/mranmas1",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "தாலிக்கு தங்கம் திட்டம்",
+   "benefit": "'திருமாங்கல்யம்'க்காக ரூ.25,000 நிதியுதவி மற்றும் 4 கிராம் தங்க நாணயம் வழங்கப்படும்.",
+   "eligibility": "18 வயதுக்கு மேற்பட்ட மற்றும் வருட வருமானம் ரூ.72,000க்குக் குறைவாக உள்ள குடும்பங்களைச் சேர்ந்த பெண்கள்.",
+   "how_to_apply": "திருமணத்திற்கு முன் ஈ-சேவை மையங்களில் விண்ணப்பிக்கலாம்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_087",
+ "name": "Chief Minister’s Award – Joint Sports Development Centre",
+ "name_local": {
+  "ta": "முதல்வரின் விருது – கூட்டு விளையாட்டு மேம்பாட்டு மையம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Youth Welfare and Sports Development Department",
+ "benefit": "Cash award and certificates for outstanding performance.",
+ "eligibility_rules": [
+  "Talented athletes trained under Joint Sports Development Centres across Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "No application needed; selected based on performance and recommendation.",
+ "source_url": "https://tnchampions.sdat.in/initiatives",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 14,
+  "maxAge": 25
+ },
+ "i18n": {
+  "ta": {
+   "name": "முதல்வரின் விருது – கூட்டு விளையாட்டு மேம்பாட்டு மையம்",
+   "benefit": "சிறந்த சாதனைகளுக்கான பணப் பரிசும், சான்றிதழும் வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டின் கூட்டு விளையாட்டு மேம்பாட்டு மையங்களில் பயிற்சி பெறும் திறமையான விளையாட்டு வீரர்கள்.",
+   "how_to_apply": "விண்ணப்பம் தேவையில்லை; செயல்திறனை அடிப்படையாகக் கொண்டு பரிந்துரைக்கப்படும்.",
+   "department": "இளைஞர் நலன் மற்றும் விளையாட்டு மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

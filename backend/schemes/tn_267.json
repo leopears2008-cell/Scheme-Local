@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_267",
+ "name": "Post Matric Scholarship (General)",
+ "name_local": {
+  "ta": "பின் மெட்ரிக் கல்வி உதவித்தொகை (பொது)"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Covers compulsory fees, exam fees, and maintenance allowance.",
+ "eligibility_rules": [
+  "SC/ST students pursuing studies beyond 10th standard."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply via NSP portal or respective institution.",
+ "source_url": "https://www.tnadw.tn.gov.in/postmatric_scheme/en",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 16,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பின் மெட்ரிக் கல்வி உதவித்தொகை (பொது)",
+   "benefit": "கட்டாயக் கட்டணங்கள், தேர்வுக்கட்டணம் மற்றும் பராமரிப்புத் தொகை.",
+   "eligibility": "10ம் வகுப்பு முடித்து மேல்படிப்புகள் மேற்கொள்ளும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "NSP இணையதளம் அல்லது கல்வி நிறுவனத்தின் வழியாக விண்ணப்பிக்கலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

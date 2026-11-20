@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_106",
+ "name": "Sericulture – Catalytic Development Programme – Installation of Multiend Reeling Units",
+ "name_local": {
+  "ta": "பட்டுப்புழு வளர்ப்பு – ஊக்கத்திட்டம் – மல்டி எண்ட் ரீலிங் அலகுகள் நிறுவுதல்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Sericulture",
+ "benefit": "Subsidy for purchasing multi-end reeling machines to increase production efficiency.",
+ "eligibility_rules": [
+  "Silk reelers and entrepreneurs involved in cocoon reeling and silk production."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Assistant Director of Sericulture with business plan.",
+ "source_url": "https://tnsericulture.tn.gov.in/schemes-central",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21
+ },
+ "i18n": {
+  "ta": {
+   "name": "பட்டுப்புழு வளர்ப்பு – ஊக்கத்திட்டம் – மல்டி எண்ட் ரீலிங் அலகுகள் நிறுவுதல்",
+   "benefit": "தயாரிப்பு திறனை அதிகரிக்க மல்டி எண்ட் ரீலிங் இயந்திரங்களுக்கு மானியம் வழங்கப்படும்.",
+   "eligibility": "பட்டுப்புழு கொழுக்களின் ரீலிங் மற்றும் பட்டுப் தயாரிப்பில் ஈடுபட்ட தொழில் முனைவோர்.",
+   "how_to_apply": "திட்ட அறிக்கையுடன் மாவட்ட பட்டுப்புழு உதவி இயக்குநரிடம் விண்ணப்பிக்கவும்.",
+   "department": "பட்டுப்புழு வளர்ப்பு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

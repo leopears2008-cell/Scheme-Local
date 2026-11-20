@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_177",
+ "name": "District Level Prizes for Public Exams – 10th and 12th Standard",
+ "name_local": {
+  "ta": "மாவட்ட அளவிலான பரிசுகள் – 10 மற்றும் 12ம் வகுப்பு பொது தேர்வுகள்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Cash awards: ₹3,000 for 12th std, ₹1,000 for 10th std toppers.",
+ "eligibility_rules": [
+  "SC/ST students who secure top ranks in district level board exams."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "No application needed; awarded automatically based on results.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=Njc5",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாவட்ட அளவிலான பரிசுகள் – 10 மற்றும் 12ம் வகுப்பு பொது தேர்வுகள்",
+   "benefit": "12ம் வகுப்பிற்கு ₹3,000, 10ம் வகுப்பிற்கு ₹1,000 வரை பரிசுத் தொகை வழங்கப்படும்.",
+   "eligibility": "மாவட்ட அளவில் தரவரிசை பெற்ற SC/ST மாணவர்கள்.",
+   "how_to_apply": "விண்ணப்பம் தேவையில்லை; தேர்வு முடிவுகளின் அடிப்படையில் வழங்கப்படும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

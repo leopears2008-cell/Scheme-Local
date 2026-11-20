@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_043",
+ "name": "Periyar Ninaivu Samathuvapuram",
+ "name_local": {
+  "ta": "பெரியார் நினைவு சமத்துவபுரம்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Rural Development and Housing Department",
+ "benefit": "Villages of ~100 houses each with mixed caste housing, shared community hall and burial ground to promote social harmony.",
+ "eligibility_rules": [
+  "Communities in rural villages to be housed together in mixed blocks; priority to SC/ST/OBC dwellers."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Selected Panchayats invite applications; local registration; no cost to beneficiary.",
+ "source_url": "https://environment.tn.gov.in/assets/go/1568b4806aac1e6c0aaacf96ea73239a.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "பெரியார் நினைவு சமத்துவபுரம்",
+   "benefit": "ஒவ்வொரு கிராமத்திலும் ~100 வீடுகள்; கலப்பை சமூகங்கள், பொதுமக்கள் கூடுதல் மண்டபம் மற்றும் பொதுவான இறுதிச்ச் சாலையுடன் நலத்திட்டம்.",
+   "eligibility": "கிராமப்புற கிராமங்களில் கலப்பை பிரிவுகளில் குடியிருப்பதற்கான சமூகங்கள்; SC/ST/OBC குடியிருப்பவர் முன்னுரிமை.",
+   "how_to_apply": "தேர்ந்தெடுக்கப்பட்ட பஞ்சாயத்துகளால் விண்ணப்பங்கள் அழைக்கப்படுகின்றன; உள்ளூர் பதிவு; பயனாளிக்கு கட்டணம் இல்லை.",
+   "department": "ஊரக வளர்ச்சி மற்றும் வீடமைப்பு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

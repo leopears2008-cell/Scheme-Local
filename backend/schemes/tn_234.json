@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_234",
+ "name": "Distribution of Free House Site Patta",
+ "name_local": {
+  "ta": "இலவச வீட்டு மனை பட்டா வழங்கும் திட்டம்"
+ },
+ "category": "housing",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Free assignment of patta for house construction.",
+ "eligibility_rules": [
+  "Landless poor families residing in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Taluk or Village Administrative Office.",
+ "source_url": "https://tnadw.tn.gov.in/basic_amenties/e",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இலவச வீட்டு மனை பட்டா வழங்கும் திட்டம்",
+   "benefit": "வீட்டுக்காக இலவச மனை பட்டா வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டில் நிலம் இல்லாத ஏழை குடும்பங்கள்.",
+   "how_to_apply": "தாலுகா அலுவலகம் அல்லது VAO மூலமாக விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_051",
+ "name": "Imaigal Scheme",
+ "name_local": {
+  "ta": "இமைகல் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu Police (Northern Zone)",
+ "benefit": "Enhanced school campus safety framework against sexual crimes.",
+ "eligibility_rules": [
+  "Girl children, especially in Northern Chennai schools."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Implemented by police in selected schools; no application needed.",
+ "source_url": "https://kaakumimaigal.org/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "இமைகல் திட்டம்",
+   "benefit": "பள்ளிச் சுற்றுச்சூழலில் பெண்கள் பாதுகாப்பை மேம்படுத்துகிறது.",
+   "eligibility": "மகளிர், குறிப்பாக வட சென்னை பள்ளி மாணவிகள்.",
+   "how_to_apply": "தேர்ந்தெடுக்கப்பட்ட பள்ளிகளில் போலீஸார் செயல்படுத்துகிறார்கள்; விண்ணப்பம் தேவையில்லை.",
+   "department": "தமிழ்நாடு போலீஸ் (வடக்கு மண்டல)"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

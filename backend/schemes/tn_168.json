@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_168",
+ "name": "Free Degree Education – Tuition Waiver",
+ "name_local": {
+  "ta": "இளங்கலை கல்வி இலவசமாக – கட்டண விலக்கு திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Government waives tuition and exam fees; paid directly to institution.",
+ "eligibility_rules": [
+  "SC/ST students studying in government or aided colleges."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through college administration at admission.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=Njcx",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இளங்கலை கல்வி இலவசமாக – கட்டண விலக்கு திட்டம்",
+   "benefit": "கல்வி மற்றும் தேர்வுக்கட்டணம் அரசு சார்பில் நிறுவனத்திற்கு நேரடியாக செலுத்தப்படும்.",
+   "eligibility": "அரசு/உதவி பெறும் கல்லூரிகளில் கல்வி பயிலும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "சேர்க்கை நேரத்தில் கல்லூரி நிர்வாகத்தின் மூலம் விண்ணப்பிக்க வேண்டும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

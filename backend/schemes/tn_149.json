@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_149",
+ "name": "Free Uniform Scheme for School Children",
+ "name_local": {
+  "ta": "பள்ளி மாணவர்களுக்கு இலவச யூனிஃபாரம் வழங்கும் திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Two sets of stitched uniforms provided annually free of cost.",
+ "eligibility_rules": [
+  "All students in standards 1 to 8 studying in government and aided schools."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "No application required. Provided through schools automatically.",
+ "source_url": "https://www.scd.tn.gov.in/pdf/schemes/pdf/FREE%20UNIFORMS%20TO%20THE%20STUDENTS.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxAge": 14
+ },
+ "i18n": {
+  "ta": {
+   "name": "பள்ளி மாணவர்களுக்கு இலவச யூனிஃபாரம் வழங்கும் திட்டம்",
+   "benefit": "ஒவ்வொரு ஆண்டும் இரண்டு துண்டுகளாக வெட்டி தைத்த யூனிஃபார்ம் இலவசமாக வழங்கப்படும்.",
+   "eligibility": "அரசு மற்றும் அரசு உதவி பெறும் பள்ளிகளில் 1 முதல் 8ம் வகுப்பு வரை படிக்கும் மாணவர்கள்.",
+   "how_to_apply": "விண்ணப்பம் தேவையில்லை. பள்ளி மூலமாக வழங்கப்படும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_137",
+ "name": "Government Orphanages – Sathya Ammaiyar Ninaivu",
+ "name_local": {
+  "ta": "சத்திய அம்மையார் நினைவு அரசு יתீமக்கள் இல்லம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare and Women Empowerment Department",
+ "benefit": "Free shelter, food, clothing, education, and care till 18 years of age.",
+ "eligibility_rules": [
+  "Destitute orphan children without parental or financial support."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Social Welfare Office or Childline helpline.",
+ "source_url": "https://www.myscheme.gov.in/schemes/sangch",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 0,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "சத்திய அம்மையார் நினைவு அரசு יתீமக்கள் இல்லம்",
+   "benefit": "18 வயது வரை இலவச தங்குமிடம், உணவு, உடை, கல்வி மற்றும் பராமரிப்பு வழங்கப்படும்.",
+   "eligibility": "தாயாரோ தந்தையோ இல்லாத மற்றும் பொருளாதார ஆதரவு இல்லாத יתீமக்கள்.",
+   "how_to_apply": "மாவட்ட சமூக நல அலுவலகம் அல்லது சைல்ட்லைன் உதவி எண் வழியாக விண்ணப்பிக்கலாம்.",
+   "department": "சமூக நல மற்றும் பெண்கள் மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

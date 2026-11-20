@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_121",
+ "name": "Sericulture – Catalytic Development Programme – Supply of Disinfectants",
+ "name_local": {
+  "ta": "பட்டுப்புழு வளர்ப்பு – ஊக்கத்திட்டம் – தரமான கிருமிநாசினிகள் வழங்குதல்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Sericulture",
+ "benefit": "Subsidised supply of quality disinfectants to prevent diseases and boost cocoon yield.",
+ "eligibility_rules": [
+  "Mulberry silk rearers and seed rearers in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Sericulture Extension Centres.",
+ "source_url": "https://agritech.tnau.ac.in/sericulture/seri_dept%20of%20seri_schemes.html",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "பட்டுப்புழு வளர்ப்பு – ஊக்கத்திட்டம் – தரமான கிருமிநாசினிகள் வழங்குதல்",
+   "benefit": "நோய்களை தடுக்கவும், கொழு உற்பத்தியை அதிகரிக்கவும் தரமான கிருமிநாசினிகள் மானியத்தில் வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டில் முல்பெரி பட்டுப்புழு வளர்ப்பு மற்றும் விதை rearers.",
+   "how_to_apply": "பட்டுப்புழு விரிவாக்க மையங்களில் விண்ணப்பிக்கலாம்.",
+   "department": "பட்டுப்புழு வளர்ப்புத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

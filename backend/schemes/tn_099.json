@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_099",
+ "name": "Assistance to Lawyers for Starting Their Practice",
+ "name_local": {
+  "ta": "புதிய வழக்கறிஞர்களுக்கான தொழில் துவக்க உதவி"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Welfare of Backward Classes and Minorities",
+ "benefit": "Financial grant to purchase books, furniture and establish chambers.",
+ "eligibility_rules": [
+  "Law graduates from backward classes or minority communities starting independent practice."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Backward Classes Welfare Office with necessary documents.",
+ "source_url": "https://www.bajajfinserv.in/loan-for-lawyers",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 22,
+  "maxAge": 35,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "புதிய வழக்கறிஞர்களுக்கான தொழில் துவக்க உதவி",
+   "benefit": "நூல்கள், அலமாரிகள் மற்றும் சட்ட அலுவலகம் அமைப்பதற்கான நிதி உதவி.",
+   "eligibility": "தனித்து வழக்குகள் நடத்தும் பின்னடைந்த வகுப்புகள் மற்றும் சிறுபான்மையினர் சட்டப் பட்டதாரிகள்.",
+   "how_to_apply": "தேவையான ஆவணங்களுடன் மாவட்ட பின்தங்கியோர் நல அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "பின்னடைந்த வகுப்புகள் மற்றும் சிறுபான்மையினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

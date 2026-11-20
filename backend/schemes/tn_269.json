@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_269",
+ "name": "Award for Visually Handicapped Students – X Standard Rank Holders",
+ "name_local": {
+  "ta": "பார்வை குறைபாடுள்ள மாணவர்களுக்கு விருது – 10ம் வகுப்பு தரவரிசைப் பெற்றோர்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Cash award and certificate of merit.",
+ "eligibility_rules": [
+  "Visually impaired students who secured top rank in state-level 10th exam."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through special school head or District Welfare Office.",
+ "source_url": "https://www.slideshare.net/hrfchennai/tamil-nadu-government-welfare-schemes-2017-80292769",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 14,
+  "maxAge": 17
+ },
+ "i18n": {
+  "ta": {
+   "name": "பார்வை குறைபாடுள்ள மாணவர்களுக்கு விருது – 10ம் வகுப்பு தரவரிசைப் பெற்றோர்",
+   "benefit": "பரிசுத் தொகையும் சிறந்த மாணவர் சான்றிதழும் வழங்கப்படும்.",
+   "eligibility": "மாநில அளவில் 10ம் வகுப்பு தேர்வில் தரவரிசை பெற்ற பார்வை குறைபாடுள்ள மாணவர்கள்.",
+   "how_to_apply": "சிறப்பு பள்ளித் தலைவர் அல்லது மாவட்ட நல அலுவலகம் வழியாக விண்ணப்பிக்க வேண்டும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

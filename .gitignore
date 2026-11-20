@@ -1,0 +1,10 @@
+node_modules/
+dist/
+__pycache__/
+venv/
+.env
+backend/chroma_db/
+backend/data/app.db
+backend/*.jsonl
+backend/.venv-verify/
+backend/.venv/

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_091",
+ "name": "Land Purchase Scheme",
+ "name_local": {
+  "ta": "நிலம் வாங்கும் திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Financial support for purchase of agricultural land up to a prescribed extent.",
+ "eligibility_rules": [
+  "Landless Scheduled Caste and Scheduled Tribe families."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Adi Dravidar Welfare Officer with land document proposals.",
+ "source_url": "https://www.tn.gov.in/scheme_list.php?dep_id=MQ==",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21,
+  "maxIncome": 100000
+ },
+ "i18n": {
+  "ta": {
+   "name": "நிலம் வாங்கும் திட்டம்",
+   "benefit": "வரையறுக்கப்பட்ட அளவு விவசாய நிலம் வாங்க நிதி உதவி.",
+   "eligibility": "நிலம் இல்லாத பட்டியலிடப்பட்ட சாதி மற்றும் பழங்குடியினர் குடும்பங்கள்.",
+   "how_to_apply": "நில ஆவணத் திட்டத்துடன் மாவட்ட அடித்தின நல அலுவலரிடம் விண்ணப்பிக்கவும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

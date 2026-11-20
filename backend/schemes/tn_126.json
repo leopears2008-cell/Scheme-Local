@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_126",
+ "name": "Reservation of Jobs in Government Departments / Undertakings for Disabled Persons",
+ "name_local": {
+  "ta": "மாற்றுத்திறனாளிகளுக்காக அரசு துறைகள் / நிறுவனங்களில் வேலை வாய்ப்பு ஒதுக்கீடு"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "3% reservation in Group A, B, C and D posts in Government services.",
+ "eligibility_rules": [
+  "Persons with 40% or more disability, possessing requisite qualifications."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Tamil Nadu Public Service Commission (TNPSC) or relevant recruitment bodies.",
+ "source_url": "https://www.scd.tn.gov.in/emp_sub_schemes.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 40
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாற்றுத்திறனாளிகளுக்காக அரசு துறைகள் / நிறுவனங்களில் வேலை வாய்ப்பு ஒதுக்கீடு",
+   "benefit": "அரசு சேவையில் குழு A, B, C மற்றும் D பணிகளுக்கு 3% ஒதுக்கீடு வழங்கப்படுகிறது.",
+   "eligibility": "தேவையான தகுதிகளுடன் 40% அல்லது அதற்கு மேற்பட்ட மாற்றுத்திறனுடன் உள்ள நபர்கள்.",
+   "how_to_apply": "தமிழ்நாடு அரசு பணியாளர் தேர்வாணையம் (TNPSC) அல்லது சம்பந்தப்பட்ட தேர்வுகள் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

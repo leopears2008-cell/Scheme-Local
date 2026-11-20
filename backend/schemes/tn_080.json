@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_080",
+ "name": "Tractor Purchase Loan – Primary Cooperative Agriculture and Rural Development Bank",
+ "name_local": {
+  "ta": "டிராக்டர் வாங்குவதற்கான கடன் – முதன்மை கூட்டுறவு வேளாண்மை மற்றும் கிராம வளர்ச்சி வங்கி"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation Department",
+ "benefit": "Loan at concessional interest for purchase of new tractors.",
+ "eligibility_rules": [
+  "Farmers owning cultivable land and active agricultural practice."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through nearest branch of the Cooperative Agriculture Bank.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=ODQ4",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21,
+  "maxAge": 60
+ },
+ "i18n": {
+  "ta": {
+   "name": "டிராக்டர் வாங்குவதற்கான கடன் – முதன்மை கூட்டுறவு வேளாண்மை மற்றும் கிராம வளர்ச்சி வங்கி",
+   "benefit": "புதிய டிராக்டர் வாங்குவதற்கான குறைந்த வட்டியில் கடன்.",
+   "eligibility": "நிலம் மற்றும் வேளாண்மை செயல்பாடுகள் உள்ள விவசாயிகள்.",
+   "how_to_apply": "அருகிலுள்ள கூட்டுறவு வேளாண்மை வங்கியில் விண்ணப்பிக்கவும்.",
+   "department": "கூட்டுறவுத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

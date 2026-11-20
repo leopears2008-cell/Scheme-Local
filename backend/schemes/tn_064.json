@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_064",
+ "name": "Assistance for Funeral Rites",
+ "name_local": {
+  "ta": "இறுதிக்காலச் செலவுகளுக்கான நிதியுதவி"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue and Disaster Management Department",
+ "benefit": "One-time grant to support funeral expenses.",
+ "eligibility_rules": [
+  "Economically weaker families and BPL families."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at Taluk office with death certificate and income proof.",
+ "source_url": "https://www.tn.gov.in/document.php?dep_id=MQ==&year=MjAyNS0yMDI2&cate_name=YWxs",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இறுதிக்காலச் செலவுகளுக்கான நிதியுதவி",
+   "benefit": "இறுதிக்காலச் செலவுகளுக்கான ஒரே முறை நிதியுதவி.",
+   "eligibility": "பொருளாதார ரீதியாக பின்னடைந்த மற்றும் வறுமைக் கோட்டுக்குக் கீழுள்ள குடும்பங்கள்.",
+   "how_to_apply": "இறப்பு சான்றிதழ் மற்றும் வருமான சான்றுடன் தாலுகா அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

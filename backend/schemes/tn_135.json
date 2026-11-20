@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_135",
+ "name": "Scholarship for Degree Courses – Differently Abled",
+ "name_local": {
+  "ta": "இளங்கலை பட்டபடிப்பு மாணவர்களுக்கு கல்வி உதவித்தொகை – மாற்றுத்திறனாளிகள்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Scholarship covering tuition, exam fee, and hostel expenses.",
+ "eligibility_rules": [
+  "Differently abled students pursuing UG courses in recognized institutions."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through educational institution with disability ID.",
+ "source_url": "https://www.scd.tn.gov.in/specialedu.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இளங்கலை பட்டபடிப்பு மாணவர்களுக்கு கல்வி உதவித்தொகை – மாற்றுத்திறனாளிகள்",
+   "benefit": "கல்விக் கட்டணம், தேர்வுக்கட்டணம் மற்றும் விடுதி செலவுகளை உள்ளடக்கிய உதவித்தொகை.",
+   "eligibility": "அங்கீகரிக்கப்பட்ட கல்வி நிறுவனங்களில் இளங்கலை படிப்பு pursuing செய்யும் மாற்றுத்திறனாளி மாணவர்கள்.",
+   "how_to_apply": "மாற்றுத்திறன் அடையாள அட்டையுடன் கல்வி நிறுவனத்தின் வாயிலாக விண்ணப்பிக்கவும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

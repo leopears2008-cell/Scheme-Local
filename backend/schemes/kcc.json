@@ -1,0 +1,51 @@
+{
+ "scheme_id": "kcc",
+ "name": "Kisan Credit Card (KCC) Scheme",
+ "category": "agriculture",
+ "level": "central",
+ "benefit": "Single-window revolving credit for farmers covering: short-term crop cultivation costs, post-harvest expenses, produce marketing loans, household consumption needs, working capital for farm assets and allied activities (animal husbandry, dairy, fisheries), and investment/term loans. Short-term loans up to Rs 5 lakh at 7% per annum under the Modified Interest Subvention Scheme; timely repayment earns a 3% Prompt Repayment Incentive, making the effective rate 4%. Loans up to Rs 2 lakh are collateral-free (effective 1 January 2025). Credit limit is based on the crop's Scale of Finance x cultivated area, plus 10% for post-harvest/consumption and 20% for farm asset maintenance. Card valid 5 years with ~10% annual limit increase, includes a RuPay debit card usable at ATMs.",
+ "eligibility_rules": [
+  "Farmers - individual or joint borrowers who are owner cultivators",
+  "Tenant farmers, oral lessees and sharecroppers are eligible even without owning land",
+  "Self Help Groups (SHGs) or Joint Liability Groups (JLGs) of farmers, including tenant farmers and sharecroppers",
+  "Farmers engaged in allied activities: animal husbandry, dairy, poultry and fisheries (extended in 2019)",
+  "Applicant should generally be 18 to 75 years old; applicants above 60 require a co-applicant (usually a legal heir) as co-borrower",
+  "Aadhaar submission to the bank is mandatory to avail the interest subvention benefit"
+ ],
+ "exclusions": [
+  "Persons not engaged in agriculture or the covered allied activities are not eligible",
+  "Interest subvention applies only to short-term loans up to Rs 5 lakh; amounts above that are charged at the bank's normal commercial rates",
+  "Loans above Rs 2 lakh require collateral/security documents (mortgage of land or immovable property; the collateral-free limit is Rs 3 lakh in tie-up arrangements)",
+  "Farmers who repay late lose the 3% Prompt Repayment Incentive and delayed payments can attract compound interest",
+  "Interest subvention is not available without Aadhaar details submitted to the bank"
+ ],
+ "documents_required": [
+  "Filled application form with two passport-size photographs",
+  "ID proof: Aadhaar card / Voter ID / Driving License / Passport (Aadhaar mandatory for interest subvention)",
+  "Address proof: Aadhaar card / Driving License",
+  "Proof of landholding duly certified by the revenue authorities (e.g. 7/12 extract in Maharashtra); tenant farmers/sharecroppers submit applicable agreement or declaration as per state rules",
+  "Cropping pattern (crops grown) with acreage",
+  "Security documents for loan limits above the collateral-free threshold, as applicable"
+ ],
+ "how_to_apply": "Online: visit the chosen bank's website, select Kisan Credit Card, fill and submit the application; the bank responds within 3-4 working days if eligible. Offline: apply at any bank branch or Common Service Centre (CSC). PM-Kisan beneficiaries get priority under government KCC saturation drives.",
+ "source_url": "https://www.myscheme.gov.in/schemes/kcc",
+ "source_document": "myScheme KCC page; PIB press releases on MISS/KCC limits (2025-26); RBI Master Circular - Kisan Credit Card Scheme",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "rules": {
+  "occupation": [
+   "farmer"
+  ],
+  "hasAadhaar": true,
+  "hasBankAccount": true
+ },
+ "helpline": "1800-200-2088",
+ "emoji": "💳",
+ "points": 8,
+ "merged_from": [
+  "scheme-sahayak",
+  "GovBot"
+ ]
+}

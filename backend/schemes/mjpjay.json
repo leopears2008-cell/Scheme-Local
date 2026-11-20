@@ -1,0 +1,37 @@
+{
+ "scheme_id": "mjpjay",
+ "name": "Mahatma Jyotirao Phule Jan Arogya Yojana (MJPJAY) - Integrated with AB PM-JAY (Maharashtra)",
+ "category": "health",
+ "level": "state_maharashtra",
+ "benefit": "Universal cashless health coverage of Rs 5,00,000 per family per year (family floater) for secondary and tertiary hospitalization, integrated with Ayushman Bharat PM-JAY and implemented in expanded form from 1 July 2024. Covers 1,356 medical/surgical procedures across 34 specialties plus follow-up packages, in ~1,900 empanelled government and private hospitals. Includes bed/nursing/boarding charges, surgeon and anesthetist fees, OT and ICU charges, drugs, implants, diagnostics, blood transfusion, food for the inpatient and one-time transport cost. Pre-existing diseases covered from day one; emergency treatment can be initiated via telephonic intimation; premium fully paid by the government.",
+ "eligibility_rules": [
+  "The scheme is UNIVERSAL for Maharashtra: all families resident/domiciled in Maharashtra are covered (per GR dated 28/07/2023, effective 01/07/2024)",
+  "Families holding any ration card qualify: Yellow, Antyodaya Anna Yojana (AAY), Annapurna, Orange, or White ration card (including government/semi-government employees)",
+  "Families without any ration card qualify with a Maharashtra domicile certificate",
+  "Special covered groups: children in government orphanages, students of government Ashram Shalas, female inmates of government Mahila Ashrams, senior citizens in government old-age homes, DGIPR-approved journalists and their families, and construction workers registered with the Maharashtra Building & Other Construction Workers Welfare Board",
+  "Families in the SECC 2011 / AB PM-JAY lists get the integrated central+state coverage (cost shared 60:40 by centre and state)"
+ ],
+ "exclusions": [
+  "Persons not resident/domiciled in Maharashtra are not covered under MJPJAY (though AB PM-JAY benefits are portable nationally for PM-JAY beneficiaries)",
+  "Only treatment at empanelled network hospitals is cashless; non-empanelled hospitals are not covered",
+  "Certain reserved procedures can only be performed at government hospitals (not private empanelled ones)",
+  "Ambulance charges are generally not included",
+  "Outpatient (OPD) treatment not requiring hospitalization is not covered under the hospitalization benefit"
+ ],
+ "documents_required": [
+  "Any valid ration card (Yellow / AAY / Annapurna / Orange / White) OR Maharashtra domicile certificate if no ration card",
+  "Photo identity proof: Aadhaar card / Voter ID / Driving license / Passport",
+  "MJPJAY/Ayushman health card once issued",
+  "Category-specific ID where applicable (e.g. construction worker registration, journalist accreditation)"
+ ],
+ "how_to_apply": "Visit any empanelled network hospital or District/Women/General hospital, where an Arogya Mitra (scheme facilitator) verifies eligibility, helps with document submission and gets the MJPJAY/Ayushman health card issued. In emergencies, treatment can start with telephonic intimation. Helpline: 155388 / 1800-233-2200; portal: jeevandayee.gov.in.",
+ "source_url": "https://www.zppalghar.gov.in/en/scheme/integrated-ayushman-bharat-pradhan-mantri-jan-arogya-yojana-mahatma-jyotirao-phule-jan-arogya-yojana/",
+ "source_document": "Zilla Parishad (Palghar/Dharashiv) official scheme pages; Maharashtra GR dated 28/07/2023 (universal coverage from 01/07/2024); jeevandayee.gov.in",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "merged_from": [
+  "scheme-sahayak"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_076",
+ "name": "National Identity Card for the Disabled Persons",
+ "name_local": {
+  "ta": "இனங்காணல் அட்டை (அடையாள அட்டை) மாற்றுத்திறனாளிகளுக்காக"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Government-issued National Disability ID to access benefits, travel concessions, scholarships, and priority schemes.",
+ "eligibility_rules": [
+  "Any person with 40% or more disability certified by a competent authority in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply online through the official government disability portal or via District Welfare Office.",
+ "source_url": "https://swavlambancard.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5
+ },
+ "i18n": {
+  "ta": {
+   "name": "இனங்காணல் அட்டை (அடையாள அட்டை) மாற்றுத்திறனாளிகளுக்காக",
+   "benefit": "அரசு வழங்கும் தேசிய மாற்றுத்திறன் அடையாள அட்டை மூலம் பல நலத்திட்டங்கள், பயண சலுகைகள், உதவித்தொகைகள் மற்றும் முன்னுரிமை வழங்கும் சேவைகள் பெறலாம்.",
+   "eligibility": "தமிழ்நாட்டில் தகுதி வாய்ந்த அதிகாரி வழங்கிய 40% மற்றும் அதற்கு மேற்பட்ட மாற்றுத்திறனுடன் உள்ள நபர்கள்.",
+   "how_to_apply": "அரசின் மாற்றுத்திறனாளிகள் இணையதளம் அல்லது மாவட்ட நல அலுவலகம் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

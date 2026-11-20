@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_285",
+ "name": "Youth Reservation in Recruitment – Sports Persons",
+ "name_local": {
+  "ta": "வேலைவாய்ப்புகளில் விளையாட்டு வீரர்களுக்கான இடஒதுக்கீடு"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Youth Welfare and Sports Development Department",
+ "benefit": "Reservation in state government job recruitment.",
+ "eligibility_rules": [
+  "Candidates with state/national-level sports achievements."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Mention sports achievements during job application.",
+ "source_url": "https://yas.nic.in/sports/jobs-sportspersons-government",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 35
+ },
+ "i18n": {
+  "ta": {
+   "name": "வேலைவாய்ப்புகளில் விளையாட்டு வீரர்களுக்கான இடஒதுக்கீடு",
+   "benefit": "அரசு வேலைவாய்ப்புகளில் இடஒதுக்கீடு வழங்கப்படும்.",
+   "eligibility": "மாநில/தேசிய அளவிலான விளையாட்டு சாதனைகள் கொண்ட விண்ணப்பதாரர்கள்.",
+   "how_to_apply": "வேலைவாய்ப்பு விண்ணப்பத்தில் விளையாட்டு சாதனைகள் சேர்க்க வேண்டும்.",
+   "department": "இளையோர் நல மற்றும் விளையாட்டு மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

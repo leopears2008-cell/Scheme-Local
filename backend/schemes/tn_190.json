@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_190",
+ "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+ "name_local": {
+  "ta": "இந்திரா காந்தி தேசிய முதியோர் ஓய்வூதியத் திட்டம்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare and Women Empowerment Department",
+ "benefit": "Monthly pension of ₹1,000 and other social security benefits.",
+ "eligibility_rules": [
+  "Destitute persons aged 60 years and above from BPL families."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Village Administrative Officer or Taluk Office.",
+ "source_url": "https://www.myscheme.gov.in/schemes/nsap-ignoaps",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 60,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இந்திரா காந்தி தேசிய முதியோர் ஓய்வூதியத் திட்டம்",
+   "benefit": "மாதம் ₹1,000 ஓய்வூதியமாக வழங்கப்படும் மற்றும் சமூக பாதுகாப்பு நலன்கள்.",
+   "eligibility": "வறுமை கோட்டிற்கு கீழ் உள்ள 60 வயதுக்கும் மேற்பட்டோர்.",
+   "how_to_apply": "VAO அல்லது தாலுகா அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "சமூக நல மற்றும் பெண்கள் மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

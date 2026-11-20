@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_221",
+ "name": "Destitute Agricultural Labourers Pension Scheme",
+ "name_local": {
+  "ta": "இடர்ப்பட்ட விவசாயத் தொழிலாளர்களுக்கான ஓய்வூதியத் திட்டம்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Monthly pension of ₹1,000.",
+ "eligibility_rules": [
+  "Aged landless agricultural labourers with no support and income."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Taluk office with required documents.",
+ "source_url": "https://www.myscheme.gov.in/schemes/dalps",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 60,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இடர்ப்பட்ட விவசாயத் தொழிலாளர்களுக்கான ஓய்வூதியத் திட்டம்",
+   "benefit": "மாதம் ₹1,000 ஓய்வூதியம் வழங்கப்படும்.",
+   "eligibility": "வயதான, நிலம் இல்லாத, ஆதரவற்ற விவசாயத் தொழிலாளர்கள்.",
+   "how_to_apply": "தேவையான ஆவணங்களுடன் தாலுகா அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

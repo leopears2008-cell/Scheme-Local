@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_154",
+ "name": "Award to Best Writers – State Level",
+ "name_local": {
+  "ta": "சிறந்த எழுத்தாளர்களுக்கான விருது – மாநில அளவில்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Development and Information Department",
+ "benefit": "Cash award of ₹20,000 and state recognition.",
+ "eligibility_rules": [
+  "Writers with recognized Tamil publications in literature, education, or culture."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit works and biodata to Directorate of Tamil Development.",
+ "source_url": "https://awards.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21
+ },
+ "i18n": {
+  "ta": {
+   "name": "சிறந்த எழுத்தாளர்களுக்கான விருது – மாநில அளவில்",
+   "benefit": "₹20,000 பணம் மற்றும் மாநில அளவில் பாராட்டு சான்றிதழ் வழங்கப்படும்.",
+   "eligibility": "இலக்கியம், கல்வி, கலாசாரம் போன்ற துறைகளில் வெளியீடு பெற்ற எழுத்தாளர்கள்.",
+   "how_to_apply": "பணிகள் மற்றும் பயோடேட்டாவுடன் தமிழ் வளர்ச்சி இயக்குனரகம் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "தமிழ் வளர்ச்சி மற்றும் தகவல் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

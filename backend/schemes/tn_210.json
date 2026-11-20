@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_210",
+ "name": "Distribution of Braille Books",
+ "name_local": {
+  "ta": "பார்வை குறைபாடுள்ள மாணவர்களுக்கு பிரெயில் புத்தகங்கள் வழங்கல்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Braille textbooks and materials provided free of cost.",
+ "eligibility_rules": [
+  "Visually impaired students studying in government schools and colleges."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through school head or District Welfare Officer.",
+ "source_url": "https://scd.tn.gov.in/pdf/schemes/pdf/SUPPLY%20OF%20BRAILLE%20BOOKS.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 6
+ },
+ "i18n": {
+  "ta": {
+   "name": "பார்வை குறைபாடுள்ள மாணவர்களுக்கு பிரெயில் புத்தகங்கள் வழங்கல்",
+   "benefit": "பிரெயில் பாடப்புத்தகங்கள் மற்றும் கற்றல் உபகரணங்கள் இலவசமாக வழங்கப்படும்.",
+   "eligibility": "அரசுப் பள்ளிகள் மற்றும் கல்லூரிகளில் கல்வி பயிலும் பார்வை குறைபாடுள்ள மாணவர்கள்.",
+   "how_to_apply": "பள்ளி தலைமையாசிரியர் அல்லது மாவட்ட நல அலுவலரின் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

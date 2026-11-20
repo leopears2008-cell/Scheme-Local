@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_060",
+ "name": "Abolition of Bonded Labour System",
+ "name_local": {
+  "ta": "பிணைப்பாட்டுத் தொழிலாளர் முறையின் ஒழிப்பு"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Labour Welfare and Skill Development Department",
+ "benefit": "Rescue, rehabilitation, financial support, skill training and housing support.",
+ "eligibility_rules": [
+  "Identified bonded labourers and their families in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through District Collectorate or Labour Department officials.",
+ "source_url": "https://labour.gov.in/bonded-labour",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "பிணைப்பாட்டுத் தொழிலாளர் முறையின் ஒழிப்பு",
+   "benefit": "மீட்பு, மறுவாழ்வு, நிதியுதவி, திறன் பயிற்சி மற்றும் வீட்டு வசதிகள்.",
+   "eligibility": "தமிழ்நாட்டில் அடையாளம் காணப்பட்ட பிணைப்பாட்டு தொழிலாளர்களும் அவர்களது குடும்பங்களும்.",
+   "how_to_apply": "மாவட்ட ஆட்சியர் அலுவலகம் அல்லது தொழிலாளர் துறை அதிகாரிகளின் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "தொழிலாளர் நலன் மற்றும் திறன் மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

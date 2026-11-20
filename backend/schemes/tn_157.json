@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_157",
+ "name": "Free Education Scholarship for Polytechnic Courses",
+ "name_local": {
+  "ta": "பாலிடெக்னிக் படிப்புகளுக்கான இலவச கல்வி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Full fee reimbursement including tuition, exam fees, and special fees.",
+ "eligibility_rules": [
+  "SC/ST students admitted in government or aided polytechnic colleges."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through college administration at the time of admission.",
+ "source_url": "https://www.dte.tn.gov.in/schemes-polytechnic-students",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 16,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பாலிடெக்னிக் படிப்புகளுக்கான இலவச கல்வி உதவித்தொகை",
+   "benefit": "கல்விக் கட்டணம், தேர்வுக் கட்டணம் மற்றும் சிறப்பு கட்டணங்கள் முழுமையாக திருப்பி செலுத்தப்படும்.",
+   "eligibility": "அரசு அல்லது உதவி பெறும் பாலிடெக்னிக் கல்லூரிகளில் சேர்க்கை பெற்ற SC/ST மாணவர்கள்.",
+   "how_to_apply": "சேர்க்கை நேரத்தில் கல்லூரி நிர்வாகத்தின் வாயிலாக விண்ணப்பிக்கலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

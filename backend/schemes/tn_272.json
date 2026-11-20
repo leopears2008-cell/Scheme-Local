@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_272",
+ "name": "Free Education for Polytechnic Courses – Scholarship",
+ "name_local": {
+  "ta": "பாலிடெக்னிக் பாடநெறிகளுக்கான இலவச கல்வி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "No tuition or exam fee + monthly stipend.",
+ "eligibility_rules": [
+  "SC/ST students enrolled in government polytechnic colleges."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through college administration at the time of admission.",
+ "source_url": "https://www.tnadw.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 16,
+  "maxAge": 25,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பாலிடெக்னிக் பாடநெறிகளுக்கான இலவச கல்வி உதவித்தொகை",
+   "benefit": "கல்வி மற்றும் தேர்வுக்கட்டணம் வசூலிக்கப்படாது + மாத உதவித்தொகை.",
+   "eligibility": "அரசுப் பாலிடெக்னிக் கல்லூரிகளில் சேர்க்கை பெற்ற SC/ST மாணவர்கள்.",
+   "how_to_apply": "சேர்க்கை நேரத்தில் கல்லூரி நிர்வாகம் வழியாக விண்ணப்பிக்க வேண்டும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_151",
+ "name": "Loan Assistance for Working Women",
+ "name_local": {
+  "ta": "வேலைக்குச் செல்லும் பெண்களுக்கு கடனுதவி"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation Department",
+ "benefit": "Loan up to ₹50,000 for personal or professional needs at subsidised interest.",
+ "eligibility_rules": [
+  "Salaried or self-employed women members of cooperative societies."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at local district cooperative bank branch with ID and income proof.",
+ "source_url": "https://www.standupmitra.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21,
+  "maxAge": 55,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "வேலைக்குச் செல்லும் பெண்களுக்கு கடனுதவி",
+   "benefit": "தனிப்பட்ட அல்லது தொழில்சார் தேவைக்காக ₹50,000 வரை மானிய வட்டியில் கடன்.",
+   "eligibility": "சம்பளம் பெறும் அல்லது சுயதொழிலில் ஈடுபட்ட கூட்டுறவு உறுப்பினர் பெண்கள்.",
+   "how_to_apply": "அடையாள மற்றும் வருமான சான்றுடன் மாவட்ட கூட்டுறவு வங்கி கிளையில் விண்ணப்பிக்கவும்.",
+   "department": "கூட்டுறவுத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

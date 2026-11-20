@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_082",
+ "name": "Distribution of Pre-recorded Cassettes and Tape Recorders to Visually Handicapped",
+ "name_local": {
+  "ta": "பார்வை குறைபாடுள்ளவர்களுக்கு முன்பதிவுசெய்யப்பட்ட கேஸெட்டுகள் மற்றும் டேப் ரெக்கார்டர்கள் வழங்குதல்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Free distribution of educational cassettes and tape recorders for academic support.",
+ "eligibility_rules": [
+  "Visually impaired students or professionals who require recorded materials for learning."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Differently Abled Welfare Office with ID proof and purpose.",
+ "source_url": "https://cdnbbsr.s3waas.gov.in/s36ee69d3769e832ec77c9584e0b7ba112/uploads/2024/11/202411291324357260.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 10,
+  "maxIncome": 100000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பார்வை குறைபாடுள்ளவர்களுக்கு முன்பதிவுசெய்யப்பட்ட கேஸெட்டுகள் மற்றும் டேப் ரெக்கார்டர்கள் வழங்குதல்",
+   "benefit": "கல்வி துணை கருவிகளாகக் கேஸெட்டுகள் மற்றும் டேப் ரெக்கார்டர்கள் இலவசமாக வழங்கப்படும்.",
+   "eligibility": "பாடங்களை கற்க முன்பதிவுசெய்யப்பட்ட ஆவணங்கள் தேவைப்படும் பார்வை குறைபாடுள்ள மாணவர்கள் அல்லது நபர்கள்.",
+   "how_to_apply": "மாற்றுத்திறனாளிகள் நல அலுவலகத்தில் அடையாள சான்று மற்றும் தேவையைச் சேர்த்துள்ள விண்ணப்பம் அளிக்கவும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

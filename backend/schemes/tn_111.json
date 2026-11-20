@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_111",
+ "name": "Relief for Severe Injuries through Insurance Company (Revenue Department)",
+ "name_local": {
+  "ta": "கடுமையான காயங்களுக்கு காப்பீட்டுத்துறையின் மூலம் நிவாரணம் (வருவாய் துறை)"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Monetary relief for medical treatment or loss of livelihood.",
+ "eligibility_rules": [
+  "Citizens seriously injured in accidents or disasters in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit claim through Taluk office with medical reports and FIR copy.",
+ "source_url": "https://www.cra.tn.gov.in/relief_sch.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "கடுமையான காயங்களுக்கு காப்பீட்டுத்துறையின் மூலம் நிவாரணம் (வருவாய் துறை)",
+   "benefit": "மருத்துவ சிகிச்சை அல்லது வாழ்க்கை ஆதார இழப்புக்கு நிதியுதவி.",
+   "eligibility": "தமிழ்நாட்டில் விபத்துகள் அல்லது பேரழிவுகளால் கடுமையாக காயமடைந்த நபர்கள்.",
+   "how_to_apply": "மருத்துவ அறிக்கைகள் மற்றும் FIR நகலுடன் தாலுகா அலுவலகத்தில் மனு அளிக்கவும்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

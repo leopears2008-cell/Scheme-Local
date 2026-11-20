@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_075",
+ "name": "Free Supply of Textbooks and Notebooks to Children of Widows",
+ "name_local": {
+  "ta": "விதவைகளின் பிள்ளைகளுக்கு இலவசமாக பாட புத்தகங்கள் மற்றும் நோட்டுப் புத்தகங்கள் வழங்கல்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of School Education",
+ "benefit": "Free textbooks and notebooks every academic year.",
+ "eligibility_rules": [
+  "Children of widowed women enrolled in government or aided schools."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit widow certificate and school admission proof to the Headmaster.",
+ "source_url": "https://www.myscheme.gov.in/schemes/fsnbcpw",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "விதவைகளின் பிள்ளைகளுக்கு இலவசமாக பாட புத்தகங்கள் மற்றும் நோட்டுப் புத்தகங்கள் வழங்கல்",
+   "benefit": "ஒவ்வொரு கல்வி ஆண்டும் இலவச பாடப் புத்தகங்கள் மற்றும் நோட்டுப் புத்தகங்கள்.",
+   "eligibility": "அரசு அல்லது உதவி பெறும் பள்ளிகளில் படிக்கும் விதவைகளின் பிள்ளைகள்.",
+   "how_to_apply": "விதவைச் சான்றிதழ் மற்றும் பள்ளி சேர்க்கை சான்றுடன் தலைமையாசிரியரிடம் சமர்ப்பிக்கவும்.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

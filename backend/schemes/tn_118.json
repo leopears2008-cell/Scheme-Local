@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_118",
+ "name": "Marriage Assistance to Normal Person Marrying Speech and Hearing Impaired Person",
+ "name_local": {
+  "ta": "உயிர் வாய்ப்புடைய நபர் கூச்சல் மற்றும் கேட்பாற்றல் குறைபாடுள்ள நபருடன் திருமணம் செய்தால் திருமண உதவி"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare Department",
+ "benefit": "One-time financial assistance for marriage.",
+ "eligibility_rules": [
+  "Either bride or groom must be speech and hearing impaired with proper medical certificate."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Social Welfare Office with medical and marriage proof.",
+ "source_url": "https://www.myscheme.gov.in/schemes/matnpmsahip",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 40,
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "உயிர் வாய்ப்புடைய நபர் கூச்சல் மற்றும் கேட்பாற்றல் குறைபாடுள்ள நபருடன் திருமணம் செய்தால் திருமண உதவி",
+   "benefit": "ஒரே முறை திருமண நிதி உதவி வழங்கப்படும்.",
+   "eligibility": "மணமுடிக்கப்படும் இருவரில் ஒருவராவது வாய்மை மற்றும் கேட்பாற்றல் குறைவுடன் மருத்துவச் சான்று பெற வேண்டும்.",
+   "how_to_apply": "மருத்துவச் சான்றும் திருமணச் சான்றும் இணைத்து மாவட்ட சமூக நல அலுவலகத்தில் விண்ணப்பிக்கவும்.",
+   "department": "சமூக நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

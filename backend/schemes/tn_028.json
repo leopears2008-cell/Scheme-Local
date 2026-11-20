@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_028",
+ "name": "Free Training and Loan for Self Employment",
+ "name_local": {
+  "ta": "சுயதொழிலுக்கு இலவச பயிற்சி மற்றும் கடன்"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Tamil Nadu Adi Dravidar Housing and Development Corporation (TAHDCO)",
+ "benefit": "Free training in trades, tools, and subsidized bank-linked loans.",
+ "eligibility_rules": [
+  "SC/ST youth aged 18-35 with income below Rs. 2 lakh."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the TAHDCO district offices or online portal.",
+ "source_url": "https://tahdco.com",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 35,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "சுயதொழிலுக்கு இலவச பயிற்சி மற்றும் கடன்",
+   "benefit": "தொழில்கள் மற்றும் கருவிகளுக்கான இலவச பயிற்சி மற்றும் வங்கியின் துணைமையிலான வட்டி தள்ளுபடி கடன்கள் வழங்கப்படும்.",
+   "eligibility": "18 முதல் 35 வயதுக்குட்பட்ட ஆண்டு வருமானம் ரூ.2 லட்சத்திற்கு குறைவாக உள்ள சி.சி/எஸ்.டி இளைஞர்கள்.",
+   "how_to_apply": "TAHDCO மாவட்ட அலுவலகங்கள் அல்லது ஆன்லைன் தளத்தின் மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "தமிழ்நாடு ஆதிதிராவிடர் வீட்டு வசதி மற்றும் வளர்ச்சி நிறுவனம் (TAHDCO)"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

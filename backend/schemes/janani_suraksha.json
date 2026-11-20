@@ -1,0 +1,38 @@
+{
+ "scheme_id": "janani_suraksha",
+ "name": "Janani Suraksha Yojana",
+ "category": "health",
+ "level": "central",
+ "state": "",
+ "benefit": "₹1,400 (rural) / ₹1,000 (urban) cash for institutional delivery",
+ "eligibility_rules": [
+  "Cash assistance to pregnant women for safe delivery"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar",
+  "Bank"
+ ],
+ "how_to_apply": "Apply on the official portal: https://nhm.gov.in",
+ "source_url": "https://nhm.gov.in",
+ "source_document": "GovBot rules database",
+ "last_verified": "",
+ "origin": "govbot",
+ "verification": "imported",
+ "rules": {
+  "gender": [
+   "female",
+   "woman",
+   "f"
+  ],
+  "maxIncome": 300000,
+  "hasAadhaar": true,
+  "hasBankAccount": true
+ },
+ "helpline": "104",
+ "emoji": "👶",
+ "points": 9,
+ "merged_from": [
+  "GovBot"
+ ]
+}

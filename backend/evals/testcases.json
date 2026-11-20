@@ -1,0 +1,284 @@
+[
+ {
+  "type": "multi_turn",
+  "language": "hinglish",
+  "turns": [
+   "mujhe apni fasal ka bima karwana hai, koi sarkari yojana hai kya",
+   "Kapass"
+  ],
+  "expect_crop": "cotton"
+ },{
+    "type": "eligibility",
+    "language": "english",
+    "message": "I am a 50 year old farmer in Maharashtra with 3 acres of cultivable land in my name. I have never paid income tax. Which schemes can I get?",
+    "expected_eligible": ["pm_kisan", "namo_shetkari", "kcc"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "I am a practicing chartered accountant in Pune and I also own 4 acres of farmland. Can I get PM-Kisan money?",
+    "expected_eligible": [],
+    "expected_not_eligible": ["pm_kisan", "namo_shetkari"]
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "My daughter is in class 6 in a government school in Maharashtra. We are from the OBC category. Is there any scholarship for her?",
+    "expected_eligible": ["savitribai_phule"],
+    "expected_not_eligible": ["nsp_post_matric"]
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "I am an SC student who passed class 12. My father's income is 2 lakh per year and I want to do B.Com. Will I get a scholarship?",
+    "expected_eligible": ["nsp_post_matric"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "My son got merit admission to IIT Bombay through JEE. Our family income is 6 lakh per year. Can he get an education loan with interest support?",
+    "expected_eligible": ["pm_vidyalaxmi"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "My son got admission to a private engineering college through management quota. Family income is 5 lakh. Can he get the PM Vidyalaxmi loan benefits?",
+    "expected_eligible": [],
+    "expected_not_eligible": ["pm_vidyalaxmi"]
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "My wife is pregnant with our first child. We are an SC family in Maharashtra. Is there any government money for us?",
+    "expected_eligible": ["pmmvy"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "I work as a domestic worker in Mumbai and earn 8000 rupees per month. My family has an orange ration card. Can we get free hospital treatment?",
+    "expected_eligible": ["mjpjay", "ayushman_bharat"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "I am 72 years old. My son is a government officer and we own a car and a refrigerator. Can I get the Ayushman Bharat health card?",
+    "expected_eligible": ["ayushman_bharat"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "We are a landless SC family in rural Maharashtra living in a one-room kutcha house. Nobody in our family has a government job and we earn from daily labour. Can we get help to build a house?",
+    "expected_eligible": ["pmay_gramin", "ramai_awas"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "I am from the SC community in Maharashtra, living here for 20 years. I own a small plot and my family income is 1 lakh per year in our village. I want to build a pucca house but my cousin already has a government house scheme benefit in his own family. Can I apply for Ramai Awas?",
+    "expected_eligible": ["ramai_awas"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "I am 63 years old, my name is on the BPL list, and I get no pension from anywhere. What can I get?",
+    "expected_eligible": ["old_age_pension"],
+    "expected_not_eligible": ["sanjay_gandhi"]
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "I am a 45 year old widow in Maharashtra. My family income is only 18000 rupees per year. Is there any monthly assistance for me?",
+    "expected_eligible": ["sanjay_gandhi"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "My daughter was just born last month. I want to save money for her future education. What government option is there?",
+    "expected_eligible": ["sukanya_samriddhi"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "english",
+    "message": "I want to open a Sukanya Samriddhi account for my niece. I am her uncle, not her guardian. My brother is alive and is her father. Can I open it?",
+    "expected_eligible": [],
+    "expected_not_eligible": ["sukanya_samriddhi"]
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "mai Maharashtra ka kisan hu, mere naam pe 2 acre zameen hai, income tax nahi deta, umar 45 saal",
+    "expected_eligible": ["pm_kisan", "namo_shetkari", "kcc"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "meri beti college ja rahi hai, ghar ki income 2 lakh hai, hum SC category se hai, koi scholarship milegi?",
+    "expected_eligible": ["nsp_post_matric"],
+    "expected_not_eligible": ["savitribai_phule"]
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "meri patni pregnant hai, pehla baccha hai, hum log SC category se hai, kuch milega kya?",
+    "expected_eligible": ["pmmvy"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "main 62 saal ka hu, BPL card hai, koi pension milegi?",
+    "expected_eligible": ["old_age_pension"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "mera beta cricket khelta hai, koi sports scholarship hai?",
+    "expected_eligible": [],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "hum log rent pe rehte hai sheher me, koi ration card nahi hai, sirf domicile certificate hai Maharashtra ka. Bimari me hospital ka kharcha milega kya?",
+    "expected_eligible": ["mjpjay"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "mere paas 6 acre irrigated zameen hai do fasal wali, tractor bhi hai. Gharkul yojana me ghar milega kya?",
+    "expected_eligible": [],
+    "expected_not_eligible": ["pmay_gramin"]
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "meri beti 9th class me sarkari school me padhti hai, hum VJNT category se hai Maharashtra me",
+    "expected_eligible": ["savitribai_phule"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "mai 38 saal ki hu, shaadi nahi hui, ghar ki income 15000 saal ki hai, Maharashtra me rehti hu, koi madad milegi?",
+    "expected_eligible": ["sanjay_gandhi"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "mera chota bhai 12 saal ka hai, uske liye Sukanya khata khol sakte hai kya?",
+    "expected_eligible": [],
+    "expected_not_eligible": ["sukanya_samriddhi"]
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "retired teacher hu sarkari school se, pension 35000 mahina, 4 acre kheti bhi hai. PM Kisan ka paisa milega?",
+    "expected_eligible": [],
+    "expected_not_eligible": ["pm_kisan", "namo_shetkari"]
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "auto chalata hu Mumbai me, koi gaadi apni nahi hai, kiraye ki hai. Ayushman card ban sakta hai kya?",
+    "expected_eligible": ["ayushman_bharat"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "bank se kheti ke liye loan chahiye, 1.5 acre zameen hai mere naam, byaj kam wala",
+    "expected_eligible": ["kcc"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "hinglish",
+    "message": "doosra baccha hone wala hai, ladka hai sonography me pata chala. PMMVY ka paisa milega kya?",
+    "expected_eligible": [],
+    "expected_not_eligible": ["pmmvy"]
+  },
+  {
+    "type": "eligibility",
+    "language": "devanagari",
+    "message": "मैं महाराष्ट्र में 3 एकड़ जमीन वाला किसान हूं, आयकर नहीं भरता, कौन सी योजना मिल सकती है?",
+    "expected_eligible": ["pm_kisan", "namo_shetkari"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "devanagari",
+    "message": "मेरी बेटी का जन्म पिछले साल हुआ है, उसके भविष्य के लिए बचत करना चाहता हूं",
+    "expected_eligible": ["sukanya_samriddhi"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "devanagari",
+    "message": "मैं 70 साल की विधवा हूं, बीपीएल सूची में नाम है, कोई पेंशन मिलेगी?",
+    "expected_eligible": ["old_age_pension"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "devanagari",
+    "message": "मेरी पत्नी गर्भवती है, पहला बच्चा है, राशन कार्ड है हमारे पास",
+    "expected_eligible": ["pmmvy"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "devanagari",
+    "message": "मैं सरकारी कर्मचारी हूं और मेरे पास 5 एकड़ खेती है, पीएम किसान मिलेगा क्या?",
+    "expected_eligible": [],
+    "expected_not_eligible": ["pm_kisan"]
+  },
+  {
+    "type": "eligibility",
+    "language": "devanagari",
+    "message": "मेरा बेटा दसवीं पास करके डिप्लोमा कर रहा है, हम अनुसूचित जाति से हैं, आय डेढ़ लाख है",
+    "expected_eligible": ["nsp_post_matric"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "devanagari",
+    "message": "गांव में कच्चे घर में रहते हैं, मजदूरी करते हैं, जमीन नहीं है, पक्का घर चाहिए",
+    "expected_eligible": ["pmay_gramin"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "devanagari",
+    "message": "मुझे कैंसर है, इलाज का खर्चा नहीं उठा सकता, महाराष्ट्र में रहता हूं",
+    "expected_eligible": ["mjpjay"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "devanagari",
+    "message": "मेरी बेटी सातवीं कक्षा में सरकारी स्कूल में है, हम ओबीसी हैं महाराष्ट्र में",
+    "expected_eligible": ["savitribai_phule"],
+    "expected_not_eligible": []
+  },
+  {
+    "type": "eligibility",
+    "language": "devanagari",
+    "message": "फसल का बीमा कराना है, कपास उगाता हूं दो एकड़ में",
+    "expected_eligible": ["pmfby"],
+    "expected_not_eligible": []
+  }
+
+]

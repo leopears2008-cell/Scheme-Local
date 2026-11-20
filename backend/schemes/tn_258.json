@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_258",
+ "name": "Girls Student Incentive Scheme – School Education",
+ "name_local": {
+  "ta": "மாணவி ஊக்கத் தொகை திட்டம் – பள்ளிக் கல்வி துறை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "School Education Department",
+ "benefit": "Annual incentive of ₹1,000–₹2,000 to prevent school dropout.",
+ "eligibility_rules": [
+  "Girls from SC/ST/MBC/DNC studying in classes 6 to 12."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through school with income/community certificate.",
+ "source_url": "https://new.tnschools.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 11,
+  "maxAge": 18,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாணவி ஊக்கத் தொகை திட்டம் – பள்ளிக் கல்வி துறை",
+   "benefit": "பள்ளி விலகல் தவிர்க்க ஆண்டுதோறும் ₹1,000–₹2,000 ஊக்கத்தொகை.",
+   "eligibility": "SC/ST/MBC/DNC சமூகத்தைச் சேர்ந்த 6 முதல் 12ம் வகுப்பு மாணவிகள்.",
+   "how_to_apply": "பள்ளி வழியாக சமர்ப்பிக்கவும்; வருமான/சாதி சான்று தேவை.",
+   "department": "பள்ளிக்கல்வித் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

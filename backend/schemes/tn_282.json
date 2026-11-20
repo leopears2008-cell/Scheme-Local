@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_282",
+ "name": "Training for Visually Handicapped (Male)",
+ "name_local": {
+  "ta": "பார்வை குறைபாடுள்ள ஆண் மாற்றுத்திறனாளிகளுக்கான பயிற்சி"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Free vocational training and stipend.",
+ "eligibility_rules": [
+  "Visually impaired men above 18 years of age."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through Government Rehabilitation Institute.",
+ "source_url": "https://www.scd.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 120000
+ },
+ "i18n": {
+  "ta": {
+   "name": "பார்வை குறைபாடுள்ள ஆண் மாற்றுத்திறனாளிகளுக்கான பயிற்சி",
+   "benefit": "இலவச தொழில்முனைவர் பயிற்சி மற்றும் உதவித்தொகை.",
+   "eligibility": "18 வயதுக்கு மேற்பட்ட பார்வை குறைபாடுள்ள ஆண் மாற்றுத்திறனாளிகள்.",
+   "how_to_apply": "அரசு மறுவாழ்வு நிலையத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

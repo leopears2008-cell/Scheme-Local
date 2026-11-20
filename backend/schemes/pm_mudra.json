@@ -1,0 +1,96 @@
+{
+ "scheme_id": "pm_mudra",
+ "name": "PM Mudra Yojana",
+ "category": "finance_insurance",
+ "level": "central",
+ "state": "",
+ "benefit": "Collateral-free loans up to ₹10 lakh for micro and small enterprises: Shishu (≤₹50K), Kishor (≤₹5L), Tarun (≤₹10L).",
+ "eligibility_rules": [
+  "Self-employed or business owner"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Business Plan",
+  "Bank Statements"
+ ],
+ "how_to_apply": "Apply on the official portal: https://www.mudra.org.in/",
+ "source_url": "https://www.mudra.org.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "पीएम मुद्रा योजना"
+ },
+ "department": "Ministry of Finance",
+ "benefit_type": "loan",
+ "estimated_benefit_inr": 1000000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "phone",
+   "label": "Mobile Number",
+   "profileKey": "phone",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "occupation",
+   "label": "Business Type",
+   "profileKey": "occupation",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "occupation",
+   "op": "in",
+   "value": [
+    "self-employed",
+    "business",
+    "entrepreneur",
+    "shopkeeper",
+    "vendor"
+   ],
+   "label": "Self-employed or business owner"
+  }
+ ],
+ "rules": {
+  "occupation": [
+   "business",
+   "labour",
+   "other"
+  ],
+  "hasAadhaar": true,
+  "hasBankAccount": true
+ },
+ "helpline": "1800-180-1111",
+ "emoji": "💼",
+ "points": 9,
+ "merged_from": [
+  "FormSaathi",
+  "GovBot"
+ ]
+}

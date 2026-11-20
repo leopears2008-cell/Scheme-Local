@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_052",
+ "name": "Neengal Nalama",
+ "name_local": {
+  "ta": "நீங்கள்நலம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Chief Minister’s Office",
+ "benefit": "Citizen-feedback mechanism to improve welfare delivery.",
+ "eligibility_rules": [
+  "Citizens across TN receiving government welfare."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit feedback via online portal or through district-level outreach.",
+ "source_url": "https://neengalnalamaa.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "நீங்கள்நலம்",
+   "benefit": "நலத்திட்ட வழங்கலை மேம்படுத்த மக்களின் கருத்துகளைப் பெறுகிறது.",
+   "eligibility": "தமிழகத்தில் உள்ள அனைத்து நலத்திட்ட பயனாளிகளும்.",
+   "how_to_apply": "ஆன்லைன் போர்ட்டல் அல்லது மாவட்ட முகாம்களுள் கருத்துகளை சமர்ப்பிக்கலாம்.",
+   "department": "முதல்வரின் அலுவலகம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

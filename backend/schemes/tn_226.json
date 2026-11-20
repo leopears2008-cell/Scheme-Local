@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_226",
+ "name": "Secondary Grade Teacher Training Institute for the Disabled",
+ "name_local": {
+  "ta": "மாற்றுத்திறனாளிகளுக்கான இரண்டாம் நிலை ஆசிரியர் பயிற்சி நிறுவனம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Free D.T.Ed training with special accommodations and academic support.",
+ "eligibility_rules": [
+  "Visually and orthopedically disabled candidates with qualification for D.T.Ed."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the Government Training Institute for the Disabled, Chennai.",
+ "source_url": "https://www.scd.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 40
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாற்றுத்திறனாளிகளுக்கான இரண்டாம் நிலை ஆசிரியர் பயிற்சி நிறுவனம்",
+   "benefit": "இலவச ஆசிரியர் பயிற்சி, தங்குமிடம் மற்றும் கல்வி ஆதரவு.",
+   "eligibility": "D.T.Ed தகுதி பெற்ற பார்வை குறைபாடுள்ள மற்றும் உடல் ஊனமுற்ற நபர்கள்.",
+   "how_to_apply": "சென்னை மாற்றுத்திறனாளிகள் அரசு பயிற்சி நிலையத்தில் நேரில் விண்ணப்பிக்க வேண்டும்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

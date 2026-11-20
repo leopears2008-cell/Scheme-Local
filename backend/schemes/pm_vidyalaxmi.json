@@ -1,0 +1,51 @@
+{
+ "scheme_id": "pm_vidyalaxmi",
+ "name": "Pradhan Mantri Vidyalaxmi (PM-Vidyalaxmi) Scheme - Education Loans",
+ "category": "education",
+ "level": "central",
+ "benefit": "Collateral-free, guarantor-free education loans for students admitted to one of the 860 designated Quality Higher Educational Institutions (QHEIs), via a fully digital process. Loan amount covers course fee plus associated expenses (hostel, mess, laptop, living costs) with no upper limit. Government of India provides 75% credit guarantee on loan amounts up to Rs 7,50,000 irrespective of family income. Students with annual family income up to Rs 8,00,000 get 3% interest subvention on loans up to Rs 10,00,000 during the moratorium period (course duration + 1 year). Interest rate capped at the bank's EBLR + 0.5%, with up to 1% further concession if interest is serviced during study/moratorium. Repayment period up to 15 years (excluding moratorium). Subvention is credited via the PM-Vidyalaxmi Digital Rupee App (CBDC wallet). Families with income up to Rs 4,50,000 in technical/professional courses may instead get full interest subvention under PM-USP CSIS.",
+ "eligibility_rules": [
+  "Applicant must be an Indian citizen",
+  "Must have secured merit-based admission to one of the 860 designated Quality Higher Educational Institutions (QHEIs): NIRF top 100 institutions (overall/category/domain), top 200 state/UT government institutions, and all central government HEIs",
+  "Annual family income must be up to Rs 8,00,000 to qualify for the 3% interest subvention (the loan itself has no income restriction)",
+  "Must maintain satisfactory academic performance to continue receiving interest subvention from the 2nd year onwards",
+  "Interest subvention and credit guarantee benefits can be availed only once - for either an undergraduate, postgraduate, or integrated course"
+ ],
+ "exclusions": [
+  "Students admitted through management quota or similar quota are not eligible",
+  "Students already receiving any other Central/State Government scholarship, interest subvention scheme, or fee reimbursement are not eligible",
+  "Students who discontinue the course midstream or are expelled on disciplinary or academic grounds lose eligibility",
+  "Indian campuses of foreign institutions, foreign campuses of Indian institutions, and foreign education institutions are not covered",
+  "Family income above Rs 8,00,000 disqualifies the student from the 3% interest subvention (though the collateral-free loan itself remains available)"
+ ],
+ "documents_required": [
+  "Aadhaar card",
+  "PAN card",
+  "Address proof",
+  "Previous qualifying marksheets (self-attested)",
+  "Entrance exam result",
+  "Offer letter from the institution along with fee structure",
+  "Income certificate from the designated public authority of the state (or Annexure 6 certificate from the QHEI for documents already verified at admission)"
+ ],
+ "how_to_apply": "Apply online at the official PM-Vidyalaxmi portal (pmvidyalaxmi.co.in): register with Aadhaar, mobile and email OTP; log in and click 'Apply for Education Loan'; fill the form, upload documents, choose preferred bank and branch, and submit. After loan disbursal, apply separately for interest subvention on the portal with the income certificate. Canara Bank is the nodal bank (helpline 1800 1031).",
+ "source_url": "https://www.myscheme.gov.in/schemes/pm-vidyalaxmi",
+ "source_document": "myScheme page - PM-Vidyalaxmi, Department of Higher Education, Ministry of Education",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "rules": {
+  "occupation": [
+   "student"
+  ],
+  "maxIncome": 800000,
+  "hasAadhaar": true
+ },
+ "helpline": "1800-267-7827",
+ "emoji": "📚",
+ "points": 8,
+ "merged_from": [
+  "scheme-sahayak",
+  "GovBot"
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_123",
+ "name": "Link Roads to Tribal Habitations",
+ "name_local": {
+  "ta": "பழங்குடி குடியிருப்புகளுக்கு இணைப்புச் சாலைகள் அமைத்தல்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Highways and Rural Development Department",
+ "benefit": "Construction of motorable link roads connecting tribal areas to nearby villages or towns.",
+ "eligibility_rules": [
+  "Tribal habitations that lack proper road connectivity."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Proposal submitted by village panchayat or tribal welfare officials to District Collector.",
+ "source_url": "https://cms.tn.gov.in/cms_migrated/document/docfiles/adtw_e_pb_2022_23.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "பழங்குடி குடியிருப்புகளுக்கு இணைப்புச் சாலைகள் அமைத்தல்",
+   "benefit": "பழங்குடியினர் குடியிருப்புகளை அருகிலுள்ள கிராமங்கள் அல்லது நகரங்களுடன் இணைக்கும் சாலைகள் அமைக்கப்படும்.",
+   "eligibility": "சாலை வசதி இல்லாத பழங்குடியினர் குடியிருப்புகள்.",
+   "how_to_apply": "வில்லேஜ் பஞ்சாயத்து அல்லது பழங்குடியினர் நல அதிகாரிகள் மாவட்ட ஆட்சியரிடம் திட்டம் சமர்ப்பிக்க வேண்டும்.",
+   "department": "வழித்தடங்கள் மற்றும் கிராம வளர்ச்சி துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

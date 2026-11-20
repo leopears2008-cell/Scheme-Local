@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_046",
+ "name": "Tamil Nadu Mental Wellness Outreach Program",
+ "name_local": {
+  "ta": "தமிழ்நாடு மனநலம் மேம்பாட்டு வெளிச்செலுத்தும் திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Health and Family Welfare",
+ "benefit": "Free mental health counseling, teletherapy, awareness camps, and emergency helpline services across the state.",
+ "eligibility_rules": [
+  "All residents of Tamil Nadu aged 13 and above, especially students, senior citizens, and working professionals."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Access services via 104 helpline, mobile app, or visit designated mental health centers in government hospitals.",
+ "source_url": "https://www.tnhealth.tn.gov.in/mental-wellness",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 13
+ },
+ "i18n": {
+  "ta": {
+   "name": "தமிழ்நாடு மனநலம் மேம்பாட்டு வெளிச்செலுத்தும் திட்டம்",
+   "benefit": "இலவச மனநல ஆலோசனை, தொலைதொடர்பு மனநல சேவைகள், விழிப்புணர்வு முகாம்கள் மற்றும் அவசர உதவி எண்கள் மாநிலம் முழுவதும் வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டைச் சேர்ந்த 13 வயதுக்கும் மேற்பட்ட நபர்கள் – மாணவர்கள், மூத்த குடிமக்கள், வேலைவாய்ப்பில் உள்ளவர்கள் உள்ளிட்டோர்.",
+   "how_to_apply": "104 உதவி எண், செயலி அல்லது அரசு மருத்துவமனைகளில் உள்ள மனநல மையங்கள் வழியாக சேவைகளைப் பெறலாம்.",
+   "department": "சுகாதார மற்றும் குடும்ப நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

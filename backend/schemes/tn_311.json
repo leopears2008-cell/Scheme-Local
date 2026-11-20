@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_311",
+ "name": "Afforestation Schemes – Employment for Tribal Communities",
+ "name_local": {
+  "ta": "காடுபரப்புத் திட்டம் – பழங்குடியினருக்கு வேலைவாய்ப்பு"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Forest Department",
+ "benefit": "Employment during tree planting and forest maintenance activities.",
+ "eligibility_rules": [
+  "Tribal individuals residing in or near forest areas."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Register through local forest range office.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTEyNA==",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 55
+ },
+ "i18n": {
+  "ta": {
+   "name": "காடுபரப்புத் திட்டம் – பழங்குடியினருக்கு வேலைவாய்ப்பு",
+   "benefit": "மரம் நடுதல் மற்றும் காட்டு பராமரிப்பு பணிகளில் வேலைவாய்ப்பு வழங்கப்படும்.",
+   "eligibility": "காடுகளில் அல்லது அருகில் வாழும் பழங்குடியினர்.",
+   "how_to_apply": "உள்ளூர் காடுத்துறை அலுவலகத்தில் பதிவு செய்யலாம்.",
+   "department": "காடுத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

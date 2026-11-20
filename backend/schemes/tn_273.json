@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_273",
+ "name": "Provision of Slates to MBC/DNC Primary School Students",
+ "name_local": {
+  "ta": "MBC/DNC சமூக மாணவர்களுக்கு ஸ்லேட் வழங்கும் திட்டம்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "BC/MBC Welfare Department",
+ "benefit": "One slate per student per year provided free.",
+ "eligibility_rules": [
+  "Primary school students (1st and 2nd Std) from MBC/DNC communities."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Provided automatically through schools.",
+ "source_url": "https://bcmbcmw.tn.gov.in/welfschemes.htm",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxAge": 7
+ },
+ "i18n": {
+  "ta": {
+   "name": "MBC/DNC சமூக மாணவர்களுக்கு ஸ்லேட் வழங்கும் திட்டம்",
+   "benefit": "ஒவ்வொரு மாணவருக்கும் ஆண்டுக்கு ஒரு ஸ்லேட் இலவசமாக வழங்கப்படும்.",
+   "eligibility": "MBC/DNC சமூகத்தைச் சேர்ந்த 1 மற்றும் 2ம் வகுப்பு மாணவர்கள்.",
+   "how_to_apply": "பள்ளி வழியாக தானாகவே வழங்கப்படும்.",
+   "department": "பின்தங்கிய மற்றும் மிகவும் பின்தங்கியோர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

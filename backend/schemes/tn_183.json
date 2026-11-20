@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_183",
+ "name": "Free Education for Degree Students (SC/ST)",
+ "name_local": {
+  "ta": "இளங்கலை மாணவர்களுக்கு இலவச கல்வி (SC/ST)"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Tuition, special fees and exam fees reimbursed to the institution.",
+ "eligibility_rules": [
+  "SC/ST students pursuing UG courses in govt/aided colleges."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply during admission with community certificate.",
+ "source_url": "https://www.tntribalwelfare.tn.gov.in/scholarship_matric.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இளங்கலை மாணவர்களுக்கு இலவச கல்வி (SC/ST)",
+   "benefit": "படிப்புக் கட்டணம், சிறப்புக் கட்டணம் மற்றும் தேர்வுக்கட்டணங்கள் வழங்கப்படும்.",
+   "eligibility": "அரசு/உதவிபெறும் கல்லூரிகளில் இளங்கலை படிப்பு பயிலும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "சேர்க்கை நேரத்தில் சமூகச் சான்றுடன் விண்ணப்பிக்க வேண்டும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

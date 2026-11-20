@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_175",
+ "name": "Post-Matric Scholarship for SC/ST Students",
+ "name_local": {
+  "ta": "அடித்தின மாணவர்களுக்கு பிந்தைய பருவ கல்வி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Tuition fees, exam fees, maintenance allowance paid by govt.",
+ "eligibility_rules": [
+  "SC/ST students studying beyond class 10 in recognised institutions."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply online via National Scholarship Portal (NSP) with required certificates.",
+ "source_url": "https://www.tntribalwelfare.tn.gov.in/scholarship_matric.php",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 16,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "அடித்தின மாணவர்களுக்கு பிந்தைய பருவ கல்வி உதவித்தொகை",
+   "benefit": "அரசு சார்பில் கல்விக் கட்டணம், தேர்வு கட்டணம் மற்றும் பராமரிப்பு நிதி வழங்கப்படும்.",
+   "eligibility": "10ம் வகுப்பிற்குப் பிறகு உயர் கல்வி பயிலும் SC/ST மாணவர்கள்.",
+   "how_to_apply": "தேவையான சான்றுகளுடன் தேசிய உதவித்தொகை இணையதளத்தில் (NSP) விண்ணப்பிக்க வேண்டும்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

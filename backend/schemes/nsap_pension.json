@@ -1,0 +1,83 @@
+{
+ "scheme_id": "nsap_pension",
+ "name": "National Old Age Pension (IGNOAPS)",
+ "category": "social_welfare",
+ "level": "central",
+ "state": "",
+ "benefit": "Monthly pension of ₹200-500 for BPL citizens aged 60+ (₹500 after age 80).",
+ "eligibility_rules": [
+  "BPL household"
+ ],
+ "exclusions": [],
+ "documents_required": [
+  "Aadhaar Card",
+  "Age Proof",
+  "BPL Certificate"
+ ],
+ "how_to_apply": "Apply on the official portal: https://nsap.nic.in/",
+ "source_url": "https://nsap.nic.in/",
+ "source_document": "FormSaathi scheme database",
+ "last_verified": "",
+ "origin": "formsaathi",
+ "verification": "imported",
+ "name_local": {
+  "hi": "वृद्धावस्था पेंशन (IGNOAPS)"
+ },
+ "department": "Ministry of Rural Development",
+ "benefit_type": "cash",
+ "estimated_benefit_inr": 3600,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "dob",
+   "label": "Date of Birth",
+   "profileKey": "dob",
+   "type": "date",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "bank",
+   "label": "Bank Account",
+   "profileKey": "bankAccount",
+   "type": "text",
+   "required": true
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "annualIncome",
+   "op": "lte",
+   "value": 200000,
+   "label": "BPL household"
+  }
+ ],
+ "rules": {
+  "minAge": 60,
+  "maxIncome": 100000,
+  "occupation": [
+   "senior"
+  ],
+  "hasAadhaar": true,
+  "hasBankAccount": true
+ },
+ "helpline": "1800-11-1555",
+ "emoji": "👴",
+ "points": 10,
+ "merged_from": [
+  "FormSaathi",
+  "GovBot"
+ ]
+}

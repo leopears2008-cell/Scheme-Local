@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_244",
+ "name": "Free Nutritious Meal Scheme – MGR Noon Meal Program",
+ "name_local": {
+  "ta": "இலவச ஊட்டச்சத்து மதிய உணவு திட்டம் – புரட்சித்தலைவர் எம்.ஜி.ஆர். திட்டம்"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Social Welfare and Nutritious Meal Programme Department",
+ "benefit": "Free nutritious cooked meals during school days.",
+ "eligibility_rules": [
+  "All government and aided school students from class 1 to 10."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "No application needed. Meals served in schools.",
+ "source_url": "https://www.tnsocialwelfare.tn.gov.in/en/specilisationsnutritious-meal-programme/puratchi-thalaivar-mgr-nutritious-meal-programme#:~:text=NUTRITIOUS%20MEAL%20",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 5,
+  "maxAge": 16
+ },
+ "i18n": {
+  "ta": {
+   "name": "இலவச ஊட்டச்சத்து மதிய உணவு திட்டம் – புரட்சித்தலைவர் எம்.ஜி.ஆர். திட்டம்",
+   "benefit": "பள்ளி நாட்களில் இலவசமாக சமைத்த ஊட்டச்சத்து உணவு வழங்கப்படும்.",
+   "eligibility": "அரசு மற்றும் உதவி பெறும் பள்ளிகளில் 1 முதல் 10ம் வகுப்பு வரை படிக்கும் அனைத்து மாணவர்களும்.",
+   "how_to_apply": "விண்ணப்பம் தேவையில்லை. பள்ளியில் நேரடியாக வழங்கப்படும்.",
+   "department": "சமூக நலன் மற்றும் ஊட்டச்சத்து உணவுத் திட்டத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

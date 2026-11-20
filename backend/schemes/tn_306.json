@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_306",
+ "name": "Chief Minister’s Award – Sports Achievements (Cash Incentives)",
+ "name_local": {
+  "ta": "முதல்வரின் விருது – விளையாட்டு சாதனைகளுக்கான பரிசுத் தொகை"
+ },
+ "category": "other",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Youth Welfare and Sports Development Department",
+ "benefit": "Cash prizes ranging from ₹5,000 to ₹2,00,000 based on the level of event.",
+ "eligibility_rules": [
+  "State and national level medal winners in sports events."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Recommendation through District Sports Officer.",
+ "source_url": "https://dipr.tn.gov.in/ords/r/dipr/info-prdept103/press-release1?p33_file_id=15099&request=APPLICATION_PROCESS%3DGET_FILE&session=461836289391&cs=1Bgu8fHoyhEnNRLVV0fsCTlrFar8kxTMqIW3hg70QkU-RX84dvbb0re5vq26eetCbC-CiHIuz8eYtQOs0eBClTw",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 12
+ },
+ "i18n": {
+  "ta": {
+   "name": "முதல்வரின் விருது – விளையாட்டு சாதனைகளுக்கான பரிசுத் தொகை",
+   "benefit": "போட்டியின் நிலையை பொறுத்து ₹5,000 முதல் ₹2,00,000 வரை பரிசுத் தொகை வழங்கப்படும்.",
+   "eligibility": "மாநில மற்றும் தேசிய அளவிலான விளையாட்டு போட்டிகளில் பதக்கம் வென்றவர்கள்.",
+   "how_to_apply": "மாவட்ட விளையாட்டு அலுவலரின் பரிந்துரை மூலம் விண்ணப்பிக்கலாம்.",
+   "department": "இளையோர் நல மற்றும் விளையாட்டு மேம்பாட்டுத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_248",
+ "name": "Job-Oriented Training – Typewriting and Shorthand",
+ "name_local": {
+  "ta": "வேலை வாய்ப்பு உருவாக்கும் பயிற்சி – தட்டச்சு மற்றும் குறுந்தகவு பயிற்சி"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Labour and Employment Department",
+ "benefit": "Free training in typewriting and shorthand with certification.",
+ "eligibility_rules": [
+  "Unemployed youth with minimum 10th pass."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply at Government Technical Training Centre.",
+ "source_url": "https://tnvelaivaaippu.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 35
+ },
+ "i18n": {
+  "ta": {
+   "name": "வேலை வாய்ப்பு உருவாக்கும் பயிற்சி – தட்டச்சு மற்றும் குறுந்தகவு பயிற்சி",
+   "benefit": "இலவச தட்டச்சு மற்றும் குறுந்தகவு பயிற்சி மற்றும் சான்றிதழ் வழங்கப்படும்.",
+   "eligibility": "குறைந்தது 10ம் வகுப்பு தேர்ச்சி பெற்ற வேலைவாய்ப்பு இல்லாத இளைஞர்கள்.",
+   "how_to_apply": "அரசு தொழில்நுட்ப பயிற்சி மையத்தில் விண்ணப்பிக்கவும்.",
+   "department": "தொழிலாளர் மற்றும் வேலைவாய்ப்பு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_021",
+ "name": "Welfare Scheme for Differently Abled Persons",
+ "name_local": {
+  "ta": "விலகுபட்ட திறனாளிகளுக்கான நலத் திட்டம்"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department for Welfare of Differently Abled Persons",
+ "benefit": "Monthly maintenance allowance, assistive devices, vocational training, education scholarships.",
+ "eligibility_rules": [
+  "Residents of Tamil Nadu with 40% or more disability as certified by a medical board."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the District Differently Abled Welfare Office or online portal.",
+ "source_url": "https://www.scd.tn.gov.in",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxIncome": 300000
+ },
+ "i18n": {
+  "ta": {
+   "name": "விலகுபட்ட திறனாளிகளுக்கான நலத் திட்டம்",
+   "benefit": "மாதாந்திர உதவித்தொகை, உதவிப் பொருட்கள், தொழில்வாழ்வுப் பயிற்சி மற்றும் கல்வி உதவித்தொகைகள் வழங்கப்படும்.",
+   "eligibility": "மருத்துவ குழுவால் சான்றளிக்கப்பட்ட 40% அல்லது அதற்கு மேற்பட்ட மாற்றுத்திறனாளித்தன்மையுடன் தமிழ்நாட்டில் வசிக்கும் நபர்கள்.",
+   "how_to_apply": "மாவட்ட மாற்றுத்திறனாளிகள் நல அலுவலகம் அல்லது ஆன்லைன் தளத்தின் மூலம் விண்ணப்பிக்கவும்.",
+   "department": "விலகுபட்ட திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "scheme_id": "tn_001",
+ "name": "Amma Two Wheeler Scheme",
+ "name_local": {
+  "ta": "அம்மா இருசக்கர வாகனத் திட்டம்"
+ },
+ "category": "women_child",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Social Welfare and Nutritious Meal Programme",
+ "benefit": "Subsidy of up to 50% or Rs. 25,000 on two-wheelers to empower working women and improve mobility.",
+ "eligibility_rules": [
+  "Women aged 18-45 with a valid driving license and annual income not exceeding Rs. 2.5 lakhs."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through the official website or district welfare offices with ID proof, income certificate, and license.",
+ "source_url": "https://www.acko.com/wp-content/uploads/2020/04/Amma-Scooter-Subsidy-Claim-Form.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18,
+  "maxAge": 45,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "அம்மா இருசக்கர வாகனத் திட்டம்",
+   "benefit": "வேலைக்குச் செல்லும் பெண்களுக்கு ஆதரவு அளிக்க, இருசக்கர வாகனங்களுக்குப் 50% அல்லது ரூ.25,000 வரை மானியம் வழங்கப்படும்.",
+   "eligibility": "வயது 18 முதல் 45 வரை உள்ள பெண்கள், செல்லுபடியாகும் ஓட்டுநர் உரிமத்துடன் மற்றும் ஆண்டு வருமானம் ரூ.2.5 லட்சத்திற்கு குறைவாக இருக்க வேண்டும்.",
+   "how_to_apply": "அதிகாரப்பூர்வ வலைத்தளத்திலோ அல்லது மாவட்ட நல அலுவலகங்களிலோ ஐடி ஆதாரம், வருமானச் சான்றிதழ், ஓட்டுநர் உரிமம் உடன் விண்ணப்பிக்கவும்.",
+   "department": "சமூக நலத்துறையும் ஊட்டச்சத்து உணவுத் திட்டமும்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

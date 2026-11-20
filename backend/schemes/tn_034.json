@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_034",
+ "name": "Amma Unavagam (Kalaignar Canteen)",
+ "name_local": {
+  "ta": "அம்மா உணவகம் (கலைஞர் உணவகம்)"
+ },
+ "category": "food",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Ministry of Food & Civil Supplies",
+ "benefit": "Subsidised meals: idli ₹1, sambar rice ₹5 at 407+ canteens.",
+ "eligibility_rules": [
+  "All citizens; particularly low-income urban dwellers."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Walk-in at any canteen; no formal application.",
+ "source_url": "https://en.wikipedia.org/wiki/Amma_Unavagam",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "அம்மா உணவகம் (கலைஞர் உணவகம்)",
+   "benefit": "மதிப்புபெற்ற உணவுகள்: இட்லி ₹1, சம்பார் சாதம் ₹5; 407+ உணவகம்.",
+   "eligibility": "அனைத்து குடிமக்களுக்கும்; குறிப்பாக குறைவாக வருமானம் உள்ள நகர்வாசிகளுக்கு.",
+   "how_to_apply": "ஓர்வயம் செலுத்துவதற்குக் கான் செல்லலாம்; விண்ணப்ப தேவையில்லை.",
+   "department": "உணவு மற்றும் நுகர்வோர் பொருட்கள் மந்திரிடம்"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

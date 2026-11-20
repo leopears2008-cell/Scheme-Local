@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_117",
+ "name": "Housing and Repair Loan through Cooperative Banks",
+ "name_local": {
+  "ta": "கூட்டுறவு வங்கிகள் வாயிலாக வீடு கட்டும் மற்றும் பழுதுபார்த்தல் கடன்"
+ },
+ "category": "housing",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Cooperation Department",
+ "benefit": "Loan assistance for new house construction, extension, or repairs.",
+ "eligibility_rules": [
+  "Members of Women Self Help Groups and other eligible cooperative bank members."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through district central cooperative banks or branches.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=OTYz",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 21
+ },
+ "i18n": {
+  "ta": {
+   "name": "கூட்டுறவு வங்கிகள் வாயிலாக வீடு கட்டும் மற்றும் பழுதுபார்த்தல் கடன்",
+   "benefit": "புதிய வீடு கட்டுதல், விரிவாக்கம் அல்லது பழுதுபார்த்தலுக்கான கடன் உதவி.",
+   "eligibility": "பெண்கள் சுய உதவிக் குழு உறுப்பினர்கள் மற்றும் கூட்டுறவு வங்கி உறுப்பினர்கள்.",
+   "how_to_apply": "மாவட்ட மைய கூட்டுறவு வங்கிகள் அல்லது கிளைகளில் விண்ணப்பிக்கவும்.",
+   "department": "கூட்டுறவுத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

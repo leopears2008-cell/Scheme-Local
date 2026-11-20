@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_155",
+ "name": "Scholarship for Degree Students with Disabilities",
+ "name_local": {
+  "ta": "மாற்றுத்திறனாளிகளுக்கான இளங்கலை படிப்பிற்கான உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Welfare of Differently Abled Persons Department",
+ "benefit": "Annual scholarship including tuition, books, and hostel fee assistance.",
+ "eligibility_rules": [
+  "Students with 40% or more disability pursuing UG programs in Tamil Nadu."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Submit application through educational institution with disability certificate.",
+ "source_url": "https://depwd.gov.in/scholarship/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxIncome": 200000
+ },
+ "i18n": {
+  "ta": {
+   "name": "மாற்றுத்திறனாளிகளுக்கான இளங்கலை படிப்பிற்கான உதவித்தொகை",
+   "benefit": "தனக்கேற்ப கல்விக் கட்டணம், புத்தகங்கள் மற்றும் விடுதி கட்டண உதவிகள் வழங்கப்படும்.",
+   "eligibility": "தமிழ்நாட்டில் இளங்கலை படிப்பில் சேர்க்கப்பட்ட 40% அல்லது அதற்கு மேற்பட்ட மாற்றுத்திறனுள்ள மாணவர்கள்.",
+   "how_to_apply": "மாற்றுத்திறன் சான்றுடன் கல்வி நிறுவனத்தின் வாயிலாக விண்ணப்பிக்கலாம்.",
+   "department": "மாற்றுத்திறனாளிகள் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

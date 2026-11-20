@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_056",
+ "name": "Rebate on Stamp Duty and Registration Charges for Privately Developed Industrial Estates",
+ "name_local": {
+  "ta": "தனியாராக மேம்படுத்தப்பட்ட தொழில்துறை பகுதியின் ஸ்டாம்ப் டியூட்டி மற்றும் பதிவு கட்டணத்தில் தள்ளுபடி"
+ },
+ "category": "employment_skill",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Industries and Commerce",
+ "benefit": "Rebate on stamp duty and registration charges to reduce setup costs.",
+ "eligibility_rules": [
+  "Micro and Small Enterprises setting up units in approved private industrial estates."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through District Industries Centre with necessary land and project documents.",
+ "source_url": "https://www.tn.gov.in/scheme_beneficiary_list.php?id=MTk=",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "தனியாராக மேம்படுத்தப்பட்ட தொழில்துறை பகுதியின் ஸ்டாம்ப் டியூட்டி மற்றும் பதிவு கட்டணத்தில் தள்ளுபடி",
+   "benefit": "தொழில் தொடக்க செலவைக் குறைக்க ஸ்டாம்ப் டியூட்டி மற்றும் பதிவு கட்டணத்தில் தள்ளுபடி.",
+   "eligibility": "அங்கீகரிக்கப்பட்ட தனியார் தொழில்துறை பகுதிகளில் தொழிற்சாலைகள் அமைக்கும் சிறு மற்றும் மிகச் சிறு தொழில்கள்.",
+   "how_to_apply": "தேவையான நிலம் மற்றும் திட்ட ஆவணங்களுடன் மாவட்ட தொழில் மையத்தில் விண்ணப்பிக்கவும்.",
+   "department": "தொழில் மற்றும் வர்த்தகத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

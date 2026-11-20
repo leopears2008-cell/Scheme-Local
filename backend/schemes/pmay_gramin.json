@@ -1,0 +1,113 @@
+{
+ "scheme_id": "pmay_gramin",
+ "name": "Pradhan Mantri Awaas Yojana - Gramin (PMAY-G) - Rural Housing",
+ "category": "housing",
+ "level": "central",
+ "benefit": "Financial assistance to build a pucca house (minimum 25 sq m including a hygienic cooking area) for rural houseless households and those in kutcha/dilapidated houses: Rs 1,20,000 per unit in plain areas and Rs 1,30,000 in hilly/difficult/IAP areas. Money goes directly to the beneficiary's Aadhaar-linked bank/post office account. Add-ons through convergence: optional institutional loan up to Rs 70,000 at 3% lower interest (subsidy on principal up to Rs 2,00,000); up to Rs 12,000 for toilet construction via Swachh Bharat Mission-Gramin; ~95 days of unskilled wage employment via MGNREGA; a free LPG connection via Ujjwala; plus convergence for water, electricity and waste treatment. The scheme has been extended through FY 2028-29 with an expanded target.",
+ "eligibility_rules": [
+  "Rural households that are houseless, or living in houses with zero, one or two rooms with kutcha walls and kutcha roof, as identified in SECC 2011 housing deprivation data and verified by the Gram Sabha",
+  "Automatic/compulsory inclusion: households without shelter, destitute/living on alms, manual scavengers, Primitive Tribal Groups, and legally released bonded labourers",
+  "Priority ordering favours the most deprived: houseless first, then fewer rooms; extra deprivation weight for households with no adult aged 16-59, female-headed households without an adult male, no literate adult above 25, a disabled member with no able-bodied adult, and landless manual-casual-labour households",
+  "60% of targets earmarked for SC/ST beneficiaries; ~15% of funds for minorities; states aim for 3% of beneficiaries being persons with disabilities",
+  "Tie-breaker priority: widows/next-of-kin of defence/paramilitary/police killed in action, members with leprosy/cancer/HIV, single girl child households, Forest Rights Act beneficiaries, and transgender persons"
+ ],
+ "exclusions": [
+  "Households already living in houses with pucca roof and/or pucca walls, or with more than 2 rooms",
+  "Owning a motorised two/three/four-wheeler or fishing boat",
+  "Owning mechanised three/four-wheeler agricultural equipment",
+  "Holding a Kisan Credit Card with credit limit of Rs 50,000 or above",
+  "Any member being a government employee",
+  "Non-agricultural enterprise registered with the government",
+  "Any family member earning more than Rs 10,000 per month",
+  "Paying income tax or professional tax",
+  "Owning a refrigerator or a landline phone",
+  "Owning 2.5+ acres of irrigated land with irrigation equipment, 5+ acres irrigated for two or more crop seasons, or 7.5+ acres with irrigation equipment"
+ ],
+ "documents_required": [
+  "Aadhaar number with self-attested copy (thumbprint consent letter if the applicant is illiterate)",
+  "MGNREGA job card (duly registered)",
+  "Bank account details (original and copy), Aadhaar-linked",
+  "Swachh Bharat Mission (SBM) number",
+  "Affidavit that the family does not own a pucca house"
+ ],
+ "how_to_apply": "Beneficiaries are identified from SECC 2011 data and verified by the Gram Sabha - so the first step is checking whether your name is in the PMAY-G permanent wait list (ask at the Gram Panchayat, or check pmayg.nic.in / the AwaasPlus app used in newer surveys). Registration is completed on the PMAY-G portal with personal, bank, and convergence (MGNREGA/SBM) details, usually with help from the Gram Panchayat or block office.",
+ "source_url": "https://www.myscheme.gov.in/schemes/pmayg",
+ "source_document": "myScheme PMAY-G page, Ministry of Rural Development; Cabinet extension of PMAY-G through FY 2028-29 (with expanded target)",
+ "last_verified": "2026-07-11",
+ "origin": "sahayak",
+ "verification": "hand_verified",
+ "state": "",
+ "name_local": {
+  "hi": "पीएम आवास योजना (ग्रामीण)"
+ },
+ "department": "Ministry of Rural Development",
+ "benefit_type": "cash",
+ "estimated_benefit_inr": 130000,
+ "form_fields": [
+  {
+   "id": "full_name",
+   "label": "Full Name",
+   "profileKey": "fullName",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "aadhaar",
+   "label": "Aadhaar Number",
+   "profileKey": "aadhaarNumber",
+   "type": "text",
+   "required": true
+  },
+  {
+   "id": "category",
+   "label": "Category",
+   "profileKey": "category",
+   "type": "select",
+   "required": true,
+   "options": [
+    "SC",
+    "ST",
+    "OBC",
+    "General-EWS"
+   ]
+  }
+ ],
+ "profile_rules": [
+  {
+   "field": "annualIncome",
+   "op": "lte",
+   "value": 200000,
+   "label": "Annual income ≤ ₹2,00,000"
+  },
+  {
+   "field": "category",
+   "op": "in",
+   "value": [
+    "SC",
+    "ST",
+    "OBC",
+    "General-EWS",
+    "BPL"
+   ],
+   "label": "Belongs to eligible category"
+  }
+ ],
+ "rules": {
+  "maxIncome": 100000,
+  "hasAadhaar": true,
+  "hasBankAccount": true,
+  "occupation": [
+   "farmer",
+   "labour",
+   "other"
+  ]
+ },
+ "helpline": "1800-11-6446",
+ "emoji": "🏠",
+ "points": 10,
+ "merged_from": [
+  "scheme-sahayak",
+  "FormSaathi",
+  "GovBot"
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "scheme_id": "tn_035",
+ "name": "Kudimaramathu Scheme",
+ "name_local": {
+  "ta": "குடிமராமத்து திட்டம்"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Water Resources Department",
+ "benefit": "Dredging/restoration of minor irrigation tanks; improves groundwater & agriculture.",
+ "eligibility_rules": [
+  "Rural communities; farmers participate in tank restoration."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Local Panchayat/WRO assists in applying for community-level jobs.",
+ "source_url": "https://en.wikipedia.org/wiki/Kudimaramathu_Scheme",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {},
+ "i18n": {
+  "ta": {
+   "name": "குடிமராமத்து திட்டம்",
+   "benefit": "சிறிய நீர்ப்பிடிநீர்க் குளங்கள் சுத்தம் மற்றும் மீட்பு; நிலநீர், விவசாய வளர்ச்சி.",
+   "eligibility": "புறப் பகுதிக் மக்கள்; விவசாயிகள் ஏரிகள் மீட்பில் பங்கேற்பார்கள்.",
+   "how_to_apply": "உள்ளாட்சி மன்றம்/நீர்வள அலுவலகம் சமுதாய பணிகளுக்கான விண்ணப்ப உதவுதல்.",
+   "department": "நீர்வள வளத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

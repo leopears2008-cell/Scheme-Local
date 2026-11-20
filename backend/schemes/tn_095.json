@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_095",
+ "name": "Production of Certified Seeds of Maize",
+ "name_local": {
+  "ta": "சரிபார்க்கப்பட்ட மக்காச்சோள விதைகள் உற்பத்தி"
+ },
+ "category": "agriculture",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Department of Agriculture",
+ "benefit": "Support for seed production, certification, procurement and incentives.",
+ "eligibility_rules": [
+  "Registered seed farmers and farmer producer groups growing maize."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Approach Agricultural Officer with land details and certification plan.",
+ "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQyMw==",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 18
+ },
+ "i18n": {
+  "ta": {
+   "name": "சரிபார்க்கப்பட்ட மக்காச்சோள விதைகள் உற்பத்தி",
+   "benefit": "விதை உற்பத்தி, சான்றளிப்பு, கொள்முதல் மற்றும் ஊக்கத்தொகைக்கு அரசு உதவி.",
+   "eligibility": "மக்காச்சோள பயிரிடும் பதிவு செய்யப்பட்ட விதை விவசாயிகள் மற்றும் விவசாய உற்பத்தியாளர் குழுக்கள்.",
+   "how_to_apply": "நில விவரங்கள் மற்றும் சான்றளிப்பு திட்டத்துடன் விவசாய அதிகாரியை அணுகவும்.",
+   "department": "விவசாயத் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

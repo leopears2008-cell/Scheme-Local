@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_220",
+ "name": "Special Fee and Exam Fee Reimbursement for Degree and PG Students",
+ "name_local": {
+  "ta": "இளங்கலை மற்றும் முதுகலை மாணவர்களுக்கு சிறப்பு மற்றும் தேர்வுக்கட்டண திருப்பிச் செலுத்துதல்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Full reimbursement of special and exam fees.",
+ "eligibility_rules": [
+  "SC/ST students studying in UG and PG courses in govt/aided colleges."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply during admission through institution with valid certificates.",
+ "source_url": "https://www.tnadw.tn.gov.in/",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 17,
+  "maxIncome": 250000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இளங்கலை மற்றும் முதுகலை மாணவர்களுக்கு சிறப்பு மற்றும் தேர்வுக்கட்டண திருப்பிச் செலுத்துதல்",
+   "benefit": "சிறப்பு மற்றும் தேர்வுக்கட்டணம் முழுமையாக திருப்பிச் செலுத்தப்படும்.",
+   "eligibility": "அரசு/உதவி பெறும் கல்லூரிகளில் இளங்கலை மற்றும் முதுகலை படிப்பில் SC/ST மாணவர்கள்.",
+   "how_to_apply": "சான்றுகளுடன் சேர்க்கை நேரத்தில் கல்வி நிறுவனத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

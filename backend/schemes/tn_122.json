@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_122",
+ "name": "National Cadet Corps – Scholarships",
+ "name_local": {
+  "ta": "தேசிய மாணவர் படை – கல்வி உதவித்தொகை"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Youth Welfare and Sports Development Department",
+ "benefit": "Merit-based scholarships for eligible cadets every academic year.",
+ "eligibility_rules": [
+  "NCC cadets who excel in academics and participate in state or national level camps."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through respective NCC unit officer in school/college.",
+ "source_url": "https://ncc.du.ac.in/downloads/CWS.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15,
+  "maxAge": 25
+ },
+ "i18n": {
+  "ta": {
+   "name": "தேசிய மாணவர் படை – கல்வி உதவித்தொகை",
+   "benefit": "தகுதியான மாணவர்களுக்கு ஒவ்வொரு கல்வியாண்டிலும் கல்வி உதவித்தொகை வழங்கப்படும்.",
+   "eligibility": "படிப்பில் சிறந்து விளங்கி மாநில/தேசிய அளவில் பங்கேற்கும் NCC மாணவர்கள்.",
+   "how_to_apply": "தங்களது பள்ளி/கல்லூரியில் உள்ள NCC அதிகாரியின் வழியாக விண்ணப்பிக்கலாம்.",
+   "department": "இளைஞர் நலன் மற்றும் விளையாட்டு மேம்பாட்டு துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

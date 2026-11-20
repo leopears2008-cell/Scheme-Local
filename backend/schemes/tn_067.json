@@ -1,0 +1,39 @@
+{
+ "scheme_id": "tn_067",
+ "name": "Incentive for Plus Two and 10th Standard Rank Holders – Adi Dravidar and Tribal Students",
+ "name_local": {
+  "ta": "பிளஸ் 2 மற்றும் 10ம் வகுப்பு மாணவர்களுக்கு பரிசு – அடித்தின மற்றும் பழங்குடியினர் மாணவர்கள்"
+ },
+ "category": "education",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Adi Dravidar and Tribal Welfare Department",
+ "benefit": "Cash prize: Rs. 3000 (Plus 2), Rs. 1000 (10th First), Rs. 500 (Second), Rs. 300 (Third).",
+ "eligibility_rules": [
+  "Adi Dravidar and Tribal students who secure ranks in 10th or 12th public exams."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Apply through school to district welfare office.",
+ "source_url": "https://www.tntribalwelfare.tn.gov.in/assets/pdf/Awards-and-Incentive.pdf",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "minAge": 15,
+  "maxAge": 20
+ },
+ "i18n": {
+  "ta": {
+   "name": "பிளஸ் 2 மற்றும் 10ம் வகுப்பு மாணவர்களுக்கு பரிசு – அடித்தின மற்றும் பழங்குடியினர் மாணவர்கள்",
+   "benefit": "பணம் பரிசுகள்: பிளஸ் 2க்கு ரூ.3000, 10ம் வகுப்பு முதல் பரிசு ரூ.1000, இரண்டாம் ரூ.500, மூன்றாம் ரூ.300.",
+   "eligibility": "பொதுத் தேர்வுகளில் இடங்களை பெற்ற அடித்தின மற்றும் பழங்குடியினர் மாணவர்கள்.",
+   "how_to_apply": "பள்ளியின் மூலமாக மாவட்ட நல அலுவலகத்தில் விண்ணப்பிக்கலாம்.",
+   "department": "அடித்தின மற்றும் பழங்குடியினர் நலத்துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "scheme_id": "tn_224",
+ "name": "Assistance for Funeral Rites of Destitute",
+ "name_local": {
+  "ta": "இடர்ப்பட்டவர்களின் இறுதி சடங்குகளுக்கான நிதியுதவி"
+ },
+ "category": "social_welfare",
+ "level": "state",
+ "state": "Tamil Nadu",
+ "department": "Revenue Department",
+ "benefit": "Funeral expense assistance up to ₹2,500.",
+ "eligibility_rules": [
+  "BPL families or individuals without support."
+ ],
+ "exclusions": [],
+ "documents_required": [],
+ "how_to_apply": "Through Village Administrative Officer or Revenue Inspector.",
+ "source_url": "https://www.myscheme.gov.in/schemes/affr",
+ "source_document": "TN-Welfare-Schemes dataset",
+ "last_verified": "",
+ "origin": "tn",
+ "verification": "imported",
+ "rules": {
+  "maxIncome": 72000
+ },
+ "i18n": {
+  "ta": {
+   "name": "இடர்ப்பட்டவர்களின் இறுதி சடங்குகளுக்கான நிதியுதவி",
+   "benefit": "இறுதி சடங்குகளுக்கான ₹2,500 வரை நிதியுதவி.",
+   "eligibility": "வறுமை கோட்டிற்குட்பட்ட ஆதரவற்ற நபர்கள் அல்லது குடும்பங்கள்.",
+   "how_to_apply": "VAO அல்லது வருவாய் ஆய்வாளர் மூலம் விண்ணப்பிக்க வேண்டும்.",
+   "department": "வருவாய் துறை"
+  }
+ },
+ "merged_from": [
+  "TN-Welfare-Schemes"
+ ]
+}
