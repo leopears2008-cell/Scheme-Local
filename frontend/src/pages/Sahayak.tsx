@@ -249,7 +249,7 @@ function Navbar({ lang, setLang, onLogin }: { lang: Lang; setLang: (l: Lang) => 
 function Hero({ lang, onSearch }: { lang: Lang; onSearch: (q: string) => void }) {
   const [isListening, setIsListening] = useState(false);
   const [query, setQuery] = useState("");
-  const recognitionRef = useRef<SpeechRecognition | null>(null);
+  const recognitionRef = useRef<any>(null);
 
   const startListening = useCallback(() => {
     const SR = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
@@ -257,11 +257,11 @@ function Hero({ lang, onSearch }: { lang: Lang; onSearch: (q: string) => void })
       alert("Voice recognition not supported in this browser. Please use Chrome.");
       return;
     }
-    const r: SpeechRecognition = new SR();
+    const r: any = new SR();
     r.lang = lang === "ta" ? "ta-IN" : lang === "hi" ? "hi-IN" : "en-IN";
     r.continuous = false;
     r.interimResults = false;
-    r.onresult = (e) => {
+    r.onresult = (e: any) => {
       const transcript = e.results[0][0].transcript;
       setQuery(transcript);
       onSearch(transcript);
@@ -673,10 +673,12 @@ function HowItWorks({ lang }: { lang: Lang }) {
 }
 
 // ─── AI CHAT WIDGET ───────────────────────────────────────────────────────────
+type ChatMsg = { role: "ai" | "user"; text: string };
+
 function AIChatWidget({ lang }: { lang: Lang }) {
   const [open, setOpen] = useState(false);
-  const [messages, setMessages] = useState([
-    { role: "ai" as const, text: t("chatWelcome", lang) },
+  const [messages, setMessages] = useState<ChatMsg[]>([
+    { role: "ai", text: t("chatWelcome", lang) },
   ]);
   const [input, setInput] = useState("");
   const bottomRef = useRef<HTMLDivElement>(null);
@@ -809,7 +811,7 @@ function AIChatWidget({ lang }: { lang: Lang }) {
 // ─── FLOATING VOICE BUTTON ────────────────────────────────────────────────────
 function FloatingVoiceButton({ lang }: { lang: Lang }) {
   const [listening, setListening] = useState(false);
-  const rRef = useRef<SpeechRecognition | null>(null);
+  const rRef = useRef<any>(null);
 
   const toggle = () => {
     if (listening) {
@@ -819,7 +821,7 @@ function FloatingVoiceButton({ lang }: { lang: Lang }) {
     }
     const SR = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
     if (!SR) return;
-    const r: SpeechRecognition = new SR();
+    const r: any = new SR();
     r.lang = lang === "ta" ? "ta-IN" : lang === "hi" ? "hi-IN" : "en-IN";
     r.onend = () => setListening(false);
     rRef.current = r;
