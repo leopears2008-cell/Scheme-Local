@@ -344,7 +344,3 @@ cd frontend && npm run build
 
 <div align="center">
 
-**Built with ❤️ as a hackathon prototype.**
-Not an official government service · Always verify on the official source.
-
-</div>
