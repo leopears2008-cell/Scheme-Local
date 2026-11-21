@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🇮🇳 MySchemeGuide
+# 🇮🇳 Scheme-Local
 
 ### Find government schemes. Check eligibility. Prepare your application — in one place.
 
