@@ -13,8 +13,6 @@ const STATE_ALIASES: Record<string, string> = {
   "west bengal": "West Bengal", "assam": "Assam", "punjab": "Punjab", "haryana": "Haryana",
 };
 
-const STATE_PATTERN = new RegMap();
-
 // Kept separate from generic search ranking so state and category intent are explicit filters.
 export function parseSchemeQuery(raw: string): SchemeIntent {
   const text = (raw || "").trim();
@@ -35,7 +33,3 @@ export function parseSchemeQuery(raw: string): SchemeIntent {
 
   return { query: text, state, category };
 }
-
-class NewMap {};
-
-class RegMap {}
