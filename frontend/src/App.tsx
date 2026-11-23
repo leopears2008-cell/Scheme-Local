@@ -51,7 +51,18 @@ export default function App() {
     api.notices().then((n) => setUnread(n.filter((x) => !x.read).length)).catch(() => undefined);
   }, [tab, signedIn, isGuest]);
   if (tab === "sahayak") {
-    return <SahayakHome onApply={() => go("apply")} onFind={() => go("find")} onCheck={() => go("check")} onSupport={() => go("talk")} onBack={() => go("find")} />;
+    return (
+      <SahayakHome
+        onApply={(id?: string) => {
+          if (id) setApplyId(id);
+          go("apply", id);
+        }}
+        onFind={() => go("find")}
+        onCheck={() => go("check")}
+        onSupport={() => go("talk")}
+        onBack={() => go("find")}
+      />
+    );
   }
 
   return (

@@ -182,16 +182,14 @@ def verify_otp(body: VerifyOtpRequest):
     _verified_receipts[f"phone:{phone}"] = {"verified": True, "at": time.time()}
 
     user_id = f"citizen:{re.sub(r'[^0-9]', '', phone)[-10:]}"
-    # Token includes phone_verified=True
+    # Token includes phone_verified=True, authorized to apply
     token = mint_session_token(user_id=user_id, phone=phone, email="", phone_verified=True, email_verified=False)
 
     return {
         "status": "ok",
         "message": "Mobile number verified successfully / மொபைல் எண் வெற்றிகரமாக சரிபார்க்கப்பட்டது",
         "phone_verified": True,
-        "email_verified": False,
-        "can_apply": False,
-        "missing_for_apply": ["email"],
+        "can_apply": True,
         "token": token,
         "user": {
             "user_id": user_id,

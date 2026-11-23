@@ -117,19 +117,17 @@ def require_user(p: Principal | None = Depends(optional_user)) -> Principal:
 
 
 def require_verified_applicant(p: Principal = Depends(require_user)) -> Principal:
-    """Strict server-side gate: only applicants with BOTH verified mobile number and verified email can apply.
-    No frontend bypass is possible."""
+    """Strict server-side gate: only applicants with a verified mobile number OTP can apply.
+    No guest access. Applications require genuine mobile number verification."""
     if p.is_guest:
-        raise HTTPException(403, "Guest sessions cannot apply. Please verify your mobile number and email.")
-    missing = []
-    if not p.phone or not p.phone_verified:
-        missing.append("verified mobile number")
-    if not p.email or not p.email_verified:
-        missing.append("verified email address")
-    if missing:
         raise HTTPException(
             status_code=403,
-            detail=f"Identity verification incomplete. To apply for government schemes, you must provide: {' and '.join(missing)}."
+            detail="Guest sessions cannot apply. Please verify your mobile number with OTP."
+        )
+    if not p.phone or not p.phone_verified:
+        raise HTTPException(
+            status_code=403,
+            detail="Mobile number OTP verification is required before applying for government schemes."
         )
     return p
 

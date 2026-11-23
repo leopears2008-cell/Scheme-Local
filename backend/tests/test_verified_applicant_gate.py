@@ -109,51 +109,31 @@ def test_email_otp_flow_and_lockout():
     assert res["email_verified"] is True
 
 
-def test_apply_blocked_for_phone_only_applicant():
-    """A user with only a phone verified (no email) is blocked from applying server-side."""
-    p_phone_only = Principal(
-        user_id="citizen:9876543210",
-        phone="+919876543210",
+def test_apply_blocked_for_unverified_phone():
+    """An applicant without a verified mobile number is blocked from applying server-side."""
+    p_unverified = Principal(
+        user_id="citizen:unverified",
+        phone="",
         token="token",
         iat=int(time.time()),
-        email="",
-        phone_verified=True,
-        email_verified=False
+        phone_verified=False
     )
 
     # 1. Gate raises 403
     with pytest.raises(HTTPException) as exc1:
-        require_verified_applicant(p_phone_only)
+        require_verified_applicant(p_unverified)
     assert exc1.value.status_code == 403
-    assert "verified email address" in exc1.value.detail
+    assert "Mobile number OTP verification is required" in exc1.value.detail
 
     # 2. Blocked from creating applications in tracker
     with pytest.raises(HTTPException) as exc2:
-        create(NewApp(scheme_id="pm_kisan", status="submitted"), p=p_phone_only)
+        create(NewApp(scheme_id="pm_kisan", status="submitted"), p=p_unverified)
     assert exc2.value.status_code == 403
 
     # 3. Blocked from PDF form generation
     with pytest.raises(HTTPException) as exc3:
-        summary(FillRequest(scheme_id="pm_kisan", fields=[FieldValue(label="Name", value="A")]), p=p_phone_only)
+        summary(FillRequest(scheme_id="pm_kisan", fields=[FieldValue(label="Name", value="A")]), p=p_unverified)
     assert exc3.value.status_code == 403
-
-
-def test_apply_blocked_for_email_only_applicant():
-    """A user with only email verified (no phone) is blocked from applying server-side."""
-    p_email_only = Principal(
-        user_id="citizen:emailonly",
-        phone="",
-        token="token",
-        iat=int(time.time()),
-        email="citizen@gov.in",
-        phone_verified=False,
-        email_verified=True
-    )
-
-    with pytest.raises(HTTPException) as exc:
-        require_verified_applicant(p_email_only)
-    assert exc.value.status_code == 403
-    assert "verified mobile number" in exc.value.detail
 
 
 def test_apply_blocked_for_guest():
@@ -173,28 +153,28 @@ def test_apply_blocked_for_guest():
     assert "Guest sessions cannot apply" in exc.value.detail
 
 
-def test_apply_allowed_when_both_phone_and_email_verified():
-    """When both phone and email are verified, applicant passes gate and can apply."""
-    p_dual = Principal(
-        user_id="citizen:dualverified",
+def test_apply_allowed_when_phone_verified():
+    """When phone is verified by OTP, applicant passes gate and can apply directly (no email OTP needed)."""
+    p_phone_verified = Principal(
+        user_id="citizen:9876543210",
         phone="+919876543210",
         token="token",
         iat=int(time.time()),
-        email="citizen@gov.in",
+        email="",
         phone_verified=True,
-        email_verified=True
+        email_verified=False
     )
 
     # 1. Gate passes
-    approved = require_verified_applicant(p_dual)
-    assert approved == p_dual
+    approved = require_verified_applicant(p_phone_verified)
+    assert approved == p_phone_verified
 
     # 2. Application creation succeeds
-    res_app = create(NewApp(scheme_id="pm_kisan", status="submitted"), p=p_dual)
+    res_app = create(NewApp(scheme_id="pm_kisan", status="submitted"), p=p_phone_verified)
     assert res_app["status"] == "submitted"
     assert res_app["scheme_id"] == "pm_kisan"
 
     # 3. PDF generation succeeds
-    res_pdf = summary(FillRequest(scheme_id="pm_kisan", fields=[FieldValue(label="Full Name", value="Ramesh Kumar")]), p=p_dual)
+    res_pdf = summary(FillRequest(scheme_id="pm_kisan", fields=[FieldValue(label="Full Name", value="Ramesh Kumar")]), p=p_phone_verified)
     assert res_pdf.media_type == "application/pdf"
     assert len(res_pdf.body) > 1000
