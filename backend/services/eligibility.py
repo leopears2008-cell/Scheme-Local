@@ -79,19 +79,19 @@ def _check_rules(rules: dict, p: dict) -> list[dict]:
         lo, hi, a = _num(rules.get("minAge")) or 0, _num(rules.get("maxAge")), p["_age"]
         label = f"Age {int(lo)}–{int(hi)}" if hi else f"Age {int(lo)}+"
         if a is None:
-            out.append(_c("age", label, "unknown"))
+            out.append(_c("age", label, "unknown", "Age detail required to verify"))
         else:
             ok = a >= lo and (hi is None or a <= hi)
             out.append(_c("age", label, "pass" if ok else "fail", f"your age: {int(a)}"))
     if rules.get("maxIncome"):
         cap, inc = rules["maxIncome"], p["_income"]
         label = f"Annual income up to ₹{int(cap):,}"
-        out.append(_c("income", label, "unknown") if inc is None else
+        out.append(_c("income", label, "unknown", "Annual income detail required to verify") if inc is None else
                    _c("income", label, "pass" if inc <= cap else "fail", f"your income: ₹{int(inc):,}"))
     if rules.get("occupation"):
         label = "Occupation: " + ", ".join(rules["occupation"])
         if not p["_occ"]:
-            out.append(_c("occupation", label, "unknown"))
+            out.append(_c("occupation", label, "unknown", "Occupation detail required to verify"))
         elif not (p["_occ_set"] & set(OCC_ALIASES)):
             # we could not map the answer to any known occupation group: unknown, never fail
             out.append(_c("occupation", label, "unknown", f"could not match '{p['_occ']}' to a known occupation"))
@@ -101,18 +101,19 @@ def _check_rules(rules: dict, p: dict) -> list[dict]:
     if rules.get("gender"):
         want = {"f": "female", "woman": "female"}.get(str(rules["gender"]).lower(), str(rules["gender"]).lower())
         g = p["_gender"]
-        out.append(_c("gender", f"For {want} applicants", "unknown" if not g else ("pass" if g == want else "fail")))
+        out.append(_c("gender", f"For {want} applicants", "unknown" if not g else ("pass" if g == want else "fail"),
+                      "Gender detail required to verify" if not g else f"yours: {g}"))
     if rules.get("maxLandHectares"):
         cap, land = rules["maxLandHectares"], p["_land"]
         label = f"Land up to {cap} ha"
-        note = p.get("_land_note", "")
+        note = p.get("_land_note", "") or ("Land holding detail required to verify" if land is None else "")
         out.append(_c("land", label, "unknown", note) if land is None else
                    _c("land", label, "pass" if land <= cap else "fail", note))
     if rules.get("casteCategories"):
         label = "Category: " + ", ".join(rules["casteCategories"])
         cat = str(p.get("category") or "").upper()
-        out.append(_c("category", label, "unknown") if not cat else
-                   _c("category", label, "pass" if cat in {c.upper() for c in rules["casteCategories"]} else "fail"))
+        out.append(_c("category", label, "unknown", "Category detail required to verify") if not cat else
+                   _c("category", label, "pass" if cat in {c.upper() for c in rules["casteCategories"]} else "fail", f"yours: {cat}"))
     if rules.get("hasAadhaar"):
         out.append(_c("aadhaar", "Aadhaar card", "pass" if p["_aadhaar"] else "unknown"))
     if rules.get("hasBankAccount"):

@@ -1,6 +1,8 @@
-# MySchemeGuide — hackathon prototype
+# SchemeLocal — hackathon prototype
 
-Find Indian government schemes, check indicative eligibility, prepare documents and an application draft.
+> **formerly MySchemeGuide**
+
+Find Indian government schemes, check indicative eligibility, prepare documents and an application draft in your language.
 **This is a hackathon prototype.** It is not an official government service and it does not submit anything to any government portal.
 
 ## What works
@@ -41,8 +43,25 @@ Columns are read from `supabase/migrations/0001_init.sql`. Extra source fields g
 - `render.yaml` is at the repository root (Render reads it there; `rootDir: backend`).
 - `frontend/vercel.json` is used with the Vercel root directory set to `frontend`.
 
-## Setup
-Backend (Python 3.12):
+## Setup (2 commands)
+
+**Windows (PowerShell):**
+```powershell
+.\scripts\setup.ps1    # installs deps, copies .env.example → .env if missing
+.\scripts\run.ps1      # starts backend on :8000 and frontend on :5173 in parallel
+```
+
+**macOS / Linux (bash):**
+```bash
+bash scripts/setup.sh
+bash scripts/run.sh
+```
+
+The app opens at **http://localhost:5173**. Find and Check work immediately without any keys.
+To unlock Talk, Docs, Voice and Admin, fill in `backend/.env` and `frontend/.env` (see below).
+
+### Manual setup (alternative)
+Backend (Python 3.12+):
 ```bash
 cd backend
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate

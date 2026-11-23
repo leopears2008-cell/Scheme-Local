@@ -137,10 +137,10 @@ const SCHEMES = [
 ];
 
 const CATEGORIES = [
-  { key: "farmer", emoji: "🌾", img: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&q=80" },
-  { key: "women",  emoji: "👩", img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" },
-  { key: "seniors",emoji: "👴", img: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80" },
-  { key: "students",emoji:"🎓", img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&q=80" },
+  { key: "farmer", emoji: "🌾", img: "/images/cat-farmer.webp" },
+  { key: "women",  emoji: "👩", img: "/images/cat-women.webp" },
+  { key: "seniors",emoji: "👴", img: "/images/cat-seniors.webp" },
+  { key: "students",emoji:"🎓", img: "/images/cat-students.webp" },
 ];
 
 const CHAT_SUGGESTIONS = [
@@ -161,12 +161,11 @@ function Navbar({ lang, setLang, onLogin }: { lang: Lang; setLang: (l: Lang) => 
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center gap-4">
         {/* Logo */}
         <div className="flex items-center gap-3 shrink-0">
-          <div
-            className="w-10 h-10 rounded-full flex items-center justify-center text-white text-lg font-bold shadow"
-            style={{ background: `linear-gradient(135deg, ${C.navy}, ${C.deepNavy})` }}
-          >
-            🏛️
-          </div>
+          <img
+            src="/images/sahayak-logo.webp"
+            alt="Sahayak Logo"
+            className="w-10 h-10 rounded-full object-cover shadow border border-white/20"
+          />
           <div className="leading-tight">
             <div className="font-bold text-base" style={{ color: C.navy }}>
               சகாயக் <span className="text-sm font-medium">| Sahayak</span>
@@ -283,11 +282,11 @@ function Hero({ lang, onSearch }: { lang: Lang; onSearch: (q: string) => void })
 
   return (
     <section className="relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${C.deepNavy} 0%, ${C.navy} 50%, #1a4fc4 100%)` }}>
-      {/* Background image */}
-      <div className="absolute inset-0 opacity-20">
+      {/* Background hero image */}
+      <div className="absolute inset-0 opacity-25">
         <img
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80"
-          alt="Indian village"
+          src="/images/sahayak-hero.webp"
+          alt="Citizens and rural landscape"
           className="w-full h-full object-cover"
         />
       </div>
@@ -870,12 +869,14 @@ function AuthModal({ isOpen, onClose, lang }: { isOpen: boolean; onClose: () => 
   const [otp, setOtp] = useState(["", "", "", "", "", ""]);
   const [sending, setSending] = useState(false);
   const [countdown, setCountdown] = useState(0);
-  const [isLogin, setIsLogin] = useState(true);
-  const [showPass, setShowPass] = useState(false);
+  const [emailStep, setEmailStep] = useState<1 | 2>(1);
+  const [emailSending, setEmailSending] = useState(false);
+  const [emailCountdown, setEmailCountdown] = useState(0);
+  const [emailOtp, setEmailOtp] = useState(["", "", "", "", "", ""]);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
   const otpRefs = useRef<(HTMLInputElement | null)[]>([]);
+  const emailOtpRefs = useRef<(HTMLInputElement | null)[]>([]);
 
   useEffect(() => {
     if (countdown > 0) {
@@ -883,6 +884,78 @@ function AuthModal({ isOpen, onClose, lang }: { isOpen: boolean; onClose: () => 
       return () => clearTimeout(t);
     }
   }, [countdown]);
+
+  useEffect(() => {
+    if (emailCountdown > 0) {
+      const t = setTimeout(() => setEmailCountdown((c) => c - 1), 1000);
+      return () => clearTimeout(t);
+    }
+  }, [emailCountdown]);
+
+  const sendEmailOtp = async () => {
+    if (!email || !email.includes("@")) {
+      alert("Please enter a valid email address");
+      return;
+    }
+    setEmailSending(true);
+    try {
+      const r = await fetch(`${API_BASE}/api/auth/send-email-otp`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      const data = await r.json().catch(() => ({}));
+      if (r.ok) {
+        setEmailStep(2);
+        setEmailCountdown(60);
+      } else {
+        alert(data.detail || "Unable to send email verification code");
+      }
+    } catch {
+      alert("Unable to reach verification server. Please check backend connection.");
+    } finally {
+      setEmailSending(false);
+    }
+  };
+
+  const verifyEmailOtp = async () => {
+    const code = emailOtp.join("");
+    if (code.length !== 6) {
+      alert("Please enter the 6-digit email OTP");
+      return;
+    }
+    try {
+      const r = await fetch(`${API_BASE}/api/auth/verify-email-otp`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, otp: code }),
+      });
+      const data = await r.json().catch(() => ({}));
+      if (r.ok && data.email_verified) {
+        localStorage.setItem("msg_user_email", email);
+        localStorage.setItem("msg_email_verified", "true");
+        // If phone was also verified, exchange for dual-verified applicant session token
+        const savedPhone = localStorage.getItem("msg_user_phone");
+        if (savedPhone && localStorage.getItem("msg_phone_verified") === "true") {
+          try {
+            const sessRes = await fetch(`${API_BASE}/api/auth/verified-session`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ phone_number: savedPhone, email }),
+            });
+            const sData = await sessRes.json().catch(() => ({}));
+            if (sData.token) localStorage.setItem("msg_applicant_token", sData.token);
+          } catch { /* proceed */ }
+        }
+        alert("Email verified successfully! / மின்னஞ்சல் சரிபார்க்கப்பட்டது!");
+        onClose();
+      } else {
+        alert(data.detail || "Invalid or expired OTP. Please check and retry.");
+      }
+    } catch {
+      alert("Verification server unreachable. Please retry.");
+    }
+  };
 
   const sendOtp = async () => {
     setSending(true);
@@ -900,15 +973,41 @@ function AuthModal({ isOpen, onClose, lang }: { isOpen: boolean; onClose: () => 
 
   const verifyOtp = async () => {
     const code = otp.join("");
+    if (code.length !== 6) {
+      alert("Please enter a valid 6-digit OTP");
+      return;
+    }
     try {
       const r = await fetch(`${API_BASE}/api/auth/verify-otp`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ phone_number: `+91${phone}`, otp: code }),
       });
-      if (r.ok || code === "123456") { onClose(); }
-      else alert("Invalid OTP");
-    } catch { if (code === "123456") onClose(); else alert("Invalid OTP"); }
+      const data = await r.json().catch(() => ({}));
+      if (r.ok && data.phone_verified) {
+        localStorage.setItem("msg_user_phone", `+91${phone}`);
+        localStorage.setItem("msg_phone_verified", "true");
+        // If email was already verified, attempt dual-verification session
+        const savedEmail = localStorage.getItem("msg_user_email");
+        if (savedEmail && localStorage.getItem("msg_email_verified") === "true") {
+          try {
+            const sessRes = await fetch(`${API_BASE}/api/auth/verified-session`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ phone_number: `+91${phone}`, email: savedEmail }),
+            });
+            const sData = await sessRes.json().catch(() => ({}));
+            if (sData.token) localStorage.setItem("msg_applicant_token", sData.token);
+          } catch { /* proceed */ }
+        }
+        alert("Mobile number verified successfully! / மொபைல் எண் வெற்றிகரமாக சரிபார்க்கப்பட்டது!");
+        onClose();
+      } else {
+        alert(data.detail || "Invalid or expired OTP. Please try again.");
+      }
+    } catch {
+      alert("Unable to connect to verification server. Please ensure the backend is running.");
+    }
   };
 
   const changeOtp = (i: number, v: string) => {
@@ -959,7 +1058,7 @@ function AuthModal({ isOpen, onClose, lang }: { isOpen: boolean; onClose: () => 
 
             {/* Header */}
             <div className="text-center mb-6">
-              <div className="w-14 h-14 rounded-2xl mx-auto mb-3 flex items-center justify-center text-2xl" style={{ background: `${C.navy}12` }}>🏛️</div>
+              <img src="/images/sahayak-logo.webp" alt="Sahayak Logo" className="w-14 h-14 rounded-2xl mx-auto mb-3 object-contain shadow-sm" />
               <h2 id="auth-modal-title" className="text-xl font-bold" style={{ color: C.text }}>
                 {lang === "ta" ? "சகாயக்-இல் உள்நுழைக" : "Sign in to Sahayak"}
               </h2>
@@ -1092,73 +1191,106 @@ function AuthModal({ isOpen, onClose, lang }: { isOpen: boolean; onClose: () => 
             {/* Email tab */}
             {tab === "email" && (
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
-                {/* Toggle */}
-                <div className="flex rounded-xl overflow-hidden" style={{ border: `1px solid ${C.border}` }}>
-                  {[true, false].map((v) => (
+                {/* Email OTP Verification */}
+                {emailStep === 1 ? (
+                  <div className="space-y-4">
+                    <div>
+                      <label className="block text-xs font-semibold mb-1" style={{ color: C.text }}>
+                        {lang === "ta" ? "உங்கள் மின்னஞ்சல் முகவரி" : "Your Email Address"}
+                      </label>
+                      <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        className="w-full px-3 py-3 rounded-xl text-sm outline-none"
+                        style={{ border: `2px solid ${C.border}`, color: C.text }}
+                        placeholder="citizen@example.gov.in"
+                      />
+                      <p className="text-xs text-gray-400 mt-1">
+                        {lang === "ta" ? "தற்காலிக மின்னஞ்சல்கள் அனுமதிக்கப்படாது" : "Disposable emails will be rejected"}
+                      </p>
+                    </div>
+
                     <button
-                      key={String(v)}
-                      onClick={() => setIsLogin(v)}
-                      className="flex-1 py-2 text-xs font-semibold transition-colors"
-                      style={{ background: isLogin === v ? C.navy : C.bg, color: isLogin === v ? C.white : C.text }}
+                      onClick={sendEmailOtp}
+                      disabled={!email || !email.includes("@") || emailSending}
+                      className="w-full py-3 rounded-xl text-white font-bold text-sm flex items-center justify-center gap-2 transition-opacity"
+                      style={{ background: email.includes("@") ? C.navy : "#D1D5DB" }}
                     >
-                      {v ? (lang === "ta" ? "உள்நுழைக" : "Login") : (lang === "ta" ? "புதிய கணக்கு" : "Sign Up")}
-                    </button>
-                  ))}
-                </div>
-
-                {!isLogin && (
-                  <div>
-                    <label className="block text-xs font-semibold mb-1" style={{ color: C.text }}>{lang === "ta" ? "பெயர்" : "Full Name"}</label>
-                    <input value={name} onChange={(e) => setName(e.target.value)} className="w-full px-3 py-2.5 rounded-xl text-sm outline-none" style={{ border: `2px solid ${C.border}`, color: C.text }} placeholder="Your full name" />
-                  </div>
-                )}
-
-                <div>
-                  <label className="block text-xs font-semibold mb-1" style={{ color: C.text }}>{lang === "ta" ? "மின்னஞ்சல்" : "Email Address"}</label>
-                  <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="w-full px-3 py-2.5 rounded-xl text-sm outline-none" style={{ border: `2px solid ${C.border}`, color: C.text }} placeholder="you@example.com" />
-                </div>
-
-                <div>
-                  <label className="block text-xs font-semibold mb-1" style={{ color: C.text }}>{lang === "ta" ? "கடவுச்சொல்" : "Password"}</label>
-                  <div className="relative">
-                    <input type={showPass ? "text" : "password"} value={password} onChange={(e) => setPassword(e.target.value)} className="w-full px-3 py-2.5 pr-10 rounded-xl text-sm outline-none" style={{ border: `2px solid ${C.border}`, color: C.text }} placeholder="••••••••" />
-                    <button onClick={() => setShowPass((v) => !v)} className="absolute right-3 top-1/2 -translate-y-1/2">
-                      {showPass ? <EyeOff className="w-4 h-4" style={{ color: "#9CA3AF" }} /> : <Eye className="w-4 h-4" style={{ color: "#9CA3AF" }} />}
+                      {emailSending ? (
+                        <span className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                      ) : (
+                        <Mail className="w-4 h-4" />
+                      )}
+                      {lang === "ta" ? "மின்னஞ்சல் OTP அனுப்புக" : "Send Email OTP"}
                     </button>
                   </div>
-                </div>
+                ) : (
+                  <div className="space-y-4">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-medium" style={{ color: "#6B7280" }}>
+                        {email}
+                      </span>
+                      <button onClick={() => setEmailStep(1)} className="text-xs font-semibold" style={{ color: C.orange }}>
+                        {lang === "ta" ? "மாற்று" : "Change"}
+                      </button>
+                    </div>
 
-                {!isLogin && (
-                  <div>
-                    <label className="block text-xs font-semibold mb-1" style={{ color: C.text }}>{lang === "ta" ? "மாவட்டம்" : "District (Optional)"}</label>
-                    <select className="w-full px-3 py-2.5 rounded-xl text-sm outline-none" style={{ border: `2px solid ${C.border}`, color: C.text }}>
-                      <option value="">Select district...</option>
-                      {["Chennai", "Madurai", "Coimbatore", "Thanjavur", "Salem", "Trichy", "Vellore"].map((d) => (
-                        <option key={d}>{d}</option>
-                      ))}
-                    </select>
+                    <div>
+                      <label className="block text-xs font-semibold mb-3" style={{ color: C.text }}>
+                        {lang === "ta" ? "மின்னஞ்சலுக்கு அனுப்பப்பட்ட 6-இலக்க OTP" : "Enter 6-digit Email OTP"}
+                      </label>
+                      <div className="flex gap-2">
+                        {emailOtp.map((d, i) => (
+                          <input
+                            key={i}
+                            ref={(el) => { emailOtpRefs.current[i] = el; }}
+                            value={d}
+                            onChange={(e) => {
+                              const v = e.target.value.replace(/\D/g, "");
+                              const n = [...emailOtp];
+                              n[i] = v.slice(-1);
+                              setEmailOtp(n);
+                              if (v && i < 5) emailOtpRefs.current[i + 1]?.focus();
+                            }}
+                            onKeyDown={(e) => {
+                              if (e.key === "Backspace" && !emailOtp[i] && i > 0) emailOtpRefs.current[i - 1]?.focus();
+                            }}
+                            maxLength={1}
+                            inputMode="numeric"
+                            aria-label={`Digit ${i + 1} of email code`}
+                            className="w-12 h-14 text-center text-2xl font-bold rounded-xl outline-none transition-all"
+                            style={{
+                              border: `2px solid ${d ? C.navy : C.border}`,
+                              color: C.text,
+                              background: d ? `${C.navy}08` : C.white,
+                            }}
+                          />
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="flex items-center justify-between text-xs">
+                      <span style={{ color: "#6B7280" }}>
+                        {emailCountdown > 0 ? `Resend in ${emailCountdown}s` : ""}
+                      </span>
+                      {emailCountdown === 0 && (
+                        <button onClick={sendEmailOtp} className="font-semibold" style={{ color: C.navy }}>
+                          Resend OTP
+                        </button>
+                      )}
+                    </div>
+
+                    <button
+                      onClick={verifyEmailOtp}
+                      disabled={emailOtp.some((d) => !d)}
+                      className="w-full py-3 rounded-xl text-white font-bold text-sm transition-opacity"
+                      style={{ background: emailOtp.every(Boolean) ? C.green : "#D1D5DB" }}
+                    >
+                      {lang === "ta" ? "சரிபார்க்கவும் (Verify Email)" : "Verify Email"}
+                    </button>
                   </div>
                 )}
-
-                <button
-                  className="w-full py-3 rounded-xl text-white font-bold text-sm flex items-center justify-center gap-2"
-                  style={{ background: C.orange }}
-                  onClick={async () => {
-                    const url = isLogin ? `${API_BASE}/api/auth/email-login` : `${API_BASE}/api/auth/email-signup`;
-                    try {
-                      const r = await fetch(url, {
-                        method: "POST",
-                        headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify({ email, password, full_name: name }),
-                      });
-                      if (r.ok) onClose();
-                      else alert("Authentication failed. Use demo OTP tab.");
-                    } catch { alert("Backend not running. Try the OTP tab (use code 123456)."); }
-                  }}
-                >
-                  <User className="w-4 h-4" />
-                  {isLogin ? (lang === "ta" ? "உள்நுழைக" : "Login") : (lang === "ta" ? "கணக்கு உருவாக்குக" : "Create Account")}
-                </button>
 
                 {/* Guest access */}
                 <button onClick={onClose} className="w-full py-2 text-xs font-medium underline" style={{ color: "#6B7280" }}>
@@ -1181,7 +1313,7 @@ function Footer({ lang }: { lang: Lang }) {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-xl">🏛️</div>
+              <img src="/images/sahayak-logo.webp" alt="Sahayak Logo" className="w-10 h-10 rounded-full object-contain bg-white/10" />
               <div>
                 <div className="font-bold text-white">சகாயக் | Sahayak</div>
                 <div className="text-xs text-blue-200">{t("subtitle", lang)}</div>

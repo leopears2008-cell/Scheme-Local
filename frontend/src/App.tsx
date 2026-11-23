@@ -62,7 +62,7 @@ export default function App() {
             onClick={() => go("find")}
             className="text-amber-400 hover:text-amber-300 underline font-medium cursor-pointer"
           >
-            ← Back to Classic MySchemeGuide
+            ← Back to SchemeLocal
           </button>
         </div>
         <Sahayak />
@@ -74,9 +74,12 @@ export default function App() {
     <div className="app">
       <DemoBanner />
       <header>
-        <div className="brand">
-          <b>MySchemeGuide</b>
-          <span>{t("tagline")}</span>
+        <div className="brand" style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <img src="/images/sahayak-logo.webp" alt="SchemeLocal emblem" style={{ width: "36px", height: "36px", borderRadius: "50%", objectFit: "contain", border: "1px solid var(--line)" }} />
+          <div>
+            <b>SchemeLocal</b>
+            <span>{t("tagline")}</span>
+          </div>
         </div>
         <div className="row">
           <button

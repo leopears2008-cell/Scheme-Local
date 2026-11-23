@@ -4,6 +4,8 @@ import React, { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Smartphone, Mail, X, Phone, Eye, EyeOff } from "lucide-react";
 
+const API_BASE = (import.meta.env.VITE_API_URL as string) || "http://localhost:8000";
+
 interface AuthModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -22,30 +24,37 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess }: AuthModal
   const otpRefs = useRef<(HTMLInputElement | null)[]>([]);
 
   // Email Flow States
-  const [isLogin, setIsLogin] = useState(true);
-  const [fullName, setFullName] = useState("");
+  const [emailStep, setEmailStep] = useState<1 | 2>(1);
   const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [showPassword, setShowPassword] = useState(false);
+  const [emailOtp, setEmailOtp] = useState(["", "", "", "", "", ""]);
+  const [isEmailSending, setIsEmailSending] = useState(false);
+  const [isEmailVerifying, setIsEmailVerifying] = useState(false);
+  const emailOtpRefs = useRef<(HTMLInputElement | null)[]>([]);
 
   if (!isOpen) return null;
 
   // --- Handlers ---
   const handleSendOTP = async () => {
     setIsSending(true);
-    // Call FastAPI Backend (with graceful local fallback)
     try {
-      await fetch("http://localhost:8000/api/auth/send-otp", {
+      const res = await fetch(`${API_BASE}/api/auth/send-otp`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ phone_number: `+91${mobileNumber}` }),
       });
-    } catch (error) {
-      console.warn("Backend /api/auth/send-otp offline or unreachable, proceeding in demo mode", error);
-    } finally {
+      if (!res.ok) {
+        const j = await res.json().catch(() => ({}));
+        alert(j.detail || "Unable to send SMS OTP.");
+        setIsSending(false);
+        return;
+      }
+    } catch {
+      alert("Unable to reach backend auth service.");
       setIsSending(false);
-      setMobileStep(2);
+      return;
     }
+    setIsSending(false);
+    setMobileStep(2);
   };
 
   const handleVerifyOTP = async () => {
@@ -55,51 +64,118 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess }: AuthModal
       return;
     }
     setIsVerifying(true);
-    let success = false;
-    // Call FastAPI Backend
     try {
-      const res = await fetch("http://localhost:8000/api/auth/verify-otp", {
+      const res = await fetch(`${API_BASE}/api/auth/verify-otp`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ phone_number: `+91${mobileNumber}`, otp: otpString }),
       });
-      if (res.ok) {
-        success = true;
-      }
-    } catch (error) {
-      console.warn("Backend /api/auth/verify-otp offline, completing in demo verification mode", error);
-      success = true; // graceful fallback for frontend testing
-    } finally {
-      setIsVerifying(false);
-      if (success) {
-        alert("Login Successful! / வெற்றிகரமாக உள்நுழைந்தீர்கள்!");
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.phone_verified) {
+        localStorage.setItem("msg_user_phone", `+91${mobileNumber}`);
+        localStorage.setItem("msg_phone_verified", "true");
+        // Check if email already verified
+        const savedEmail = localStorage.getItem("msg_user_email");
+        if (savedEmail && localStorage.getItem("msg_email_verified") === "true") {
+          try {
+            const sessRes = await fetch(`${API_BASE}/api/auth/verified-session`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ phone_number: `+91${mobileNumber}`, email: savedEmail }),
+            });
+            const sData = await sessRes.json().catch(() => ({}));
+            if (sData.token) localStorage.setItem("msg_applicant_token", sData.token);
+          } catch { /* proceed */ }
+        }
+        alert("Mobile verified! / மொபைல் எண் வெற்றிகரமாக சரிபார்க்கப்பட்டது!");
         if (onLoginSuccess) {
           onLoginSuccess({
-            name: "Citizen User",
+            name: "Citizen Applicant",
             phone: `+91 ${mobileNumber}`
           });
         }
         onClose();
       } else {
-        alert("Invalid OTP");
+        alert(data.detail || "Invalid or expired OTP");
       }
+    } catch {
+      alert("Connection error during OTP verification.");
+    } finally {
+      setIsVerifying(false);
     }
   };
 
-  const handleEmailAuth = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!email.trim() || !password.trim()) {
-      alert("Please enter email and password / மின்னஞ்சல் மற்றும் கடவுச்சொல்லை உள்ளிடவும்");
+  const handleSendEmailOTP = async () => {
+    if (!email || !email.includes("@")) {
+      alert("Please enter a valid email address");
       return;
     }
-    if (onLoginSuccess) {
-      onLoginSuccess({
-        name: isLogin ? email.split("@")[0] : fullName || "Citizen User",
-        email: email
+    setIsEmailSending(true);
+    try {
+      const res = await fetch(`${API_BASE}/api/auth/send-email-otp`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
       });
+      const j = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        alert(j.detail || "Unable to send email OTP. Disposable emails are blocked.");
+        setIsEmailSending(false);
+        return;
+      }
+      setEmailStep(2);
+    } catch {
+      alert("Unable to reach backend auth service.");
+    } finally {
+      setIsEmailSending(false);
     }
-    alert(isLogin ? "Login Successful! / வெற்றிகரமாக உள்நுழைந்தீர்கள்!" : "Account Created! / கணக்கு உருவாக்கப்பட்டது!");
-    onClose();
+  };
+
+  const handleVerifyEmailOTP = async () => {
+    const code = emailOtp.join("");
+    if (code.length !== 6) {
+      alert("Please enter the 6-digit email OTP");
+      return;
+    }
+    setIsEmailVerifying(true);
+    try {
+      const res = await fetch(`${API_BASE}/api/auth/verify-email-otp`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, otp: code }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.email_verified) {
+        localStorage.setItem("msg_user_email", email);
+        localStorage.setItem("msg_email_verified", "true");
+        const savedPhone = localStorage.getItem("msg_user_phone");
+        if (savedPhone && localStorage.getItem("msg_phone_verified") === "true") {
+          try {
+            const sessRes = await fetch(`${API_BASE}/api/auth/verified-session`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ phone_number: savedPhone, email }),
+            });
+            const sData = await sessRes.json().catch(() => ({}));
+            if (sData.token) localStorage.setItem("msg_applicant_token", sData.token);
+          } catch { /* proceed */ }
+        }
+        alert("Email verified successfully! / மின்னஞ்சல் சரிபார்க்கப்பட்டது!");
+        if (onLoginSuccess) {
+          onLoginSuccess({
+            name: email.split("@")[0],
+            email
+          });
+        }
+        onClose();
+      } else {
+        alert(data.detail || "Invalid or expired OTP");
+      }
+    } catch {
+      alert("Connection error during verification.");
+    } finally {
+      setIsEmailVerifying(false);
+    }
   };
 
   const handleGuestContinue = () => {
@@ -258,61 +334,81 @@ export default function AuthModal({ isOpen, onClose, onLoginSuccess }: AuthModal
                 exit={{ opacity: 0, x: -20 }}
                 className="space-y-4"
               >
-                {!isLogin && (
-                  <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1">முழு பெயர் (Full Name)</label>
-                    <input
-                      type="text"
-                      value={fullName}
-                      onChange={(e) => setFullName(e.target.value)}
-                      placeholder="எ.கா: கார்த்திக்"
-                      className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#1E40AF] outline-none"
-                    />
-                  </div>
-                )}
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">மின்னஞ்சல் (Email)</label>
-                  <input
-                    type="email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="name@example.com"
-                    className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#1E40AF] outline-none"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">கடவுச்சொல் (Password)</label>
-                  <div className="relative">
-                    <input
-                      type={showPassword ? "text" : "password"}
-                      value={password}
-                      onChange={(e) => setPassword(e.target.value)}
-                      placeholder="••••••••"
-                      className="w-full pl-4 pr-12 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#1E40AF] outline-none"
-                    />
+                {emailStep === 1 ? (
+                  <div className="space-y-4">
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-1">
+                        மின்னஞ்சல் முகவரி (Email Address)
+                      </label>
+                      <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        placeholder="citizen@example.gov.in"
+                        className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#1E40AF] outline-none"
+                      />
+                      <p className="text-xs text-gray-500 mt-1">
+                        Government scheme applications require verified official or personal email (disposable emails blocked).
+                      </p>
+                    </div>
+
                     <button
                       type="button"
-                      onClick={() => setShowPassword(!showPassword)}
-                      className="absolute right-4 top-3.5 text-gray-400 cursor-pointer"
+                      onClick={handleSendEmailOTP}
+                      disabled={!email || !email.includes("@") || isEmailSending}
+                      className="w-full py-4 bg-[#1E40AF] hover:bg-blue-800 disabled:bg-gray-300 text-white text-lg font-medium rounded-xl transition-all shadow-md cursor-pointer"
                     >
-                      {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
+                      {isEmailSending ? "அனுப்பப்படுகிறது..." : "OTP அனுப்புக (Send Email OTP)"}
                     </button>
                   </div>
-                </div>
+                ) : (
+                  <div className="space-y-4">
+                    <div className="text-center">
+                      <p className="text-sm text-gray-600">OTP sent to {email}</p>
+                      <button
+                        onClick={() => setEmailStep(1)}
+                        className="text-[#1E40AF] text-sm font-medium mt-1 cursor-pointer hover:underline"
+                      >
+                        மின்னஞ்சலை மாற்று (Edit Email)
+                      </button>
+                    </div>
 
-                <button
-                  type="button"
-                  onClick={handleEmailAuth}
-                  className="w-full py-4 mt-2 bg-[#1E40AF] hover:bg-blue-800 text-white text-lg font-medium rounded-xl transition-all shadow-md cursor-pointer"
-                >
-                  {isLogin ? "உள்நுழைக (Login)" : "கணக்கை உருவாக்குக (Sign Up)"}
-                </button>
+                    <div className="flex justify-between gap-2">
+                      {emailOtp.map((digit, index) => (
+                        <input
+                          key={index}
+                          ref={(el) => { emailOtpRefs.current[index] = el; }}
+                          type="text"
+                          inputMode="numeric"
+                          maxLength={1}
+                          value={digit}
+                          onChange={(e) => {
+                            const val = e.target.value.replace(/\D/g, "");
+                            const newOtp = [...emailOtp];
+                            newOtp[index] = val;
+                            setEmailOtp(newOtp);
+                            if (val && index < 5) emailOtpRefs.current[index + 1]?.focus();
+                          }}
+                          onKeyDown={(e) => {
+                            if (e.key === "Backspace" && !digit && index > 0) {
+                              emailOtpRefs.current[index - 1]?.focus();
+                            }
+                          }}
+                          className="w-12 h-14 text-2xl font-bold text-center bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#1E40AF] outline-none"
+                        />
+                      ))}
+                    </div>
 
-                <div className="text-center mt-4">
-                  <button onClick={() => setIsLogin(!isLogin)} className="text-sm font-medium text-[#1E40AF] cursor-pointer">
-                    {isLogin ? "புதிய கணக்கு தொடங்க வேண்டுமா? (Create Account)" : "ஏற்கனவே கணக்கு உள்ளதா? (Login here)"}
-                  </button>
-                </div>
+                    <button
+                      type="button"
+                      onClick={handleVerifyEmailOTP}
+                      disabled={isEmailVerifying || emailOtp.some((d) => !d)}
+                      className="w-full py-4 bg-[#1E40AF] hover:bg-blue-800 disabled:bg-gray-300 text-white text-lg font-medium rounded-xl transition-all shadow-md cursor-pointer"
+                    >
+                      {isEmailVerifying ? "சரிபார்க்கப்படுகிறது..." : "சரிபார்க்கவும் (Verify Email)"}
+                    </button>
+                  </div>
+                )}
               </motion.div>
             )}
           </AnimatePresence>

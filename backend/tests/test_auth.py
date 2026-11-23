@@ -86,9 +86,11 @@ def test_auth_send_otp_success_and_validation(client):
 
 
 def test_auth_verify_otp_flow(client):
-    client.post("/api/auth/send-otp", json={"phone_number": "9876543210"})
-    # Universal 6-digit dev verification
-    r = client.post("/api/auth/verify-otp", json={"phone_number": "9876543210", "otp": "123456"})
+    r_send = client.post("/api/auth/send-otp", json={"phone_number": "9876543210"})
+    assert r_send.status_code == 200
+    otp = r_send.json().get("dev_code")
+    assert otp is not None and len(otp) == 6
+    r = client.post("/api/auth/verify-otp", json={"phone_number": "9876543210", "otp": otp})
     assert r.status_code == 200
     assert r.json()["user"]["authenticated"] is True
 

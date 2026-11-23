@@ -3,8 +3,20 @@ dist/
 __pycache__/
 venv/
 .env
+backend/.env
+frontend/.env
+# Never commit any .env file (only .env.example is safe to commit)
+*.env
+!*.env.example
 backend/chroma_db/
 backend/data/app.db
 backend/*.jsonl
 backend/.venv-verify/
 backend/.venv/
+# Python
+*.pyc
+*.pyo
+.pytest_cache/
+# Frontend build artefacts
+frontend/dist/
+

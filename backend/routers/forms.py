@@ -6,12 +6,12 @@ import uuid
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import Response
 from pydantic import BaseModel
-from security.auth import require_user
+from security.auth import require_verified_applicant
 
 import schemes_store as store
 from services import pdfgen
 
-router = APIRouter(prefix="/api/forms", dependencies=[Depends(require_user)])
+router = APIRouter(prefix="/api/forms", dependencies=[Depends(require_verified_applicant)])
 
 
 class FieldValue(BaseModel):
@@ -63,7 +63,8 @@ def _default_fields():
 
 
 @router.post("/summary")
-def summary(req: FillRequest):
+def summary(req: FillRequest, p: Principal = Depends(require_verified_applicant)):
+    p = require_verified_applicant(p)
     s = _scheme(req.scheme_id)
     ref = "MSG-" + uuid.uuid4().hex[:8].upper()
     b = pdfgen.summary_pdf(s, [f.model_dump() for f in req.fields], ref=ref)
@@ -71,7 +72,8 @@ def summary(req: FillRequest):
 
 
 @router.post("/official")
-def official(req: FillRequest):
+def official(req: FillRequest, p: Principal = Depends(require_verified_applicant)):
+    p = require_verified_applicant(p)
     _scheme(req.scheme_id)
     b, skipped = pdfgen.fill_official_form(req.scheme_id, req.values)
     if b is None:
@@ -80,7 +82,8 @@ def official(req: FillRequest):
 
 
 @router.post("/overlay")
-def overlay(req: OverlayRequest):
+def overlay(req: OverlayRequest, p: Principal = Depends(require_verified_applicant)):
+    p = require_verified_applicant(p)
     m = re.match(r"data:[\w/+.-]+;base64,(.*)", req.image_base64, re.S)
     try:
         raw = base64.b64decode(m.group(1) if m else req.image_base64)

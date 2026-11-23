@@ -15,10 +15,16 @@ config.SUPABASE_URL = "https://test.supabase.co"
 config.ENV = "development"
 
 
-def mint(sub: str, phone: str = "+919876543210", role: str = "authenticated", iat=None, exp_in=3600, aud="authenticated"):
+def mint(sub: str, phone: str = "+919876543210", role: str = "authenticated", iat=None, exp_in=3600, aud="authenticated", email: str = "citizen@example.gov.in", phone_verified: bool = True, email_verified: bool = True):
     now = int(time.time()) if iat is None else iat
-    return jwt.encode({"sub": sub, "phone": phone, "role": role, "aud": aud, "iss": f"{config.SUPABASE_URL}/auth/v1",
-                       "iat": now, "exp": now + exp_in}, SECRET, algorithm="HS256")
+    payload = {
+        "sub": sub, "phone": phone, "role": role, "aud": aud, "iss": f"{config.SUPABASE_URL}/auth/v1",
+        "iat": now, "exp": now + exp_in, "phone_verified": phone_verified, "email_verified": email_verified
+    }
+    if email:
+        payload["email"] = email
+        payload["email_confirmed_at"] = now
+    return jwt.encode(payload, SECRET, algorithm="HS256")
 
 
 @pytest.fixture()

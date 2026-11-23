@@ -11,6 +11,25 @@ export default function Apply({ initial, go }: { initial: string; go: (t: any) =
   const [vals, setVals] = useState<Record<string, string>>({});
   const [msg, setMsg] = useState(""); const [ref, setRef] = useState("");
   const [ov, setOv] = useState<Overlay | null>(null);
+  const [isDualVerified, setIsDualVerified] = useState<boolean>(() => {
+    return Boolean(
+      localStorage.getItem("msg_applicant_token") ||
+      (localStorage.getItem("msg_phone_verified") === "true" && localStorage.getItem("msg_email_verified") === "true")
+    );
+  });
+
+  useEffect(() => {
+    const checkAuth = () => {
+      setIsDualVerified(
+        Boolean(
+          localStorage.getItem("msg_applicant_token") ||
+          (localStorage.getItem("msg_phone_verified") === "true" && localStorage.getItem("msg_email_verified") === "true")
+        )
+      );
+    };
+    window.addEventListener("storage", checkAuth);
+    return () => window.removeEventListener("storage", checkAuth);
+  }, []);
 
   useEffect(() => { if (initial) api.scheme(initial, lang).then(setS).catch(() => undefined); }, [initial, lang]);
   useEffect(() => { if (!s) api.schemes({ q, lang, limit: "20" }).then((r) => setList(r.items)).catch(() => undefined); }, [q, s, lang]);
@@ -21,14 +40,42 @@ export default function Apply({ initial, go }: { initial: string; go: (t: any) =
   const byKey = () => Object.fromEntries(fields.filter((f) => f.profileKey).map((f) => [f.profileKey!, val(f)]));
 
   async function summary() {
-    const r = await api.pdf("/api/forms/summary", { scheme_id: s!.scheme_id, fields: fields.map((f) => ({ label: f.label, value: val(f) })) });
-    setRef(r.ref || ""); download(r.blob, `${s!.scheme_id}-summary.pdf`);
+    if (!isDualVerified) {
+      setMsg("Identity verification required: Please complete both Mobile and Email OTP verification before generating application summary.");
+      return;
+    }
+    try {
+      const r = await api.pdf("/api/forms/summary", { scheme_id: s!.scheme_id, fields: fields.map((f) => ({ label: f.label, value: val(f) })) });
+      setRef(r.ref || ""); download(r.blob, `${s!.scheme_id}-summary.pdf`);
+    } catch (e) {
+      setMsg(String((e as Error).message || e));
+    }
   }
   async function official() {
-    try { const r = await api.pdf("/api/forms/official", { scheme_id: s!.scheme_id, values: { ...profile, ...byKey() } }); download(r.blob, `${s!.scheme_id}-form.pdf`); setMsg(r.skipped ? t("nonLatinNote") : ""); }
-    catch (e) { setMsg(String(e)); }
+    if (!isDualVerified) {
+      setMsg("Identity verification required: Please complete both Mobile and Email OTP verification before generating official forms.");
+      return;
+    }
+    try {
+      const r = await api.pdf("/api/forms/official", { scheme_id: s!.scheme_id, values: { ...profile, ...byKey() } });
+      download(r.blob, `${s!.scheme_id}-form.pdf`);
+      setMsg(r.skipped ? t("nonLatinNote") : "");
+    } catch (e) {
+      setMsg(String((e as Error).message || e));
+    }
   }
-  async function track(status: string) { await api.createApp(s!.scheme_id, status, ref); go("track"); }
+  async function track(status: string) {
+    if (status === "submitted" && !isDualVerified) {
+      setMsg("Submission blocked: Applications can only be submitted by verified applicants with dual mobile & email OTP.");
+      return;
+    }
+    try {
+      await api.createApp(s!.scheme_id, status, ref);
+      go("track");
+    } catch (e) {
+      setMsg(String((e as Error).message || e));
+    }
+  }
   async function onScan(file?: File) {
     if (!file) return;
     if (!window.confirm("This form photo will be sent to Google Gemini (an AI service) to read its fields. Continue?")) return;
@@ -38,7 +85,12 @@ export default function Apply({ initial, go }: { initial: string; go: (t: any) =
   async function overlay() {
     if (!ov) return;
     const fs = ov.fields.map((f) => ({ value: f.value || (f.profileKey ? (vals[f.profileKey] ?? (profile[f.profileKey] as string)) : "") || "", x: f.x, y: f.y, width: f.width, height: f.height }));
-    const r = await api.pdf("/api/forms/overlay", { image_base64: ov.image, fields: fs }); download(r.blob, "filled-form.pdf");
+    try {
+      const r = await api.pdf("/api/forms/overlay", { image_base64: ov.image, fields: fs });
+      download(r.blob, "filled-form.pdf");
+    } catch (e) {
+      setMsg(String((e as Error).message || e));
+    }
   }
 
   if (!s) return (
@@ -52,6 +104,29 @@ export default function Apply({ initial, go }: { initial: string; go: (t: any) =
     <section>
       <button className="link" onClick={() => { setS(null); setOv(null); }}>← {t("apply")}</button>
       <h3>{s.name}</h3>
+
+      {isDualVerified ? (
+        <div className="badge ELIGIBLE" style={{ display: "flex", alignItems: "center", gap: "0.5rem", padding: "0.5rem 1rem", marginBottom: "1rem" }}>
+          <span>🛡️</span>
+          <span><b>Verified Applicant Identity</b>: Mobile OTP & Email OTP verified. Server-authorized to apply.</span>
+        </div>
+      ) : (
+        <div className="card warn" style={{ background: "#FFF7ED", border: "1px solid #EA580C", marginBottom: "1rem" }}>
+          <p className="warn small" style={{ margin: 0 }}>
+            <b>⚠️ Real Identity Verification Required</b>: To prevent fraudulent applications, government submission requires dual Mobile OTP and Email OTP verification. Unverified/guest applications are blocked server-side.
+          </p>
+          <div style={{ marginTop: "0.5rem" }}>
+            <button
+              type="button"
+              onClick={() => go("login")}
+              style={{ background: "#EA580C", color: "#fff", border: "none", borderRadius: "8px", padding: "6px 14px", fontWeight: "bold", cursor: "pointer" }}
+            >
+              Verify Mobile & Email Now →
+            </button>
+          </div>
+        </div>
+      )}
+
       <div className="grid">{fields.map((f) => <label key={f.id}>{f.label}{f.required ? " *" : ""}<input value={val(f)} onChange={(e) => setVals({ ...vals, [f.id]: e.target.value })} /></label>)}</div>
       <div className="actions">
         {s.has_official_form ? <button onClick={official}>{t("officialForm")}</button> : <p className="muted small">{t("noFormFor")}</p>}

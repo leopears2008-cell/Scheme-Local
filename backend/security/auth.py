@@ -22,6 +22,8 @@ class Principal:
     token: str
     iat: int
     email: str = ""
+    phone_verified: bool = True
+    email_verified: bool = False
     _role: str | None = field(default=None, repr=False)
 
     @property
@@ -77,10 +79,25 @@ def optional_user(authorization: str | None = Header(None)) -> Principal | None:
     from security import guest as guest_mod
     if guest_mod.is_guest_token(token):
         c = guest_mod.verify_token(token)
-        return Principal(user_id=c["sub"], phone="", token=token, iat=int(c.get("iat", 0)))
+        return Principal(user_id=c["sub"], phone="", token=token, iat=int(c.get("iat", 0)), phone_verified=False, email_verified=False)
     c = decode_token(token)
-    return Principal(user_id=c["sub"], phone=c.get("phone") or "", token=token, iat=int(c.get("iat", 0)),
-                     email=(c.get("email") or "").lower())
+    has_phone = bool(c.get("phone"))
+    phone_v = bool(c.get("phone_verified", True if has_phone else False))
+    has_email = bool(c.get("email"))
+    email_v = bool(c.get("email_verified", True if (has_email and (c.get("email_confirmed_at") or c.get("email_verified"))) else False))
+    p = Principal(
+        user_id=c["sub"],
+        phone=c.get("phone") or "",
+        token=token,
+        iat=int(c.get("iat", 0)),
+        email=(c.get("email") or "").lower(),
+        phone_verified=phone_v,
+        email_verified=email_v,
+    )
+    if _is_demo_account(p):
+        p.phone_verified = True
+        p.email_verified = True
+    return p
 
 
 def _is_demo_account(p: Principal) -> bool:
@@ -96,6 +113,24 @@ def require_user(p: Principal | None = Depends(optional_user)) -> Principal:
         raise HTTPException(403, "Guest sessions can explore schemes and use chat. Sign in to save records, upload files or use this feature.")
     if not p.phone and not _is_demo_account(p):      # every account needs a verified mobile number...
         raise HTTPException(403, "A verified mobile number is required")   # ...except allowlisted demo accounts (flag on)
+    return p
+
+
+def require_verified_applicant(p: Principal = Depends(require_user)) -> Principal:
+    """Strict server-side gate: only applicants with BOTH verified mobile number and verified email can apply.
+    No frontend bypass is possible."""
+    if p.is_guest:
+        raise HTTPException(403, "Guest sessions cannot apply. Please verify your mobile number and email.")
+    missing = []
+    if not p.phone or not p.phone_verified:
+        missing.append("verified mobile number")
+    if not p.email or not p.email_verified:
+        missing.append("verified email address")
+    if missing:
+        raise HTTPException(
+            status_code=403,
+            detail=f"Identity verification incomplete. To apply for government schemes, you must provide: {' and '.join(missing)}."
+        )
     return p
 
 

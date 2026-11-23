@@ -14,8 +14,11 @@ export const supabase = supabaseConfigured
 
 import { getGuestToken } from "./guest";
 
-/** The bearer token for backend calls: a real sign-in if present, otherwise the guest token (if still valid). */
+/** The bearer token for backend calls: verified applicant token, Supabase sign-in, or guest token. */
 export async function accessToken(): Promise<string | null> {
+  const applicantToken = localStorage.getItem("msg_applicant_token");
+  if (applicantToken) return applicantToken;
+
   if (supabase) {
     const { data } = await supabase.auth.getSession();
     const t = data.session?.access_token ?? null;

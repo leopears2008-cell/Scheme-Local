@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field
 
 import schemes_store as store
 from repo import repo
-from security.auth import Principal, require_user
+from security.auth import Principal, require_user, require_verified_applicant
 
 router = APIRouter(prefix="/api")
 STATUSES = ["draft", "submitted", "under_review", "need_documents", "approved", "rejected"]
@@ -35,7 +35,8 @@ def list_apps(p: Principal = Depends(require_user)):
 
 
 @router.post("/applications", status_code=201)
-def create(body: NewApp, p: Principal = Depends(require_user)):
+def create(body: NewApp, p: Principal = Depends(require_verified_applicant)):
+    p = require_verified_applicant(p)
     if body.status not in STATUSES:
         raise HTTPException(422, f"status must be one of {STATUSES}")
     s = store.SCHEMES.get(body.scheme_id)
