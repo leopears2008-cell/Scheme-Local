@@ -1,0 +1,114 @@
+/* 1. Main Page Surface (behind Featured Schemes & Trust Bar) */
+.sahayak-page-bg {
+  min-height: 100dvh;
+  background: linear-gradient(180deg, #f4f7fc 0%, #f8fafc 45%, #f1f5f9 100%);
+  color: #0f172a;
+}
+
+/* 2. Hero Banner Background with Left Readability Wash */
+.sahayak-hero-bg {
+  position: relative;
+  overflow: hidden;
+  background-color: #dbeafe;
+  background-image:
+    /* Soft left-side wash so dark-blue Tamil headline stays readable over the building */
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.72) 0%,
+      rgba(240, 247, 255, 0.55) 42%,
+      rgba(255, 255, 255, 0.08) 68%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url("/images/hero-bg.webp");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+/* Soft bottom fade blending the hero photo cleanly into the page */
+.sahayak-hero-bg::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 36px;
+  background: linear-gradient(to bottom, transparent, #f4f7fc);
+  pointer-events: none;
+}
+
+/* Mobile adjustment: keep text readable when stacked */
+@media (max-width: 768px) {
+  .sahayak-hero-bg {
+    background-image:
+      linear-gradient(
+        180deg,
+        rgba(248, 250, 252, 0.88) 0%,
+        rgba(248, 250, 252, 0.75) 60%,
+        rgba(248, 250, 252, 0.92) 100%
+      ),
+      url("/images/hero-bg.webp");
+    background-position: center top;
+  }
+}
+
+/* 3. Concentric Orange Glow Behind the Hero Mic Button */
+.sahayak-mic-glow {
+  background: linear-gradient(135deg, #ff7a18 0%, #ea580c 100%);
+  box-shadow:
+    0 0 0 12px rgba(249, 115, 22, 0.22),
+    0 0 0 24px rgba(249, 115, 22, 0.10),
+    0 12px 28px rgba(234, 88, 12, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sahayak-mic-glow:hover {
+  transform: scale(1.04);
+}
+
+.sahayak-mic-glow.is-listening {
+  animation: mic-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes mic-pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 0 12px rgba(249, 115, 22, 0.28),
+      0 0 0 26px rgba(249, 115, 22, 0.14),
+      0 12px 28px rgba(234, 88, 12, 0.4);
+  }
+  50% {
+    box-shadow:
+      0 0 0 18px rgba(249, 115, 22, 0.34),
+      0 0 0 38px rgba(249, 115, 22, 0.08),
+      0 14px 32px rgba(234, 88, 12, 0.5);
+  }
+}
+
+/* 4. Category Card Photo Overlay (Farmer, Women, Seniors, Students) */
+.sahayak-category-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+}
+
+.sahayak-category-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(15, 23, 42, 0.82) 0%,
+    rgba(15, 23, 42, 0.32) 48%,
+    rgba(15, 23, 42, 0.05) 100%
+  );
+}
+
+/* 5. Elevated Scheme Card Surface */
+.sahayak-scheme-card {
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  border-radius: 18px;
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.06);
+}

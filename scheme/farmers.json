@@ -1,0 +1,19 @@
+{
+  "category": "Farmers",
+  "level": "central",
+  "state": "All India",
+  "applicable_states": "All States and UTs, including Tamil Nadu, unless the scheme notification excludes it",
+  "source_url": "https://www.myscheme.gov.in",
+  "schemes": [
+    {"id":"pm-kisan","name":"PM-KISAN","short_name":"PM-KISAN","description":"₹6,000 per year in three instalments.","eligibility":"Landholding farmer families, subject to exclusions.","official_url":"https://pmkisan.gov.in"},
+    {"id":"kcc","name":"Kisan Credit Card","short_name":"KCC","description":"Short-term crop credit; interest subvention available.","eligibility":"Owner cultivators, tenant farmers and eligible borrowers."},
+    {"id":"pmfby","name":"PM Fasal Bima Yojana","short_name":"PMFBY","description":"Crop insurance against notified risks.","eligibility":"Farmers growing notified crops in participating areas.","official_url":"https://pmfby.gov.in"},
+    {"id":"pm-kmy","name":"PM-Kisan Maan-Dhan Yojana","short_name":"PM-KMY","description":"Minimum ₹3,000 monthly pension after age 60.","eligibility":"Small and marginal farmers aged 18–40, up to 2 hectares."},
+    {"id":"pm-kusum","name":"PM-KUSUM","short_name":"PM-KUSUM","description":"Solar pumps and solarisation support.","eligibility":"Farmers, cooperatives, panchayats and eligible entities."},
+    {"id":"soil-health-card","name":"Soil Health Card","short_name":"SHC","description":"Soil testing and nutrient recommendations.","eligibility":"Farmers."},
+    {"id":"pkvy","name":"Paramparagat Krishi Vikas Yojana","short_name":"PKVY","description":"Organic-farming support.","eligibility":"Farmers and producer groups."},
+    {"id":"aif","name":"Agriculture Infrastructure Fund","short_name":"AIF","description":"Loans and interest support for post-harvest infrastructure.","eligibility":"Farmers, FPOs, startups and agri-entrepreneurs."},
+    {"id":"e-nam","name":"e-NAM","short_name":"e-NAM","description":"Online agricultural marketing.","eligibility":"Farmers and traders in integrated mandis."},
+    {"id":"rgm","name":"Rashtriya Gokul Mission","short_name":"RGM","description":"Cattle-breed improvement support.","eligibility":"Livestock farmers."}
+  ]
+}

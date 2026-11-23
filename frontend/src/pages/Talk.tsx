@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ChangeEvent, type FormEvent } from "react";
 import { api, AskResponse, Card, normalizeVerification } from "../lib/api";
 import { useApp } from "../lib/state";
 import { listen, speak, stopSpeaking } from "../lib/voice";
@@ -48,9 +48,15 @@ export default function Talk({ go }: { go: (t: any, id?: string) => void }) {
     } catch (e) { setMsgs((m) => [...m, { role: "bot", text: `${t("errBusy")} (${String(e)})` }]); }
     setBusy(false);
   }
+
   const mic = () => {
     if (rec) { rec(); setRec(null); return; }
-    setRec(() => listen(lang, (x) => { setText(x); send(x); }, () => setRec(null), (e) => setMsgs((m) => [...m, { role: "bot", text: e }])));
+    setRec(() => listen(
+      lang,
+      (transcript: string) => { setText(transcript); send(transcript); },
+      () => setRec(null),
+      (message: string) => setMsgs((m) => [...m, { role: "bot", text: message }]),
+    ));
   };
 
   return (
@@ -81,9 +87,9 @@ export default function Talk({ go }: { go: (t: any, id?: string) => void }) {
       ))}
       {busy && <div className="msg bot"><p>…</p></div>}
       <div ref={end} />
-      <form className="composer" onSubmit={(e) => { e.preventDefault(); send(text); }}>
+      <form className="composer" onSubmit={(event: FormEvent<HTMLFormElement>) => { event.preventDefault(); send(text); }}>
         <button type="button" className={rec ? "rec" : ""} onClick={mic} aria-label={t("mic")}>{rec ? "■" : "🎤"}</button>
-        <input value={rec ? t("listening") : text} onChange={(e) => setText(e.target.value)} placeholder={t("askPlaceholder")} />
+        <input value={rec ? t("listening") : text} onChange={(event: ChangeEvent<HTMLInputElement>) => setText(event.target.value)} placeholder={t("askPlaceholder")} />
         <button type="submit" disabled={busy}>{t("send")}</button>
       </form>
     </section>
