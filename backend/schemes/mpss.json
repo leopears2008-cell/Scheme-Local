@@ -1,0 +1,26 @@
+{
+  "scheme_id": "mpss",
+  "name": "Post-matric Scholarship Scheme",
+  "category": "education",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Social Justice and Empowerment",
+  "benefit": "Course group-wise determined rates for scholarshipS No. GroupCourseHostel Rates (Rs/month) Day scholar Rates (Rs/month)1Group -1Degree and Master Degree Courses, M. Fil.-Ph. D., Courses of all medical therapies, Technology, Engineering, Planning, Architecture, Design, Fashion Technology, Agriculture, Animal Husbandry, Allied Sciences, Business Finance, Management Administration, Computer Science etc, C.P.L. Courses, Post Graduate Diploma in Medical Management, C.A., I.C.W.A., C.S., I.C.F.A., LL.M. , D. Lit, D.S.C. etc.1,200/-550/- 2Group -2Graduate/Post Graduate level Degree Diploma, certificate course like Pharmacy , Nursing, LL.B., B.F.S., Para-Medical like rehabilitation, Diagnosis etc, Mass-Communication, Hotel Management, Interior Decoration, Nutrition and Dietetics, Commercial Art, Tourism Hospitality, Financial Services (e.g. Banking Insurance, Taxation etc.), in which minimum qualification is Intermediate or equivalent and post graduate courses which are not included in Group-1 like M.A./M.Sc./M. Com./M. Ed./M. Pharma/B. Ed. Etc. 820/- 530/-3Group-3All graduate level courses which are not included in Group-I and II, like B.A., B. Sc. and B. Com./B.T.C etc. 570/-300/- 4Group -4All non-degree level courses, where-in the minimum entrance qualification is High School, like I.T.I. and three year's diploma courses (Polytechnic) etc. 380/-230/-",
+  "eligibility_rules": [
+    "Native and under study in Uttar Pradesh. The annual income of parents/guardian of the student is upto Rs. 2 Lakh. Students from Other Backwards Classes study in all government-aided and recognized state educational institutes (subject to budget availability)."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "UP Residential Proof: Students can upload any of the following",
+    "documents",
+    "Ration card, Aadhaar card, Voter ID, driving license, or PAN card. Student caste certificate. Family income",
+    "certificate. Student ID proof is issued by the educational institution. Mark sheets of qualifying examinationCurrent year fee",
+    "receipt/admission letter issued by the educational institutionStudent bank passbook"
+  ],
+  "how_to_apply": "Mode: Online First of all, click on the Option available in Student Section (by OBC students) on the website. Complete Student Registration. To fill out the application form. Take a printout of the application form. To deposit prints out along with all enclosures in the educational institute. Verify and forward the application form to the educational institute. To verify and forward by the education officer. To examine and match the data at the state N.I.C. level. To approve/disapprove by the District Approval Committee. To lock the approved data through digital signature by District Backward Classes Welfare Officer. To generate the demand from N.I.C. on the basis of available data by the directorate. To deposit the amount directly in the bank account of the student.",
+  "source_url": "https://www.myscheme.gov.in/schemes/mpss",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

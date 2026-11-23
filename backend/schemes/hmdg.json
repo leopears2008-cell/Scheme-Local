@@ -1,0 +1,39 @@
+{
+  "scheme_id": "hmdg",
+  "name": "Health Minister's Discretionary Grant",
+  "category": "health",
+  "level": "central",
+  "state": "",
+  "department": "Ministry Of H",
+  "benefit": "Financial assistance towards treatment in Government hospitals including super specialty Government hospitals / institutes. Financial Assistance of ₹50,000/- if the estimated cost of treatment is up to ₹1,00,000/- .Financial Assistance of ₹75,000/- if the estimated cost of treatment is above ₹1,00,000/- & up to ₹1,50,000/-.Financial Assistance of ₹1,00,000/- if the estimated cost of treatment is above ₹1,50,000/-.",
+  "eligibility_rules": [
+    "The applicant must not be an employee of either Central or State Govt. The applicant must have been Hospitalized / Undergoing Treatment in a Government Hospital (including super specialty Government hospitals / institutes).The Total Annual Family Income of the applicant must not exceed ₹1,00,000/- per annum.",
+    "Exclusions / Ineligibility:",
+    "The following cases are not eligible to avail benefits under HMDG: Prolonged treatment involving recurring expenditure is not permissible.diseases of common nature where treatment is not expensive. T.B. casesCases for treatment in private hospital. Central as well as State Government employees."
+  ],
+  "exclusions": [
+    "The following cases are not eligible to avail benefits under HMDG: Prolonged treatment involving recurring expenditure is not permissible.diseases of common nature where treatment is not expensive. T.B. casesCases for treatment in private hospital. Central as well as State Government employees."
+  ],
+  "documents_required": [
+    "Application form in prescribed",
+    "proforma duly signed by the treating doctor and countersigned by the Medical Superintendent of the Government",
+    "hospital/institute. Quantum of financial assistance granted to the patient is",
+    "(a) Rs.75,000/",
+    ", if the estimated cost of treatment is up to",
+    "Rs.1,25,000/",
+    "(b) Rs.1,00,000/",
+    "if the estimated cost of treatment is above Rs.1,25,000/",
+    "and up to Rs.1,75,000/",
+    "and (c) Rs.1,25,000/",
+    "the estimated cost of treatment is above Rs.1,75,000/",
+    "A Certificate in original from the BDO/ Tehsildar/Collector /SDM (quoting full",
+    "name, designation, telephone number and complete official address of the certificate issuing authority) regarding occupation and",
+    "monthly/yearly income of the applicant and his/her family members from all sources. Copy of the ration card."
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: The application form can be downloaded from the following link: https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdfStep 2: Take print of the application form and duly fill the mandatory fields.Step 3: The duly filled application needs to be submitted to either of the following: Doctor / HOD / Medical Superintendent of the Hospital.",
+  "source_url": "https://main.mohfw.gov.in/sites/default/files/4451946500hmdgappl_1_1_0.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

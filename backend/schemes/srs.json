@@ -1,0 +1,37 @@
+{
+  "scheme_id": "srs",
+  "name": "Sarothi Scheme",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Assam",
+  "department": "",
+  "benefit": "Financial AssistanceThe government provides financial assistance for startups in the form of loans with interest subventionThe loan amount will be a maximum of Rs. 10.00 lakh.",
+  "eligibility_rules": [
+    "All innovative startup industrial activities and the new individual applicant will be eligible to get the benefit under the Sarothi scheme. New Micro, Small and Medium Enterprises (MSME) units in Assam are eligible for these benefits. Priority will be given to an applicant if he or she undergoes any skill development training. If the applicant is a defaulter of any Bank or Financial Institution, he or she will not be eligible for benefits under the Sarothi scheme.",
+    "Exclusions / Ineligibility:",
+    "If the applicant has any pending legal cases, defaults on previous loans, or has a poor credit score, it may affect their eligibility for the scheme. If the applicant's proposed project is not feasible, sustainable, or does not align with the objectives of the scheme, their application may not be accepted."
+  ],
+  "exclusions": [
+    "If the applicant has any pending legal cases, defaults on previous loans, or has a poor credit score, it may affect their eligibility for the scheme. If the applicant's proposed project is not feasible, sustainable, or does not align with the objectives of the scheme, their application may not be accepted."
+  ],
+  "documents_required": [
+    "List of required documentsApplication in the prescribed format ( as per Form",
+    "A) Two copies",
+    "of the Passport size photograph ( black & white) Entrepreneurs Memorandum Part",
+    "I ( EM part",
+    "I), Udyog Adhar, as applicable. Scheme",
+    "/Project Report of the proposed activity. Identity Proof:",
+    "( Any of the following) Voter Identity Card/ PAN Card/ Driving License/ Job",
+    "Card/ Aadhaar Card/ Identity CardAddress Proof (Any of the following):",
+    "Electricity Bill/ Telephone Bill/ Bank Account Statement of",
+    "any other bank/ Letter from reputed employer/ Letter from recognized public authority verifying the address of the customer to the",
+    "satisfaction of the bank/ Ration Card /Voter Identity cardTrade license, if anyCertificate of training, if anyCertificate of",
+    "OBC/SC/ST/Physical handicraft, if anyAny other documents likely to be provided by the applicant"
+  ],
+  "how_to_apply": "Mode: Online Application Procedure: The application must be downloaded from the following link. The applicant should fill out the application and send it along with the required supporting documents to the appropriate District Industries & Commerce Centre (DICC) General Manager. Check the detail of the District Industries & Commerce Centre (DICC) General Manager with the following link.",
+  "source_url": "https://www.myscheme.gov.in/schemes/srs",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

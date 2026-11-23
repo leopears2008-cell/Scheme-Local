@@ -1,0 +1,34 @@
+{
+  "scheme_id": "acandabc",
+  "name": "Agri-Clinics And Agri-Business Centres Scheme",
+  "category": "agriculture",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Agriculture and Farmers Welfare",
+  "benefit": "Agri-Clinics - Agri-Clinics are envisaged to provide expert advice and services to farmers on various aspects to enhance the productivity of crops/animals and increase the incomes of farmers. Agri-Clinics provide support in the following areas: Soil healthCropping practicesPlant protectionCrop insurance post-harvest technology clinical services for animals, feed and fodder management prices of various crops in the market, etc. Agri-Business Centres - Agri-Business Centres are commercial units of agri-ventures established by trained agriculture professionals. These ventures may include maintenance and custom hiring of farm equipment, sale of inputs, and other services in agriculture and allied areas, including post-harvest management and market linkages for income generation and entrepreneurship development. The scheme covers full financial support for training and handholding, provision of loans, and credit-linked back-end composite subsidy. Project activities - Extension consultancy servicesSoil and water quality cum inputs testing laboratories (with Atomic Absorption Spectrophotometers) Pest surveillance, diagnostic and control servicesMaintenance, repairs, and custom hiring of agricultural implements and machinery including micro-irrigation systems (sprinkler and drip) Agri Service Centres include the three activities mentioned above (Group Activity).Seed Processing UnitsMicro-propagation through Plant Tissue Culture Labs and Hardening UnitsSetting up of Vermiculture units, production of bio-fertilizers, bio-pesticides, and bio-control agents. Setting up of Apiaries (bee-keeping) and honey & bee products' processing unitsProvision of Extension Consultancy ServicesHatcheries and production of fish fingerlings for aquacultureProvision of livestock health cover, setting up veterinary dispensaries & services including frozen semen banks and liquid nitrogen supplySetting up of Information Technology Kiosks in rural areas for access to various agriculture-related portalsFeed Processing and testing unitsValue Addition CentresSetting up of Cool Chain from the farm level onwards (Group Activity) Retail marketing outlets for processed agri-productsRural marketing dealerships of farm inputs and outputs",
+  "eligibility_rules": [
+    "The age of the applicant must be between 18 and 60 years. The applicant must qualify as one of the following -Graduates in agriculture and allied subjects from SAUs/ Central Agricultural Universities/ Universities recognized by ICAR/ UGC. Degree in Agriculture and allied subjects offered by other agencies are also considered subject to the approval of the Department of Agriculture & Cooperation, Government of India on the recommendation of the State Government. Diploma (with at least 50% marks)/ Post Graduate Diploma holders in Agriculture and allied subjects from State Agricultural Universities, State Agriculture and Allied Departments, and State Department of Technical Education. Diplomas in Agriculture and allied subjects offered by other agencies are also considered subject to the approval of the Department of Agriculture & Cooperation, Government of India on the recommendation of the State Government. Biological Science Graduates with Post Graduation in Agriculture & allied subjects. Degree courses recognized by UGC have more than 60 percent of the course content in Agriculture and allied subjects. Diploma/Post-graduate Diploma courses with more than 60 percent of course content in Agriculture and allied subjects, after B.Sc. with Biological Sciences, from recognized colleges and universities. Agriculture-related courses at intermediate (i.e. plus two) level, with at least 55% marks.",
+    "Exclusions / Ineligibility:",
+    "Retired Employees Getting Pensionary Benefits Are Not Eligible For Subsidy. However, They Can Undergo Training And Establish Self Financed Projects."
+  ],
+  "exclusions": [
+    "Retired Employees Getting Pensionary Benefits Are Not Eligible For Subsidy. However, They Can Undergo Training And Establish Self Financed Projects."
+  ],
+  "documents_required": [
+    "Applicant Aadhaar Number.",
+    "Email ID.",
+    "Latest",
+    "Educational Qualification.",
+    "Applicant's Bank Account Details.",
+    "Applicant photoTill such time as Aadhaar is assigned to an",
+    "individual, she/he can avail the benefit of the scheme on the production of the following documents: Aadhaar enrolment ID slip/ Copy of",
+    "request for Aadhaar enrolment and Voter Identity Card/ PAN/ Passport/ Ration Card/ Employee Government ID/ Passbook of Bank or",
+    "Post Office/ MGNREGS Card/ Kisan Photo Passport/ Driving Licenses/ any other document as specified by State/ UT."
+  ],
+  "how_to_apply": "Mode: OnlineStep 1: Visit on the Official WebsiteStep 2: Fill in the mandatory fields correctly. Upload the required documents in the said format and size.Step 3: Click \"Submit\" to complete the application process. The applicant can check his/her application status by visiting this link.",
+  "source_url": "https://www.myscheme.gov.in/schemes/acandabc",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

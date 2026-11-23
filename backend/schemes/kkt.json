@@ -1,0 +1,23 @@
+{
+  "scheme_id": "kkt",
+  "name": "Kantedar Tarbandi Yojana",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Rajasthan",
+  "department": "",
+  "benefit": "Subsidy amount: Small and marginal farmers: 60% of the total cost, capped at ₹48,000/-.Other farmers: 50% of the total cost, capped at ₹40,000/-.Community application (group of 10+ farmers with min. 5 hectares collectively): 70% of the total cost, capped at ₹56,000/- per farmer .Land covered: Up to 400 meters of fencing per farmer.",
+  "eligibility_rules": [
+    "This scheme is available to all categories of farmers. For individual farmers and farmer groups, the applicant must possess a minimum of 1.5 hectares of land at a single location. In Scheduled Tribe areas, a minimum of 0.5 hectares of land at one location is required. For community applications, a group comprising 10 or more farmers must collectively own a minimum of 5 hectares of land. Additionally, the boundaries of the group's land must fall within the specified perimeter."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhar",
+    "card. Address proof. Identity card. Land related documents. Ration card. Mobile number. Passport size photo."
+  ],
+  "how_to_apply": "Mode: Online RegistrationStep-1: Applicant have to visit the official portal. Step-2: Click on the option \"Register\".Step-3: Then you will be redirected to the SSO registration page. The registration page will appear with the following options. CitizenStep-4: Choose the either one option from the Jan Aadhaar Or Google to process further. Jan Aadhaar : Enter the Jan Aadhaar number, click on the 'Next' button,Select your name, the name of the head of the family and all the other members and Click on the 'Send OTP' button. Enter the 'OTP' and Click on the 'Verify OTP' button to Complete the registration. Google : Enter the Gmail ID, click on the 'Next' button, Enter the password. A new link appear on screen, now click on the new SSO link. SSO id will appear on the screen, now create the password. Enter Mobile number, click on registration. Step-5: Submit. APPLYStep-1: Applicant have to visit the official portal. Step-2: After login, dashboard will open. Step-3: Click on \" RAJ-KISAN \" option. Step-4: In \"Farmer\", click on \"Application Entry Request\".Step-5: Enter the \"Bhamashah ID\" or \"Janaadhaar ID\" and search. Step-6: Select the person name and scheme name. Step-7: Complete the Aadhaar Authentication and click on Get details. Step-8: Provide the required details. - Pensioner Details. - Bank Details. - Disability Details. - Verification Details. - Upload Documents. Step-9: Submit.",
+  "source_url": "https://www.myscheme.gov.in/schemes/kkt",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

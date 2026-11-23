@@ -1,0 +1,28 @@
+{
+  "scheme_id": "tps_hgv",
+  "name": "Tripura Pension Scheme For Providing Pension To The Retired Home Guard / Women Home Guard Volunteers",
+  "category": "health",
+  "level": "state",
+  "state": "Tripura",
+  "department": "",
+  "benefit": "Rate of Pension: ₹750 per head per month.",
+  "eligibility_rules": [
+    "The applicant must be a Retired Home Guard / Women Home Guard Volunteer. The applicant must have put in a minimum period of 20 years of service. The applicant must have retired from service as Home Guard on superannuation or on medical invalidation only.",
+    "Exclusions / Ineligibility:",
+    "Persons getting pensions from other sources (excluding social pensions) shall not come under the purview of the proposed scheme."
+  ],
+  "exclusions": [
+    "Persons getting pensions from other sources (excluding social pensions) shall not come under the purview of the proposed scheme."
+  ],
+  "documents_required": [
+    "Aadhaar CardProof of IdentityProof of Age / DOBProof of AddressProof of being a Retired Home Guard / Women Home",
+    "GuardProof that the duration of service is at least 20 years. Proof that the retirement was on superannuation or on medical invalidation",
+    "onlyDomicile CertificateDetails of the Aadhaar Linked Bank Account"
+  ],
+  "how_to_apply": "Mode: Offline [in progress]",
+  "source_url": "https://www.myscheme.gov.in/schemes/tps-hgv",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

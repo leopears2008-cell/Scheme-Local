@@ -1,0 +1,30 @@
+{
+  "scheme_id": "sasstsap",
+  "name": "Scheme For Award Of Stipend To The Schedule Tribe Students Of Arunachal Pradesh",
+  "category": "education",
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "department": "",
+  "benefit": "Below are the benefits of the scheme: Students will be able to get a stipend rate on a monthly basis based on the course they are pursuing. Lakhs of students will be able to pursue their dreams after getting enrolled under the Arunachal Pradesh State Stipend Scheme. The stipend will be given to the students who are pursuing higher/ technical or professional courses. Book grants will be provided to the student yearly. A stipend amount will be provided to the students for the duration of 11 months. There are around 24 kinds of courses for which the government will provide a stipend rate to the students undertaking those courses. The mode of DBT will be used for transferring the amount of the stipend on the monthly basis. There will be a promotion of the adoption of higher studies among ST students.",
+  "eligibility_rules": [
+    "Below are the conditions of eligibility: 1) The stipend will be admissible to students who belong to Scheduled Tribes of the State as notified by the Central/State Government and are permanent resident of Arunachal Pradesh.",
+    "Scheduled Tribe students who are in full-time employment are not eligible for award of stipend.",
+    "A student who fails in a class for a particular course of study/stream and gets re-admitted in the same level of study for a different course/stream shall not be eligible for the award of stipend for that class.",
+    "A Girl student who fails in a class may be allowed one time stipend for same class in the next year with specific recommendation from the Head of Institution.",
+    "Students against whom disciplinary action is taken shall not be eligible for stipend.",
+    "Students whose attendance is below 75% in any month (unless for certified reasons of health or bereavement). shall not be eligible for award of stipend.",
+    "Students who pursue their studies through correspondence course or distance education mode shall not be eligible for stipend.",
+    "Students pursuing their studies in institutions not recognized by the State or Central Regulators like UGC, AICTE, MCI, DCI, BCI, CCH. etc., shall not be eligible for award of stipend."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhar card of the student is mandatoryPAN CardIncome certificateEducational CertificateCaste Certificate in case the student",
+    "belongs to the ST communitiesResidence certificate issued by the competent authorityProof of bank account details"
+  ],
+  "how_to_apply": "Mode: Offline\n• 1. Application for award of stipend should be submitted in the prescribed form within the date notified by the State Government.\n• 2. All applications must accompany by one attested copy of the following: a. Attested copy of Arunachal Pradesh Scheduled Tribe Certificate b. Attested copy of Mark sheet of last examination passed.\n• 3. Application complete in all respect shall be submitted through the Head of the Institution to the concern sanctioning authority.\n• 4. Incomplete applications or application received after the prescribed date will summarily be rejected.",
+  "source_url": "https://www.myscheme.gov.in/schemes/sasstsap",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

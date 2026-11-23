@@ -1,0 +1,27 @@
+{
+  "scheme_id": "cmsguy",
+  "name": "Chief Minister Samagra Gramya Unnayan Yojana",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Assam",
+  "department": "",
+  "benefit": "The Government of Assam has launched Samagra Gramya Unnayan Yojana. Through this scheme farm mechanisms will be enhanced in the state and double-cropping will be facilitated. One tractor unit consisting of one tractor including its accessories will be provided to the selected beneficiary group in the revenue village. This tractor will be provided at a subsidized rate. Through this scheme, the government is going to provide a subsidy of 70% to the beneficiary subject to a maximum of 5.5 lahks. This subsidy will be admissible on the lowest price of tractors in the government-notified list of tractors for the category concerned. Similarly, the lowest approved price of implements will also be applicable for the subsidy. The benefit of this scheme will be provided to a group of 8 to 10 members who are actual adult farmers of the same village.",
+  "eligibility_rules": [
+    "The benefit of this scheme will be provided to any group of 8 to 10 members who are actual adult farmers of the same villageThe group of farmers must have a common bank account and will apply jointly with the signatures of each member on the application form preferably along with particulars of land and crops cultivatedThe applicant group should not have more than one member from one family",
+    "Exclusions / Ineligibility:",
+    "Government employees are not allowed to apply to the scheme. The scheme shall not be allowed to avail for the individual farmer"
+  ],
+  "exclusions": [
+    "Government employees are not allowed to apply to the scheme. The scheme shall not be allowed to avail for the individual farmer"
+  ],
+  "documents_required": [
+    "List of required documents. Aadhaar CardResidence certificatePassport size photographMobile numberEmail idIncome",
+    "certificateAge ProofBank account details etc"
+  ],
+  "how_to_apply": "Mode: Offline Application ProcessFirst of all, the applicants have to go to the nearest office of the Agriculture DepartmentNow applicants have to ask for the application form for Samagra Gramya Unnayan YojanaApplicants have to fill out this application form by entering all the required detailsNow applicants have to attach all the required documentsAfter that, applicants have to submit this form to the agriculture DepartmentBy following this procedure applicant can apply under Samagra Gramya Unnayan Yojana",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmsguy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

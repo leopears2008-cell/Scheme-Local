@@ -1,0 +1,22 @@
+{
+  "scheme_id": "ks_sch",
+  "name": "Khushi Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Odisha",
+  "department": "",
+  "benefit": "Girl students from grade 6th to 12th in government and government-aided schools will receive free sanitary pads",
+  "eligibility_rules": [
+    "All school girls from classes 6th to 12th are eligible."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "No documents needed."
+  ],
+  "how_to_apply": "Mode: Offline No application process is required. The stock is made available and distributed through the school.",
+  "source_url": "https://www.myscheme.gov.in/schemes/ks",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

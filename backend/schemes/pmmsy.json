@@ -1,0 +1,39 @@
+{
+  "scheme_id": "pmmsy",
+  "name": "Pradhan Mantri Matsya Sampada Yojana",
+  "category": "agriculture",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Fisheries, Animal Husbandry and Dairying",
+  "benefit": "Financial assistance for fishing infrastructure: The scheme provides financial assistance to develop fishing infrastructure like fishing harbors, fish landing centers, fish markets, fish feed plants, fish seed farms, and fish processing units. Financial assistance for fish farmers: The scheme provides financial assistance to fish farmers for various activities like the construction of ponds, cages, hatcheries, and nurseries, and for the installation of aeration systems and other equipment. Assistance for fisheries management: The scheme provides financial assistance for the management of fishery resources through the adoption of scientific methods, setting up of fishery management plans, and developing fishery information systems. Credit-linked subsidy for fish farmers: The scheme provides a credit-linked subsidy for fish farmers to encourage them to take up fish farming as a business. Assistance for marketing and export of fish products: The scheme provides assistance for the development of cold chains, fish processing units, and packaging facilities to promote the export of fish products.",
+  "eligibility_rules": [
+    "Fishers.",
+    "Fish Farmers.",
+    "Fish Workers and Fish Vendors.",
+    "Fisheries Development Corporations.",
+    "Self Help Groups (SHGs)/joint Liability Groups (JLGs) in the Fisheries Sector.",
+    "Fisheries Cooperatives.",
+    "Fisheries Federations.",
+    "Entrepreneurs and Private Firms.",
+    "Fish Farmers Producer Organizations/companies (FFPOs/Cs).",
+    "SCs/STs/Women/Differently Abled Persons.",
+    "State Governments/UTs and Their Entities.",
+    "State Fisheries Development Boards (SFDB).",
+    "Central Government and Its Entities."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar CardPAN",
+    "CardBank Account Details: Business Registration CertificateProject ReportLand Documents: Documents such as land lease agreements,",
+    "land ownership documents, or NOC from the landowner are required if the project requires land. Partnership Deed or Memorandum of",
+    "Association (MOA) Note: The exact list of documents required may vary based on the nature and type of the project. It is advisable to",
+    "check with the concerned authorities or the official PMMSY website for the complete list of documents required for the specific type of",
+    "project and application process."
+  ],
+  "how_to_apply": "Mode: Offline For the Centrally Sponsored Scheme Component of PMMSYThe Beneficiaries are required to submit their Self-Contained Proposal/Detailed Project Report (DPR) in accordance with the operational Guidelines of the PMMSY to the District Fisheries Officer, of their domicile district or the District of the respective States/Union Territories in which they intend to take up the fisheries development activities. For the Central Sector Scheme Component of PMMSYThe projects proposals in respect of the Central Sector Scheme Component of the PMMSY should be submitted to the Department of Fisheries, Government of India at the address mentioned below: The Secretary Department of FisheriesMinistry of Fisheries, Animal Husbandry, and DairyingGovernment of India Room No-221, Krishi BhawanNew Delhi - 110 001email: secy-fisheries@gov.inNOTE: For the manner of submission of proposals, the stakeholders (intended beneficiaries) are required to consult the District Fisheries Officer of the District of the respective States/Union Territories in which they intend to take up the fisheries development activities.",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmmsy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

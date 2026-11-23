@@ -1,0 +1,29 @@
+{
+  "scheme_id": "oaa",
+  "name": "Old Age Assistance",
+  "category": "social_welfare",
+  "level": "state",
+  "state": "Delhi",
+  "department": "",
+  "benefit": "Eligible candidates in the 60-69 age range financial assistance of Rs. 2,000/- per month. The government also gives SC/ST/Minority group members an extra Rs. 500/- month. Rs. 2,500/- per month will be given to people over 70 years. EligibilityApplicants must be 60 years or older. They must have resided in Delhi for a minimum of five years before the date of application. The applicant's annual family income from all sources, including rent, interest/dividends on savings and investments, earnings from farming, property sale proceeds, etc., should be less than Rs. 1,00,0\n• 00. The applicant must have an Aadhaar number. The applicant must have a singly-operated account in any bank within the National Capital Territory of Delhi only for receiving payment through the Public Financial Management System (PFMS).The applicant must not be receiving any pension/financial assistance from the Central Government/State Government/other governmental local bodies or any other source for this purpose.",
+  "eligibility_rules": [
+    "established by the Government of National Capital Territory of Delhi (GNCTD) for annual income and residency within the city, as mandated by the government directive. However, the scheme also includes provisions for individuals who do not have proof of residence to submit."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Age proof. Residence proof. Bank account number (Single account).In the case of SC/ST applicants in the age bracket 60",
+    "years, a caste certificate in the name of the applicant issued by the Competent Authority has to be submitted. In the case of Minority",
+    "applicants within 60",
+    "years, self",
+    "declaration of the religion of the applicant duly verified by the religious institution has to be",
+    "submitted. One passport",
+    "size photo of the applicant. Income self",
+    "declaration in the format given on the portal itself."
+  ],
+  "how_to_apply": "Mode: Online Applicants have to visit https://edistrict.delhigovt.nic.in/Under Citizen Corner click on New UserClick on select the document - Aadhar or Voter IDEnter your Aadhar Card Number/Voter ID Card NumberType the Captcha in the box shownCitizen Registration Form will Open for registration Fill up all fields including details of the Present Residential AddressEnter Captcha, and Click on Continue. Login ID and Password will be received on the given mobile number/e-mail address. Now Registration on the e-district portal is completeRegistration for Financial Assistance ServicesClick on Registered User LoginEnter the given login ID and PasswordEnter Captcha and Click on LoginGo to Main Page (Main Page) will open click on apply online. Drop Box apply for services will open - clickList of Departments providing online services shall open -Select Department of Social Welfare and click on scheme nameThe form will open fill up all required fields & upload all required documents as per the requirement of the scheme selected. Then click next and upload a photographThen click on finish. One OTP will be received on the registered mobile number. Enter OTP and Submit. Acknowledgment of successful submission shall be generated.",
+  "source_url": "https://edistrict.delhigovt.nic.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

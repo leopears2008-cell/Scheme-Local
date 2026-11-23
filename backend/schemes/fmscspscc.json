@@ -1,0 +1,26 @@
+{
+  "scheme_id": "fmscspscc",
+  "name": "Fodder Minikits under Schedule Castes Sub Plan (SC Category)",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Gujarat",
+  "department": "",
+  "benefit": "Under this scheme, the fodder seed minikit of 3 Kg, 7 Kg, or 10 Kg is given to the eligible beneficiary.",
+  "eligibility_rules": [
+    "The beneficiary should be a permanent resident of Gujarat. The beneficiary of the Scheduled Caste category can avail the benefit under this scheme. The beneficiary should possess 10 Guntha of land to his or her name."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Identity proof",
+    "Proof of Residence",
+    "Proof of possessing10 Guntha of land",
+    "Any other documents as",
+    "required"
+  ],
+  "how_to_apply": "Mode: Offline To avail the benefits of the scheme, the scheduled caste beneficiary may contact a nearby Intensive Cattle Development Project Sub Centre.",
+  "source_url": "https://www.myscheme.gov.in/schemes/fmscspscc",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

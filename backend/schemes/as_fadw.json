@@ -1,0 +1,25 @@
+{
+  "scheme_id": "as_fadw",
+  "name": "Abhayakiranam Scheme-Financial Assistance To Destitute Widows",
+  "category": "women_child",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "Financial assistance of ₹1000/- per month will be provided to the close relatives of destitute widows who provide protection and shelter to them.",
+  "eligibility_rules": [
+    "The applicant should be a resident of Kerala State. The age limit of the applicant (destitute widow) must be above 50 years. The annual family income should be below ₹1,00,000/-.The applicant should not be receiving a service pension or family pension. The applicant should not be a beneficiary of schemes implemented through the Social Justice Department (Aswasakiranam, Samashwasam)."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Passport size",
+    "photoAttested copy of SSLC certificate/Election ID card/ Aadhaar card for age proof. Certificate from the concerned Village officer",
+    "showing that the applicant is a widow and is under the protection of a relative. Attested copy of Ration card/Income certificate from",
+    "Village office/BPL certificate Bank account details"
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: To avail of the benefits of the scheme, the applicant needs to visit the nearest District Social Justice Office and collect the application form. The application form can also be downloaded from the official website of the Social Justice Department, Government of Kerala.Step 02: The applicant needs to fill out the application form completely.Step 03: The duly filled application form along with supporting documents has to be submitted to the concerned District Social Justice Officers.",
+  "source_url": "https://sjd.kerala.gov.inWhere",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

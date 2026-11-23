@@ -1,0 +1,48 @@
+{
+  "scheme_id": "ciss",
+  "name": "Capital Investment Subsidy Scheme",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Goa",
+  "department": "",
+  "benefit": "1. Capital investments do not include investments made towards land and building, if any, by the applicant.\n• 2. All New Units developing office spaces will be eligible for a capital investment subsidy up to 20% on the capital investments made during the tenure of the Scheme.\n• 3. An additional 10% subsidy on the capital investments made will be provided in case of the establishment of Mega Business Units.\n• 4. All Existing Units, which qualify as Mega Units, are also eligible for a capital investment subsidy up to 20% of the capital investment incurred in the last 3 years prior to the date of notification of this policy.\n• 5. An additional 10% subsidy on capital investments will be provided for the establishment of office spaces for the industries identified as key focus areas for the Government.\n• 6. Based on the number of employees of Goan origin or Goan Graduates, the percentage of incentives under clauses 2.2, 2.3, 2.4, and 2.5 above shall be disbursed on a pro-rata basis as under: Upto 30% of employees on rolls of the company: 50%30% to 60% employees on rolls of the company: 75%More than 60% of employees on rolls of the company: 100%*To avail of the benefits of the scheme, employees should be on the rolls of the company for a minimum period of one year.\n• 7. In case of any expansions, the unit can avail of the investment subsidy provided it meets the criteria of the Expansion Unit. New employees of the expansion should be on the rolls for at least one year prior to the date of the application.\n• 8. The maximum rebate under this provision would be as follows: Smaller Business Units - ₹10,00,000Other Business Units - ₹50,00,000Mega Business Units - ₹1,00,00,000NOTE: The benefits under this scheme are subject to budgetary allocation. No Promissory Estoppel shall be applicable if benefits are discontinued in case the allocation is exceeded.",
+  "eligibility_rules": [
+    "All the New and Existing Units must have their operations in Goa.",
+    "The applicant must be one of the following - Proprietorship FirmPrivate Limited Company incorporated under the Companies Act, 2013 (or equivalent) Public Limited Company incorporated under the Companies Act, 2013 (or equivalent) Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent) Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent).",
+    "The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.",
+    "For a said office space, a unit can avail of capital investment subsidy only if the unit has operated from the said office space for more than two years.",
+    "Exclusions / Ineligibility:",
+    "The Units availing similar financial incentives under any other policy of the Government of Goa are not eligible for availing benefits under this scheme."
+  ],
+  "exclusions": [
+    "The Units availing similar financial incentives under any other policy of the Government of Goa are not eligible for availing benefits under this scheme."
+  ],
+  "documents_required": [
+    "Copy of Incorporation Certificate.",
+    "Copy of new unit registration document/certificate.",
+    "Copies of",
+    "PAN, Aadhaar, and GST TIN.",
+    "Memorandum and Articles of Association.",
+    "Copy of first bill generated showing the date of",
+    "commencement of operations or other relevant document.",
+    "Occupancy certificate from developer/local authority for said office space.",
+    "year business plan / detailed project report (DPR) with projected investment and employment targets. Business plan will be used as part",
+    "of the evaluation for payment of subsequent installments of the subsidy.",
+    "Details of employees and percentage of employees of Goan",
+    "origin.",
+    "Proof of employment for the employees on the rolls for over 12 months (copy of PF contribution or salary slip or other relevant",
+    "document).",
+    "Contractor agreements, purchase orders, and other supporting documents for capital investment made.",
+    "Receipts or",
+    "other proof of payment for items listed above.",
+    "Certified copy from the auditor or Chartered Accountant certifying the investments",
+    "made.",
+    "Udyog Aadhaar for the applicant unit."
+  ],
+  "how_to_apply": "Mode: OnlineStep 1: Visit the Official Web Portal of Goa Online. At the top right corner, click \"Register\".Step 2: On the next page, verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.Step 3: On the Registration Page, fill in all the mandatory fields of the registration form. Create a Login Name and a strong Password. Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes. Fill in the Captcha Code, and click \"Register/Signup\".Step 4: Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\".Step 5: In the top ribbon, click on \"Services\", then click on \"IT Services\". Click on the name of the scheme. You will be taken to the application form for the scheme. Fill in all the mandatory fields and upload all the mandatory documents.Step 6: Submit the application. A unique registration number will be generated. Note this number for future reference. NOTE: The applicant can apply for this scheme on a quarterly/bi-annually/annual basis after incurring the relevant expenditure. Disbursement TimelineIncentive Application Receipt: DApplication scrutiny as per checklist:\nD+30daysApplication approval by the Empowered Committee: D+60 daysIssue of Regret Letter/Sanction Orders and Disbursement:\nD+90 days",
+  "source_url": "https://www.myscheme.gov.in/schemes/ciss",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

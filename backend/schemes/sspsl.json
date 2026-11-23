@@ -1,0 +1,24 @@
+{
+  "scheme_id": "sspsl",
+  "name": "Silicosis (Bimari) Se Pidit Shramiko Ke Liye Aarthik Evam Punarvas Sahayata Yojana",
+  "category": "health",
+  "level": "state",
+  "state": "Chhattisgarh",
+  "department": "",
+  "benefit": "Unorganized workers with silicosis will get ₹ 300,0\n• 00. If the worker dies, their family will get ₹100,000 and the rest will be paid as a fixed deposit with monthly interest.",
+  "eligibility_rules": [
+    "Workers registered with the Chhattisgarh Unorganized Workers State Social Security Board. Workers who claim to be working in the organized sector but cannot prove it, or construction workers who are not eligible for registration with the Chhattisgarh Building and Other Construction Workers Welfare Board, will also get the benefits. Competent doctors must confirm the Silicosis disease to the worker."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Labor registration Card. Resident prove. Name and address of the deceased workerName and",
+    "address of the dependentOccupation of the deceased workerDate of death of the deceased workerMedical report confirming that the",
+    "deceased worker had silicosis"
+  ],
+  "how_to_apply": "Mode: Offline Visit the office of the Assistant Labor Commissioner/Labor Officer of the district. Submit the application and the required documents. The officer will review the application and send it to the divisional office for further action. Applicant can be submitted by mother, father, wife, husband, minor son, or minor daughter. The application should include the following information: Name and address of the deceased workerName and address of the dependentOccupation of the deceased workerDate of death of the deceased workerMedical report confirming that the deceased worker had silicosis",
+  "source_url": "https://cglabour.nic.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

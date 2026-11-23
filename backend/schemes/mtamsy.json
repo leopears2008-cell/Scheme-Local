@@ -1,0 +1,28 @@
+{
+  "scheme_id": "mtamsy",
+  "name": "Mother Teresa Asahay Matri Sambal Yojana",
+  "category": "health",
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "department": "",
+  "benefit": "1. Financial assistance per child per annum for up to two children.\n• 2. Support for expenses related to the child's upbringing, including education, nutrition, and healthcare.\n• 3. Empowering women who are unable to raise their children due to financial hardship.\n• 4. Encouraging education and reducing the dropout rate of children from underprivileged backgrounds.\n• 5. Promoting the welfare of children from marginalized sections of society.",
+  "eligibility_rules": [
+    "The applicant must be a resident of Himachal Pradesh.",
+    "The applicant must be a woman who is unable to raise her child/children due to financial hardship.",
+    "The applicant must have a maximum of two children.",
+    "The applicant must belong to a socially and economically weaker section of society.",
+    "The applicant's children must be studying in a recognized school."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Panchayat Resolution copy for selection of beneficiaryPhotocopy of Bonafide",
+    "Himachali CertificateBPL CertificateProof of Date of Birth of the childrenProof of Death of Parents (for orphan Children) Proof of",
+    "Annual Family Income of applicantAffidavit by Mother"
+  ],
+  "how_to_apply": "Mode: Online Go to https://edistrict.hp.gov.in/pages/services/designForm/InfoPages/Mother_Teresa_Ashaya_Matri_Sambhal_Yojana.xhtmlFill the application and click on Submit ButtonYou will be redirected to payment windowPay the application fees ( If applicable) Download the confirmation receipt.",
+  "source_url": "https://edistrict.hp.gov.in/pages/services/designForm/InfoPages/Mother_Teresa_Ashaya_Matri_Sambhal_Yojana.xhtmlFill",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,31 @@
+{
+  "scheme_id": "nbm",
+  "name": "National Bamboo Mission",
+  "category": "agriculture",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Agriculture and Farmers Welfare",
+  "benefit": "The scheme targets to provide following benefits: 1) It would assist farmers, government agencies, artisans, entrepreneurs, private agencies, Federated SHGs, FPOs, and other persons involved in bamboo industry\n• 2) It will help in establishing bamboo nursery, bamboo cultivation, post-harvest processing, product manufacturing, capacity building, entrepreneurship, etc for the industry\n• 3) It will help in creating self-dependency for fulfilling the demand of bamboo and bamboo products.",
+  "eligibility_rules": [
+    "The scheme is applicable to all farmers in India"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar number",
+    "Land documents",
+    "Caste",
+    "Certificate (SC/ST only)",
+    "Phone Details",
+    "Bank Details",
+    "Photographs",
+    "DPRThe specific documents for availing the benefits of the",
+    "program may vary depending on the type of intervention and the state. It is recommended to consult with the relevant authorities for",
+    "detailed information on documents to be submitted."
+  ],
+  "how_to_apply": "Mode: Online Refer to respective State's Bamboo Mission Portal for online linkStep 01: Application to State Bamboo Mission through their respective portals/offlineStep 02: Scrutiny and approval of the SBMStep 03: credit linked financing through scheduled/commercial banksStep 04: progress reporting/completion of projectsStep 05: evaluation by SBM and disbursal of subsidy to the bank account of the beneficiary",
+  "source_url": "https://www.myscheme.gov.in/schemes/nbm",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -6,7 +6,7 @@ import uuid
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import Response
 from pydantic import BaseModel
-from security.auth import require_verified_applicant
+from security.auth import Principal, require_verified_applicant
 
 import schemes_store as store
 from services import pdfgen

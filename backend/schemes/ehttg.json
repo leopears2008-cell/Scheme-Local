@@ -1,0 +1,26 @@
+{
+  "scheme_id": "ehttg",
+  "name": "Economic Help To Tribal Girls For Higher Education (College Level)",
+  "category": "education",
+  "level": "state",
+  "state": "Rajasthan",
+  "department": "",
+  "benefit": "Annual financial assistance of Rs. 5,000/- is provided for 10 months at the rate of Rs.500/- per month.",
+  "eligibility_rules": [
+    "The girl student should belong to the tribal class of Rajasthan. The girl student should be regularly studying general education in a private/government college. The parent/guardian/guardian/husband of the student should not be an income taxpayer. After passing the board examination, there should not be any gap in the continuous study of the student applying for the scheme. The student who is studying by living in a hostel run by the government. They will not be entitled to benefit under the said scheme. Must have Vaidya Bhamashah card and Aadhaar card. The girl student should be a native of Rajasthan."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar Card. Annual Income Of The Parent / Guardian",
+    "Non",
+    "Tax Payee. Janaadhaar Card Details Of",
+    "Family And Student. Bank Details Linked With the Janaadhaar Card Of Either The Family Head Or Student. Caste Certificate. Birth",
+    "Certificate."
+  ],
+  "how_to_apply": "Mode: Online Applicant to log in to RajSSO Portal using his/her SSOID.If SSOID is not available then the applicant to first register on RajSSO Portal to create SSOID and update SSO Profile at first login. After successful authentication/login and updation of the SSOID Profile and select the scheme name. Select his/her name, the bank account and fill in personal details. Upload the required document. Click the \"SUBMIT\" button.",
+  "source_url": "https://sso.rajasthan.gov.in/signin",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

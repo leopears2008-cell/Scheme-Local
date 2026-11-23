@@ -1,0 +1,24 @@
+{
+  "scheme_id": "stl",
+  "name": "Soil Testing Laboratory",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Meghalaya",
+  "department": "",
+  "benefit": "To provide soil testing services for farmers free of cost. Soil Health Card (SHC).",
+  "eligibility_rules": [
+    "Bonafide farmers engaged in Agriculture"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Farmer's Photo. Verification Form by the Agriculture Development Officer of a",
+    "CD Block/Agriculture Circle. Bank Details (Account No., IFSC Code) of the applicant. Aadhaar Number (or alternative identification",
+    "documents."
+  ],
+  "how_to_apply": "Mode: Offline Bonafide farmers can apply in plain paper through the nearest Agriculture Development Officer of a CD Block/Agriculture Circle.",
+  "source_url": "https://www.myscheme.gov.in/schemes/stl",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

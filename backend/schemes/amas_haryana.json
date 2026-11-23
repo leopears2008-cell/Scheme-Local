@@ -1,0 +1,30 @@
+{
+  "scheme_id": "amas_haryana",
+  "name": "Dr. Ambedkar Medical Aid Scheme (Revised - 2009)",
+  "category": "health",
+  "level": "state",
+  "state": "Haryana",
+  "department": "",
+  "benefit": "Under this scheme medical treatment facilities provide to the patients suffering from serious ailments of Scheduled Caste and Scheduled Tribe persons whose annual family income is less than ₹ 1,00,000/- p.a. A patient having serious ailments requiring surgery of the Kidney, Heart, Liver, Cancer, Knee, Spinal and Brain, or any other life-threatening diseases may be given treatment.",
+  "eligibility_rules": [
+    "The applicant shall belong to Scheduled Caste and Scheduled Tribe Community. Annual family income shall not exceed ₹ 1,00,000/- per annum. Those who are suffering from major ailments which need surgery such as kidney, heart, liver, cancer, brain or any other life-threatening disease including knee surgery and spinal surgery."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Original Estimated Cost certificate duly signed by the Medical Superintendent of the concerned hospital. Original or attested",
+    "photocopies of the income certificate, caste certificate, and ration card of the patient. The application should be recommended and",
+    "forwarded either by a local sitting Member of Parliament (Lok Sabha or Rajya Sabha) or by the District Magistrate & Collectors/Deputy",
+    "Commissioner of the concerned District or the Secretary in",
+    "charge of Health & Social Welfare Departments of State/UT.Medical aid",
+    "from the Foundation and other sources should not exceed the total estimated cost of the treatment. A certificate in this regard should be",
+    "obtained from the Medical Superintendent of the concerned Hospital. The Estimated Cost Certificate, accompanied with the application,",
+    "should contain the date fixed for the surgical operation as far as possible. An attested photograph of the patient should be affixed on the",
+    "Application Form."
+  ],
+  "how_to_apply": "Mode: Offline Application Link:\nhttp://haryanascbc.gov.in/sites/default/files/documents/application_form_for_medical_aid.pdfStep 01: The applicant shall apply for medical aid in the prescribed application form, duly certified by the Medical Superintendent of the concerned Hospital. The application format is given overleaf.Step 02: The application must be submitted along with the caste certificate, income certificate, ration card, and estimated cost of the treatment duly certified by the Medical Superintendent of the Hospital.Step 03: The application shall be recommended and forwarded by the local sitting Member of Parliament (Lok Sabha or Rajya Sabha) or by the District Magistrate & Collector / Deputy Commissioner of the concerned District or the Secretary in charge of Health & Social Welfare Departments of the State/UT.Step 04: The duly filled-in form should reach the Director, Dr. Ambedkar Foundation, 15, Janpath, New Delhi, at least 15 days before the date of surgery. All the applications received will be processed by Dr. Ambedkar Foundation.",
+  "source_url": "https://haryanascbc.gov.in/sites/default/files/documents/application_form_for_medical_aid.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

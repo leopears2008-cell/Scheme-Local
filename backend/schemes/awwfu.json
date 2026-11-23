@@ -1,0 +1,23 @@
+{
+  "scheme_id": "awwfu",
+  "name": "Anganwadi Workers Welfare Fund",
+  "category": "women_child",
+  "level": "state",
+  "state": "Uttarakhand",
+  "department": "",
+  "benefit": "Minimum amount of ₹30,000 /- will be given. After completing 20 years of service ₹1,30,000/- will be given. Note: There is a provision for an increase of 5 % per year the deposit amount.",
+  "eligibility_rules": [
+    "Beneficiary should be a permanent resident of Uttarakhand. Beneficiary should be an Anganwadi Worker/Helper. The age of the beneficiary should be 60 years or more."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Proof of retirement. Aadhar card. Bank account details. Any other",
+    "document (as requested)."
+  ],
+  "how_to_apply": "Mode: Offline Applicant need to download the application form. Applications are submitted to the CDPO office. Required documents include: Certificate of retirement from the Anganwadi centerAadhar cardBank account details",
+  "source_url": "https://wecd.uk.gov.in/files/AWK_Kalyan_Kosh_Format-1.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,23 @@
+{
+  "scheme_id": "ds_sch",
+  "name": "Design Scheme Under MSME Innovative Scheme",
+  "category": "employment_skill",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Micro, Small and Medium Enterprises",
+  "benefit": "Design Project: Financial assistance under this activity will be utilised for engagement of design consultants for design interventions and expenses pertaining to development of prototype/product. For the design projects approved for any MSME, 75% (Micro) and 60% (Small & Medium) of the total project cost will be contributed by Government of India, up to a maximum of ₹ 40,000,00/- and the remaining project cost will be borne by MSMEs and deposited to the IA.The total project cost will be provided as a grant in 3 stages: Stage 1: Strategy & Concept- 40%Stage 2: Detail Design - 30%Stage 3: Successful Completion of the prototype/product and Final Report submission - 30%.Student Project: This component supports design work of bona-fide students by providing financial assistance up to ₹ 2,50,000/-. For the student design projects approved for any MSME,75% of the total project cost will be contributed by Government of India, up to a maximum of ₹ 2,50,000/- and the remaining project cost will be borne by MSME and deposited to the IA.",
+  "eligibility_rules": [
+    "The beneficiary unit(s) must typically be a registered micro, small or medium enterprises. Should have a valid Udyog Aadhaar Memorandum (UAM) or Udyam Registration certificate."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Udyog Aadhaar",
+    "Memorandum (UAM) or Udyam Registration (UR) certificate. UAM Registered mobile number."
+  ],
+  "how_to_apply": "Mode: Online Registration Process:Step 01: After opening the website https://innovative.msme.gov.in/ , click on Design.Step 02: On the next window, click on Join Design Scheme.Step 03: Put the Udyam Registration Number along with the Registered Moblile Number.Step 04: Click on Validate.",
+  "source_url": "https://innovative.msme.gov.in/",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

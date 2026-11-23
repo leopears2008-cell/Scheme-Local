@@ -1,0 +1,22 @@
+{
+  "scheme_id": "day_nrlm",
+  "name": "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission",
+  "category": "women_child",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Rural Development",
+  "benefit": "Key benefits of the Scheme include: One member (preferably a woman) from each rural poor household would be brought under the Self Help Group (SHG) network. Women SHG groups would have bank-linkage arrangements. SHGs would be federated at the village level and higher levels to provide space, voice and resources and to reduce dependence on external agencies. The Mission consists of four components, viz., (i) social mobilization, community institution, and capacity building; (ii) financial inclusion; (iii) livelihood promotion; and (iv) convergence. The participatory social assessment would be organized to identify and rank all households according to vulnerability. The ranking would be with reference to the poorest of the poor, single woman and woman-headed households, disabled, landless, and migrant labor and they would receive special focus. Training and capacity building of the poor, particularly in relation to managing the institutions, livelihoods, credit absorption, and creditworthiness. The Mission also supports the development of skills for rural youth and their placement, training, and self-employment through rural self-employment institutes (RSETIs), innovations, infrastructure creation, and market support. Provision of Revolving Fund as support to SHGs to strengthen their institutional and financial management capacity and build a good credit history. Provision of Community Investment Support Fund (CIF) in the intensive blocks to the SHGs through the Federations to advance loans and/or undertake common/collective socio-economic activities. Introduction of financial inclusion model, loaning from banks, association and coordination with banking/financial institutions, and coverage from loss of life, health, etc. Provision of Interest Subvention on loans availed by SHGs to cover the difference between the lending rate of the banks and 7%.Convergence with various ministries and agencies dealing with poverty reduction of rural poor. With highly decentralized planning; States will have liberty in developing their own action plan for poverty reduction. NRLM to have suitable linkages at the district level with District Rural Development Agencies (DRDAs) and Panchayat Raj Institutions (PRIs).",
+  "eligibility_rules": [
+    "SHGs should be in active existence at least for the last 6 months as per the books of account of SHGs and not from the date of opening of the S/B account. SHGs should be practicing 'Panchasutras' i.e., Regular meetings; Regular savings; Regular inter-loaning; Timely repayment; and Up-to-date books of accounts. Qualified as per grading norms fixed by NABARD. As and when the federations of the SHGs come to existence, the grading exercise may be done by the Federations to support the banks. The existing defunct SHGs are also eligible for the credit if they are revived and continue to be active for a minimum period of 3 months"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhar NumberProof of IdentityProof of ResidenceVoter ID CardPassport Size Photo"
+  ],
+  "how_to_apply": "Mode: Online To register for DAY-NRLM, visit the following link: https://aajeevika.gov.in/en/member/registerFill out the mandatory fields. (Name, email ID, Contact Number) Provide a Username. Create a new password and confirm the same. Click on \"Create New Account\".",
+  "source_url": "https://aajeevika.gov.in/en/member/registerFill",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

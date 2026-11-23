@@ -1,0 +1,37 @@
+{
+  "scheme_id": "prems_st",
+  "name": "Pre-matric Scholarship For Scheduled Tribe Students Studying In Classes IX & X",
+  "category": "education",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Tribal Affairs",
+  "benefit": "Value of Scholarship: The rates of scholarships and other grants will be as follows - Item:\nScholarship for 10 months (in ₹)Day Scholars: Monthly - 225; Annually - 2\n• 250. Hostelers: Monthly - 525; Annually - 5\n• 250. Item:\nBooks and Ad-Hoc Grant (in ₹)Day Scholars: Annually - 7\n• 50. Hostelers: Annually - 1\n• 000. Item: Additional Disability Allowance (in ₹) (only applicable to divyangjan students) Day Scholars: Monthly - 600; Annually - 7\n• 200. Hostelers: Monthly - 800; Annually - 9\n• 600. The disability as defined under the Act has to be certified by a competent medical authority of the State Govt./UT Administration. The provisions of disability allowance will also apply to leprosy-cured and students having sickle cell anemia or Thalassemia, with the necessary certificate. Duration of the Scholarship: The scholarship will be payable for 10 months in an academic year. Additional Disability Allowance will be paid for all twelve months. Renewal of the Scholarship: The award once made will continue subject to good conduct and regularity in attendance. It will be renewed for Class X after the student passes class IX.",
+  "eligibility_rules": [
+    "The applicant student should belong to the Scheduled Tribe, so specified in relation to the State/Union Territory to which he/she actually belongs (Domicile State).The student should be studying in a Government School or in a School recognized by the Government or a Central/State Board of Secondary Education. The family income of the student from all sources should not exceed ₹ 2,50,000 per annum. The student should have a valid account in a Scheduled Bank, linked with Aadhaar and mobile number. The student should not be getting any other scholarship. Scholarships for studying in any class will be available for only one year. If a student has to repeat a class, he/she would not get a scholarship for the same class twice. The student can renew the scholarship for the next class when he/she is promoted.",
+    "Exclusions / Ineligibility:",
+    "The student should not be getting any other scholarship."
+  ],
+  "exclusions": [
+    "The student should not be getting any other scholarship."
+  ],
+  "documents_required": [
+    "Aadhar NumberDomicile certificateST certificate issued by the competent authority of the",
+    "StateFamily Income CertificateDisability certificateScanned copy of the passport",
+    "size photograph The State/UT may specify the",
+    "procedure for issuing ST certificates, Family Income Certificates, and Disability certificates and the competent authority to issue such",
+    "certificates. If the State has an online system of issuing such certificates including a certificate of examination passed, State/UT may link",
+    "the portal through Digilocker so that the certificates placed in Digilocker can be fetched automatically. Note 1: Self",
+    "declarations or",
+    "affidavits of self",
+    "assessment of income shall not be accepted and the State Governments shall make appropriate arrangements to notify a",
+    "competent income",
+    "certificate issuing authority for this purpose. Note 2: Students need to carefully go through State/ NSP portal for the",
+    "required documents to be uploaded with the application form."
+  ],
+  "how_to_apply": "Mode: Online State Governments/UT Administration will make all efforts to open the portal for inviting applications by 1 April. The applicant should submit/upload the completed application to the prescribed authority before the last date prescribed for receipt of applications. The following timeline is suggested for opening, and closing of the portal, verification of student and Institute, and disbursal of scholarship. Keep ready the soft copies of the required documents.Step 1: Go to http://www.scholarships.gov.in/. and click \"New Registration\".Guidelines for Registration will appear. Scroll to the bottom. Read carefully the undertaking. Accept the Terms. Click \"Continue\".Step 2: A Registration Form will appear. (The fields marked as * are compulsory) Fill in the details and click \"Register\". Your Application ID and password will be displayed. The same will also be sent as an SMS to your registered mobile number.Step 3: Go to https://scholarships.gov.in/fresh/newstdRegfrmInstruction Click on \"Login to Apply\". Enter your Application ID and password. Type the Captcha and click \"Login\".On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen. Create a new password and confirm. Click \"Submit\". You will be directed to the \"Applicant's Dashboard\".Step 4: On the left pane, click \"Application Form\". The fields marked as * are compulsory. Fill in the details and upload the documents. You can either click on \"Save as Draft\" to complete the application later. Else, click \"Final Submit\" to submit the application.",
+  "source_url": "https://www.scholarships.gov.in/",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

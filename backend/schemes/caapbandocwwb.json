@@ -1,0 +1,29 @@
+{
+  "scheme_id": "caapbandocwwb",
+  "name": "Cash Award (APB&OCWWB)",
+  "category": "women_child",
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "department": "",
+  "benefit": "Cash assistance of ₹500/-, ₹750/- and ₹1000/-",
+  "eligibility_rules": [
+    "The worker should be a permanent resident of Arunachal Pradesh.",
+    "The worker must be employed in the Building and Other Construction works.",
+    "The worker should be registered with Labour Welfare Board (APB&OCWWB).",
+    "The worker's membership must be active.",
+    "Children for whom the award is applied must have passed the class X and XII Board or equivalent examinations.",
+    "Children (one son and one daughter) of the registered worker with a membership, who secure the highest marks in their District in Metric examination."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Identity proof i.e. Aadhaar Card, Voter ID card, etc. Xerox copy of the registration card of the workerMark the statement of the",
+    "children Bank Account number/ front page of the passbookPassport",
+    "size photographs"
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: For taking benefit of this scheme, the applicant needs to contact Registering Officers, APB&OCWWB of the respective District.Step 02: Application in the prescribed format may be received from the concerned office.Step 03: The applicant needs to fill the application form completely and attach all the relevant documents. Thereafter, the applicant may submit the application form to the concerned office.Step 04: After successful verification, the applicant can avail the benefit of the scheme.",
+  "source_url": "https://www.myscheme.gov.in/schemes/caapbandocwwb",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

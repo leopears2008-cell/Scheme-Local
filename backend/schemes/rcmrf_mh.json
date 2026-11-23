@@ -1,0 +1,22 @@
+{
+  "scheme_id": "rcmrf_mh",
+  "name": "Rajasthan Chief Minister's Relief Fund - Medical Help",
+  "category": "health",
+  "level": "state",
+  "state": "Rajasthan",
+  "department": "",
+  "benefit": "Demand draft or Direct Bank Transfer to the beneficiary. Cochlear Implant Surgery of Deaf and Dumb Children - In the state of Rajasthan, deaf and dumb children up to the age of 6 years, whose family income is up to Rs. 2.00 lakh annually,Assistance for Thalassemia Major Disease Treatment - 2 percent assistance is given from the Chief Minister's Assistance Fund up to Rs. 50.7 lakhFinancial assistance to a person suffering from serious diseases (cancer, kidney and urine, heart disease) do it.",
+  "eligibility_rules": [
+    "The applicant should be Non BPLThe Annal Income of the Family should be greater than 2 LPANot be listed in ABMGRSBY (Ayushman Bharat Mahatma Gandhi Rajasthan Swasthya Bima Yojana)"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Income Certificate Copy* Address Proof Copy*Rashan CardTreatment Estimate by DoctorMedical Certificate"
+  ],
+  "how_to_apply": "Mode: Online & Offline Visit the official website of the Chief Minister Relief Fund Rajasthan at https://cmrf.rajasthan.gov.in/.Click on the \"Apply for Medical Help\" option on the homepage. You will be directed to a new page where you need to select the \"Apply Online\" option. Fill in the required details such as your name, address, contact details, medical condition, and required treatment. Upload the necessary documents such as medical certificates, doctor's reports, and bills. Once you have filled in all the details, click on the \"Submit\" button. After submitting the application, you will receive an acknowledgment number that you can use to track the status of your application.",
+  "source_url": "https://cmrf.rajasthan.gov.in/",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

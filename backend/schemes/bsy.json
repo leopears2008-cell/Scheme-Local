@@ -1,0 +1,24 @@
+{
+  "scheme_id": "bsy",
+  "name": "Bal Sakha Yojana Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Gujarat",
+  "department": "",
+  "benefit": "The Bal Sakha Yojana provides expert care to newborn babies to ensure child healthUnder this scheme, the paediatrician attends all eligible newborns at the place of birth and has to ensure their survival by providing early neonatal care including immunizations at birth, nutrition advice.",
+  "eligibility_rules": [
+    "Children born in a private hospital or in a government healthcare institution running Chiranjeevi Yojana that child is eligible. All newborn babies belonging to BPL or APL and tribal categories are eligible for Bal Sakha Yojana. Middle class (with an annual income limit of Rs. 2 lakhs).Children who are born at home, a subcenter or a PHC are eligible."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "List of the required documents",
+    "The women are required to have BPL or APL ration cards. Tribal certificate. Authorization by a locally recognized authority. The",
+    "application form is available from the hospital itself. Income certificate of parents up to Rs. 2 lakhs. Aadhar card."
+  ],
+  "how_to_apply": "Mode: Offline Application ProcessWomen can contact primary social workers ASHA present in all village and urban areaAnganwadi centresWomen can contact to District Development officer or Chief District Health Officer if she faces any obstacles while availing the of benefits.",
+  "source_url": "https://www.myscheme.gov.in/schemes/bsy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

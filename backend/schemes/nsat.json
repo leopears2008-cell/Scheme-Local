@@ -1,0 +1,24 @@
+{
+  "scheme_id": "nsat",
+  "name": "National Scheme of Apprenticeship Training",
+  "category": "education",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Education",
+  "benefit": "1. The apprentices undergo a one-year Apprenticeship Training period.\n• 2. Apprentices receive a monthly stipend during their training. Engineering Graduate: ₹4,984 per monthTechnicians: ₹3,542 per month10+2 Vocational pass-outs: ₹2,758 per month\n• 3. The stipend is shared equally between the Central Government and the employer, with the employer initially paying the full stipend and later claiming 50% reimbursement from the Central Government through the respective Boards of Apprenticeship/Practical (BOATs/BOPT).",
+  "eligibility_rules": [
+    "The applicant should be one of the following - Graduate EngineersDiploma Holders (Technicians)10+2 Vocational Passouts"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar cardValid Personal Email IDMobile numberPassport size photograph (Format: JPEG, Size: Less than 1 MB) Aadhaar",
+    "seeded/mapped Bank account detailsQualifying Degree / Provisional Certificate (Format: PDF, Size: Less than 1 MB) First page of Bank",
+    "passbook / Bank account statement (Format: PDF, Size: Less than 1 MB)"
+  ],
+  "how_to_apply": "Mode: OnlineStep 1: RegistrationVisit the Official Portal of the National Apprenticeship Training Scheme. In the top ribbon, click \"Student\". On the next page, click \"Student Register\". You will be redirected to the Registration Page.Step 2: Basic ProfileIn the registration page, fill in the following mandatory fields: Basic Details (Name, Father/mother's Name, Aadhar Number), Educational Details (Course/Institute Details), Communication Information (Address, Mobile Number), Bank Details For Stipend Reception, Training Preferences (Field and Location for Apprenticeship).Step 3: Review and SubmitAfter filling in all the mandatory fields, scroll to the bottom of the page, review the details, and click \"SUBMIT\".Step 4: Contract ManagementYou can find apprenticeship advertisements on the dashboard. The details like title, description, duration, location, skills required, and qualifications needed to apply are visible to the student. Apply for a suitable apprenticeship opportunity.Step 5: Track the Application StatusApplication status can be checked in the application management section.Step 6: Contract AcceptanceStudents must accept the contract request from the establishment before sending a request to BOAT for final confirmation. Once accepted, the contract request is sent to BOAT for approval. Students can download and engage in the apprenticeship program.Step 6: Profile LockingOnce a student's contract is created, their profile is locked, preventing further applications. Profile changes require a request to BOAT.",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsat",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

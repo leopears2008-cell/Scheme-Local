@@ -1,0 +1,23 @@
+{
+  "scheme_id": "snsu",
+  "name": "Sanitary Napkin Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Uttarakhand",
+  "department": "",
+  "benefit": "Sanitary napkins are distributed to adolescent girls/women at ₹ 6/-.",
+  "eligibility_rules": [
+    "Beneficiary should be a permanent resident of Uttarakhand. Beneficiary should be a girl/woman."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "No documents are required. Note: Beneficiaries can directly approach their nearest Anganwadi Centre and buy sanitary",
+    "napkins."
+  ],
+  "how_to_apply": "Mode: Offline Step-1: Concerned girls/women should visit their nearest Anganwadi Centre. Step-2: They can buy sanitary napkins from there at a minimum cost of ₹ 6/-.",
+  "source_url": "https://www.myscheme.gov.in/schemes/snsu",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

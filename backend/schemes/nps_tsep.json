@@ -1,0 +1,27 @@
+{
+  "scheme_id": "nps_tsep",
+  "name": "National Pension Scheme For Traders And Self Employed Persons",
+  "category": "employment_skill",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Labour and Employment",
+  "benefit": "to the family on the death of an eligible beneficiary: During the receipt of a pension, if an eligible beneficiary dies, his spouse shall be only entitled to receive fifty percent of the pension received by such eligible beneficiary, as a family pension, and such family pension shall be applicable only to the spouse. Benefits on disablement: If an eligible beneficiary has given regular contributions and become permanently disabled due to any cause before attaining his age of 60 years, and is unable to continue to contribute under this Scheme, his spouse shall be entitled to continue with the Scheme subsequently by payment of regular contribution as applicable or exit the Scheme by receiving the share of contribution deposited by the such beneficiary, with interest as actually earned thereon by the Pension Fund or the interest at the savings bank interest rate thereon, whichever is higher. Benefits on Leaving the Pension Scheme: In case an eligible beneficiary exits this Scheme within a period of less than ten years from the date of joining the Scheme by him, then the share of contribution by him only will be returned to him with savings bank rate of interest payable thereon. If an eligible beneficiary exits after completion of a period of ten years or more from the date of joining the Scheme by him but before his age of sixty years, then his share of contribution only shall be returned to him along with accumulated interest thereon as actually earned by the Pension Fund or the interest at the savings bank interest rate thereon, whichever is higher. If an eligible beneficiary has given regular contributions and died due to any cause, his spouse shall be entitled to continue with the Scheme subsequently by payment of regular contribution as applicable or exit by receiving the share of contribution paid by such beneficiary along with accumulated interest, as actually earned thereon by the Pension Fund or at the savings bank interest rate thereon, whichever is higherAfter the death of the beneficiary and his or her spouse, the corpus shall be credited back to the fund.",
+  "eligibility_rules": [
+    "The applicant can be a self-employed shop owner or a retail owner or a vyapari. The age of the applicant should be between 18 to 40 yearsThe annual turnover of the business should not exceed ₹ 1,50,00,0",
+    "Exclusions / Ineligibility:",
+    "The applicant should not be - Covered under any National Pension Scheme contributed by the Central Government or member of EPFO/NPS/ESICAn income taxpayerEnrolled under Pradhan Mantri Shram Yogi Maandhan Yojana or Pradhan Mantri Kisan Maandhan Yojana administered by the Ministry of Labour & Employment or Ministry of Agriculture & Farmers Welfare, respectively"
+  ],
+  "exclusions": [
+    "The applicant should not be - Covered under any National Pension Scheme contributed by the Central Government or member of EPFO/NPS/ESICAn income taxpayerEnrolled under Pradhan Mantri Shram Yogi Maandhan Yojana or Pradhan Mantri Kisan Maandhan Yojana administered by the Ministry of Labour & Employment or Ministry of Agriculture & Farmers Welfare, respectively"
+  ],
+  "documents_required": [
+    "Aadhaar CardSavings/Jan Dhan Bank Account details along with IFSC Code ( Bank Passbook or",
+    "Cheque Leave/book or copy of bank statement as evidence of bank account )"
+  ],
+  "how_to_apply": "Mode: Online - via CSCsStep 1: The interested eligible person shall visit the nearest CSC center.Step 2: Following are the prerequisites for the enrollment process: Aadhaar Card; Savings/Jan Dhan Bank Account details along with IFSC Code ( Bank Passbook or Cheque Leave/book or copy of bank statement as evidence of bank account )Step 3: An initial contribution amount in cash will be made to the Village Level Entrepreneur (VLE).Step 4: The VLE will key in the Aadhaar number, Name of the beneficiary, and Date of birth as printed on the Aadhaar card for authentication.Step 5: The VLE will complete the online registration by filling up the details like Bank Account details, Mobile Number, Email Address, GSTIN, Annual Turnover Income, Spouse (if any), and Nominee details.Step 6: Self-certification for eligibility conditions will be done.Step 7: The system will auto calculate the monthly contribution payable according to the age of the Beneficiary.Step 8: The beneficiary will pay the 1st subscription amount in cash to the VLE.Step 9: Enrollment cum Auto Debit mandate form will be printed and will be further signed by the beneficiary. VLE will scan the same and upload it into the system.Step 10: A unique Vyapari Pension Account Number (VPAN) will be generated and Vyapari Card will be printed.",
+  "source_url": "https://www.myscheme.gov.in/schemes/nps-tsep",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

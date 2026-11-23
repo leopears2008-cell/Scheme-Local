@@ -1,0 +1,26 @@
+{
+  "scheme_id": "fssdpp",
+  "name": "Free Supply of Sarees and Dhothies to the Poor People",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Puducherry",
+  "department": "",
+  "benefit": "Two Sarees, blouse pieces, lungis, and towels, are provided once in a year.",
+  "eligibility_rules": [
+    "The applicant should be a citizen of India. The applicant should be a native of the Union Territory of Pondicherry by birth or continuous residence for not less than 5 years. The applicant should belong to 'Below Poverty Line' category.",
+    "Exclusions / Ineligibility:",
+    "Fisherman and people from the Scheduled Caste community are not eligible."
+  ],
+  "exclusions": [
+    "Fisherman and people from the Scheduled Caste community are not eligible."
+  ],
+  "documents_required": [
+    "BPL Ration Card by the Civil Supplies Department, Pondicherry."
+  ],
+  "how_to_apply": "Mode: Offline No separate application is required. As a part of the proactive governance and timely benefits delivery, the beneficiaries are identified based on the data from the Civil Supplies and Consumer Affairs Department in Puducherry, utilizing the cross-referencing functionality in UDH. The supply will be made to the holders of red ration cards who have registered with the area Anganwadi.",
+  "source_url": "https://edistrict.py.gov.in/User/TrackApplication.aspx",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

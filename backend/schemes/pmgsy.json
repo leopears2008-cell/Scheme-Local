@@ -1,0 +1,38 @@
+{
+  "scheme_id": "pmgsy",
+  "name": "Pradhan Mantri Gram Sadak Yojana",
+  "category": "other",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Rural Development",
+  "benefit": "The benefits of the Pradhan Mantri Gram Sadak Yojana (PMGSY) are -1. All-weather connection to the hamlets that are least or not connected.\n• 2. Overall Development of the country allows for easy movement of goods and vehicles.\n• 3. There are better employment opportunities for those from villages thanks to road connections.",
+  "eligibility_rules": [
+    "A region must be a habitation. It cannot be a hamlet or revenue village to be eligible for the Pradhan Mantri Gram Sadak Yojana (PMGSY).",
+    "The Central Government describes habitation as a population cluster residing within an area that remains constant over time. Some of the local words used to describe a habitation are: Majras, Desam, Hamlets, Tolas, Dhanis",
+    "The hamlet must have a higher population as per the 2001 Census to be eligible for road connection. The eligible habitations have a population of above 500 persons in plain areas and around 250 persons and above in hilly areas."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "The release of the second",
+    "installment in a year shall be subject to the submission of the following documents: 1. Utilisation Certificate for the funds released",
+    "earlier, year",
+    "wise in the form prescribed.",
+    "Certificate by the Bank Manager indicating the balance amount on the date of issue of the",
+    "Certificate and the interest credited.",
+    "A Certificate regarding the requisite physical completion of works",
+    "For all releases after October",
+    "of a year, production of an Audited Statement of Accounts and a Balance Sheet and related Statements, duly certified by the Chartered",
+    "Accountant for the accounts of the previous financial year.",
+    "Outputs of the relevant modules of the OMMAS, duly certified by the",
+    "SRRDA as being correct and verified by the NRIDA6. A certificate from the CEO of SRRDA that Maintenance funds required as per",
+    "maintenance contracts in force had been spent during the previous financial year. For releases after May of a year, the certificate should",
+    "also include that 50% of such maintenance fund requirements for the current Financial Year have been released by the State, whereas for",
+    "releases after November, the certificate should be for 100% of such funds."
+  ],
+  "how_to_apply": "Mode: Offline The list of road works to be taken up under the Programme will be finalized each year by the District Panchayat in accordance with the allocation of funds communicated to the district. The District Panchayat has to ensure along with the consultative process, that the lists of proposed road works are part of the Core Network and that new connectivity is given priority.",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmgsy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

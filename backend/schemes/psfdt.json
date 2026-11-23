@@ -1,0 +1,24 @@
+{
+  "scheme_id": "psfdt",
+  "name": "Pension Scheme for Destitute Transgender",
+  "category": "women_child",
+  "level": "state",
+  "state": "Tamil Nadu",
+  "department": "",
+  "benefit": "Pension of ₹ 1,000/- per month.",
+  "eligibility_rules": [
+    "The applicant should be Transgender. The applicant should be destitute. The applicant's age should be 40 years and above. The applicant should be physically unable to work and earn. The applicant should not have received assistance from any family member or other sources."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Transgender Identity Card (Issued by the Tamil Nadu Transgender",
+    "Welfare Board).Disability Certificate (If required).Applicant's Photo. Aadhaar Card. Proof of Age. Bank Passbook. Any other document, if",
+    "required."
+  ],
+  "how_to_apply": "Mode: Online - via CSCsStep 1: The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.Step 2: The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.Step 3: In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
+  "source_url": "https://www.myscheme.gov.in/schemes/psfdt",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

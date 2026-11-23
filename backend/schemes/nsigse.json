@@ -1,0 +1,44 @@
+{
+  "scheme_id": "nsigse",
+  "name": "National Scheme Of Incentive To Girls For Secondary Education",
+  "category": "education",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Education",
+  "benefit": "A sum of ₹3000/- (Rupees three thousand only) would be deposited under term deposit/ fixed deposit in a public sector bank or in a post office in the name of every eligible girl child. The term/ period of the deposit may be counted from the date of deposit to the date on which the girl child attains the age of 18 years. No premature withdrawal will be allowed.",
+  "eligibility_rules": [
+    "The applicant should be a girl child.",
+    "The applicant should be from Scheduled Caste / Scheduled Tribe SC/ST 3. The applicant should have passed class 8th from Kasturba Gandhi Balika Vidhalayas (irrespective of whether they belong to Scheduled Castes or Tribes)",
+    "The applicant should have enrolled for class 9th in State/UT Government, Government-aided, or local body schools in the academic year 2008-09 onwards.",
+    "Exclusions / Ineligibility:",
+    "Married girls will be excluded from the scheme.",
+    "Girl children studying in private unaided schools are proposed to be excluded since a majority of such schools charge high fees and therefore, parents of such girl students may not require the financial assistance that is being offered under this scheme.",
+    "Students enrolled in schools run by Central Government are also being excluded from the scheme, as these children are either fully provided for already, or are those of Central Government employees, who can afford the education of their children, without further support."
+  ],
+  "exclusions": [
+    "Married girls will be excluded from the scheme.",
+    "Girl children studying in private unaided schools are proposed to be excluded since a majority of such schools charge high fees and therefore, parents of such girl students may not require the financial assistance that is being offered under this scheme.",
+    "Students enrolled in schools run by Central Government are also being excluded from the scheme, as these children are either fully provided for already, or are those of Central Government employees, who can afford the education of their children, without further support."
+  ],
+  "documents_required": [
+    "Scanned copy of the applicant's Aadhaar card",
+    "Domicile Certificate",
+    "Income",
+    "certificate of the parents or the legal guardian (issued by the respective state government or UT administration authorities)",
+    "Class 10th",
+    "scorecard of the applicant",
+    "Certificate from the school head or the principal mentioning two",
+    "year continuation after her enrolment to",
+    "Class 9th",
+    "Fees receipts of the current class",
+    "Bank account proof of the applicant's existing account or joint account with any one",
+    "of her parents",
+    "Disability certificate (if applicable)"
+  ],
+  "how_to_apply": "Mode: OnlineStep 1: Keep ready the soft copies of the required documents. Go to http://www.scholarships.gov.in/. and click \"New Registration\".Guidelines for Registration will appear. Scroll to the bottom. Read carefully the undertaking. Accept the Terms. Click \"Continue\".Step 2: A Registration Form will appear. (The fields marked as * are compulsory) Fill in the details and click \"Register\". Your Application ID and password will be displayed. The same will also be sent as an SMS on your registered mobile number.Step 3: Go to https://scholarships.gov.in/fresh/newstdRegfrmInstruction Click on \"Login to Apply\". Enter your Application ID and password. Type the Captcha and click \"Login\".On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen. Create a new password and confirm. Click \"Submit\". You will be directed to the \"Applicant's Dashboard\".Step 4: On the left pane, click \"Application Form\". The fields marked as * are compulsory. Fill in the details and upload the documents. You can either click on \"Save as Draft\" to complete the application later. Else, click \"Final Submit\" to submit the application.",
+  "source_url": "https://www.scholarships.gov.in/",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

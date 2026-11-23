@@ -1,0 +1,31 @@
+{
+  "scheme_id": "nts_pg",
+  "name": "National Talent Scholarship Postgraduate",
+  "category": "agriculture",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Agriculture and Farmers Welfare",
+  "benefit": "The value of the scholarship shall be Rs 3,000/- per month to postgraduate (Master's degree) students at present. No contingency grant is paid.",
+  "eligibility_rules": [
+    "A student is eligible for the scholarship provided he/she:",
+    "Takes up studies in approved courses and takes admission in the Agricultural University located outside their State of domicile.",
+    "Maintains merit and good conduct as certified by Head of the College ' University ' Institution.",
+    "Does not remain absent without prior permission and does not participate in any agitation! strike etc. during the period.",
+    "Takes up studies on a wholetime basis and docs not take up any job even on pan time basis.",
+    "Does not accept any other scholarship during the course of undergraduate study.",
+    "Docs not leave his/her course of study within one month of the admission otherwise no scholarship shall be paid to him/her.",
+    "Does not subsequently change the initial subject allocated for which he/she has been awarded the NTS during his studies."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Candidates need to upload scanned images of the",
+    "below documents with the Application. Photograph. Signature. Thumb impression. No certificates are required to be uploaded along",
+    "with the Application Form at the time of online submission."
+  ],
+  "how_to_apply": "Mode: Online Application Forms can only be submitted online mode on the website https://icar.nta.ac.in. The Application Form other than online mode will not be accepted.",
+  "source_url": "https://icar.nta.ac.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,26 @@
+{
+  "scheme_id": "sara",
+  "name": "Special Ability Relief Allowance",
+  "category": "food",
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "department": "",
+  "benefit": "Special Ability Relief Allowance of Rs. 700 per month is being given to those specially-abled persons who are having at least 40% of special ability.70% of special-abled persons are being provided Rs.1,250 per month without any income criteria. The beneficiaries can use the allowance for any purpose that will improve their standard of living, such as medical treatment, education, and daily expenses.",
+  "eligibility_rules": [
+    "The applicant must be a resident of Himachal Pradesh.",
+    "The applicant must have a minimum of 40% disability.",
+    "The applicant must not be receiving any other pension or allowance from the state or central government."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Disability CertificateIncome CertificateRecommendation from the concerned Gram",
+    "Panchayat. Copy of the Parivar RegisterAadhaar Card. Bank Account. Note: Income Certificate and Gram Sabha Recommendation is not",
+    "required for persons with 70% or more disability or 40% or more mental disability."
+  ],
+  "how_to_apply": "Mode: Offline\n• 1. The eligible candidates can apply for the scheme by visiting the nearest block development office or district welfare office.\n• 2. The application form can also be downloaded from the official website of the Department of Social Justice and Empowerment, Himachal Pradesh.\n• 3. The applicant needs to fill in the form with all the required details and attach the necessary documents.\n• 4. After submitting the application form, the applicant will receive a receipt.",
+  "source_url": "https://www.myscheme.gov.in/schemes/sara",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

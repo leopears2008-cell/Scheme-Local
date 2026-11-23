@@ -1,0 +1,25 @@
+{
+  "scheme_id": "ssyc",
+  "name": "Saur Sujala Yojana",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Chhattisgarh",
+  "department": "",
+  "benefit": "The category-wise details of the contribution amount payable by the beneficiary for the installation of the solar pump under the Saur Sujala Yojana are as follows: S NoDescription of Pump Capacity / TypeSC/ST Beneficiary's contributionOther backward classes Beneficiary's contributionGeneral Beneficiary's contribution103 HP/ AC/DC Surface/submersible70001200018000205 HP/AC/DC Surface/submersible100001500020000In addition to the above beneficiary contribution, Rs. At the rate of per watt (Rs. 3000 for 03 H.P. / 3000 W. and Rs. 4800 for 05 H.P. / 4800 W.) amount of processing fee has to be given.",
+  "eligibility_rules": [
+    "Small/medium/large-scale farmers are eligible to apply for this scheme. The farmer should be a resident of Chhattisgarh State."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "It is mandatory for the beneficiary to have agricultural land and water source (borewell,",
+    "well, river/stream etc.) in his own name. Application form. Attested photocopy of address proof. Attested photocopy of Aadhaar",
+    "card. Khasra/area of land and attested map of the workplace. Attested photocopy of caste certificate. Amount of processing fee. Two",
+    "photographs of the beneficiary."
+  ],
+  "how_to_apply": "Mode: Online & Offline The first applicants have to open the official Website. Click on \"Saur Sujala Yojana Online Apply\" . In the next window select the scheme name. Fill out the required details. Provide the bank details and Submit.",
+  "source_url": "https://www.creda.in/credaapp/download_link/form.pdf?1684141320",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

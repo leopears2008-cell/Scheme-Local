@@ -1,0 +1,24 @@
+{
+  "scheme_id": "sgpd",
+  "name": "Surgical Grant For The Prevention Of Disability",
+  "category": "health",
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "department": "",
+  "benefit": "A maximum of Rs. 6,00,000/- will be provided to Each disabled person.",
+  "eligibility_rules": [
+    "The annual income of the applicant/applicant's guardian should not exceed Rs.60,000/-.The applicant should be an Indian citizen. Applicant should be a permanent resident of Uttar Pradesh or be a resident of the state for at least 5 yearsShould not be guilty in any criminal case."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "PhotographIdentification Proof. Income Proof. A certificate of disability granted by a competent",
+    "medical authority. Certificate of annual income (from all sources). Estimated expenditure details of the surgery by the superintendent/in",
+    "charge of the State Hospital."
+  ],
+  "how_to_apply": "Mode: Offline Download the application form from page no.\n• 18. Fill out the application formThe following documents shall be attached to the application (a). A certificate of disability granted by a competent medical authority. (b). Certificate of annual income (from all sources). (c). Estimated expenditure details of the surgery by the superintendent/in charge of the State Hospital. Submit the application to the District Disabled Welfare Officer along with the recommendation through whom the application along with its recommendation will be sent to the Director. In case of emergency, applications can be sent directly to the Director.",
+  "source_url": "https://uphwd.gov.in/site/writereaddata/siteContent/202103181427562556ShalyaChikitsa-Niymavali-All.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

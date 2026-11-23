@@ -1,0 +1,28 @@
+{
+  "scheme_id": "nyc",
+  "name": "National Youth Corps",
+  "category": "other",
+  "level": "central",
+  "state": "",
+  "department": "Ministry Of Y",
+  "benefit": "An honorarium of ₹ 5000 per month is provided for serving up to two years (including the period of training which will be for 4 weeks) in the identified development activities on a full-time basis.",
+  "eligibility_rules": [
+    "The applicant must be between 18 - 29 years of age. The applicant must have passed Class 10th.",
+    "Exclusions / Ineligibility:",
+    "Students who have enrolled themselves as a regular students are not eligible for deployment under the scheme, keeping in view of the nature of their full time assignment."
+  ],
+  "exclusions": [
+    "Students who have enrolled themselves as a regular students are not eligible for deployment under the scheme, keeping in view of the nature of their full time assignment."
+  ],
+  "documents_required": [
+    "Applicant's PhotoBirth CertificateClass 10th Passing CertificateAadhaarCaste Certificate of SC / ST /",
+    "OBC (if applicable) Certificates of highest Educational QualificationAddress proof (any one out of Voter ID / Driving License / Passport /",
+    "RationCard)"
+  ],
+  "how_to_apply": "Mode: Online & Offline The online application form is available on www.nyks.nic.in After successful submission of online application form, an Application number is generated automatically and displayed on the screen which should be noted for future reference.",
+  "source_url": "https://www.myscheme.gov.in/schemes/nyc",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

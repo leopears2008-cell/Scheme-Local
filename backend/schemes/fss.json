@@ -1,0 +1,33 @@
+{
+  "scheme_id": "fss",
+  "name": "Film Finance Scheme",
+  "category": "finance_insurance",
+  "level": "state",
+  "state": "Assam",
+  "department": "",
+  "benefit": "• Financial assistance at different stages of film production, including script development, pre-production, production, post-production, marketing, and distribution.\n• Support for both feature films and documentaries.\n• Access to professional guidance and expertise.\n• Opportunities for exposure and recognition within the industry.",
+  "eligibility_rules": [
+    "Applicants must be Indian citizens and residents of Assam.",
+    "The film project should be in the Assamese language or any other recognized regional language of Assam.",
+    "Filmmakers must have a valid registration with the appropriate film bodies or associations.",
+    "The applicant should have a bank account in a recognized Indian bank.",
+    "The film project should have a well-developed script and a compelling storyline.",
+    "The applicant must demonstrate the feasibility and commercial viability of the project.",
+    "The project should have a clear budget and financial plan.",
+    "Filmmakers may be required to fulfill specific reporting and documentation requirements as per the scheme's guidelines."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Application formProject proposalScriptBudget planFinancial statementsProduction scheduleDirector/Producer's profileLegal",
+    "agreementsBank account detailsAny additional documents: Depending on the specific requirements of the film finance scheme, there",
+    "may be additional documents needed. These can include identification proof, address proof, certificates of registration with film",
+    "associations or bodies, NOC (No Objection Certificate) from relevant authorities, or any other specific documents mentioned in the",
+    "scheme guidelines."
+  ],
+  "how_to_apply": "Mode: Offline Download the application form https://filmfinance.assam.gov.in/portlets/film-finance from the official website. Fill in the required details accurately and completely. Attach supporting documentSubmit the application by visiting the designated government office. After submitting the application, it's advisable to follow up with the concerned department or officials to track the progress of your application.",
+  "source_url": "https://filmfinance.assam.gov.in/portlets/film-finance",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

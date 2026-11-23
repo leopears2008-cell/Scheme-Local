@@ -1,0 +1,24 @@
+{
+  "scheme_id": "ops",
+  "name": "Old-Age Pension Scheme",
+  "category": "social_welfare",
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "department": "",
+  "benefit": "₹ 850/- per month to pensioners aged between 60 years to 69 years.₹ 1500/- per month to pensioners aged 70 years and above.",
+  "eligibility_rules": [
+    "The applicants must be a resident of Himachal Pradesh state. Such elderly persons whose age is 60 years or more and who do not have proper means of care/upbringing and who have minor children and whose family annual income from all sources does not exceed ₹ 35,000/- Or;Such elderly persons whose annual family income from all sources does not exceed ₹ 35000/- are eligible for the scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Following are the documents required to apply for the",
+    "Scheme: Passport Size Photographs Age proof Income Certificate Aadhaar CardBank Account/passbook copyAny other documents as",
+    "asked during the application process."
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: Download the Social Security Pension Application Form.Step 2: Fill in all the mandatory fields, paste the recent passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attested).Step 3: Submit the duly filled and signed application form along with the documents to the concerned authority at: Office of Panchayat Tehsil Welfare Officer District Welfare Officer.",
+  "source_url": "https://esomsa.hp.gov.in/sites/default/files/scan0001-44250128_0.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

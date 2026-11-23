@@ -1,0 +1,25 @@
+{
+  "scheme_id": "mlgs",
+  "name": "Mumkin - Livelihood Generation Scheme",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Jammu and Kashmir",
+  "department": "",
+  "benefit": "Up to ₹80,000 subsidy (or 10% of on-road price, whichever is lower) per beneficiary from Mission Youth. Matching subsidy from the vehicle manufacturer (equal to Mission Youth's contribution).",
+  "eligibility_rules": [
+    "Applicant must be domicile of Jammu and Kashmir. The age of the applicant should be between 18 to 35 years. Applicant must be unemployed. Applicant must have commercial driving license In case, renting a vehicle to someone else :",
+    "Affidavit required to be submit with his/her commercial driving license Applicant must not be received any financial assistance or subsidy from government organization for self employment. Applicant can get the scheme benefit only at once."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Driver",
+    "Photograph. Domicile Certificate/Ration Card. Birth CertificateApplicant Driving License. Driver Driving",
+    "License. AffidavitUnemployment Certificate."
+  ],
+  "how_to_apply": "Mode: Online RegistrationApplicant need to follow the official website. Click on the registration button and provide the following details. Citizen Registration Details. Last Resided/Current Address Details. Permanent Address Details. Additional Details. Login Details. SubmitLogin & ApplyLogin on the official website. Click on e-services and select Finance/Mission youth option. Fill out the application form and vehicle details. Upload the required documents. Driver Photograph. Domicile Certificate/Ration Card. Birth Certificate. Applicant Driving License. Driver Driving License. Affidavit. Unemployment Certificate. Submit.",
+  "source_url": "https://www.myscheme.gov.in/schemes/mlgs",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

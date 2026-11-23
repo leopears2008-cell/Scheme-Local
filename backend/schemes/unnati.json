@@ -1,0 +1,37 @@
+{
+  "scheme_id": "unnati",
+  "name": "Unnati Scheme",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Karnataka",
+  "department": "",
+  "benefit": "Under this scheme, the beneficiaries are Categories into following two categories1st Category: The first category involves SC/ST entrepreneurs with a pioneering through, irrespective of the domain they may be involved in.2nd Category: The second category includes start-ups operated by any community with a notable innovative idea. The idea of the entrepreneurs in this case, must be a solution to the real-world problems in areas pertaining to health, education, sanitation, waste segregation and mechanized scavenging.",
+  "eligibility_rules": [
+    "Start-ups with an innovative tech based idea/solution.",
+    "Should be registered as an entity (Pvt Ltd/OPC, LLP/Partnership, Proprietorship) in Karnataka.",
+    "At least one of the members/co founders should belong to SC/ST community or should hold a substantial share",
+    "Such SC/ST member/co founder should continue to be a part of the business for at least one year from the date of receiving benefits from the department",
+    "Terms and conditions of ownership should not be altered to his/her disadvantage during the course of business",
+    "Total revenue generated in terms of turnover from the date of incorporation should be less than INR. 50 Crore",
+    "At least 50% of qualified workforce should be engaged in Karnataka",
+    "Less than 4 years from the date of incorporation for Technology based and 07 years for Biotechnology based companies",
+    "Start-ups applying under social impact should justify how the technological innovations help people belonging to Schedule caste community.",
+    "Exclusions / Ineligibility:",
+    "Government employees are not allowed to apply to the scheme. The individuals obtaining benefits under this scheme shall not be allowed to avail of benefits under any other scheme for this purpose."
+  ],
+  "exclusions": [
+    "Government employees are not allowed to apply to the scheme. The individuals obtaining benefits under this scheme shall not be allowed to avail of benefits under any other scheme for this purpose."
+  ],
+  "documents_required": [
+    "SC/ST Certificate of the candidate Entrepreneurs. At",
+    "least 50% of the qualified workforce. Start",
+    "up registration documents. Aadhar Card Number. PAN Number of Founders. Startup",
+    "presentation deck. Incorporation or Registration certificate."
+  ],
+  "how_to_apply": "Mode: OnlineStep 01: Visit official website karnataka.gov.inStep 02: Click at Login optionStep 03: Enter your valid email id, mobile no. and click at \"send OTP\" buttonStep 04: Enter OTP receive at register mobile no. to loginStep 05: Follow the instructions and fill your personal detailsStep 06: Choose startup funding for SC/ST application formsStep 07: Fill all the details in application form and upload all required documents and click a submit option",
+  "source_url": "https://www.myscheme.gov.in/schemes/unnati",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

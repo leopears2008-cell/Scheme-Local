@@ -1,0 +1,25 @@
+{
+  "scheme_id": "gkb",
+  "name": "Gaon Ki Beti",
+  "category": "education",
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "department": "",
+  "benefit": "Assistance up to Rs. 5000/- is provided annually to the girl student.",
+  "eligibility_rules": [
+    "The girl child should have secured 60% or more marks in the 12th examination. The girl student should be living in a rural area."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Class 12 marksheet. Age certificate. Domicile certificate. Caste certificate. Income certificate of parents. Village",
+    "daughter certificate. Samagra ID.Current college code and branch code. Mobile number and email id of the candidate. Passport",
+    "size",
+    "photograph of the candidate."
+  ],
+  "how_to_apply": "Mode: Online SC/ST/OBC/General girl students should register themselves on the portal. Click on New Registration for Gaon Ki Beti and fill out the required details. Now they can apply for the benefits of the scheme by logging in with the registration ID on the portal.",
+  "source_url": "https://www.myscheme.gov.in/schemes/gkb",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,25 @@
+{
+  "scheme_id": "lbsspy",
+  "name": "Lakshmi Bai Samajik Suraksha Pension Yojana",
+  "category": "women_child",
+  "level": "state",
+  "state": "Bihar",
+  "department": "",
+  "benefit": "Financial Assistance of Rs. 300/- per month.",
+  "eligibility_rules": [
+    "Widow woman must be a resident of Bihar. The woman should be a widow. The woman should be living below the poverty line. The annual income of the woman's family should be Rs. 60,000/- or less. The age of the woman should be 18 years or more."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Female Aadhaar",
+    "card. Address proof. BPL ration card. Age certificate. Income certificate. Husband's death certificate. Identity card. Bank account",
+    "statement. Mobile number. Email id. Passport",
+    "size photo."
+  ],
+  "how_to_apply": "Mode: Online & Offline Applicants have to visit the official website. On this home page, click on Apply for \"Social Security Pension Schemes\". On the new page, select the scheme Name. Fill out the Applicant's Details, Complete Address of Residence, Bank Details, and accept the Self Declaration and Consent. Click on the submit button.",
+  "source_url": "https://www.myscheme.gov.in/schemes/lbsspy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

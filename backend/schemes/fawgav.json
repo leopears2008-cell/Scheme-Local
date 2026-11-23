@@ -1,0 +1,29 @@
+{
+  "scheme_id": "fawgav",
+  "name": "Financial Assistance To Women And Girl Acid Attack Victims",
+  "category": "women_child",
+  "level": "state",
+  "state": "Haryana",
+  "department": "",
+  "benefit": "Financial assistance would be admissible to the acid attack victim at the rate of pension under the scheme Divyang Pension as decided by the Govt. from time to time applicable from the month on which the application for claim of financial assistance is submitted. Percentage of Disability: 40-50%Financial Assistance: 2.5 times of Divyang PensionPercentage of Disability: 51-60%Financial Assistance: 3.5 times of Divyang PensionPercentage of Disability: > 61%Financial Assistance: 4.5 times of Divyang pension",
+  "eligibility_rules": [
+    "The applicant must be a woman or a girl. The applicant must have suffered disfigurement of any part of the body OR has become disabled due to an acid attack or similar corrosive substance. The acid attack must have been on or after 2nd May",
+    "The applicant must be a resident of Haryana and shall have been residing in Haryana for at least 3 years prior to the date on which the acid attack took place.",
+    "Exclusions / Ineligibility:",
+    "A girl / Woman who has self-inflicted the acid injuries made advertently or inadvertently is not eligible for financial assistance under this scheme."
+  ],
+  "exclusions": [
+    "A girl / Woman who has self-inflicted the acid injuries made advertently or inadvertently is not eligible for financial assistance under this scheme."
+  ],
+  "documents_required": [
+    "Medical certificate issued by the Medical Board at the District level where the application is being made by or on behalf of the",
+    "victim. Copy of the FIR/Complaint. Copy of application made to or benefit received from Women & Child Development",
+    "Department."
+  ],
+  "how_to_apply": "Mode: Offline An application may be filed either by the victim or by her heir claiming on her behalf in cases where the victim herself is unable to make an application. The victim herself, her parents, or her legal heirs may apply to the District Social Welfare Officer for relief. In the case of a minor victim, the application may be made on her behalf by a parent or guardian. In the case of the victim being a married woman, the application may be made on her behalf by her husband or parent, or guardian. The duly filled application form along with the self-attested copies of the required documents must be submitted to the District Social Welfare Officer (DSWO).",
+  "source_url": "https://www.myscheme.gov.in/schemes/fawgav",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

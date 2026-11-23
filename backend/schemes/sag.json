@@ -1,0 +1,24 @@
+{
+  "scheme_id": "sag",
+  "name": "Scheme For Adolescent Girls",
+  "category": "health",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Women and Child Development",
+  "benefit": "Nutrition Component: Take Home Ration or Hot Cooked Meal for out of school girls - Nutrition Provision ₹ 9.50 per day (600 calories; 18\"20 gram of protein and recommended daily intake of micronutrients per day for 300 days in a year.). The financial norms will be ₹ 9.5/- per beneficiary per day for 300 days in a year. This would be inclusive of the cost of micronutrient fortification. Non Nutrition Component: IFA supplementation. Health check\"up and Referral services. Nutrition & Health Education (NHE).Counseling / Guidance on family welfare, ARSH, child care practices. Life Skill Education and accessing public services.",
+  "eligibility_rules": [
+    "The applicant must be a FEMALE.The age of the applicant must be between 11 and 14 years.",
+    "Exclusions / Ineligibility:"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "AadhaarProof of",
+    "Age / DOB"
+  ],
+  "how_to_apply": "Mode: Offline The out-of-school adolescent girls (11 - 14 years age) are identified by the State / UT through a Base Line Survey, a one-time activity carried out by the Anganwadi Workers (AWW) who should go from house to house to meet every family in the area covered by her AWC, and gather information about the details of such girls. Such girls are provided the benefits through the Anganwadi Centre (AWC).",
+  "source_url": "https://www.myscheme.gov.in/schemes/sag",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,27 @@
+{
+  "scheme_id": "aelss",
+  "name": "Abhinandan Education Loan Subsidy Scheme",
+  "category": "education",
+  "level": "state",
+  "state": "Assam",
+  "department": "",
+  "benefit": "A subsidy of Rs 50,000 will be provided to students by the Government of Assam on education loans up to Rs 1 lakh. In this scheme, all the applicant students can apply for the subsidy by paying 25% of their loans. Under this scheme, the subsidy can be obtained only on loans taken from commercial banks like Federal Bank and HDFC and regional rural banks like Assam Rural Regional Bank. In this scheme, all students have to get financial help by encouraging students on education loans.",
+  "eligibility_rules": [
+    "It is mandatory for the student to be a permanent resident of the state of Assam. The student must have taken a loan from a commercial or rural bank, otherwise, he cannot avail of the benefit of the scheme. The bank has been recognized by the Reserve Bank of India. The benefit of this scheme can be availed only as a subsidy on education loans. It is mandatory for the student's parents to have an education loan of more than Rs 1 lakh.",
+    "Exclusions / Ineligibility:",
+    "Government employees are not allowed to apply to the scheme. The student obtaining benefits under this scheme shall not be allowed to avail of benefits under any other scheme for this purpose. Beneficiaries who already benefited under Bidya Lakshmi Scheme are not eligible for application in this scheme."
+  ],
+  "exclusions": [
+    "Government employees are not allowed to apply to the scheme. The student obtaining benefits under this scheme shall not be allowed to avail of benefits under any other scheme for this purpose. Beneficiaries who already benefited under Bidya Lakshmi Scheme are not eligible for application in this scheme."
+  ],
+  "documents_required": [
+    "List of the required documentStudent's Aadhaar CardParent Identification DocumentsBank loan documentsResidence",
+    "certificate"
+  ],
+  "how_to_apply": "Mode: Online Application process Visit the official website. With the respect to the \"Abhinandhan Education Loan Subsidy\", click on apply option. The Assam Abhinandhan Scheme Online Application Form will appear. Now provide the required details. Upload the required documents and submit",
+  "source_url": "https://www.myscheme.gov.in/schemes/aelss",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

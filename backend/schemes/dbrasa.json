@@ -1,0 +1,24 @@
+{
+  "scheme_id": "dbrasa",
+  "name": "Dr. B. R. Ambedkar State Award To SC/ST/OBC/Minorities Students",
+  "category": "education",
+  "level": "state",
+  "state": "Delhi",
+  "department": "",
+  "benefit": "INR 25,000 to students who top among the SC/ST/OBC/Minorities in each discipline of the professional/technical degree course.",
+  "eligibility_rules": [
+    "The student must have passed his/her 10th and 12th class from Delhi. The award is given to a student, who tops among the SC/ST/OBC in each discipline of the professional/Technical degree course. In support thereof must produce SC/ST/OBC caste certificate issued by the competent authority of Delhi. The topper student is awarded only once after passing out of the final examination of the course. The award is conferred among the toppers of all professional/technical courses. Being a merit based award, no family income limit has been laid down."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Application",
+    "ProcessBank account details. Aadhaar number. Passport Size Photograph. Caste Certificate for SC/ST/OBC/Minorities. Educational",
+    "Documents/Certificate."
+  ],
+  "how_to_apply": "Mode: Online Application ProcessOpen the e-district portal. Login using existing credentials or register as a new user. Provide all the relevant details and follow the instructions. Select the scholarship scheme and upload the required documents. Submit the application.",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbrasa",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

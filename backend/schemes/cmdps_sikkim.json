@@ -1,0 +1,27 @@
+{
+  "scheme_id": "cmdps_sikkim",
+  "name": "Chief Minister's State Disability Pension Scheme - Sikkim",
+  "category": "women_child",
+  "level": "state",
+  "state": "Sikkim",
+  "department": "",
+  "benefit": "The beneficiary will receive a monthly pension of ₹ 1500/-.",
+  "eligibility_rules": [
+    "The applicant should be a resident of the state of Sikkim. The applicant with 40% and above disability is eligible for the scheme. The applicant should belong to Below Poverty Line (BPL) household. The applicant should not be covered under Indira Gandhi National Disability Pension Scheme (IGNDPS).The applicant should have opened the Bank Account under \"Pradhan Mantri Jan Dhan Yojana\"."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Recent",
+    "passport",
+    "size photographs. Attested photocopy of Sikkim Subject Certificate / Certificate of Identification as the case may be i.e. Income",
+    "certificate, Caste certificate. Attested photocopy of the Below Poverty Line Certificate. Attested copy of Aadhar Card. Attested photocopy",
+    "of the first page of the Bank / Post Office Passbook along with the photocopy of the latest updated account.40% and above disability",
+    "certificate duly certified by the Medical Authorities."
+  ],
+  "how_to_apply": "Mode: Online Registration:Step 01: Visit the official website.Step 02: Click \"Create Account\". On the registration page, fill in the mandatory details (Username, Gender, First Name, Last Name, Email, Mobile Number, and Password). Fill in the Captcha Code and click \"Register\". The login credentials will be sent on your registered Email ID / Mobile Number. Application:Step 01: Visit the official website.Step 02: Click \"Apply now\" and log in.Step 03: On the application page, fill in all the mandatory fields and upload the required documents in the appropriate file size and file type. Upon successful submission of the application, a system-generated application number will be provided as acknowledgment. Please keep it safe for future reference. Check Application Status: The status, viz. Approval or Rejection if any will be conveyed to the applicant through an SMS.",
+  "source_url": "https://pensionscheme.sikkim.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

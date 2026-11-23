@@ -1,0 +1,31 @@
+{
+  "scheme_id": "owjws",
+  "name": "Financial Assistance under Odisha Working Journalist Welfare Scheme",
+  "category": "women_child",
+  "level": "state",
+  "state": "Odisha",
+  "department": "",
+  "benefit": "Under the scheme, an ex-gratia of ₹4,00,000/- is provided to the legal heir of the working journalist in case of his/her death and ₹2,00,000/- in case of permanent incapacitation.",
+  "eligibility_rules": [
+    "Journalist should be working in Odisha. The Journalist should be working for a media house registered with the I&PR department, Odisha. The applicant should be a legal heir of the working journalist in case of his/her death or in case of permanent incapacitation. Note: \"Permanent Incapacitation\" means incapacitation on account of accident, disease, or any other reason which renders the working Journalist wholly unfit for working as such."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar Card",
+    "Photograph",
+    "Income Certificate",
+    "Copy of accreditation card for accredited journalist",
+    "Death Certificate (If applicable)",
+    "Legal heir",
+    "certificate (If applicable)",
+    "Media card Copy",
+    "Upload the Bank Passbook Front Page",
+    "Any other documents, as required"
+  ],
+  "how_to_apply": "Mode: OnlineStep 01: Visit the official web portal of the Odisha Working Journalist Welfare Scheme Application. i.e. https://owjws.odisha.gov.in/Step 02: Click on 'Apply for Financial Assistance' found on the bottom of the page.Step 03: One new page appears 'Application for Financial Assistance in case of death of a working journalist'.Step 04: The journalist will have to fill up all the mandatory details.Step 05: Upon successful form submission One application number is generated which a journalist can use for further reference. i.e. for application status.Step 06: The applicant will receive an SMS in respective registered mobile number regarding successful submission of the application.Step 07: The applicant can login into the application by giving the respective registered mobile number.Step 08: After giving the mobile number, the journalist will receive an OTP on the mobile number. On successful submission of OTP, the applicant will able to login into the application.Step 09: On the page, the applicant will be able to view the application status.",
+  "source_url": "https://owjws.odisha.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,35 @@
+{
+  "scheme_id": "arogya_lakshmi",
+  "name": "Arogya Lakshmi",
+  "category": "health",
+  "level": "state",
+  "state": "Telangana",
+  "department": "",
+  "benefit": "For children between 7 months to 3 years, 16 eggs per month along with 2.5 Kg Balamrutham will be provided Balamrutham\" is the weaning food introduced under ICDS to provide improved supplementary nutrition to children between 7 months to 3 years. The weaning food is a preparation of wheat, chana dal, milk powder, oil, and sugar. It is fortified and thus provides 50% of iron, calcium, vitamins, and other RDA that children require per day. The composition and nutritive values of Balamrutham are indicated in Table-I and II respectively. The recommended quantity is 100 gms which is to be given to children 3-5 times every day. For children below one year, Balamrutham can be served as porridge mixed with hot water, and for older children, it can be given in the form of \"Laddu\".For children aged between 3 and six years, one egg a day in addition to rice, dal, vegetables, and snacks is supplied. Pregnant and lactating women are provided one full meal at the Anganwadi centre along with iron and folic acid tablets1 full meal will consist of rice, dal with leafy vegetables/sambar, and vegetables for a minimum of 25 days. Boiled eggs and 200 ml milk for 30 days in a month.",
+  "eligibility_rules": [
+    "The eligibility criteria for the Arogya Lakshmi program in Telangana, India, may vary depending on the specific details of the program and the year in which it is implemented. However, some general eligibility criteria for the program are: Residency: The pregnant woman or the family with a newborn must be a resident of Telangana. Pregnancy: The pregnant woman must be in her first or second trimester of pregnancy to be eligible for the program. Delivery: The delivery must take place at a designated healthcare facility or with the assistance of a qualified healthcare provider. It's important to note that these are just some of the general eligibility criteria for the Arogya Lakshmi program, and that specific details and criteria may change from year to year. It's always best to check with the relevant government agencies or healthcare providers for the most up-to-date information on eligibility criteria.",
+    "Exclusions / Ineligibility:",
+    "Nonpregnant/not lactic women are not allowed to apply to the scheme.",
+    "Children more than 6 years also not eligible under this scheme.",
+    "Men are not eligible for this scheme"
+  ],
+  "exclusions": [
+    "Nonpregnant/not lactic women are not allowed to apply to the scheme.",
+    "Children more than 6 years also not eligible under this scheme.",
+    "Men are not eligible for this scheme"
+  ],
+  "documents_required": [
+    "Aadhar Card",
+    "Ration card",
+    "Proof of age",
+    "Proof of income",
+    "Passport size photograph",
+    "Mobile number"
+  ],
+  "how_to_apply": "Mode: Offline Applicant can apply through the nearest Anganwadi centeresProcedure To Apply Under Arogya Lakshmi Scheme Through Anganwadi Centre\n• Go to your nearest Anganwadi centre\n• Ask for Arogya Lakshmi application form\n• Fill all the required information in this application form\n• Attach all the required documents to the application form\n• Now submit this form in the Anganwadi centre\n• By following this procedure you can apply under Arogya Lakshmi scheme through Anganwadi centre",
+  "source_url": "https://www.myscheme.gov.in/schemes/arogya-lakshmi",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

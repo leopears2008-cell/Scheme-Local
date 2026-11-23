@@ -1,0 +1,30 @@
+{
+  "scheme_id": "wpup",
+  "name": "Widow Pension - Uttar Pradesh",
+  "category": "women_child",
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "department": "",
+  "benefit": "Financial Assistance : ₹1,000/- per month",
+  "eligibility_rules": [
+    "The applicant should be a permanent resident of Uttar Pradesh state. The applicant's husband has died. The age of the applicant should not be less than 18 years. The annual income of the applicant and her family from all sources should not exceed ₹ 2,00,000/-",
+    "Exclusions / Ineligibility:",
+    "The applicant should not be receiving pension from any other scheme of the state or central government."
+  ],
+  "exclusions": [
+    "The applicant should not be receiving pension from any other scheme of the state or central government."
+  ],
+  "documents_required": [
+    "Colored passport size photoAge related certificate",
+    "(educational records/provided by medical officer).Income Certificate (provided by Tehsil).Death certificate of husband (local body/gram",
+    "panchayat).Aadhaar Card/Aadhaar Registration Number (No need to submit separate certificate for age and residence).Photocopy of",
+    "bank account with IFS code. Mobile number. Not receiving pension from any other scheme of the state or central government related",
+    "affidavit"
+  ],
+  "how_to_apply": "Mode: Online Applicant must visit the official website. Click on \"Apply Online\" .Provide the below required details: Personal Details. Bank detail. Income Details. Upload below document: Passport size color photograph. Birth/Age certificate. Husband Death certificate. Declaration. Click on submit.",
+  "source_url": "https://sspy-up.gov.in/EnglishPages/index_en.aspx",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

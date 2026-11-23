@@ -1,0 +1,28 @@
+{
+  "scheme_id": "cmkry",
+  "name": "Chief Minister's Krishi Rinn Yojana",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "department": "",
+  "benefit": "Zero interest crop loans provide financial relief to farmers and reduce their burden of interest payments. Easy access to formal credit through banking channels promotes financial inclusion for farmers. Timely repayments of crop loans enable farmers to avail themselves of interest relief, encouraging prompt repayment behavior. The scheme covers a wide range of farmers, including those availing Kisan Credit Cards or crop production loans from commercial banks, APRB, and APSCAB Ltd. The interest subvention provided by the Government of Arunachal Pradesh supplements the subvention given by the Government of India, increasing the overall benefit to farmers. NABARD's role as a channel partner ensures efficient reimbursement to banks, streamlining the subsidy process. The scheme sets a target to cover 7500 farmers under crop loans, contributing to the agricultural development of the state.",
+  "eligibility_rules": [
+    "The scheme is applicable to farmers in the state of Arunachal Pradesh. Farmers who hold Kisan Credit Cards or avail themselves of crop production loans from commercial banks, APRB, and APSCAB Ltd are eligible for the scheme. The farmers should have a good repayment track record and promptly repay their short-term production credit (crop loan) within one year. The scheme is available for crop loans or Kisan Credit Card limits up to Rs. 3.00 lakhs. The farmers must fulfill the eligibility criteria and documentation requirements set by the banks. The scheme is open to both small and marginal farmers as well as large farmers in the state.",
+    "Exclusions / Ineligibility:",
+    "The scheme does not apply to the production of perennial food crops or plantation crops. Farmers engaged in the production of excluded crops mentioned above are not eligible for zero-interest credit under this scheme. Non-farmers or individuals who are not actively engaged in agricultural activities are not eligible for the benefits of CMKRY."
+  ],
+  "exclusions": [
+    "The scheme does not apply to the production of perennial food crops or plantation crops. Farmers engaged in the production of excluded crops mentioned above are not eligible for zero-interest credit under this scheme. Non-farmers or individuals who are not actively engaged in agricultural activities are not eligible for the benefits of CMKRY."
+  ],
+  "documents_required": [
+    "Identification proof (Aadhaar card, Voter ID, PAN card, etc.)Land ownership documents or lease agreementIncome certificates",
+    "or proof of incomeBank account detailsPassport",
+    "sized photographsAny other documents as specified by the participating bank"
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: Visit the nearest branch of a participating bank.Step 2: Collect the application form for a crop loan or Kisan Credit Card.Step 3: Fill out the application form with accurate and complete details.Step 4: Attach the necessary documents as specified by the bank, including identification proof, land ownership documents, income certificates, etc.Step 5: Submit the completed application form along with the supporting documents to the bank.Step 6: The bank will review the application, assess the eligibility, and process the loan request.Step 7: Upon approval, the loan amount will be disbursed to the farmer's account.",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmkry",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

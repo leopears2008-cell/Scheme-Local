@@ -1,0 +1,24 @@
+{
+  "scheme_id": "sams",
+  "name": "Supply of Agriculture Machineries Scheme",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Meghalaya",
+  "department": "",
+  "benefit": "Pattern of Assistance: Subsidy on Power tillers, Reapers, Harvesters, etc. Type of Assistance and Entitlement (If Any):50% subsidy sale.",
+  "eligibility_rules": [
+    "The applicant should be a permanent resident of Meghalaya. The applicant should be a bonafide farmer engaged in agriculture."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Passport",
+    "size photographIdentity ProofBank",
+    "passbook/account detailsDocuments proof of being a farmerAny other document as required"
+  ],
+  "how_to_apply": "Mode: Offline Application Process:Step 01: The eligible bonafide farmer can apply/write an application on plain paper.Step 02: Along with the application, attach copies of all the mandatory documents (self-attest, if required).Step 03: Submit the duly filled and signed application along with the documents at the nearest office of the Agriculture Development Officer of a CD Block/Agriculture Circle. Mode of Selection of Beneficiary(s):The bonafide farmers shall be selected on a first come first serve basis. Whom to Contact: District Agriculture Officers of the concerned districtsSub-divisional Officers of the concerned sub-divisionsAgriculture Development Officers of the concerned Community and Rural Development BlocksAssistant Agriculture Engineer (Mechanical) of the concerned districts",
+  "source_url": "https://www.myscheme.gov.in/schemes/sams",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

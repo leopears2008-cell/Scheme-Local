@@ -1,0 +1,33 @@
+{
+  "scheme_id": "mswr",
+  "name": "Mangalya Scheme For Widow Remarriage",
+  "category": "women_child",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "Under the scheme, financial assistance of ₹25000/- is provided to eligible widows and divorced women to remarry.",
+  "eligibility_rules": [
+    "The applicant should be a resident of Kerala State. The applicant should be a widow and a divorced woman. Women belonging to the age group of 18 to 50 years who are legally divorced and widowed are eligible to apply under the scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "The following particulars should be attached to the application",
+    "form: 1. Identity proof",
+    "Proof of remarriage/remarriage certificate",
+    "Death Certificate of the first Husband",
+    "Legal document of divorce",
+    "(For divorced women)",
+    "Proof of BPL/Priority Category",
+    "Proof of age in the form of a school leaving certificate or certificate issued by",
+    "the competent authority",
+    "Certificate from Village officer showing that husband has deserted the woman for over 7 years (for such",
+    "applicant)",
+    "Copy of bank passbook"
+  ],
+  "how_to_apply": "Mode: Offline To avail of the scheme's benefits, the application duly filled out should be forwarded to District Women and Child Officers through Child Development Project Officers.",
+  "source_url": "https://www.myscheme.gov.in/schemes/mswr",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

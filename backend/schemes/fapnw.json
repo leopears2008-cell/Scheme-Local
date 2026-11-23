@@ -1,0 +1,27 @@
+{
+  "scheme_id": "fapnw",
+  "name": "Financial Assistance To Poor & Needy Widow Women",
+  "category": "women_child",
+  "level": "state",
+  "state": "Manipur",
+  "department": "",
+  "benefit": "under the Indira Gandhi National Widow Pension Scheme. In Manipur, there are many widows of this age group due to the armed conflict and HIV/AIDS. Therefore, this scheme is indispensable for such widows to prevent difficulties and hardships to bear the daily need for survival. Widows who are domiciled in Manipur and have been residing in Manipur for more than 5 years continuously preceding the date of application are eligible under the scheme. This is a State Sponsored Scheme and only the citizens who are domiciled in the State of Manipur can apply for this scheme. The application should be submitted through the respective District Social Welfare Officer. BenefitsThe financial assistance will be at the rate of ₹ 2,000/- per annum per widow. The scheme will cover all the eligible beneficiaries within the State of Manipur. Financial assistance will be continued with the fresh/Renewal application every year if the fund is available.",
+  "eligibility_rules": [
+    "The applicant should be a domicile of the state of Manipur. The applicant should be a Widow. The age of applicant should be between 18-40 years. The applicant should belong to a Below Poverty Line (BPL) household.",
+    "Exclusions / Ineligibility:",
+    "Financial assistance will not be allowed in case of remarriage. Financial assistance will not be allowed once the widows move above the poverty line."
+  ],
+  "exclusions": [
+    "Financial assistance will not be allowed in case of remarriage. Financial assistance will not be allowed once the widows move above the poverty line."
+  ],
+  "documents_required": [
+    "Residential / Domicile Certificate of the state of Manipur. Details of the Bank Account. Aadhaar Card. Proof",
+    "of Identity. Proof of Age / Date of Birth. Marriage Certificate. Death Certificate of the Husband. Ration Card / BPL Card."
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: The application form can be downloaded from the Department's website www.socialwelfare.nic.in or collected from the District Social Welfare Offices, Office of CDPOs. The application forms are also available during MeeyamgiNumit at Chief Minister's Darbar Hall.Step 2: Fill in the mandatory fields of the Application Form, and attach the supporting (self-attested) documents and the passport-sized photograph.Step 3: Submit the form to the Office of the District Social Welfare Officer concerned.Step 4: The name of the selected beneficiaries will be made available on the Department's website or displayed on the notice board of the Directorate, Social Welfare/ District Social Welfare Offices.",
+  "source_url": "https://socialwelfare.mn.gov.in/media/filer_public/1f/d9/1fd92642-986e-411d-a9b2-",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

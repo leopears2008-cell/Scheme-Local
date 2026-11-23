@@ -1,0 +1,32 @@
+{
+  "scheme_id": "bhausaheb_fundkar_horticulture_plantataion_scheme",
+  "name": "Bhausaheb Fundkar Falbag Lagvad Scheme",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Maharashtra",
+  "department": "",
+  "benefit": "Subsidy through DBT is given to farmer for plantation of 16 perennial fruit crops like Mango, Cashew, Guava, Sapota, Custered Apple, Pomegranate, Paper Lemon, Coconut, Tamarind, Fig, Amla, Kokum, Jackfruit, Jamun, Orange, Mosambi, for below mentioned activities :1. Pit Diggsing\n• 2. Planting grafts/seedling\n• 3. Application of chemical and organic fertilizers.\n• 4. Crop Protection\n• 5. Gap filling",
+  "eligibility_rules": [
+    "The beneficiary should be a permanent resident of Maharashtra State Farmer should have Aadhaar Card. Farmer should have 7/12 certificate and 8 -A certificate.",
+    "Exclusions / Ineligibility:",
+    "Institutional beneficiaries cannot avail the benefit."
+  ],
+  "exclusions": [
+    "Institutional beneficiaries cannot avail the benefit."
+  ],
+  "documents_required": [
+    "Aadhaar Card",
+    "/12 Certificate",
+    "Certificate",
+    "Caste Certificate for SC,ST beneficiaries",
+    "Self Declaration",
+    "Pre Sanction Letter",
+    "Invoice of Implement"
+  ],
+  "how_to_apply": "Mode: Online Application link:\nhttps://mahadbt.maharashtra.gov.in/Application Process: 1. Go to the Aaple Sarkar DBT Portal at https://mahadbt.maharashtra.gov.in/.\n• 2. In that go to Farmer Scheme\n• 3. Click on the \"New Applicant Registration\" button.\n• 4. Enter your basic personal information, including your name, Aadhaar number, mobile number, and email address.\n• 5. Create a username and password.\n• 6. After completion of registration, login to your account and complete the form by entering Personal details,Address details and Land information details to complete profile 100%.\n• 7. After completing profile, apply for the implements, details of implement and its specifications etc and pay the fees to complete application form.",
+  "source_url": "https://mahadbt.maharashtra.gov.in/Application",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

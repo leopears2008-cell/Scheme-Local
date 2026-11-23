@@ -1,0 +1,35 @@
+{
+  "scheme_id": "ksy",
+  "name": "Kanya Sumangala Yojana",
+  "category": "health",
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "department": "",
+  "benefit": "Kanya Sumangala Yojana will be applicable in six categories. The categories of beneficiary classification and distribution of funds for them are determined as follows:-First PhaseAt the birth of a girl child. Rs. 2,000/- lump sumSecond PhaseAfter complete vaccination of the girl child up to one year. Rs. 1,000/- lump sumThird PhaseAfter the admission of girl child in first classRs. 2,000/- lump sumFourth PhaseAfter the admission of girl child in class VIRs. 2,000/- lump sumFifth PhaseAfter the admission of girl child in class IXRs. 3,000/- lump sumSixth PhaseSuch girls who have passed class 12th and have taken admission in graduation or diploma courses of 02 years or more duration. Rs. 5,000/- lump sum",
+  "eligibility_rules": [
+    "The beneficiary's family should be a resident of Uttar Pradesh and have a permanent residence certificate, in which Ration Card / Aadhaar Card / Voter ID Card / Electricity / Telephone bill will be valid. The maximum annual family income of the beneficiary should be Rs.3.00 lakh. Maximum of two girls in a family will be able to get the benefit of the scheme. There should be a maximum of two children in the family. If a woman has twins from the second delivery, the benefit will also be admissible to the girl child as the third child. If a woman has a girl child from the first delivery and only two twin girls from the second delivery, then only in such a situation the benefit will be admissible to all three girls."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "At Phase",
+    "Latest Photo",
+    "of the girl child. Joint photo of the girl child with the applicant. Affidavit on prescribed format. Birthday Certificate. At Phase",
+    "Latest",
+    "photo of the girl child. Joint photo of the girl child with the applicant. Affidavit on prescribed format. Immunization Card. At Phase",
+    "Latest photo of the girl child. Joint photo of the girl child with the applicant. Affidavit on prescribed format. Admission certificate for",
+    "class 1st. Scanned copy of the Aadhaar card(optional).At Phase",
+    "Latest photo of the girl child. Joint photo of the girl child with the",
+    "applicant. Affidavit on prescribed format. Admission certificate for class 6th. Scanned copy of the Aadhaar card(optional).At Phase",
+    "Latest photo of the girl child. Joint photo of the girl child with the applicant. Affidavit on prescribed format. Admission certificate for",
+    "class 9th. Scanned copy of the Aadhaar card(optional).At Phase",
+    "Latest photo of the girl child. Joint photo of the girl child with the",
+    "applicant. Affidavit on prescribed format.10th/12th certificate/mark sheet. ID of Institution. Admission fee receipt in Degree/Diploma",
+    "course. Scanned copy of the Aadhaar card(optional)."
+  ],
+  "how_to_apply": "Mode: Online First of all, the Applicants have to go to the official website of MKSY of the Women and Child Development Department. On the home page, click on Citizen Service Portal option. After clicking on the option, a new page will open. On this page, applicants will see the option of consent. There will be a tick mark on 'I agree' and click on 'Continue'. After clicking on it, the next page will open on which applicants will get the registration form. All the information asked in the registration form like name, Aadhaar number, mobile number and OTP will have to be verified by entering. After verification, registration will be done. User ID will be received on a mobile phone after successful registration. After login, applicants will see the registration form of the girl. Upload the required documents. Submit.",
+  "source_url": "https://mksy.up.gov.in/women_welfare/citizen/guest_login.phpMay",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

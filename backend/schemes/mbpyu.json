@@ -1,0 +1,22 @@
+{
+  "scheme_id": "mbpyu",
+  "name": "Mukhyamantri Bal Poshan Yojana",
+  "category": "health",
+  "level": "state",
+  "state": "Uttarakhand",
+  "department": "",
+  "benefit": "Egg (2 Days/Week).Banana Chips (2 Days/Week).Note: Banana are provided to those who do not eat eggs.",
+  "eligibility_rules": [
+    "Beneficiary should be a permanent resident of Uttarakhand. Beneficiary should be a child. Beneficiaries should be between 3 years to 6 years."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Proof of Child Birth."
+  ],
+  "how_to_apply": "Mode: Offline Step-1: Concerned parents should take their children to the nearby Anganwadi Centre. Step-2: Provide all the necessary documents as directed (attested, if required).Step-3: After the completion of the procedure benefits can be availed from the Anganwadi Centre.",
+  "source_url": "https://www.myscheme.gov.in/schemes/mbpyu",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

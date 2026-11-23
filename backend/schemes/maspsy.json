@@ -1,0 +1,25 @@
+{
+  "scheme_id": "maspsy",
+  "name": "Mukhyamantri Aadharbhut Shiksha Prashikshan Sahayata Yojana",
+  "category": "education",
+  "level": "state",
+  "state": "Chhattisgarh",
+  "department": "",
+  "benefit": "Free coaching assistance to get the admission for 6th and 9th classes.",
+  "eligibility_rules": [
+    "It is necessary for a registered worker to have regular membership of one year in the board. The benefit of the scheme will be provided only to the first two children of the registered worker. The first two children of a registered construction worker possessing the minimum qualification prescribed for the respective competitive examination will be eligible under the scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Beneficiary's surviving labor registration identity cardBeneficiary's Aadhar cardBeneficiary's educational qualification",
+    "certificate/mark listSelf",
+    "declaration certificate by the beneficiaryCertificate from the employer verifying the beneficiary's guardian's",
+    "work experience as a construction worker for at least 90 days within the year preceding the application date."
+  ],
+  "how_to_apply": "Mode: Online All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Building and Other Construction Workers Welfare Board\".Enter the following detailsSelect Group Name : \"Bhavan Evan Koi Sannirmaan\"Select Service : \"Yojana\"What do you want to do : \"Aavedan\"Click next. Select your district name and provide old/new registration number and click next. Select the scheme name. Fill out the online with required details. Submit.",
+  "source_url": "https://cglabour.nic.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

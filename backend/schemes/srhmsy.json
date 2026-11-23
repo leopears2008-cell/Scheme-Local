@@ -1,0 +1,25 @@
+{
+  "scheme_id": "srhmsy",
+  "name": "Satyvadi Raja Harishchandra Marnotar Sahay Yojana",
+  "category": "social_welfare",
+  "level": "state",
+  "state": "Gujarat",
+  "department": "",
+  "benefit": "Under the scheme, scheduled caste families receive financial assistance of ₹5,000/- at the time of a family member's death to cover funeral expenses.",
+  "eligibility_rules": [
+    "The deceased person as well as the applicant should be a native of Gujarat. The deceased person as well as the applicant applying should belong to Scheduled Castes only. The annual income limit of the applicant should be more than ₹6,00,000/- for rural areas and ₹6,00,000/- for urban areas. The application must be made within a time limit of six months of the death. The death registration certificate of the deceased person must be produced. Only one person in the family of the deceased can take the benefit at that time."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Passport",
+    "size PhotographCaste Certificate issued by competent authorityProof of residence (Any one of",
+    "Electricity Bill/Licence/Lease Agreement/Electoral Card/Ration Card) Death CertificateCopy of first page of bank passbook/cancelled",
+    "cheque (in the name of the applicant) Aadhaar cardProof of annual incomeAny other documents as required"
+  ],
+  "how_to_apply": "Mode: OnlineStep 01: The eligible applicant may visit the e-Samaj Kalyan Portal: https://esamajkalyan.gujarat.gov.in/Step 02: On the home page, under the tab 'Citizen Login', click on New User 'Please Register Here'.Step 03: Enter your Full Name as per Aadhaar Card, Gender, Date of Birth, Aadhaar Card Number, Email ID, Caste etc. and then click on 'Register'.Step 04: After successful registration, the applicants can login through their User ID and Password.Step 05: Now, click on 'User Profile' to update your profile.Step 06: Fill in all the mandatory information and then click on 'Update'.Step 07: After updating the profile successfully, select the scheme appearing on the home page; an application form will open.Step 08: Fill in all the mandatory details in the application form and upload all the relevant documents.Step 09: Now agree with the terms & conditions and click on 'Save Application'.Step 10: Submit the application form and take out the print of the application for future reference. The applicant can note down the application number to track the application status by logging into the portal using their User ID and Password. User Manual",
+  "source_url": "https://esamajkalyan.gujarat.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

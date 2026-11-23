@@ -1,0 +1,24 @@
+{
+  "scheme_id": "jssk",
+  "name": "Janani Shishu Suraksha Karyakram",
+  "category": "health",
+  "level": "central",
+  "state": "",
+  "department": "Ministry Of H",
+  "benefit": "For pregnant women-Free and cashless deliveryFree C-SectionFree drugs and consumablesFree diagnosticsFree diet during stay in the health institutionsFree provision of bloodExemption from user chargesFree transport from home to health institutionsFree transport between facilities in case of referralFree drop back from Institutions to home after 48hrs stayFor sick newborns till 30 days after birth (now been expanded to also cover sick infants) - Free treatmentFree drugs and consumablesFree diagnosticsFree provision of bloodExemption from user chargesFree Transport from Home to Health InstitutionsFree Transport between facilities in case of referralFree drop Back from Institutions to home",
+  "eligibility_rules": [
+    "The applicant must be a pregnant woman. The applicant must be admitted in a government health facility.",
+    "Exclusions / Ineligibility:"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar NumberAddress proofDomicile certificateRation",
+    "cardJanani Suraksha Card"
+  ],
+  "how_to_apply": "Mode: Offline The pregnant woman is referred by the competent staff of the public health facility for JSSK.",
+  "source_url": "https://www.myscheme.gov.in/schemes/jssk",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

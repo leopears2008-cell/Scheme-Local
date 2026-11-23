@@ -1,0 +1,25 @@
+{
+  "scheme_id": "msme_stes",
+  "name": "Msme Skill Training And Employment Scheme",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Tamil Nadu",
+  "department": "",
+  "benefit": "Under the scheme, the subsidy will be provided to the MSMEs for training; subject to a maximum of ₹2000/- per month per candidate for a maximum of 6 months. Certificates will be provided by the National Skill Development Corporation (NSDC), after the assessment of acquired skills by the trained candidates.",
+  "eligibility_rules": [
+    "The applicant should be an MSME unit in the state who has the requisite infrastructure. Only in respect of vocation/trade in which MSMEs have expertise will be encouraged, MSME units should have experience, expertise, and running business. The trainees selected by the applicant (MSME) shall be between 18 to 25 years of age. The trainees selected by the applicant shall have an engineering degree, a polytechnic diploma, or an Industrial Training Institute (ITI) certificate, or qualification as prescribed by the respective sector skill council. The applicant shall provide the trainee with a stipend of ₹5000/- per month, for a maximum of 6 months. The applicant, MSME Unit, should not have been blacklisted at any point in time by any Government Norms/Rules/Acts. Note: The scheme is funded by Tamil Nadu Skill Development Corporation (TNSDC)"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Copy of Udyog Aadhaar Memorandum (UAM) AcknowledgementDetails of infrastructure",
+    "facilities available such as machinery & equipment, facility for theoretical training, etc. for imparting training. Self",
+    "certified Affidavit by",
+    "the trainees in the prescribed format Any other relevant documents as deemed to be necessary."
+  ],
+  "how_to_apply": "Mode: Online & OfflineStep 01: The applicant (MSME) may apply online through the Official Website of the Micro, Small and Medium Enterprises Department, Government of Tamil Nadu.Step 02: On the home page, click on \"Apply Online\" and then click on \"Apply New MSME\".Step 03: If not registered, click on 'Register' and fill in all mandatory details.Step 04: After successful registration, click on 'login' to apply for the scheme.Step 05: Fill in all the mandatory details in the application form and upload all the necessary documents.Step 06: Submit the application form.",
+  "source_url": "https://msmeonline.tn.gov.in/ammaskill/index.php",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

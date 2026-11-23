@@ -1,0 +1,23 @@
+{
+  "scheme_id": "ssspy",
+  "name": "Samagr Samajik Suraksha Pension Yojana",
+  "category": "women_child",
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "department": "",
+  "benefit": "Pension amount: Rs. 600/- per momth.",
+  "eligibility_rules": [
+    "Destitute-aged people above 60 years. (or) Widow (Kalyani) should be above 18 years of age and should not be an income taxpayer. (or) Unmarried women who are above 50 years of age and not an income taxpayer. (or) Abandoned women, who are 18 years to 59 years of age and living below the poverty line. (or) Diable persons who are above 6 to 18 years of age whose disability is 40% or more and not income taxpayers. (or) All inmates living in old age homes whose age is more than 60 years."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Two photos. BPL Card or destitute/poor certificate. Age proof certificate. Disability",
+    "certificate. Welfare / Abandonment Certificate."
+  ],
+  "how_to_apply": "Mode: Offline Applicants have to visit the Gram Panchayat / Janpad Panchayat in rural areas and Municipal Corporation / Municipality / City Council in urban areas. Get the application form and fill it with the required information. Attach the necessary document. Get the acknowledgement from the concerned office.",
+  "source_url": "https://socialjustice.mp.gov.in/uploads/schemes/ssp_sanctioned_ordere_form_1.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

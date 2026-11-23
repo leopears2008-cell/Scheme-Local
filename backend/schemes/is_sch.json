@@ -1,0 +1,24 @@
+{
+  "scheme_id": "is_sch",
+  "name": "Incubation Scheme",
+  "category": "employment_skill",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Micro, Small and Medium Enterprises",
+  "benefit": "Up to maximum of ₹ 15,000,00 /-per idea shall be provided to HI for developing and nurturing the ideas. Up to ₹ 1,00,000,00 /- (max) shall be provided to HI for procurement and installation of relevant plant and machines including hardware and software etc. in BI for R&D activities and common facilities for incubatees of BI.",
+  "eligibility_rules": [
+    "Institutions such as Technical Colleges, Universities, other Professional Colleges/Institutes, R&D Institutes, NGOs involved in incubation activities, MSME-DIs/ Technology Centres or any Institute/Organization of Central/State Government."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "University Affliation;All India Council for Technical Education (AICTE) Approval;National Accreditation Board for Testing",
+    "and Calibration Laboratories (NABL) or Other Accreditation;Last two years audited annual accounts with auditor's report;Any other",
+    "documents as required."
+  ],
+  "how_to_apply": "Mode: Online Registration:Step 01: After opening the official website click on REGISTRATION button.Step 02: Enter all the details and clicking on Submit button.Step 03: After clicking the submit button, registration successfully message will be displayed. Clicking on OK button, login window will be displayed. HI/BI Application for Approval:Step 01: After successful login, the HI/BI dashboard will be open. HI/BI application will be open by clicking on Apply for HI/BI Approval button. After clicking on button Apply button will be displayed.Step 02: After click on Apply button, HI/BI application window will be display, fill all the detail and click on Final Submit button.",
+  "source_url": "https://www.myscheme.gov.in/schemes/is",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

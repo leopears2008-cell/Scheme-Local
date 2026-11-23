@@ -1,0 +1,26 @@
+{
+  "scheme_id": "kpy",
+  "name": "Kisan Pension Yojana",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Uttarakhand",
+  "department": "",
+  "benefit": "This financial assistance is Rs 14,400 per year.",
+  "eligibility_rules": [
+    "The applicant must be a permanent resident of Uttarakhand. The applicant's age should be more than 60 years. The applicant should not get pension benefits from any other sources. The Applicant should have a maximum of 2 hectares of land and do farming on the same."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "List of the required documentsLand Documents. Aadhaar",
+    "Card of the applicant farmer. Age certificate. The land related affidavit will have to be submitted on stamp paper of Rs.",
+    "Address",
+    "proof. Photocopy of the first page of bank account for bank account details. Passport size colour photo. Caste certificate. Voter ID",
+    "card."
+  ],
+  "how_to_apply": "Mode: Offline Applicant ProcessFirstly visit the official website at https://socialwelfare.uk.gov.in/At the homepage, click on the Application forms of all the Schemes or directly click. On the new page, click on the \"Kisan Pension Yojana\" link or can directly click. First download and Fill out the application form. Enclose the required documents with the application form. Then along with all the necessary documents and affidavits will have to be submitted to the District Horticulture Officer / Chief Agriculture Officer's office.",
+  "source_url": "https://socialwelfare.uk.gov.in/At",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

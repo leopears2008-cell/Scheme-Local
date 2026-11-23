@@ -1,0 +1,27 @@
+{
+  "scheme_id": "sbm_g_i",
+  "name": "Swachh Bharat Mission - Grameen PHASE I",
+  "category": "agriculture",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Jal Shakti",
+  "benefit": "The Swachh Bharat Mission (Gramin) launched on 2nd October, 2014, by modifying the erstwhile Nirmal Bharat Abhiyan (NBA), is a community-led and people-oriented program aimed at universalizing safe sanitation. Swachh Bharat Mission (Gramin) is the only sanitation programme implemented by the Ministry of Drinking Water and Sanitation (now Ministry of Jal Shakti).Financial support of Rs - 12,000 for APL and BPL Rural households including storage for handwashing and cleaning of the toiletPayment of incentives may be in cash or in the form of construction materials or credit vouchers for such materials. Activities under the Scheme: Construction of Individual Household Latrines (IHHL) Construction of Community Sanitary Complexes (CSCs).Solid Liquid Waste Management (SLWM) activities. Information, Education and Communication (IEC) Human Resource Development (HRD) activities.",
+  "eligibility_rules": [
+    "This scheme is for any rural household that does not have access to an individual household toilet.",
+    "Exclusions / Ineligibility:",
+    "All houses constructed with the Central and/or State assistance should invariably have a safe sanitation facility as an integral part. Provision will be separately included in the Pradhan Mantri Awas Yojana - Gramin (PMAYG) for provision of functional toilets for PMAY houses."
+  ],
+  "exclusions": [
+    "All houses constructed with the Central and/or State assistance should invariably have a safe sanitation facility as an integral part. Provision will be separately included in the Pradhan Mantri Awas Yojana - Gramin (PMAYG) for provision of functional toilets for PMAY houses."
+  ],
+  "documents_required": [
+    "Aadhar NumberBank Account Detail*",
+    "Passbook Photograph*"
+  ],
+  "how_to_apply": "Mode: Online & Offline The construction of household toilets may be undertaken by: the individual beneficiaries themselves with support from agencies. Community Model through agencies in the village. Note: States may also decide to give the incentive to the individuals, or to communities where the model is adopted to trigger the demand in GPs/Blocks/Districts, or to the Gram Panchayats on the achievement of community objectives. Any incentive for the IHHL, provided to the community/GP, if given, shall be used only for sanitation activities. Verification : Government shall ensure that the quality of toilet is maintained through sample physical verification through its officers",
+  "source_url": "https://www.myscheme.gov.in/schemes/sbm-g-i",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

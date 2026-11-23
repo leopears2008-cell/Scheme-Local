@@ -1,0 +1,24 @@
+{
+  "scheme_id": "rgfis",
+  "name": "Rajiv Gandhi Family Insurance Scheme",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Haryana",
+  "department": "",
+  "benefit": "The financial assistance/compensation will be given to eligible beneficiaries as under: Accidental Death/Permanent Disability₹1.00 LakhLoss of two limbs, two eyes, one limb, and one eye₹50,000/- Loss of one eye or one limb₹25,000/-",
+  "eligibility_rules": [
+    "The applicant should be only eligible in case of Accidental Death/ Permanent disability, or total/partial disability. Under this scheme, compensation is given in case of accidental death/permanent disability in the age group of 18-60 years. The applicant should be a permanent resident of Haryana. The name of the applicant should appear in the Voter's list or should be a holder of the Ration CardThe annual family income should not exceed ₹2.5 lacs. The applicant must not be a Government or Semi-Government employee."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Identity",
+    "proofProof of ageResidence ProofA copy of Ration CardA copy of FIRA copy of the Postmortem reportDisability certificateIncome",
+    "certificate"
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: The applicant needs to visit the office of the Social Welfare Department (DSWO) in his/her Block/District and collect the application form. The application form can also be downloaded from the Official Website.Step 02: The applicant should fill out the application form and attach all the essential documents.Step 03: After filling out the application form, the applicant needs to get attested to the form from the concerned authority mentioned in the application form.Step 04: Then the application form has to be submitted to the office of the Social Welfare Department (DSWO) of your Block/District.Step 05: After successful verification, the applicant may get the benefits of the scheme.",
+  "source_url": "https://charkhidadri.gov.in/form/form-for-rajiv-gandhi-bima-parivar-yojna",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

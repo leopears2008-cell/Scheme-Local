@@ -1,0 +1,24 @@
+{
+  "scheme_id": "bpsy",
+  "name": "Bhagini Prasuti Sahayata Yojana",
+  "category": "women_child",
+  "level": "state",
+  "state": "Chhattisgarh",
+  "department": "",
+  "benefit": "Financial Assistance : ₹ 10,000/-",
+  "eligibility_rules": [
+    "Applicant should be a permanent resident of Chhattisgarh. Benefit will only be provided for only first two children. Benefit will only be provided to registered women. Registration as a construction worker is required one year in advance. It is mandatory to have authorized verification of pregnancy of the female worker by a doctor, ANM or Mitanin. Maternity assistance benefits will not be provided to the spouse of a construction worker employed in public and government institutions. Construction worker beneficiaries without valid Board membership will not qualify for the Maternity Assistance Scheme benefits."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Birth certificate of the child. A scanned copy of the registration certificate. Mobile Number. Aadhaar Card. Self",
+    "declarationBank",
+    "passbook photo copy."
+  ],
+  "how_to_apply": "Mode: Offline Firstly, Applicant have to register at labor office of the area. Get the application form and full fill the form with required detailsAttach the required documents. The application will have to be submitted within the time limit to same office.",
+  "source_url": "https://www.myscheme.gov.in/schemes/bpsy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

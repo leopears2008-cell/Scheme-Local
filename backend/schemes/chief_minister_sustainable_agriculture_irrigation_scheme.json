@@ -1,0 +1,28 @@
+{
+  "scheme_id": "chief_minister_sustainable_agriculture_irrigation_scheme",
+  "name": "Chief Minister Sustainable Agriculture Irrigation Scheme - Magel Tyala Shettale (Individual Farm Pond)",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Maharashtra",
+  "department": "",
+  "benefit": "1) Financial Assistance is given to farmers.\n• 2) The subsidy payable to an individual farmer minimum Rs.14433/- and maximum Rs.75000/- depending on the size of the farmpond.",
+  "eligibility_rules": [
+    "Farmer should hold at least (Minimum) 0.20 ha. land and Kokan region, while it is 0.40 ha. limit for rest of Maharashtra.",
+    "The applicant farmers land will have to be technically suitable for digging farm pond. So that the runoff rainwater can be stored in the farm pond through natural flow and recharge will be possible. In case of farm ponds without inlet and outlet there should be a natural source from where extra runoff during rainy season can be lifted and stored in farm pond.",
+    "Before applying for farm pond, the applicant farmers should not have availed the subsidy for farm pond, community tank or bodi in paddy bunding or any Government Scheme.",
+    "Exclusions / Ineligibility:",
+    "Farmers who have availed the subsidy for farm pond, community tank or bodi in paddy bunding under any Government Scheme previously is not eligible for subsidy again."
+  ],
+  "exclusions": [
+    "Farmers who have availed the subsidy for farm pond, community tank or bodi in paddy bunding under any Government Scheme previously is not eligible for subsidy again."
+  ],
+  "documents_required": [
+    "No Documents required for this Scheme"
+  ],
+  "how_to_apply": "Mode: OnlineStep 01: Farmer RegistrationStep 02: Select user type and complete Aadhar authentication.Step 03: Profile completion (Mobile number, Address details, Land & land holding information)Step 04: Apply for Individual Farm Pond (a) select scheme Chief Minister Sustainable Agriculture Irrigation Scheme (b) Select farm pond type (with inlet outlet or without inlet outlet) (c) Select farm pond size. https://mahadbt.maharashtra.gov.in/",
+  "source_url": "https://mahadbt.maharashtra.gov.in/Documents",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

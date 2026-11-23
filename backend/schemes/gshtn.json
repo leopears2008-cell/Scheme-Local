@@ -1,0 +1,26 @@
+{
+  "scheme_id": "gshtn",
+  "name": "Government Service Home - Tamil Nadu",
+  "category": "education",
+  "level": "state",
+  "state": "Tamil Nadu",
+  "department": "",
+  "benefit": "The beneficiary is provided accommodation, Food, Education, Vocational training, Free supply of textbooks, notebooks, uniforms, chappals, and sanitary napkins.",
+  "eligibility_rules": [
+    "The applicant should be a female. The applicant's annual income should not exceed ₹ 72,000/- (not applicable for differently abled).The age of the applicant should be between 14 to 45 years. The applicant should qualify as one of the following: Widow. Destitute Woman. Deserted Woman. Adolescent Girl. Differently Abled Woman. Woman from Socially and Economically Backward Sections.",
+    "NOTE: The women can stay with their male child up to 5th standard and girl child up to 12th standard in the Service Home."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Age",
+    "Certificate. Widow/Destitute/Deserted/Orphan Certificate. Income Certificate of the Applicant/Parent/Guardian. Certificate/Proof of",
+    "Disability, in case of differently abled. Death Certificate of the Husband, in case of widows. Certificate showing Class Last Studied, if",
+    "available."
+  ],
+  "how_to_apply": "Mode: Online - via CSCsOfflineStep 1: The applicant should gather copies of the necessary documents (self-attest if required) needed to apply for the concerned scheme.Step 2: The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.Step 3: In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents.Step 4: Request a receipt or acknowledgement from the CSC. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
+  "source_url": "https://www.myscheme.gov.in/schemes/gshtn",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

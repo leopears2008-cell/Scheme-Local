@@ -1,0 +1,34 @@
+{
+  "scheme_id": "pre_sc",
+  "name": "Centrally-Sponsored Scheme Of Pre-Matric Scholarship For Scheduled Caste Students Studying In Classes 9th & 10th",
+  "category": "education",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Social Justice and Empowerment",
+  "benefit": "Scholarship (₹ per month) (for 10 months in an academic year): ₹ 225 for Day Scholars, ₹ 525 for Hostellers. Books and Ad hoc Grant (₹ per annum): ₹ 750 for Day Scholars, ₹ 1000 for Hostellers. Additional Monthly Allowances for Person with Disability (PwD) studying in private unaided Schools - Reader Allowance (for Blind students) - ₹ 160Transport Allowance (if the students do not reside in the hostel which is within the premises of the Educational Institution) - ₹ 160Escort Allowance (only for Severely Disabled Day Scholars / Students with low extremity disability) - ₹ 160 Helper Allowance (admissible to any of the hostel willing to extend help to a severely orthopaedically handicapped student residing in the hostel of an Educational Institution who may need the assistance of a helper) - ₹ 160Coaching Allowance to Mentally Retarded and Mentally ill Students - ₹ 240",
+  "eligibility_rules": [
+    "The applicant must be a student. The applicant must be studying in Class 9th or Class 10th. The applicant must be from Scheduled Caste. The Total Income of parents/guardian of the applicant must be less than or equal to ₹ 2.5 lakh per annum.",
+    "Exclusions / Ineligibility:",
+    "If a student has to repeat a class, she / he would not get scholarship for that class for a second (or subsequent) year. If a student is found to have obtained a scholarship by false statements."
+  ],
+  "exclusions": [
+    "If a student has to repeat a class, she / he would not get scholarship for that class for a second (or subsequent) year. If a student is found to have obtained a scholarship by false statements."
+  ],
+  "documents_required": [
+    "Aadhaar Number. One copy",
+    "of the application for scholarship in the prescribed form. One passport size photograph with signature of the student thereon (for fresh",
+    "scholarship).One self",
+    "attested copy of certificates, diploma, degree etc. in respect of all examinations passed. A certificate of Caste duly",
+    "signed by an authorized Revenue Officer not below the rank of Tehsildar. Income declaration of the self",
+    "employed parents/guardian in the",
+    "form of a certificate issued by Revenue Officer not below the rank of Tehsildar. Income Certificate of the employed parents/guardian",
+    "issued by their employer. A consolidated certificate of income of the employed parents/guardian from the Revenue Officer (only in case",
+    "of any other additional source of income)."
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: The application form (as prescribed by the State Govt. and made available on the website of the state govt.) complete in all respects should be submitted by the student to the Head of the Institution/School by 30th November of the academic year.Step 2: The duly filled application forms received from the students shall be forwarded by the Head of Institution, after scrutiny and with his recommendation, to the Block / District level authorities.Step 3: State Governments/UT Administrations will delegate powers to sanction scholarships under the scheme to appropriate District / Block level authorities/ Heads of Institution, as appropriate.",
+  "source_url": "https://www.myscheme.gov.in/schemes/pre-sc",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

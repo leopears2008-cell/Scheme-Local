@@ -1,0 +1,28 @@
+{
+  "scheme_id": "gps",
+  "name": "Green Passage Scheme",
+  "category": "education",
+  "level": "state",
+  "state": "Odisha",
+  "department": "",
+  "benefit": "Exemption of Fees: The fees like application fees, admission/readmission fees, tuition fees, examination fees, hostel admission fees, laboratory fees, library fees, college development fees, etc. will be exempted. The institutions will also provide free accommodation and food to such students. In the case of Government Institutions, fees will be exempted at the time of admission on submission of required documents by the student. In the case of Non-Government Aided Colleges, fees will be exempted at the time of admission and would be reimbursed by Government on submission of required documents/vouchers by the institution to Government in Higher Education Department. In the case of Non-Government Un-aided Institutions, the student will take admission by arranging funds on his/her own and then seek reimbursement from the Government on submission of required documents/vouchers to the Government in the Higher Education Department. Such reimbursement will be limited to ₹ 5,00,000 maximum for the entire duration of the course.",
+  "eligibility_rules": [
+    "The child must qualify as any one of the following: a) The child should be without biological/adoptive parents OR b) The child should have lost both the parents OR c) The child should have lost a single bread-earning parent OR d) The child should be residing in a Child Care Institution OR under foster care or care of a guardian OR any fit person/ surviving parent.",
+    "The annual income of the guardian/ fit person/ surviving parent (from all sources) does not exceed ₹ 8,00,000.",
+    "The student should be pursuing higher education in any Government or Non-Government Higher Education Institution (i.e., College & University). Here \"higher education\" would mean general/professional/ technical education of at least 1-year duration after Class-12."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhar",
+    "Card. Residential Certificate. Bank Account Passbook. Passport",
+    "size Photograph. Death Certificate of Parent/Parents. Income Certificate of",
+    "the Guardian (if applicable).Proof of Enrolment into the Current Course. Passing Certificate / Marksheet of the Previous Educational",
+    "Qualification."
+  ],
+  "how_to_apply": "Mode: Offline Case 1: If the child is or was an inmate of a Child Care Institution, the District Child Protection Officer (DCPO) will issue the certificate to avail of the benefits of the Green Passage Scheme. Case 2: If the child is under foster care/ care of a guardian, the DCPO will issue the said certificate based on the recommendation of the Child Welfare Committee and the income certificate from Tahasildar. Case 3: In the case of children of COVID-19 victims, they have to submit the Specially Cared Child Certificate/ I-Card for identification and income certificate from the concerned Tahasildar for consideration. Following annexures to be used for this purpose,Annexure-I: Application for availing benefits under Green Passage Scheme to be submitted to the DCPO with acknowledgment. Annexure-II: Recommendation by Child Welfare Committee (CWC) for availing benefits under Green Passage Scheme. Annexure-III: Certificate to avail benefits under Green Passage Scheme to be issued by the DCPO.",
+  "source_url": "https://dhe.odisha.gov.in/sites/default/files/2021-06/GREEN%20PASSAGE-4-10.pdfIs",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

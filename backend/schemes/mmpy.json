@@ -1,0 +1,29 @@
+{
+  "scheme_id": "mmpy",
+  "name": "Mukhiya Mantri Protsahan Yojna",
+  "category": "health",
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "department": "",
+  "benefit": "Under this scheme, a one-time incentive/award of ₹75000/- will be given to all the eligible students.",
+  "eligibility_rules": [
+    "The student should be a native of Himachal Pradesh. The student, who is selected and take admission for a degree course in any Indian Institute of Technology (IIT) or All India Institute of Medical Sciences (AIIMS) or for a Post Graduate Diploma Course in any Indian Institute of Management (IIM) or Indian School of Mines (ISM) Dhanbad or Indian Institute of Science (IISc), is eligible to apply for award under this scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Passport Size Photographs",
+    "Copy of Aadhaar Card",
+    "Copy of Himachali Bonafide",
+    "Certificate (Domicile of Himachal Pradesh)",
+    "Copy of Marks Certificate for previous years matric onwards",
+    "Latest Bank Statement of",
+    "the Student's Bank Account",
+    "Selection Letter of IIT/IIM/AIIMS/ISM/IISC 7. Any other document, as required"
+  ],
+  "how_to_apply": "Mode: OnlineStep 01: The students applying for the scholarship for the first time need to \"Register\" using the icon \"New Registration\" at the NSP Portal URL - https://scholarships.gov.in/, by providing accurate and correct information as per their documents.Step 02: After successfully get registration done, students will get their \"Student Registration ID\".Step 03: Through \"Student Registration ID\" students will be able to login into the account using the icon \"Fresh Application\" at NSP Portal.Step 04: After successful login to the portal, the welcome page appeared. On clicking the \"Application Form\" icon, students will be directed to the application screen.Step 05: Now, the students may fill out the complete application form and on clicking the \"Final Submit\" button, the application is finally submitted.Step 06: On successful submission of the application, a system-generated registration number is sent to the students which can be used for future reference.",
+  "source_url": "https://scholarships.gov.in/",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

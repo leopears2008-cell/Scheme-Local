@@ -1,0 +1,47 @@
+{
+  "scheme_id": "aaby",
+  "name": "Aam Aadmi Bima Yojana",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Assam",
+  "department": "",
+  "benefit": "1. Financial assistance: The AABY scheme provides financial assistance to the family members of the insured in case of the insured person's death or disability.\n• 2. Affordable premiums: The premiums for the AABY scheme are very affordable and are subsidized by the government, making it accessible to people from all economic backgrounds.\n• 3. Coverage for natural calamities: The AABY scheme also covers natural calamities such as floods, earthquakes, etc.\n• 4. Easy enrollment: The enrollment process for the AABY scheme is simple and easy, and individuals can enroll at any time of the year.\n• 5. Coverage for women: The AABY scheme also provides special benefits for women, including maternity benefits and coverage for female-headed households.",
+  "eligibility_rules": [
+    "Age Limit: The scheme is open to individuals between the ages of 18 and 59 years.",
+    "Income Limit: The applicant should belong to a household below the poverty line, with an annual income not exceeding Rs. 1,00,000.",
+    "Occupational Requirement: The applicant should be employed in any of the following sectors - landless agricultural labourers, rural artisans, fishermen, weavers, handicraft artisans, and people engaged in similar activities in rural areas. Additionally, the scheme also extends coverage to persons involved in the following activities in urban areas - street vendors, ragpickers, and sanitation workers.",
+    "Social Security Scheme: The applicant should not be covered under any other social security scheme, such as the National Pension Scheme, Employee's State Insurance Scheme, or any other government-run life insurance scheme.",
+    "Exclusions / Ineligibility:",
+    "The scheme does not cover individuals who are employed in the organized sector, such as government employees or those working in private companies with a Provident Fund.",
+    "The scheme does not cover individuals who are income taxpayers.",
+    "The scheme does not cover individuals who are already covered under other insurance schemes.",
+    "The scheme does not cover individuals who are not the primary breadwinner of the family.",
+    "The scheme does not cover individuals who are above 59 years of age."
+  ],
+  "exclusions": [
+    "The scheme does not cover individuals who are employed in the organized sector, such as government employees or those working in private companies with a Provident Fund.",
+    "The scheme does not cover individuals who are income taxpayers.",
+    "The scheme does not cover individuals who are already covered under other insurance schemes.",
+    "The scheme does not cover individuals who are not the primary breadwinner of the family.",
+    "The scheme does not cover individuals who are above 59 years of age."
+  ],
+  "documents_required": [
+    "Aadhaar Card: The applicant should have a valid Aadhaar card as proof of identity.",
+    "Age Proof: A document indicating the",
+    "applicant's age, such as a birth certificate, school leaving certificate, or passport.",
+    "Address Proof: Any document that shows the",
+    "applicant's address, such as a driving license, electricity bill, or passport.",
+    "Bank Account Details: The applicant should have an active",
+    "bank account, and the bank details, including the account number and IFSC code, should be provided.",
+    "Income Certificate: A certificate",
+    "indicating the applicant's annual income, issued by the competent authority, is required.",
+    "Occupation Proof: A document showing the",
+    "applicant's occupation, such as a work ID card, is required."
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: Visit the nearest Aam aadmi bima yojana center or insurance agent to obtain the application form.Step 02: Fill in the application form with accurate details, including personal information, income, occupation, and bank account details.Step 03: Attach the necessary documents, such as Aadhaar card, age proof, address proof, bank account details, income certificate, and occupation proof, along with the application form.Step 04: Submit the completed application form and supporting documents to the Aam aadmi bima yojana center or insurance agent.Step 05: The insurance agent will verify the application and documents, and if everything is in order, they will issue a policy certificate.Step 06: The policy certificate will be sent to the applicant's registered address, and a copy will be retained by the insurance agent.Step 07: the applicant can pay the premium amount either annually or in instalments, as per the policy terms.",
+  "source_url": "https://www.myscheme.gov.in/schemes/aaby",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

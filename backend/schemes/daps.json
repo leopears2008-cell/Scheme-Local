@@ -1,0 +1,24 @@
+{
+  "scheme_id": "daps",
+  "name": "Differently Abled Pension Scheme",
+  "category": "women_child",
+  "level": "state",
+  "state": "Tamil Nadu",
+  "department": "",
+  "benefit": "Pension: ₹1,000/- per month. Free Clothes during Pongal and Deepavali: One free dhoti to a male pensioner. One free saree to a female pensioner. Free Rice in Anganwadi Centres: 2kg/month to those who are taking nutritious meal.4kg/month to those who are not taking nutritious meal.",
+  "eligibility_rules": [
+    "The applicant should be 18 years or above in age. The applicant should have a disability of 40% or above. The applicant should not be employed in government or government-affiliated organizations. If the applicant is employed permanently in the private sector institutions and drawing monthly salaries, OR if the applicant is self-employed, his/her income should not exceed ₹ 3,00,000/- per annum."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Applicant's",
+    "Photo. Aadhaar Card. Proof of Age. Aadhaar Consent Form. Smart Ration Card or Any Address Proof. Self-declaration of Applicant. Any",
+    "Identity Proof (Voter ID Card, Passport, PAN Card, Driving License (Optional)).Bank Passbook. Differently Abled ID card."
+  ],
+  "how_to_apply": "Mode: Online - via CSCsStep 1: The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.Step 2: The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.Step 3: In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
+  "source_url": "https://www.myscheme.gov.in/schemes/daps",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

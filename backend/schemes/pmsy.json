@@ -1,0 +1,28 @@
+{
+  "scheme_id": "pmsy",
+  "name": "PM Swamitva Yojana",
+  "category": "housing",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Panchayati Raj",
+  "benefit": ".Determination of property tax, which would accrue to the GPs directly in States where it is devolved or else, add to the State exchequer. Creation of survey infrastructure and GIS maps that can be leveraged by any department for their use. To support in preparation of better-quality Gram Panchayat Development Plan (GPDP) by making use of GIS mapsScheme is a reformative step towards establishment of clear ownership of property in rural inhabited (Abadi) areas, by mapping of land parcels using drone technology and providing 'Record of Rights' to village household owners with issuance of legal ownership cards (Property cards/Title deeds) to the property owners. There are about 6.62 lakh villages in the country which will be eventually covered in this scheme. The entire work is likely to be spread over a period of five years. BenefitsOwnership/Swamitva Cards is provided to rural property ownersvillagers can avail bank finance using their property card as collateral as these cards serve as an official document.",
+  "eligibility_rules": [
+    "Citizens having property in rural inhabited (Abadi) areas are eligible under this scheme.",
+    "Exclusions / Ineligibility:",
+    "Agricultural Lands are not covered under this scheme."
+  ],
+  "exclusions": [
+    "Agricultural Lands are not covered under this scheme."
+  ],
+  "documents_required": [
+    "The",
+    "property owners in village Abadi area has to present the required documents as demanded by revenue officials to prove identity and",
+    "ownership."
+  ],
+  "how_to_apply": "Mode: Offline Pre-Survey ActivitiesPermissions to conduct the survey. Organize Gram Sabha - to inform about the schedule of the survey and to sensitize aboutthe surveying methodology and its benefits to the villagers. Identification and marking of Property -Government assets, gram Sabha land parcels, individual properties, roads, open plots etc. Delineate property parcels - Ground team and owners demarcate the property by chunna linesFinalization of the boundary and survey areaPublic Notification - To notify the survey areaPermission for flying DronesSurvey ActivitiesEstablishment of CORS networkSetting up Ground control pointsAcquisition/Capturing of drone imagesProcessing of Drone data - Image processing & Feature ExtractionData verification and ground truthingDigital maps - Base maps generation and preparation of digital mapsPost Survey ActivitiesInquiry/Objection process - Survey officials verify ownership of the land parcels, with the help of gram Sabha, land owners, and review of existing documentsDispute ResolutionIssuance of Property Cards Distribution of property cards to village household owners (legal document of property ownership).Regular Update of records and storageTraining and capacity building of government officials",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmsy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,25 @@
+{
+  "scheme_id": "anioaas",
+  "name": "The Andaman & Nicobar Islands Old Age Assistance Scheme",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Andaman and Nicobar Islands",
+  "department": "",
+  "benefit": "The amount of assistance for persons in the age group 60-79 years shall be ₹2,500/- per month. The amount of assistance for persons aged 80 years & above shall be ₹3,000/-.Note 01: The scheme also included the beneficiaries of the Indira Gandhi National Old Age Pension Scheme (IGNOAPS).Note 02: Payment of allowance shall be made through Bank Account on a monthly basis.",
+  "eligibility_rules": [
+    "The applicant should be a permanent resident of the Union Territory of Andaman and Nicobar Islands or have resided in the Union Territory of Andaman and Nicobar Islands for more than 10 years at the time of making the application. The age of the applicant should be 60 years or above. The household income of the applicant does not exceed ₹4000/- per month. The applicant should not be receiving any other financial assistance, pension, or grant from the government or any other source."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Passport",
+    "size photographIdentity proof i.e. Aadhaar CardProof of",
+    "ageLocal certificate/domicile certificate Category/community certificate, if applicableBank account details/Copy of passbookProof of",
+    "income issued by the competent authorityAny other document as required"
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: The application form shall be available free of cost at the Directorate of Social Welfare, Port Blair and the sub-divisional offices of Child Development Project Officers (CDPOs). Also, the application form can be downloaded from the official website.Step 02: The completely filled application form along with all the relevant documents shall be submitted in the office of the concerned Child Development Project Officer.",
+  "source_url": "https://www.myscheme.gov.in/schemes/anioaas",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

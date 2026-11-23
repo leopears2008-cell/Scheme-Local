@@ -1,0 +1,35 @@
+{
+  "scheme_id": "oecp_mea",
+  "name": "OEC Pre-matric Educational Assistance",
+  "category": "education",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "Educational Assistance Benefits: Sl. No. Classes/StandardsEducational Assistance Amount1I to IV ₹320/-2V to VII₹630/-3VIII to X ₹940/-",
+  "eligibility_rules": [
+    "The students should belong to the Other Eligible Communities (OEC) & Other Equivalent Communities of Kerala State.",
+    "The students should be studying in Government/Aided/Recognized Un-Aided/C.B.S.E/I.C.S.E Affiliated Schools and Kendriya Vidyalayas in Kerala state.",
+    "The students must be studying in Class 1st to 10th.",
+    "There is no annual family income limit for the students who belong to OEC Communities.",
+    "The annual family income should be ₹6,00,000/- for the students who belong to Other Equivalent Communities."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Identity proof of the student",
+    "Copy of Aadhaar Card",
+    "Photo of the",
+    "student",
+    "A copy of the ration card, if applicable",
+    "Caste Certificate",
+    "Income Certificate, if applicable",
+    "Residence proof",
+    "Physical",
+    "Disability Certificate, if applicable"
+  ],
+  "how_to_apply": "Mode: OnlineStep 01: To get the benefits of the scheme, the students do not have to submit separate applications.Step 02: The School authorities should make an online entry through the scholarship portal within the prescribed time.Step 03: The concerned Educational Officer should do on-time verification of the details entered by the Un-aided/ Affiliated Institutions.Step 04: The school authorities will apply online for the scheme and financial assistance reaches the eligible students' bank account through Direct Beneficiary Transfer (DBT).",
+  "source_url": "https://www.myscheme.gov.in/schemes/oecp-mea",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,23 @@
+{
+  "scheme_id": "dmcsy",
+  "name": "Durghatana Mein Chikitsa Sahaayata Yojana",
+  "category": "other",
+  "level": "state",
+  "state": "Chhattisgarh",
+  "department": "",
+  "benefit": "To the registered beneficiaries, medical assistance of ₹ 20,000/- or the actual expenditure incurred on the treatment, whichever is less, will be provided.",
+  "eligibility_rules": [
+    "The applicant must be a permanent resident of Chhattisgarh state. It is mandatory for construction workers to be registered in any district. Must have completed 90 days as a laborer in the board."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhar card. Permanent residence",
+    "certificate. Bank account details. Hospital certificate."
+  ],
+  "how_to_apply": "Mode: Offline Registered construction workers can apply through any CSC center or labor office. Get the application form. Fill out with required details. Attach the necessary documents.",
+  "source_url": "https://www.myscheme.gov.in/schemes/dmcsy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

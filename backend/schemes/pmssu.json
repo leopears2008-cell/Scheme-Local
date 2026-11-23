@@ -1,0 +1,23 @@
+{
+  "scheme_id": "pmssu",
+  "name": "Pre-Matric Disability Scholarship - Uttarakhand",
+  "category": "education",
+  "level": "state",
+  "state": "Uttarakhand",
+  "department": "",
+  "benefit": "Students of Classes 1 - 5 will receive Rs. 600/- per annum. Students of Classes 6 - 8 will receive Rs. 960/- per annum.",
+  "eligibility_rules": [
+    "The applicant student should be a resident of Uttarakhand state and should be studying as an institutional student in a recognized school run in the state. The applicant student/student must have passed the previous year's examination. Applicant students should not be studying in more than one school in the same academic year. Scholarship applicants should make sure that the name in the scholarship application, the name mentioned in Aadhaar and the name mentioned in the bank account are the same. It is necessary for the applicant student to give his or her guardian's mobile number. The mobile number mentioned in the scholarship application by the student or his/her guardian can be mentioned in the application form by more than one student of the same family."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Scanned",
+    "copy for Bank Passbook. Identification Card. Income Certificate. Student Photograph. Disability Certificate."
+  ],
+  "how_to_apply": "Mode: Online Visit the official National Scholarship Portal. Students must register first. So for registration click on New Registration\".If already register then start the application process by clicking on \"login\". Fill out the application form and Provide the required details ( Registration Details, Academic Details and Basic Details) Upload the required documents.",
+  "source_url": "https://www.myscheme.gov.in/schemes/pmssu",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

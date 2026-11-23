@@ -1,0 +1,24 @@
+{
+  "scheme_id": "atd",
+  "name": "Allowance To Dwarf",
+  "category": "women_child",
+  "level": "state",
+  "state": "Haryana",
+  "department": "",
+  "benefit": "The allowance is Rs. 2500/- per month, effective from 01.04.2021.",
+  "eligibility_rules": [
+    "The applicant should be a Domicile of Haryana State and should have been residing in Haryana State for the last year at the time of submission of the application. The age of the applicant shall not be less than 18 years. The applicant must submit a certificate from the Civil Surgeon in support of his/her being a Dwarf."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "List of the required documents The applicant will have to give a certificate of dwarfism from the District",
+    "Medical Officer / Civil Surgeon. Birth certificate. Income certificate. Photocopy of the first page of the bank account. Address",
+    "proof. Aadhaar card. A recent photograph of the applicant. Caste certificate."
+  ],
+  "how_to_apply": "Mode: Offline Application ProcessDownload the application from the following eDisha official site. Get the printout and fill out the application in the prescribed manner. Attached the photograph with the required documents. And submit to the District Social Welfare Officer.",
+  "source_url": "https://edisha.gov.in/downloadforms",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

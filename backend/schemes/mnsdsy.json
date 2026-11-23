@@ -1,0 +1,23 @@
+{
+  "scheme_id": "mnsdsy",
+  "name": "Mukhyamantri Nirmaan Shramik Dirghayu Sahayata Yojana",
+  "category": "health",
+  "level": "state",
+  "state": "Chhattisgarh",
+  "department": "",
+  "benefit": "Accidental medical treatment: Registered workers will be eligible for a one-time payment of up to ₹20,000/- for medical treatment due to an accident. Additionally, they will be eligible for ₹1,000/- for a vision aid (glasses), ₹5,000/- for artificial teeth, and ₹6,000/- for a hearing aid. If a worker is hospitalized for more than 15 days, they will be eligible for reimbursement of wages for 15 days at the rate of the minimum wage declared for that period. Serious illness: Registered workers who have been registered for at least three years will be eligible for a one-time payment of up to ₹20,000/- if they suffer from a serious illness.",
+  "eligibility_rules": [
+    "Applicant must be registered with labor board. Applicant age must be between 18 to 60 years."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Labor registered Card. Hospital certificate. Bank passbook photocopies. Certificate attested",
+    "by employer."
+  ],
+  "how_to_apply": "Mode: Online All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Building and Other Construction Workers Welfare Board\".Enter the following detailsSelect Group Name : \"Bhavan Evan Koi Sannirmaan\"Select Service : \"Yojana\"What do you want to do : \"Aavedan\"Click next. Select your district name and provide old/new registration number and click next. Select the scheme name. Fill out the online with required details. Submit.",
+  "source_url": "https://cglabour.nic.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

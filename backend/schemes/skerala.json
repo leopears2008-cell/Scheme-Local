@@ -1,0 +1,30 @@
+{
+  "scheme_id": "skerala",
+  "name": "Snehasanthwanam",
+  "category": "education",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "Under the scheme, financial assistance of ₹2200/- is given to the bedridden Endosulfan victims. Financial assistance of ₹1700/- is given to such bedridden Endosulfan victims who are getting ₹300/- per month as a disability pension. All other Endosulfan victims are given ₹1200/- based on the list furnished by the District Collector. In addition to this, monthly assistance of ₹700/- is given to the caregivers of Endosulfan victims who are fully bedridden or mentally retarded under the special Aswasakiranam scheme. Educational assistance will be provided to the Children of Endosulfan affected families as under: a) Children studying in buds school - ₹ 2000/-. b) Children studying in Class 1st to 7th - ₹2000/-. c) Children studying in Class 8th to 10th - ₹3000/-. d) Children studying in Plus One and Plus Two - ₹4000/-.",
+  "eligibility_rules": [
+    "The applicant should be a resident of Kerala State. The applicant should be an Endosulfan victim."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Identity proof i.e. Aadhaar card",
+    "Passport size",
+    "photograph",
+    "Education certificate (If applicable)",
+    "Residence proof",
+    "Medical certificate/report",
+    "Bank account details",
+    "Any other",
+    "documents, if required"
+  ],
+  "how_to_apply": "Mode: Offline To avail of the benefits of the scheme, the application duly filled out should be submitted to the Kasaragod District Collector Office. Note: The applicant may also visit Kerala Social Security Mission offices or the Social Justice Department in Kerala.",
+  "source_url": "https://www.myscheme.gov.in/schemes/skerala",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

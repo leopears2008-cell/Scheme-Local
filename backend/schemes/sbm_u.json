@@ -1,0 +1,24 @@
+{
+  "scheme_id": "sbm_u",
+  "name": "Swachh Bharat Mission - Urban 2.0",
+  "category": "health",
+  "level": "central",
+  "state": "",
+  "department": "Ministry Of H",
+  "benefit": "A Financial support of minimum Rs - 6667 (in Andhra Pradesh ,Bihar, Chhattisgarh ,Goa, Gujarat, Haryana, Jharkhand, Karnataka ,Kerala, Madhya Pradesh, Maharashtra ,Odisha, Punjab, Rajasthan, Tamil Nadu, Telangana, Uttar Pradesh, West Bengal), Rs - 12,000 (in Uttarakhand, Himachal Pradesh, Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura, Assam) Rs - 5333 (in Union Territories) is provided for Toilet Construction",
+  "eligibility_rules": [
+    "Any household that does not have access to an individual household toilet ( 80% of urban households engaging in open defecation) or has an insanitary toilet."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhar Linked Transfer of",
+    "IncentiveAadhar NumberBank Account Detail",
+    "Passbook Photograph"
+  ],
+  "how_to_apply": "Mode: Online Applicant creates an Applicant Login ID by registering on IHHL using Name , Mobile Number , Email , Address , ID Type, ID Number. After successful login the applicant enters the following detailsIn Geographical Particulars (State, District, ULB Name, Ward No.)Toilet Owner's Particulars (Name*, Gender*, Father/ Husband's Name*, Mobile No*, Residential Address*, Status of Existing Toilet, Aadhar Linked Transfer of Incentive, Aadhar Number, Bank Account Detail*, Photograph*) After successful submission of Application, An IHHL Application Acknowledgement slip is generated with Application ID and Bank Account Detail",
+  "source_url": "https://swachhbharaturban.gov.in/ihhl/writereaddata/UserManual_ToiletPhotoUpload_CSC_ULB_Applicant.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

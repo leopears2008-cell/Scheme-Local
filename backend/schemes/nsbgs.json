@@ -1,0 +1,24 @@
+{
+  "scheme_id": "nsbgs",
+  "name": "NEC Stipend And Book Grant Scheme",
+  "category": "education",
+  "level": "state",
+  "state": "Nagaland",
+  "department": "",
+  "benefit": "The selection of the students will majorly depend upon their academic performance and the need for the scholarship. The selected students will receive stipends and book grants for studies in India only.",
+  "eligibility_rules": [
+    "ST & General Students of Nagaland State. ST Students who have secured 60% marks in the last qualifying final examination and 75% marks for students belonging to General Category. Students who are pursuing Higher Professional courses of studies in the Courses are approved by NEC."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "List of the required documentsAttested",
+    "copy of the admission receipt. Attested copy of school/college/university registration/affiliation certificate. Attested copies of mark sheet,",
+    "and admit card from class 10th onwards. Attested copies of the ST certificate and indigenous certificate."
+  ],
+  "how_to_apply": "Mode: Online Application ProcessVisit the official website of the government of Nagaland. Students can apply online for this scholarship by clicking here. The first step of the application process is registration. To register yourself, click on the \"New Registration\" button. Enter all the required details and complete the registration process. Note down your registered user ID and password for future login. Now, click on \"Online Services\" and select your desired scholarship scheme from the DHE menu. Complete the remaining details and submit the form. Applicants must take the printout of the filled-in application form and submit it to your institution.",
+  "source_url": "https://scholarship.nagaland.gov.in/register",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,26 @@
+{
+  "scheme_id": "cmfds",
+  "name": "Chief Minister's Free Diagnostic Services",
+  "category": "health",
+  "level": "state",
+  "state": "Assam",
+  "department": "",
+  "benefit": "1. To provide essential diagnostic services free of cost to all patients visiting government hospitals. No user charges will be levied on the patient.\n• 2. Ensure the availability of a minimum set of diagnostics appropriate to the level of care.\n• 3. Reduce high out-of-pocket expenditure incurred by patients for diagnostics.\n• 4. Use of appropriate diagnostics to screen patients for a set of chronic conditions so as to enable secondary prevention measures.\n• 5. Improve overall quality of healthcare and patient experience as a result of the availability of comprehensive healthcare in public health facilities.\n• 6. Free CT scan services, X-Ray services, and Laboratory services are being implemented in District Hospital, PHCs, CHCs, etc in PPP mode",
+  "eligibility_rules": [
+    "The applicant must be a resident of Assam.",
+    "The scheme is applicable to individuals of all age groups.",
+    "There is no specific income criteria, and the scheme is open to all socio-economic backgrounds."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Proof of residence in Assam (e.g., Aadhaar card, voter ID, or residence certificate).",
+    "Medical prescription or",
+    "recommendation from a registered medical practitioner."
+  ],
+  "how_to_apply": "Mode: Offline\n• 1. Visit the nearest government-authorized diagnostic center or hospital.\n• 2. Fill out the application form for the scheme.\n• 3. Submit the necessary documents along with the application form.\n• 4. Upon verification, the diagnostic tests will be conducted free of cost.",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmfds",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

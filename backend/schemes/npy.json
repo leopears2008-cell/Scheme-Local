@@ -1,0 +1,24 @@
+{
+  "scheme_id": "npy",
+  "name": "Nikshay Poshan Yojana (Nutritional Support To TB Patients)",
+  "category": "health",
+  "level": "central",
+  "state": "",
+  "department": "Ministry Of H",
+  "benefit": "CASH or IN-KINDFinancial incentive of ₹500/- per month for each notified TB patient for the duration for which the patient is on anti-TB treatment. In-kind where the total value of the food basket being distributed must not be less than ₹500 per month.(It is the discretion of each state as to whether to provide the benefits in cash or in-kind)",
+  "eligibility_rules": [
+    "The applicant must be a Tuberculosis (TB) Patient. The applicant must be registered / notified on the NIKSHAY Portal.",
+    "Exclusions / Ineligibility:"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Bank Details of",
+    "SelfBank Details of Parent / Guardian (in case the TB patient does not have a bank account) Aadhaar Number"
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: The patient must visit the nearest healthcare facility to get registered on the NIKSHAY portal: https://www.nikshay.in/",
+  "source_url": "https://www.nikshay.in/",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

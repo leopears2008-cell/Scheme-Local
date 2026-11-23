@@ -1,0 +1,28 @@
+{
+  "scheme_id": "natthe",
+  "name": "National Awards To Teachers (Higher Education)",
+  "category": "education",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Education",
+  "benefit": "A medal. A certificate. Cash Prize of ₹ 50,000/-",
+  "eligibility_rules": [
+    "The award is open to all the faculty members of colleges/universities/higher educational institutions in India, satisfying the following conditions: Should be a regular faculty member. Should have at least five years of full-time teaching experience at the Undergraduate and/or Post-graduate level. Should not be above 55 years of age as of the last date of receiving an application for the awards. Vice-Chancellor/ Director/Principal (regular or officiating) are NOT eligible to apply.",
+    "Exclusions / Ineligibility:",
+    "Self-nomination is NOT allowed. Award Jury are NOT eligible to make a nomination for this award. Nominations received after the due date shall not be considered."
+  ],
+  "exclusions": [
+    "Self-nomination is NOT allowed. Award Jury are NOT eligible to make a nomination for this award. Nominations received after the due date shall not be considered."
+  ],
+  "documents_required": [
+    "Nomination Form. Curriculum Vitae (CV) of the nominee. Detailed",
+    "description of the nominee's contribution. Supporting documents (research papers, patents, awards certificates, testimonials, letters of",
+    "recommendation, etc., depending on the specific nomination).Aadhaar Card. Photograph"
+  ],
+  "how_to_apply": "Mode: Online Registration: Step-1: Visit the official website. Step-2: Click on the Registration button. Step-3:\nChoose type Individual or Organization. Step-4.1: Under Individual category provide the following details. - Name as per Aadhaar/Valid Identity Proof. - Date of Birth. - Nominator/Applicant Type. - Mobile No. - Email ID. - Aadhaar Number. Step-4.2: Under Organization category provide the following details. - Type of Organization. - Name of the Authorized Person as per Aadhaar/Valid Identity Proof - Date of Birth. - Brief Description about the Organization (100 Words) - Designation - Mobile No. - Email ID. - Aadhaar Number. Step-5:\nSubmit. Apply: Step-1: Visit the official website. Step-2: Click on login button on portal and login using the credentials. Step-3: From the list of awards, select scheme name, then click \"Nominate / Apply Now\".Step-4: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".",
+  "source_url": "https://www.myscheme.gov.in/schemes/natthe",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

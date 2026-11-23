@@ -1,0 +1,23 @@
+{
+  "scheme_id": "ps_sch",
+  "name": "Palanhar Scheme",
+  "category": "education",
+  "level": "state",
+  "state": "Rajasthan",
+  "department": "",
+  "benefit": "Orphan Category :For the age group (0 to 6 years) : Rs. 1500/- per month. For the age group (6 to 18 years) : Rs. 2500/- per month. Other Category: For the age group (0 to 6 years) : Rs. 500/- per month. For the age group (6 to 18 years) : Rs. 1000/- per month. For Books/Stationaries/Dress/Sweater/shoes etc: Rs. 2000/- per year.",
+  "eligibility_rules": [
+    "Orphan boy/girl. Children of parents sentenced to death/life imprisonment under judicial orders. Children of a widowed mother receiving a pension (maximum 3 children at a time).Children of remarried widowed mothers. Children of HIV/AIDS affected mother/father. Children of parents suffering from leprosy. Children of related mothers (Maximum 3 children at a time).Children of specially-abled parents. Children of divorced/abandoned women receiving the pension. Children of parents suffering from silicosis. The age of the child should be less than 18 years. If Child age is 18 and still studying/staying in 12th class or lower class, then in such a situation such children will be given an additional one year ( The benefit can be provided till the age of 19 years). The said benefit will not be payable after the child completes 19 years of age or passes 12th class. The certificate that the guardian is a native of Rajasthan state or has been residing in the state for more than three years. Guardian Family income should not be more than Rs. 1.20 Laks per annum."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Jan Aadhar/Bhamashah Card Copy. Aadhar",
+    "Card Copy. Education Qualification Marksheet / Certificate Copy. Caste Category certificate."
+  ],
+  "how_to_apply": "Mode: Online Applicants can apply online via e-mitra. Click on the login button. New applicants can register or existing users can log in here. Existing users can process further with their SSOID and new users can register with their Jan-Aadhaar ID.Provide the required details. Enclosed required documents. Submit",
+  "source_url": "https://emitra.rajasthan.gov.in/emitra/home",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

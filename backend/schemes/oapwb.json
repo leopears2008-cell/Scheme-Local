@@ -1,0 +1,29 @@
+{
+  "scheme_id": "oapwb",
+  "name": "Old Age Pension-West Bengal",
+  "category": "women_child",
+  "level": "state",
+  "state": "West Bengal",
+  "department": "",
+  "benefit": "Financial Assistance",
+  "eligibility_rules": [
+    "Applicant must be resident of West Bengal State. Applicant must be 60 years old or above, but in the case of physically and mentally handicapped individuals, the age limit for eligibility is 55 years. The person should not have any relation capable of providing financial support. Here \"relation\" means and includes-Son, Grand Son. Husband, Wife. Unmarried daughter. Parents. The income of the person should not exceed ₹ 1,000/- per month. The applicant should not be a recipient of any other Government pension. Residency DurationThe disabled person should have been a resident of the state of West Bengal for at least 10 years at the time of applying for the pension. (OR) Exception: The State Government may relax the residency condition in cases where undue hardship is caused.",
+    "Exclusions / Ineligibility:",
+    "Professional Beggars and Mendicants: Individuals engaged in begging as a profession are not eligible for pension under this scheme. Individuals who do not beg professionally but receive occasional assistance are eligible if they meet other criteria. Recipients of Other Pensions: Disabled persons already receiving \"Widow Pension,\" \"Old Age Pension,\" \"Farmers' Pension,\" or pension under the \"Family Pension Scheme\" from the State Government, Central Government, or other concerns are not entitled to the pension under this scheme."
+  ],
+  "exclusions": [
+    "Professional Beggars and Mendicants: Individuals engaged in begging as a profession are not eligible for pension under this scheme. Individuals who do not beg professionally but receive occasional assistance are eligible if they meet other criteria. Recipients of Other Pensions: Disabled persons already receiving \"Widow Pension,\" \"Old Age Pension,\" \"Farmers' Pension,\" or pension under the \"Family Pension Scheme\" from the State Government, Central Government, or other concerns are not entitled to the pension under this scheme."
+  ],
+  "documents_required": [
+    "Copy of Aadhaar self",
+    "attested. Copy",
+    "of Ration Card. Copy of Voter Id. Copy of Disability Certificate. Copy of Income Certificate. Copy of Husband's Death",
+    "Certificate. Copy of Bank Pass Book. Nomination Form (In case of death).Passport Size photograph."
+  ],
+  "how_to_apply": "Mode: Offline Application Form(Form-P) for Pension may be obtained free of cost from following offices namely: Office of the Block Development Officer or the Executive Officer of the concerned Panchayat Samity in case of the applicant resides in the rural areas under the said Panchayat Samity. Office of the Sub-Divisional Officer in case of the applicant resides in Municipal / Notified areas outside the areas of Kolkata Municipal Corporation. Office of the Controller of Vagrancy, West Bengal situated at Purta Bhawan, Bidhan Nagar, Kolkata-700091, in case of the applicant resides within the areas under Kolkata Municipal Corporation. Required information for application formPerson Details. Contact Details. Type of Disability and disability percentage. Bank Account Details. Required documentsCopy of Aadhaar self-attested. Copy of Ration Card. Copy of Voter Id. Copy of Disability Certificate. Copy of Income Certificate. Copy of Husband's Death Certificate. Copy of Bank Pass Book. Nomination Form (In case of death).Passport Size photograph. Application Form for Pension shall be addressed to:-The District Magistrate of the concerned District and shall be submitted to the Block Development Officer or the Executive Officer of the Panchayat Samity in case of the applicant residing in the rural areas under a Panchayat Samity. The District magistrate of the concerned District and Shall be submitted to the Sub-Divisional Officer in case of the applicant residing in Municipal / Notified areas outside the areas of Kolkata Municipal Corporation. The Controller of Vagrancy, West Bengal and shall be submitted to the Controller Vagrancy West Bengal in case of the applicant residing within the areas under Kolkata Municipal Corporation.",
+  "source_url": "https://wbswpension.gov.in/readwrite/miscellaneous/form-P.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

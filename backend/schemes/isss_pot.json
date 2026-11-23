@@ -1,0 +1,25 @@
+{
+  "scheme_id": "isss_pot",
+  "name": "Integrated Social Security Scheme - Pension For Transgender",
+  "category": "women_child",
+  "level": "state",
+  "state": "Jammu and Kashmir",
+  "department": "",
+  "benefit": "A pension of ₹1000 per pensioner per month is deposited directly into their Bank Account through DBT mode.",
+  "eligibility_rules": [
+    "The applicant should be Transgender. The income of the applicant should be less than Rs. 75,000/- per annum or the applicant should be from the \"Below Poverty Line (BPL)\" Category."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Proof of Residence (Ration Card / Voter Card, etc.)Income Certificate (of less than Rs. 75,000/",
+    "per annum",
+    "or BPL Category) Copy of Aadhaar CardCopy of Bank PassbookCertificate from District Magistrate on GenderPassport Sized",
+    "Photograph"
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: The application forms are available with DSWO/TSWO free of cost. The applicant shall submit the duly filled and signed application form (https://jkdswdj.jk.gov.in/pdf/FORMISSS1.pdf).along with the required documents reg. the age, income, status, and address, to the concerned Tehsil Social Welfare Officer against proper receipt.Step 2: The concerned Tehsil Social Welfare Officer (TSWO) consolidates the list of eligible applicants under the scheme and forwards it to the concerned District Social Welfare Officer for the arrangement of funds and accord of sanction by a designated District level Sanctioning Committee headed by the Director General, Social welfare Department, Kashmir.Step 3: The amount is disbursed to the beneficiaries through bank advice/money orders.",
+  "source_url": "https://jkdswdj.jk.gov.in/pdf/FORMISSS1.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,27 @@
+{
+  "scheme_id": "msy",
+  "name": "Mukhya mantri Swarojgar Yojana",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "department": "",
+  "benefit": "Financial help Margin money assistance15% of the project cost (maximum ₹.1,00,000 for the general category. 30% of the cost (maximum ₹2,00,000) for Below Poverty Line( BPL) , Scheduled Castes(SC) , Scheduled Tribes(ST), Other Backward Classes(OBC) (except creamy layer)/ Women/ Minority/ Disabled project. Additional provisions -30% of the project cost (maximum ₹3,00,000 lakh) to the liberated nomadic and semi-nomadic tribes. Bhopal gas victim family members are eligible for an additional 20% (maximum ₹1,00,000 on the project cost.interest subsidyAt the rate of 5% per annum of the project cost and for women entrepreneurs at the rate of 6% per annum, for a maximum of 7 years. (Maximum ₹25,000 per annum) Guarantee Fee (CGTMSE/: CGFMU) Up to a maximum of 7 years at the prevailing rate.",
+  "eligibility_rules": [
+    "The applicant Should be a permanent resident of Madhya Pradesh. The applicant should have passed in the 5th class. The applicant's age should be between 18 to 45 years. The applicant's family should not be an income taxpayer. The applicant should not be a defaulter of any bank.",
+    "Exclusions / Ineligibility:",
+    "The applicant is getting assistance under any other self-employment scheme, then he cannot avail of benefits under the scheme. The benefit of this scheme can be availed only once."
+  ],
+  "exclusions": [
+    "The applicant is getting assistance under any other self-employment scheme, then he cannot avail of benefits under the scheme. The benefit of this scheme can be availed only once."
+  ],
+  "documents_required": [
+    "Aadhar CardPan CardIncome certificateAddress proofPassport size",
+    "photoMobile number5th class mark sheet"
+  ],
+  "how_to_apply": "Mode: OnlineStep 1: Visit the official website using the provided linkStep 2: The homepage will appear, and you need to click on the application link for the Mukhya Mantri Swarozgar YojanaStep 3: Various departments associated with the scheme will be displayed. Choose the department that interests youStep 4: Choose the option for registration or sign-up if you are a new application. Click the submit button after entering your name, mobile number, password, and captcha codeStep 5: After submitting, you will be registered on the portalStep 6: Now, you can log in to the portal and apply for the scheme.",
+  "source_url": "https://msme.mponline.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,27 @@
+{
+  "scheme_id": "icms",
+  "name": "Inter-caste Marriage Scheme",
+  "category": "food",
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "department": "",
+  "benefit": "1. Financial assistance of up to Rs. 75,000 is provided to eligible couples.\n• 2. The amount is given in two installments - Rs. 50,000 at the time of registration of marriage and Rs. 25,000 after three years of marriage.\n• 3. The amount can be used for household expenses, education of children, or any other purpose deemed necessary by the couple.",
+  "eligibility_rules": [
+    "The couple should belong to different castes.",
+    "Either the bride or groom should be a resident of Himachal Pradesh.",
+    "The couple should have registered their marriage under the Special Marriage Act, 1954.",
+    "The combined income of the couple should not exceed Rs. 5 lakh per annum."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Bonafide Himachali Certificate of the couple. Cast Certificates of the couple. Age Certificates of the",
+    "couple. Marriage Certificate. No Objection Certificate from the concerned district if any one of them belongs to other",
+    "districts."
+  ],
+  "how_to_apply": "Mode: Online\n• 1. The couple needs to register their marriage under the Special Marriage Act, 1954.\n• 2. After marriage registration, the couple needs to fill out the application form for the scheme, which can be obtained from the District Social Welfare Office or the official website.\n• 3. The couple needs to submit the required documents along with the application form to the District Social Welfare Office.\n• 4. After verification of the documents, the financial assistance will be provided to the eligible couples.",
+  "source_url": "https://www.myscheme.gov.in/schemes/icms",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

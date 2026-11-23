@@ -1,0 +1,22 @@
+{
+  "scheme_id": "dpyup",
+  "name": "Divyang Pension Yojana",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "department": "",
+  "benefit": "The Department of Empowerment of Persons with Disabilities provides a grant at the rate of Rs. 1,000/- per month per beneficiary",
+  "eligibility_rules": [
+    "The age of the applicant should be 18 years or more. Applicant must be a permanent resident of Uttar Pradesh. Should have a minimum of 40 percent disability. The person getting pension/grant/assistance under the applicant's old age pension, widow pension, socialist pension or any other similar scheme and the person receiving free maintenance in government institutions/homes should not be eligible. The annual income of the applicant or his family is within the definition of the poverty line (currently fixed at Rs. 46,080/- in rural areas and Rs. 56,460/- per family per year in urban areas) will be eligible for the grant."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Passport size colour photograph. Date of Birth/Age certificate. Disability certificate:"
+  ],
+  "how_to_apply": "Mode: Online First of all the applicant has to visit the official Portal. Fill out the online application form from here. In the Application form, the applicant has to fill following details:- Personal Details, Bank Details, Income Details, and a description of a disability. Upload the required documents (Photograph, Age Certificate and Disability Certificate).",
+  "source_url": "https://sspy-up.gov.in/oap/public_new/UserRegistrationForm.aspx?Scheme=HandicapPension",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

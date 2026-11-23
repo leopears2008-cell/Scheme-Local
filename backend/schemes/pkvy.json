@@ -1,0 +1,35 @@
+{
+  "scheme_id": "pkvy",
+  "name": "Paramparagat Krishi Vikas Yojana",
+  "category": "agriculture",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Agriculture and Farmers Welfare",
+  "benefit": "• Promotion of organic farming, in turn resulting in improvement of soil health\n• Sustainable production of chemical free and nutritious agriculture produce\n• Direct linkages with local and national markets\n• To empower farmers through their own institutional development in the form of clusters and groups with capacity to manage production, processing value addition and certification management",
+  "eligibility_rules": [
+    "All farmers/institutions are eligible to apply. However, maximum land holding is 2 hectare",
+    "Exclusions / Ineligibility:",
+    "All farmers with less than 2 ha land are eligible for applying to the scheme"
+  ],
+  "exclusions": [
+    "All farmers with less than 2 ha land are eligible for applying to the scheme"
+  ],
+  "documents_required": [
+    "Aadhaar number",
+    "Land",
+    "documents",
+    "Caste Certificate (SC/ST/OBC only)",
+    "Phone Details",
+    "Bank Details",
+    "Photographs",
+    "DPRThe specific documents for",
+    "availing the benefits of the program may vary depending on the type of intervention and the state. It is recommended to consult with the",
+    "relevant authorities for detailed information on documents to be submitted."
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: Interested applicant should connect and communicate with the regional councils of their respective states.Step 02: Regional councils consolidates all the applications and develop Annual Action PlanStep 03: Compiled Annual Action plan by the regional councils of the state is submitted is submitted to Ministry of Agriculture & Farmers WelfareStep 04: Funds released to states by centreStep 05: Further funds are released to regional councils to benefit the farmers/individuals.",
+  "source_url": "https://www.myscheme.gov.in/schemes/pkvy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

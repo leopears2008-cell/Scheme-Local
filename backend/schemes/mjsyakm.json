@@ -1,0 +1,22 @@
+{
+  "scheme_id": "mjsyakm",
+  "name": "Mukh\"yamantri Janakal\"yaan (Sambal 2.\n• 0) Yojana (Asangathit Karmakaar Man\"da)",
+  "category": "finance_insurance",
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "department": "",
+  "benefit": "will be provided directly into the beneficiary's account through the DBT system. BenefitsFuneral Grant Amount : ₹5,000/- Ex-gratiaOn accidental death : ₹4,00,000/-General Death Benefit : ₹2,00,000/-Permanent Disability Benefit :\n₹2,00,000/-Partial Permanent Disability Benefit : ₹1,00,000/-",
+  "eligibility_rules": [
+    "Applicant must be a Unorganized worker. Applicant have a \"Samagra ID\" and \"Pariwar ID\".Applicant should not have other social security cover like Provident Fund, Employees' State Insurance Scheme, Gratuity etcApplicant or his wife/husband (as the case may be) should not follow below categoriesShould not have more than 01 hectare of agricultural land,Should not be in government serviceShould not an income tax payer. Should not have other social security cover like Provident Fund, Employees' State Insurance Scheme, Gratuity etc"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhar card. Samagra id. Bank account ."
+  ],
+  "how_to_apply": "Mode: Online Samagra ID Creation: Visit the official website and click on the \"Register family\".On the new page, enter the Mobile number which was linked with Aadhaar Number and authenticate via OTP.Now provide the Aadhaar number and enter the new OTP.On the new page, provide the basic details, complete addressGive the consent and submit. Apply Process: Visit the official Sambal Portal. Under \"Sevaaye\", click on \"Panchikaran Hetu Aavedan Kren\".Enter \"Samagra ID\" and \"Pariwar ID\".Fill out the online application form with required details. Give the consent and submit.",
+  "source_url": "https://sambal.mp.gov.in/",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

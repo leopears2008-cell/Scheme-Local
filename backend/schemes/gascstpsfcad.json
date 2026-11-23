@@ -1,0 +1,30 @@
+{
+  "scheme_id": "gascstpsfcad",
+  "name": "Grants In Aid To SC/ST Patients Suffering From Cancer And Other Malignant Diseases",
+  "category": "health",
+  "level": "state",
+  "state": "Assam",
+  "department": "",
+  "benefit": "Under the scheme, such SC / ST patients will be given a one-time, fixed financial assistance of Rs. 50,000/- (Rupees Fifty thousand)",
+  "eligibility_rules": [
+    "The applicant must belong to an SC / ST community of Assam.",
+    "Person suffering from cancer or other malignant diseases may apply.",
+    "No person shall be eligible to claim this financial aid more than once."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Caste Certificate in prescribed",
+    "Performa of applicant suffering from Cancer or other malignant diseases issued by the concerned authority.",
+    "Medical certificate of the",
+    "applicant and relevant documents.",
+    "Passport size Photograph of the applicant",
+    "Bank Account No. along with IFSC of the applicant.",
+    "(copy of Front Page of Bank Pass Book )"
+  ],
+  "how_to_apply": "Mode: Offline Collect your application form from the concerned department. Applications may be made online as and when the Official Website of the Directorate of Welfare of Scheduled Castes, Assam, / Directorate of Welfare of Plain Tribe and Backward Classes, Assam starts to be fully functional. Applicants should apply as per the eligibility criteria. Attach all the required documents and submit the form.",
+  "source_url": "https://www.myscheme.gov.in/schemes/gascstpsfcad",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

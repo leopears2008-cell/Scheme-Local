@@ -1,0 +1,27 @@
+{
+  "scheme_id": "km_sch",
+  "name": "Krushi Mahotsav",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Gujarat",
+  "department": "",
+  "benefit": "Agriculture Scientists and officers are provided guidance to farmers about Scientific farming, Organic farming, Farm mechanization, Micro Irrigation, Crop Value addition and Agriculture related information as well as provided knowledge of Government Schemes. In addition, to provide free kit distribution to small farmers during Krushi Mahotsav.",
+  "eligibility_rules": [
+    "All farmers and Female farmers of the state. The scheme is available to all farmers in the state of Gujarat. There are no restrictions based on caste, religion, or gender. Farmers who are interested in learning about the latest agricultural practices and improving their crop yields are encouraged to participate.",
+    "Exclusions / Ineligibility:",
+    "Individuals or entities that are not involved in farming or agriculture. Individuals or entities that do not hold any agricultural land. Farmers who do not have a valid Aadhaar Card or have an Aadhaar Card that is not linked to their bank account. Farmers who have defaulted on loans from banks or cooperative societies. Farmers who have been found guilty of any criminal offence related to agriculture or farming."
+  ],
+  "exclusions": [
+    "Individuals or entities that are not involved in farming or agriculture. Individuals or entities that do not hold any agricultural land. Farmers who do not have a valid Aadhaar Card or have an Aadhaar Card that is not linked to their bank account. Farmers who have defaulted on loans from banks or cooperative societies. Farmers who have been found guilty of any criminal offence related to agriculture or farming."
+  ],
+  "documents_required": [
+    "List of the required documentsNo",
+    "documents are required. Land documents (to get more specific information about your farm)."
+  ],
+  "how_to_apply": "Mode: Offline Application ProcessFarmers do not need to apply separately for the scheme. The camps are organized at the district and taluka levels, and farmers can visit the camps to participate in the scheme. Farmers can visit the camps organized by the government at the district and taluka levels. At the camps, experts and officials will provide education and training on modern farming techniques, and free inputs like seeds, fertilizers, and pesticides will be distributed to the farmers.",
+  "source_url": "https://www.myscheme.gov.in/schemes/km",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

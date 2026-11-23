@@ -1,0 +1,33 @@
+{
+  "scheme_id": "fakmfs",
+  "name": "Financial Assistance To Kashmiri Migrants Families Scheme",
+  "category": "social_welfare",
+  "level": "state",
+  "state": "Haryana",
+  "department": "",
+  "benefit": "The Financial Assistance will be given by the state government @ ₹1250/- per month per member of the family subject to a maximum of ₹6250/- per family. The total period of financial assistance for re-settlement will be five years.",
+  "eligibility_rules": [
+    "The applicants/families should have migrated from Jammu & Kashmir to Haryana and are living in various parts of the state. The annual income of the displaced family from all sources should not exceed ₹2 lakhs. Note: 'Family' means the family of the applicant at the time of displacement from Kashmir. Any sub-division of the family after displacement from Kashmir will not be recognized for additional financial assistance under this scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Certificate issued from migrated State (issued by the Sub Divisional Official (Civil))",
+    "Ration Card (issued by the Food &",
+    "Supplies Department, Haryana)",
+    "Voter I.D. Card (issued by Election Department, Haryana)",
+    "Aadhaar Card",
+    "Saving Bank account",
+    "detail of the applicant with a photocopy of the passbook.",
+    "Applicant should have Family I.D. proof",
+    "Income Certificate",
+    "Passport",
+    "size",
+    "photographs"
+  ],
+  "how_to_apply": "Mode: Online & OfflineStep 01: The applicant needs to visit the office of the Social Welfare Department (DSWO) in his/her Block/District and collect the application form. The application form can also be downloaded from the Official Website of the Department.Step 02: The applicant should fill out the application form and attach all the essential documents.Step 03: After filling out the application form, the applicant needs to get attested to the form from the concerned authority as mentioned in the application form.Step 04: Then the application form should be submitted to the office of the Social Welfare Department (DSWO) of your Block/District.",
+  "source_url": "https://socialjusticehry.gov.in/forms/page/2",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

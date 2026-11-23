@@ -1,0 +1,24 @@
+{
+  "scheme_id": "dpps",
+  "name": "Disabled Person Pension Scheme - Punjab",
+  "category": "women_child",
+  "level": "state",
+  "state": "Punjab",
+  "department": "",
+  "benefit": "Amount : ₹ 1,500/- per month",
+  "eligibility_rules": [
+    "Applicant should be a Permanent Resident of Punjab. Applicant should be Disabled and the Disability Percentage should be more than 50%.The Annual Income of Family should not be more than Rs. 60,000/- per Year. People with mental disabilities are eligible regardless of their specific disability."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Beneficiary Photo. ID cum Residence proof of the Parent/ Guardian (Driving License / Passport / Voter Card",
+    "/ Aadhaar Card).First page of Passbook. Self Declaration. Proof of disability (issued by competent authority).Date of Birth Proof of Person",
+    "with Disability (Voter Card / Voter List / Matriculation certificate / Certificate from Registrar Birth & Death / Aadhaar Card )."
+  ],
+  "how_to_apply": "Mode: Online & Offline Step-1: Applicants have to visit the official website. Step-2: Click on the \"Click to apply services\".Step-3: Now login on Digital Punjab portal with Email/Phone number and password. If does have any account then register hereStep-4: Fill out the application form. Step-5: Attach the required documentsStep-6:\nSubmit.",
+  "source_url": "https://punjab.gov.in/wp-content/uploads/2023/08/Disabled-person-pension-1.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

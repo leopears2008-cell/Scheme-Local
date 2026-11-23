@@ -1,0 +1,29 @@
+{
+  "scheme_id": "vs_eacdp",
+  "name": "Vidyakiranam Scheme-Educational Assistance To Children Of Disabled Parents",
+  "category": "education",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "The following benefits will be provided to the children of differently-abled parents studying in various classes under this scheme: Sl. No. ClassScholarship Rate1Standard 1 to 5₹300/- per month for 10 months2Standard 6 to 10₹500/- per month for 10 months3+1, +2, ITI equivalent courses₹750/- per month for 10 months4Degree, Post-Graduation, Polytechnic, Equivalent Courses, Training Courses, Professional Courses₹1000/- per month for 10 monthsNote 01: The scholarship will be provided to all classes for a duration of 10 months. Note 02:\nFinancial assistance will be awarded only once per class. Note 03: The scholarship amount will be transferred to the bank account of the eligible beneficiaries.",
+  "eligibility_rules": [
+    "The applicant should be a permanent resident of Kerala. The children of differently abled parents belonging to the BPL category (Both / Anyone) will get a scholarship under this scheme. The applicant should be a student. The disability of the applicant's father/ mother must be 40% or above. The students pursuing courses from Govt. approved institutions are eligible to apply under this scheme.",
+    "Exclusions / Ineligibility:",
+    "The students pursuing courses from parallel colleges and doing part-time courses are not eligible to apply under the scheme. The students benefiting from other educational assistance schemes are not eligible to apply under this scheme."
+  ],
+  "exclusions": [
+    "The students pursuing courses from parallel colleges and doing part-time courses are not eligible to apply under the scheme. The students benefiting from other educational assistance schemes are not eligible to apply under this scheme."
+  ],
+  "documents_required": [
+    "Identity card i.e. Aadhaar CardMobile numberEmail idPassport size photoCopy of BPL Ration CardAttested copy of Disability",
+    "ID card of parents. Income Certificate for proof of incomeCopy of Medical board certificate showing the percentage of disabilityBank",
+    "details",
+    "Copy of Pass BookCertificate from Head of School/CollegeOther documents, if any"
+  ],
+  "how_to_apply": "Mode: Online & Offline Registration Process:Step 01: To avail of the benefits of the scheme, the applicant needs to visit SUNEETHI- Online Service Application PortalStep 02: On the home page, click on \"One time Registration\"Step 03: Fill in the details like Name, Email ID & Mobile Number and click on 'Register'.Step 04: The applicant needs to enter the verification code received on the mobile number and click on 'Verify'.Step 05: Now, a form will open to create the new profile, fill in all the mandatory details and click on 'Register'.Login/Application Process:Step 01: Once the registration process is completed, the applicant should visit SUNEETHI- Online Service Application Portal and click on \"Citizen Login\".Step 02: Enter the user name i.e. Mobile Number and Password and click on \"Sign in\".Step 03: Now, the applicant needs to update all their details i.e. Personal Information, Contact Details, Identity Cards & Bank Details by clicking on the 'Edit' button.Step 04: Once the applicant updated their profile successfully, the schemes will appear on the left side of the screen.Step 05: Select the scheme and click on the \"Apply Now\" button.Step 06: Fill in all the mandatory details in the application form and click on the 'Submit' button.",
+  "source_url": "https://suneethi.sjd.kerala.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,22 @@
+{
+  "scheme_id": "icds_chandigarh",
+  "name": "Integrated Child Development Services: Chandigarh",
+  "category": "education",
+  "level": "state",
+  "state": "Chandigarh",
+  "department": "",
+  "benefit": "Supplementary NutritionImmunizationHealth Check-upReferral ServicesPre-School EducationNutrition & Health EducationThree of the six services viz. immunization, health check-up and referral services are related to health and are provided through National Health Mission and Public Health Infrastructure. The services are offered at Anganwadi Centers through Anganwadi Workers (AWWs) and Anganwadi Helpers (AWHS) at grassroots level.",
+  "eligibility_rules": [
+    "Children in the age group of 0-6 years. Pregnant women. Lactating mothers. Women from age group 14-18 years of UT Chandigarh. The Scheme is universal for all categories of beneficiaries and in coverage."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhar Card"
+  ],
+  "how_to_apply": "Mode: Offline The citizen need not apply to the scheme. Visit the nearest Anganwadi center.",
+  "source_url": "https://www.myscheme.gov.in/schemes/icds-chandigarh",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

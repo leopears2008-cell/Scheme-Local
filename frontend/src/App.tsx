@@ -19,7 +19,20 @@ type Tab = (typeof TABS)[number] | "login" | "admin";
 export default function App() {
   const { t, lang, setLang } = useApp();
   // Open on Find: it works without sign-in, so a judge is never met by a locked screen first.
-  const [tab, setTab] = useState<Tab>((location.hash.slice(1) as Tab) || "find");
+  const [tab, setTab] = useState<Tab>(() => {
+    const raw = location.hash.slice(1).split("?")[0] as Tab;
+    return (TABS as readonly string[]).includes(raw) ? (raw as Tab) : "find";
+  });
+  const [findQuery, setFindQuery] = useState<string>(() => {
+    try {
+      const hash = location.hash;
+      const qIdx = hash.indexOf("?");
+      if (qIdx !== -1) {
+        return new URLSearchParams(hash.slice(qIdx)).get("q") || "";
+      }
+    } catch {}
+    return "";
+  });
   const [applyId, setApplyId] = useState<string>("");
   const [unread, setUnread] = useState(0);
   // two ways in: a real sign-in session, or a limited guest session (no account, no records, no admin)
@@ -39,10 +52,13 @@ export default function App() {
     if (!signedIn) { setIsAdmin(false); return; }
     import("./lib/adminApi").then(({ adminApi }) => adminApi.me().then((m: any) => setIsAdmin(m.role === "admin" || m.role === "super_admin")).catch(() => setIsAdmin(false)));
   }, [signedIn]);
-  const go = (x: Tab, scheme?: string) => {
+  const go = (x: Tab, param?: string) => {
     // every navigation re-reads the guest state, so a login or guest start elsewhere takes effect at once
     setGuest(getGuestToken() !== null);
-    if (scheme) setApplyId(scheme); setTab(x); location.hash = x;
+    if (x === "apply" && param) setApplyId(param);
+    if (x === "find") setFindQuery(param || "");
+    setTab(x);
+    location.hash = x === "find" && param ? `find?q=${encodeURIComponent(param)}` : x;
   };
   const endSession = () => { clearGuestSession(); setGuest(false); signOut().then(() => go("find")); };
   // notifications are a protected call: only made when a session exists (no 401 noise while signed out)
@@ -57,7 +73,7 @@ export default function App() {
           if (id) setApplyId(id);
           go("apply", id);
         }}
-        onFind={() => go("find")}
+        onFind={(query?: string) => go("find", query)}
         onCheck={() => go("check")}
         onSupport={() => go("talk")}
         onBack={() => go("find")}
@@ -66,7 +82,7 @@ export default function App() {
   }
 
   return (
-    <div className="app">
+    <div className={`app feature-app tab-${tab}`}>
       <DemoBanner />
       <header>
         <div className="brand" style={{ display: "flex", alignItems: "center", gap: "10px" }}>
@@ -94,6 +110,15 @@ export default function App() {
         </div>
       </header>
       <main>
+        {["talk", "find", "check", "docs", "apply", "track"].includes(tab) && (
+          <div className="feature-hero-banner" role="presentation">
+            <div className="feature-hero-content">
+              <span className="feature-hero-badge">🇮🇳 SchemeLocal</span>
+              <h2 className="feature-hero-title">{t(tab as any)}</h2>
+            </div>
+            <div className="feature-hero-photo" aria-hidden="true" />
+          </div>
+        )}
         {tab === "talk" && (!authReady
           ? <p className="muted">Checking your sign-in…</p>
           : signedIn ? <Talk go={go} /> : (
@@ -103,7 +128,7 @@ export default function App() {
               <Login onDone={() => go("talk")} />
             </section>
           ))}
-        {tab === "find" && <Find go={go} />}
+        {tab === "find" && <Find go={go} initialQuery={findQuery} />}
         {tab === "check" && <Check go={go} />}
         {tab === "login" && <Login onDone={() => go("track")} />}
         {tab === "docs" && (isGuest ? <GuestLimit feature="Documents" /> : signedIn ? <Docs /> : <Login onDone={() => go("docs")} />)}

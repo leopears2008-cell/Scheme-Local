@@ -1,0 +1,22 @@
+{
+  "scheme_id": "stiti",
+  "name": "Stipends To Trainees In Industrial Training Institute",
+  "category": "education",
+  "level": "state",
+  "state": "Maharashtra",
+  "department": "",
+  "benefit": "₹60/- per month will be given to student residing in the hostel of the organization Department of Technical Education.₹ 40/- per month will be given by the Social welfare department to student residing in the hostel of the organization Department of Technical Education.₹100/- per month will be given by the social welfare department to those student who do not get anything from the organization's Department of Technical Education.",
+  "eligibility_rules": [
+    "The applicant must be a permanent resident of Maharashtra. The student should belong to Scheduled Caste (SC) category. It is mandatory for the student should take training in a recognized Industrial Training Institute. The annual income of the applicant's father should not be more than ₹ 65290/-."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Identity proof i.e. Aadhar CardCaste certificateFather's income certificateBank detailsEducational certificate"
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: The applicant wishing to apply for this scheme may apply through his/her respective Industrial Training Institute (ITI).Step 02: The applicant may contact his/her principal of the Institute.Step 03: Further, the applicant may contact his/her related District Social Welfare Officer, Zillah Parishad.",
+  "source_url": "https://www.myscheme.gov.in/schemes/stiti",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,23 @@
+{
+  "scheme_id": "dgy",
+  "name": "Devnarayan Gurukul Yojana",
+  "category": "education",
+  "level": "state",
+  "state": "Rajasthan",
+  "department": "",
+  "benefit": "State's class 5 passed students are given admission to class 6 in private highly prestigious residential schools selected by the state government by selecting a prescribed number through the entrance test.",
+  "eligibility_rules": [
+    "Student should be a native of Rajasthan state. Students belong to the very backward classes (i). Banjara, Baldiya, Labana (ii). Gadiya-Lohar, Gadolia (iii). Gujar, Gurjar (iv). Raika, Rabari (Debasi) (v). Gadaria (Gadri), Gayari. Self-declaration/certificate of parents not being income taxpayers. It is necessary for the student to study regularly in a government/recognized non-government school. It is necessary for the student to pass in class 5 examination. Only maximum of two children of one parent will be eligible for admission and benefits."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar. Domicile Certificate. Caste Certificate. Income Certificate. Education Qualification Certificate. Class 5 mark",
+    "sheet."
+  ],
+  "how_to_apply": "Mode: Online Applicants have to visit the official portal. Students can process further action only with Student NIC ID.Student can find their NIC ID here. Enter the NIC ID click on. Fill out the application form. Submit.",
+  "source_url": "https://www.myscheme.gov.in/schemes/dgy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

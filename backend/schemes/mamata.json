@@ -1,0 +1,25 @@
+{
+  "scheme_id": "mamata",
+  "name": "Mamata Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Odisha",
+  "department": "",
+  "benefit": "To provide partial wage compensation for pregnant and nursing mothers so that they are able to rest adequately during their pregnancy and after delivery. To increase utilization of maternal and child health services, especially antenatal care, postnatal care and immunization. To improve mother and child care practices, especially exclusive breastfeeding and complementary feeding of infants.",
+  "eligibility_rules": [
+    "Pregnant and lactating woman of 19 & above age group, for the first two live births except those who avail maternity benefit (who are themselves employees or wives of employees of State Govt/Central Govt/PSUs)."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhar",
+    "card. Residence certificate. Photocopies of MCP card. Self",
+    "declaration form. Bank account details. Passport size photograph. Mobile",
+    "number. Ration card."
+  ],
+  "how_to_apply": "Mode: Offline In order to get the benefit of Odisha Mamata Yojana, The beneficiary is required to register at Anganwadi centers and mini Anganwadi centers to which the beneficiary belongs.",
+  "source_url": "https://wcd.odisha.gov.in/ICDS/mamata",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

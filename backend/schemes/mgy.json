@@ -1,0 +1,26 @@
+{
+  "scheme_id": "mgy",
+  "name": "Manav Garima Yojana",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Gujarat",
+  "department": "",
+  "benefit": "Under the scheme, tool kits are provided for a total of 28 types of trades/businesses to individuals seeking self-employment opportunities. The list is as follows: Sl. No. Trade NameSl. No. Trade NameSl. No. Trade Name1Handicraft work10Electrical Appliances Repairing19Pickle Maker2Stitching work11Agricultural Blacksmith20Hot, Cold Drinks, Snack Seller3Vehicle Servicing And Repairing12Welding Work21Puncture Kit4Tailoring13Carpentry22Flour Meal5Embroidery14Laundry23Masala Meal6Pottery15Broom Making 24Mobile Repairing7Different Types of Ferries16Milk- Curd Seller25Hair Cutting (Barber Work)8Plumber17Fish Seller269Beauty Parlor18Papad Maker27",
+  "eligibility_rules": [
+    "The applicant should belong to the Scheduled Caste category. The applicant should be a native of Gujarat state. The age limit of the applicant should be 18 to 60 years. The applicant from the Scheduled Caste Category should have an annual family income of up to ₹6,00,000/-.There is no income limit for applicants belonging to the Most Backward Caste among the Scheduled Castes category. If the beneficiary or any family members of the beneficiary have already benefited from this scheme, they are not eligible to avail of its benefits again."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Passport Size PhotographAadhaar Card of the",
+    "applicantCaste certificateRation cardProof of residence (any one of electricity bill/license/Rent agreement/election card/property card,",
+    "land document) Proof of annual incomeProof of vocational training, if anySelf",
+    "declarationAgreementAny other documents as",
+    "requiredApplication Attachments"
+  ],
+  "how_to_apply": "Mode: Online & OfflineStep 01: The eligible applicant may visit the e-Samaj Kalyan Portal: https://esamajkalyan.gujarat.gov.in/Step 02: On the home page, under the tab 'Citizen Login', click on New User 'Please Register Here'.Step 03: Enter your Full Name as per Aadhaar Card, Gender, Date of Birth, Aadhaar Card Number, Email ID, Caste etc. and then click on 'Register'.Step 04: After successful registration, the applicants can login through their User ID and Password.Step 05: Now, click on 'User Profile' to update your profile.Step 06: Fill in all the mandatory information and then click on 'Update'.Step 07: After updating the profile successfully, select the scheme appearing on the home page; an application form will open.Step 08: Fill in all the mandatory details in the application form and upload all the relevant documents.Step 09: Now agree with the terms & conditions and click on 'Save Application'.Step 10: Submit the application form and take out the print of the application for future reference. The applicant can note down the application number to track the application status by logging into the portal using their User ID and Password. User Manual",
+  "source_url": "https://esamajkalyan.gujarat.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

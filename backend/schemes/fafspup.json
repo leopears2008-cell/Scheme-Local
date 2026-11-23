@@ -1,0 +1,24 @@
+{
+  "scheme_id": "fafspup",
+  "name": "Financial Assistance to Former Sports Person of UP",
+  "category": "social_welfare",
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "department": "",
+  "benefit": "The following financial assistance will be provided under the scheme: State-level sports persons who have represented the official team of the state: ₹2,000/- per monthNational level sports persons who have represented the official national team: ₹3,000/- per monthInternational level sports persons who were members of the official national team and represented the country in the Olympics, Commonwealth, Asian games, and World Cup tournaments: ₹5,000/- per monthThe sports persons awarded with the Arjun award, Dronacharya award, and Khel Ratna award or the sports persons awarded with Padma Shree and Padma Bhushan based on their achievements in the sports field: ₹20,000/- per month",
+  "eligibility_rules": [
+    "The sportsperson should be a domicile of Uttar Pradesh. The sports persons who are old, weak, or facing hardships and whose monthly income from all sources is not more than ₹10,000/- are eligible to apply under the scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Identify proof Proof of age i.e. Birth certificateIncome certificateDomicile certificateDisability Certificate, if applicableDetails",
+    "of Sports competition/Championships of State, National & International importance covered by the applicant including profiles of Sports",
+    "persons (Supporting documents) Any other relevant documents, as required"
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: To avail of the benefit of this scheme, the applicant can download the application form from the official website of the Department of Sports, Government of Uttar Pradesh.Step 02: The applicant needs to fill out the application form completely.Step 03: The duly filled application form along with necessary supporting documents has to be submitted to the respective sports officer of the concerned district.",
+  "source_url": "https://www.myscheme.gov.in/schemes/fafspup",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

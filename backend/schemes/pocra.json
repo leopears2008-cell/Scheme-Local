@@ -1,0 +1,33 @@
+{
+  "scheme_id": "pocra",
+  "name": "Nanaji Deshmukh Krishi Sanjivani Prakalp",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Maharashtra",
+  "department": "",
+  "benefit": "1) Back ended financial subsidies for Farmers to adopt climate resilient agricultural initiatives in their farms\n• 2) Financial assistance available for protected cultivation techniques such as Poly House, Poly Tunnels, etc.\n• 3) Subsidy also available for on farm water conservation activities such as Drip, Sprinklers, Farm Pond, Farm Pond linings, etc.\n• 4) Climate Resilient seed production also covered\n• 5) Special assistance for Farmer Producing Organizations/companies and Self Help Groups\n• 6) Disbursement through Aadhaar enabled payment system\n• 7) Privilege given to women, person with disabilities and landless labourersEligibility\n• 1) Farmers producer companies under the project in the district, registered farmer groups/self-help groups in the project village.\n• 2) In the project, FPC's registered with a minimum of 100 members from the district will be eligible to avail benefits under the agribusiness components.\n• 3) For the project, any eligible group of interested/qualified farmers/women/landless individuals registered with any govt. department (e.g., ATMA, MAVIM, MSRLM etc.) selected in the village can apply for the Prime Minister's Farmer Scheme, based on the family's eligibility criteria (husband, wife, and dependent children over 18 years of age). The explanation of the family's composition from different families within the group, with a minimum of 11 members in each family, is necessary. The benefits of the agribusiness components should not be directed solely towards one family; attention should be paid to this aspect.\n• 4) The financial condition of applicant farmers' producer companies/registered farmers/self help groups is proposed to be capable enough to establish and operate agricultural input service centers/industries.\n• 5) The project mandates that loans sanctioned to farmers' producer companies/registered banks/financial institutions for projects exceeding Rs. 20.00 lakhs must be approved. The approved amount of the existing loan should be at least 1.25 times the minimum grant aid.\n• 6) The proposal of Rs. 20.00 lakhs will be funded through self-financing. In such proposals, assurance should be given that the required funds are available in the registered bank account of the group/company or will be raised from the members (include this decision in the company/group resolution). While providing financial assistance under the project, the expenditure incurred for the project from the bank account of the group/company will be considered eligible for reimbursement.\n• 7) If there's a loan involved, it's essential for the farmers' producer company and registered farmers/self help groups to enter into a tripartite agreement with the registered bank/financial institution and the relevant project management authority.",
+  "eligibility_rules": [
+    "and assets created and transfer the matching grants directly to the farmer's Aadhar linked bank account. Another module of this portal allows the farmers' collectives to receive matching grants for their value chain based agribusiness proposals.",
+    "Exclusions / Ineligibility:",
+    "Farmers with land holding more than 5.00 ha"
+  ],
+  "exclusions": [
+    "Farmers with land holding more than 5.00 ha"
+  ],
+  "documents_required": [
+    "Aadhaar Number",
+    "Land details - 8A & 7/12 extract",
+    "Cast certificate",
+    "(for applicants from SC ST communities)",
+    "Landless certificate (for landless farmers & labourers)",
+    "Death certificate of husband (for",
+    "Widows)",
+    "Divorce certificate (for divorcee female)"
+  ],
+  "how_to_apply": "Mode: Online Application Link: https://dbt.mahapocra.gov.inStep 01: RegistrationStep 02: ApplicationStep 03: Pre-sanction by Agriculture officerStep 04: Work completion by farmerStep 05: Payment request by farmerStep 06: Payment approval by the projectStep 07: Payment disbursement in Aadhaar linked bank account of the beneficiary farmer",
+  "source_url": "https://dbt.mahapocra.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,22 @@
+{
+  "scheme_id": "ipr",
+  "name": "Intellectual Property Right Scheme Under MSME Innovative Scheme",
+  "category": "employment_skill",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Micro, Small and Medium Enterprises",
+  "benefit": "A Grant of up to ₹ 1,00,00,000/- would be provided to an IPFC in milestone-based (three or more) instalments. Reimbursement for registration of Patent, Trademark, Geographical Indications (G.I.), and Design: The maximum financial assistance to the eligible applicants under the IPR component is as follows: S. No. ItemMaximum Financial Assistance\n• 1. Foreign Patent₹ 5,000,00/-2.Domestic Patent₹ 1,000,00/-3.GI Registration₹ 2,000,00/-4.Design Registration₹ 15,000/-",
+  "eligibility_rules": [
+    "The beneficiary unit(s) must typically be a registered micro, small or medium enterprises. Should have a valid Udyog Aadhaar Memorandum (UAM) or Udyam Registration certificate."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Udyog Aadhaar Memorandum (UAM) or Udyam Registration (UR) certificate. UAM Registered mobile number."
+  ],
+  "how_to_apply": "Mode: Online Registration Process:Step 01: After opening the website https://innovative.msme.gov.in/ , click on Intellectual Property Rights (IPR).Step 02: On the next window ,scroll down click on For registration as IPFC.Step 03: Fill all the required details and click on Submit.Step 04: Click on Validate.",
+  "source_url": "https://innovative.msme.gov.in/",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,26 @@
+{
+  "scheme_id": "sdas",
+  "name": "Scholarship For Differently Abled Students",
+  "category": "education",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "The scholarship is being provided to students whose disability percentage is 40% or above on the following basis: Sl. No. StandardDay ScholarsHostel StudentsReader's allowance1Students from Class 1 to Class 4₹300/- per month-₹200/- per month2Students from Class 5 to Class 10₹500/- per month- ₹200/- per month3+1, +2, IT Equivalent courses₹750/- per month₹1000/- per month₹300/- per month4Degree, Polytechnic, Equivalent training courses, (Implant training) ₹1000/- per month₹1500/- per month₹400/- per month5Professional, PG courses₹1000/- per month₹1500/- per month₹400/- per month",
+  "eligibility_rules": [
+    "The applicant should be a permanent resident of Kerala. The applicant should be a differently abled student. The differently abled student should have a disability of 40 % or more. Disability category of students (Blind / Deaf / Orthopedically handicapped/ Mental Retardation).The differently abled students studying in Schools, Colleges and attending Professional, PG courses and technical training are eligible to apply under the scheme. Students with disabilities who have secured at least 40% marks in the previous year can apply under the scheme. The annual family income of the applicant should be below ₹36,000/-."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Identity card",
+    "i.e. Aadhaar CardMobile numberEmail idPassport size photoDisability certificate from Medical board/Disability Identity",
+    "cardEducational CertificatesIncome CertificateCertificate from Head of InstitutionCopy of Parent's Identity DocumentBank",
+    "details",
+    "Copy of Pass BookOther documents, if any"
+  ],
+  "how_to_apply": "Mode: Online & Offline Registration Process:Step 01: To avail of the benefits of the scheme, the applicant needs to visit SUNEETHI- Online Service Application PortalStep 02: On the home page, click on \"One time Registration\"Step 03: Fill in the details like Name, Email ID & Mobile Number and click on 'Register'.Step 04: The applicant needs to enter the verification code received on the mobile number and click on 'Verify'.Step 05: Now, a form will open to create the new profile, fill in all the mandatory details and click on 'Register'.Login/Application Process:Step 01: Once the registration process is completed, the applicant should visit SUNEETHI- Online Service Application Portal and click on \"Citizen Login\".Step 02: Enter the user name i.e. Mobile Number and Password and click on \"Sign in\".Step 03: Now, the applicant needs to update all their details i.e. Personal Information, Contact Details, Identity Cards & Bank Details by clicking on the 'Edit' button.Step 04: Once the applicant updated their profile successfully, the schemes will appear on the left side of the screen.Step 05: Select the scheme and click on the \"Apply Now\" button.Step 06: Fill in all the mandatory details in the application form and click on the 'Submit' button. Note 01: The applications must be submitted after the commencement of the Academic year (within 3 months).Note 02: The application form must be filled in completely, incomplete as well as late applications will be rejected.",
+  "source_url": "https://suneethi.sjd.kerala.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

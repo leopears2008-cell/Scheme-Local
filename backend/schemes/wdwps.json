@@ -1,0 +1,26 @@
+{
+  "scheme_id": "wdwps",
+  "name": "Widow / Destitute Women Pension Scheme - Punjab",
+  "category": "women_child",
+  "level": "state",
+  "state": "Punjab",
+  "department": "",
+  "benefit": "Amount : ₹ 1,500/- per month",
+  "eligibility_rules": [
+    "Beneficiary should be a Permanent Resident of Punjab .The Annual Income of Beneficiary should not be more than Rs. 60,000/-per year .The below mentioned women are eligible for monthly pension :-Widow Women. Destitute Women. Unmarried Women. The Age of the beneficiary should be :- Widow or Destitute Women: Below 58 Years. Unmarried Women: Above 30 Years."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Judgement of",
+    "court or panchayat / Divorce Deed Only In case applied by Divorced Destitute Women. Date of Birth Proof of Widow/Destitute Women",
+    "(Voter Card / Voter List / Matriculation certificate / Certificate from Registrar Birth & Death / Aadhaar Card) First page of",
+    "Passbook. Copy of UDID Card/ Disability Certificate and Self Declaration. Death Certificate of Husband. Self",
+    "Declaration."
+  ],
+  "how_to_apply": "Mode: Online & Offline Step-1: Applicants have to visit the official website. Step-2: Click on the \"Click to apply services\".Step-3: Now login on Digital Punjab portal with Email/Phone number and password. If does have any account then register hereStep-4: Fill out the application form. Step-5: Attach the required documentsStep-6: Submit.",
+  "source_url": "https://punjab.gov.in/wp-content/uploads/2023/08/Widow-Destitute-pension-1.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

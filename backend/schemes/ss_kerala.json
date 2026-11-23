@@ -1,0 +1,32 @@
+{
+  "scheme_id": "ss_kerala",
+  "name": "Snehapoorvam Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "Sl. No. Class/Degree/CourseAmount of Assistance1Children below 5 years and Class I to V₹300/- per month2Class VI to Class X ₹500/- per month3Class XI and Class XII₹750/- per month4Degree Courses / Professional Degree₹1000/- per month",
+  "eligibility_rules": [
+    "The applicant should be a resident of Kerala State. The child who has lost either father or mother or both. The applicant should belong to Below Poverty Line (BPL) category. The students from the first standard to degree classes are eligible to apply under the scheme. For children belonging to Above Poverty Line (APL) category, annual income should be below ₹ 20,000 in rural areas (Local body/Grama Panchayat) and ₹22,375 in urban areas (Corporation/ Municipality).Note: Candidate children below 5 years of age can be directly eligible."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Proof of Identity of the child",
+    "Passport",
+    "size photograph",
+    "Income",
+    "certificate",
+    "Copy of BPL card (if applicable)",
+    "Copy of Ration card (if applicable)",
+    "Residence proof",
+    "An attested copy of the Death",
+    "Certificate of one or both parents",
+    "Bank Passbook/Bank account details"
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: To avail of the benefits of the scheme, the application form duly filled and necessary documents should be submitted to the head of Aided/Govt. institutions (Schools and Colleges) before 31st October of every year.Step 02: The head of the institution will verify and submit the application through the online portal to Executive Director, Kerala Social Security Mission. Note: Children below 5 years can directly apply to Executive Director, Kerala Social Security Mission through the respective child welfare committees.",
+  "source_url": "https://socialsecuritymission.gov.in/appln_info.php",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,27 @@
+{
+  "scheme_id": "dbsapbandocwwb",
+  "name": "Death Benefit Scheme (APB&OCWWB)",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "department": "",
+  "benefit": "Cash assistance of ₹50,000/- provided to the nominee of the registered worker, in case of normal death. Cash assistance of ₹1,00,000/- provided to the nominee of the registered worker, only in case of accidental death.",
+  "eligibility_rules": [
+    "The applicant should be a permanent resident of Arunachal Pradesh.",
+    "The applicant should be a family member of a deceased worker who was employed in the Building and Other Construction works.",
+    "The deceased worker should be registered with Labour Welfare Board (APB&OCWWB).",
+    "The deceased worker should have an active membership at the time of death.",
+    "The name of the nominee/ dependent should be recorded on his/her registration card before death."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Identity proof i.e. Aadhaar Card, Voter ID card, etc. Xerox copy as well as original copy of registration card of the workerDeath",
+    "CertificateBank Account number/ front page of the passbookPassport size photographsAddress proof"
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: For taking benefit of this scheme, the applicant needs to visit the nearest registered office of the District/Sub-Division, APB&OCWWB along with all the relevant documents.Step 02: Application in the prescribed format may be received from the concerned officeStep 03: The applicant needs to fill the application form completely and attach all the relevant documents. Thereafter, the applicant may submit the application form to the concerned office.Step 04: After successful verification, the applicant can avail the benefit of the scheme.",
+  "source_url": "https://www.myscheme.gov.in/schemes/dbsapbandocwwb",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

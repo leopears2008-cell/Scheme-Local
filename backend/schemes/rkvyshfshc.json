@@ -1,0 +1,23 @@
+{
+  "scheme_id": "rkvyshfshc",
+  "name": "RKVY Soil Health and Fertility - Soil Health Card",
+  "category": "agriculture",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Agriculture and Farmers Welfare",
+  "benefit": "The scheme targets to provide following benefits: 1) Provide free / affordable access to soil test\n• 2) Provide farmers with timely and accurate soil analysis results\n• 3) Facilitate customized soil nutrient recommendations based on test results\n• 4) Enable farmers to optimize their fertiliser use and minimise input costs, and hence avoid under- or over- application of fertiliser",
+  "eligibility_rules": [
+    "The scheme is applicable for all farmers in India."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "The documents may vary for each state. It is recommended to consult with the relevant authorities for detailed",
+    "information."
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: Farmer approaches a District Agriculture Officer / Block Agriculture Officer for soil testing and generation of a SHC.Step 02: The concerned officer shall initiate the process for the concerned farmer wherein they assess whether the applicant's district / village falls under State Annual Action Plan for generation of SHC.Step 03: Agent visits the farmer and collects farmer details, land details and geo-tags the land through mobile app and takes a sample of the soil for testingStep 04: The soil is tested on set parameters and a Soil Health report is generated for the farmer's landStep 05: The report contains results as well as recommendations on suitable crops for the soil type, and the quantity and type of fertiliser to be used.",
+  "source_url": "https://www.myscheme.gov.in/schemes/rkvyshfshc",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

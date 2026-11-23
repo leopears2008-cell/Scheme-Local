@@ -1,0 +1,23 @@
+{
+  "scheme_id": "bhsstg",
+  "name": "Boarding House Stipend Scheme (Tripura Govt.)",
+  "category": "education",
+  "level": "state",
+  "state": "Tripura",
+  "department": "",
+  "benefit": "Boarding House Stipend @ Rs. 65/- per day per student (including LPG subsidy, sweeping, cleaning Rs.1/- per day per student) is provided for 322 days (10 months) in an academic year to the students from Class-I to Class-XII who are given accommodation in Govt. run hostel and approved NGO run Boarding Houses. Types of Hostels under the Tribal Welfare Department: 1. State Govt. run ST Hostels: 161 (Boys: 100 & Girls: 61)\n• 2. TTAADC run ST Hostels: 4\n• 33. TTWREIS run ST Hostels: 8\n• 4. NGO-run ST Hostels: 143",
+  "eligibility_rules": [
+    "ST boarders studying in Class 1st to 12th whose residence is beyond 3km from the school."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Caste certificateRation",
+    "NumberAadhaar NumberParent's Mobile NumberSchool admission Document / School ID CardIncome Certificate."
+  ],
+  "how_to_apply": "Mode: Offline The concerned DM/SDM will collect the list of students from the Govt. run hostel and approved NGO-run Boarding Houses and send the list to the Directorate of Tribal Welfare.",
+  "source_url": "https://www.myscheme.gov.in/schemes/bhsstg",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

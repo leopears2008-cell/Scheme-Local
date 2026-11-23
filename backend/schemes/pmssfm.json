@@ -1,0 +1,23 @@
+{
+  "scheme_id": "pmssfm",
+  "name": "Pre-Matric Scholarship Scheme For Minority-Uttarakhand",
+  "category": "education",
+  "level": "state",
+  "state": "Uttarakhand",
+  "department": "",
+  "benefit": "Class 1 to 5 Students: Rs. 50/- per month for 12 months (maximum).Class 6 to 8 Students: Rs. 80/- per month for 12 months (maximum).Class 9 to 10 Students: Rs. 120/- per month for 12 months (maximum).",
+  "eligibility_rules": [
+    "Students must be residents of Uttarakhand. This scholarship is payable only to the followers of Muslim, Sikh, Christian, Buddhist, Parsi and Jainism. The annual income of the parents of the students should not exceed Rs. 1,00,000/- ( 1 Lakh).It is mandatory for the students to pass the previous class. If the student is getting any other scholarship in the current academic session, he will not be eligible for this scholarship. Only the students of government, council and recognized schools/madrassas will be eligible for scholarships. Students possessing the above qualification will submit the application through the Principal/Principal of the concerned school within the prescribed online process and send it to the District Minority/ District Social Welfare Office. Certificate in relation to the income of eligible students for the state-funded Minority Purva Dasham Scholarship, issued by the competent authority authorized by the State Government, will be valid, like the scholarship schemes of the Government of India. It is mandatory for the students to have their own account or their guardian's account in CBS branch which is seeded with an Aadhaar number as far as possible. Therefore, the scholarship will not be paid in case the account number and IFSC code are wrong."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Scanned copy for Bank",
+    "Passbook. Identification Card. Income Certificate. Student Photograph. Minority Certificate."
+  ],
+  "how_to_apply": "Mode: Online Visit the official National Scholarship Portal. Students must register first. So for registration click on New Registration\".If already register then start the application process by clicking on \"login\". Fill out the application form and Provide the required details ( Registration Details, Academic Details and Basic Details) Upload the required documents.",
+  "source_url": "https://scholarships.gov.in/#Who",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

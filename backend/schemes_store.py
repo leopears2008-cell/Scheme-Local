@@ -15,6 +15,7 @@ from config import FACTSHEET_DIR
 log = logging.getLogger("schemes")
 _lock = threading.Lock()
 SCHEMES: dict[str, dict] = {}
+LOAD_ERROR: str | None = None
 _listeners: list = []   # callables run after the scheme set changes (avoids circular imports)
 
 
@@ -103,16 +104,29 @@ def row_to_scheme(r: dict) -> dict:  # handles Supabase rows and local JSON rows
     s = dict(r.get("extra") or {})
     st = effective_status(r)
     s.update({
-        "scheme_id": r["scheme_id"], "name": r["official_name"], "name_local": r.get("name_local") or {},
-        "level": r["government_level"], "state": r.get("state", ""), "department": r.get("department", ""),
-        "category": r.get("category", "other"), "eligibility_rules": r.get("official_eligibility") or [],
-        "benefit": r.get("official_benefits", ""), "documents_required": r.get("documents") or [],
-        "how_to_apply": r.get("how_to_apply", ""), "source_url": r.get("official_source_url") or "",
-        "application_url": r.get("application_url"), "source_type": r.get("source_type"),
-        "verification": st, "verification_status": st, "stored_status": r.get("verification_status"),
-        "verified_at": r.get("verified_at"), "review_expires_at": r.get("review_expires_at"),
-        "reviewer_label": r.get("reviewer_label"), "review_note": r.get("review_note"),
-        "origin": r.get("origin", "seed"), "version": r.get("version", 1),
+        "scheme_id": r.get("scheme_id", ""),
+        "name": r.get("official_name") or r.get("name") or "",
+        "name_local": r.get("name_local") or {},
+        "level": r.get("government_level") or r.get("level") or "central",
+        "state": r.get("state", "") or "",
+        "department": r.get("department", "") or "",
+        "category": r.get("category", "other") or "other",
+        "eligibility_rules": r.get("official_eligibility") or r.get("eligibility_rules") or [],
+        "benefit": r.get("official_benefits") or r.get("benefit") or "",
+        "documents_required": r.get("documents") or r.get("documents_required") or [],
+        "how_to_apply": r.get("how_to_apply", "") or "",
+        "source_url": r.get("official_source_url") or r.get("source_url") or "",
+        "application_url": r.get("application_url"),
+        "source_type": r.get("source_type"),
+        "verification": st,
+        "verification_status": st,
+        "stored_status": r.get("verification_status"),
+        "verified_at": r.get("verified_at"),
+        "review_expires_at": r.get("review_expires_at"),
+        "reviewer_label": r.get("reviewer_label"),
+        "review_note": r.get("review_note"),
+        "origin": r.get("origin", "seed"),
+        "version": r.get("version", 1),
     })
     s["source_official"] = is_official_host(s.get("source_url"))
     if not s["source_official"]:
@@ -131,26 +145,37 @@ def _load_json_rows() -> list[dict]:
 
 
 def load_all() -> dict[str, dict]:
+    global LOAD_ERROR
     from repo import repo, MemoryRepo
     rows = []
+    db_err = None
     try:
         rows = repo().schemes_all()
-    except Exception as e:  # DB down at boot: keep whatever we already have
-        log.error("scheme load failed: %s", type(e).__name__)
+    except Exception as e:
+        db_err = f"{type(e).__name__}: {e}"
+        log.error("scheme load failed: %s", db_err)
         if SCHEMES:
             return SCHEMES
+
     if not rows and (config.ENV != "production" or isinstance(repo(), MemoryRepo)):
         rows = _load_json_rows()                 # local dev only
         if isinstance(repo(), MemoryRepo):
             repo().scheme_upsert_many(rows)
+        LOAD_ERROR = None
     elif not rows and config.ALLOW_JSON_FALLBACK:
         rows = _load_json_rows()                 # explicitly allowed for a demo before seeding
         log.warning("ALLOW_JSON_FALLBACK is on: serving %d bundled records, not the database. Seed Supabase for real use.", len(rows))
+        LOAD_ERROR = None
     elif not rows:
-        log.error("schemes table is empty - run `python tools/seed_supabase.py`")
+        reason = f"database query failed ({db_err})" if db_err else "database table is empty"
+        LOAD_ERROR = f"Failed to load schemes: {reason}."
+        log.error("schemes table is empty or inaccessible (%s) - run `python tools/seed_supabase.py`", reason)
+    else:
+        LOAD_ERROR = None
+
     with _lock:
         SCHEMES.clear()
-        SCHEMES.update({r["scheme_id"]: row_to_scheme(r) for r in rows})
+        SCHEMES.update({r["scheme_id"]: row_to_scheme(r) for r in rows if r.get("scheme_id")})
     _notify()
     return SCHEMES
 

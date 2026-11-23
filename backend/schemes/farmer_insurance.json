@@ -1,0 +1,23 @@
+{
+  "scheme_id": "farmer_insurance",
+  "name": "Rs 5 Lakh Insurance Cover To Farmers",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Telangana",
+  "department": "",
+  "benefit": "All the farmers in Telangana, who are aged between 18 and 60years, will get 5 lakh insurance coverage from 15 August 2018",
+  "eligibility_rules": [
+    "All the farmers in Telangana, who are aged between 18 and 60years"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Valid Identity proof likeAdhaar card. Ration card. Voter ID card. Address proof. Medical",
+    "reports. Domicile certificate."
+  ],
+  "how_to_apply": "Mode: Offline If a farmer dies, The farmers successor/nominee need to go to LIC office along with legal death certificate of his/her to get the insurance coverage of 5 lakh within 10 days of the death.",
+  "source_url": "https://www.myscheme.gov.in/schemes/farmer-insurance",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

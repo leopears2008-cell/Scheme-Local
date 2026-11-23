@@ -12,7 +12,7 @@ const API_BASE = (import.meta.env.VITE_API_URL as string) || "http://localhost:8
 type Lang = "ta" | "en" | "hi";
 type Props = {
   onApply: (schemeId?: string) => void;
-  onFind: () => void;
+  onFind: (query?: string) => void;
   onCheck: () => void;
   onSupport: () => void;
   onBack: () => void;
@@ -301,7 +301,7 @@ export default function SahayakHome({ onApply, onFind, onCheck, onSupport, onBac
             />
           </form>
           <nav className="sh-nav" aria-label="Main">
-            <button onClick={onFind}>
+            <button onClick={() => onFind(hq.trim() || undefined)}>
               <Home size={22} aria-hidden />
               <span>{t.n1}</span>
             </button>
@@ -407,17 +407,26 @@ export default function SahayakHome({ onApply, onFind, onCheck, onSupport, onBac
             </h2>
             <i />
             {searchHeader ? (
-              <button
-                className="sh-va"
-                onClick={() => {
-                  setLiveSchemes(DEFAULT_FEATURED);
-                  setSearchHeader("");
-                }}
-              >
-                {lang === "ta" ? "சிறப்பு திட்டங்கள்" : "Show Featured"}
-              </button>
+              <div style={{ display: "flex", gap: "8px", flexWrap: "wrap" }}>
+                <button
+                  className="sh-va"
+                  onClick={() => onFind(hq.trim() || q.trim() || undefined)}
+                >
+                  {lang === "ta" ? "அனைத்தையும் காண்க" : "View All in Find"}
+                  <ArrowRight size={18} aria-hidden />
+                </button>
+                <button
+                  className="sh-va"
+                  onClick={() => {
+                    setLiveSchemes(DEFAULT_FEATURED);
+                    setSearchHeader("");
+                  }}
+                >
+                  {lang === "ta" ? "சிறப்பு திட்டங்கள்" : "Show Featured"}
+                </button>
+              </div>
             ) : (
-              <button className="sh-va" onClick={onFind}>
+              <button className="sh-va" onClick={() => onFind()}>
                 {t.all}
                 <ArrowRight size={18} aria-hidden />
               </button>
@@ -530,16 +539,14 @@ export default function SahayakHome({ onApply, onFind, onCheck, onSupport, onBac
           </div>
 
           <div className="sh-chips">
-            {[Mic, Search, CheckCircle, Send].map((Ic, i) => (
+            {t.c.map((chipText) => (
               <button
-                key={i}
+                key={chipText}
                 lang={lang}
-                onClick={() =>
-                  i === 0 ? speak() : i === 2 ? onCheck() : i === 3 ? onApply() : ask(t.c[i])
-                }
+                onClick={() => ask(chipText)}
               >
-                <Ic size={16} aria-hidden />
-                {t.c[i]}
+                <Search size={16} aria-hidden />
+                {chipText}
               </button>
             ))}
           </div>

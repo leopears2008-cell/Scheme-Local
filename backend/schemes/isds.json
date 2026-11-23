@@ -1,0 +1,34 @@
+{
+  "scheme_id": "isds",
+  "name": "Integrated Sheep Development Scheme",
+  "category": "women_child",
+  "level": "state",
+  "state": "Jammu and Kashmir",
+  "department": "",
+  "benefit": "Mode-wise Pattern of AssistanceParticipatory\nMode: Selected beneficiaries shall be provided 10 ewes free of cost and from 3rd year onwards 2 ewes/does shall be retrieved for the next 5 years. Subsidy Mode: Selected beneficiaries shall be entitled to a 50% subsidy for the establishment of sheep/goat units of 20-200 ewes/does. Shearing Units: Selected beneficiaries shall be entitled to a 50 % subsidy for the purchase of a shearing unit consisting of a shearing machine, Genset & shearing spares. Component-wise Pattern of AssistanceComponent: Establishment of Sheep/Goat unit on participatory mode comprising 25 ewes/does. Pattern of Assistance:> Livestock is supplied free of cost.> Retrieval of equivalent livestock from female progeny in a phased manner from 3rd year.> Cost of 25 ewes/does @ Rs 8,000 each (including insurance premium for the first year) @ Rs 2,00,000.> Display board 3'x2' & misc expenditure @5,000.> Total = Rs 2,05,000Component: Establishment of Sheep/Goat units (25 Sheep/goat per unit) Pattern of Assistance: 50% of the unit cost as total eligible subsidy with a ceiling of ₹ 1,00,000 whichever is less per unit (25 sheep/goat) and a maximum subsidy ceiling of ₹ 8,00,000 for 8 Sheep/Goat units (each unit comprising 25 sheep/goats) Component: Procurement of Shearing units (Comprising of one shearing machine, one genset & shearing accessories/spares) Pattern of Assistance: 50% of the unit cost as a total eligible subsidy with a ceiling of Rs 75,000/unit whichever is less.",
+  "eligibility_rules": [
+    "Component: Establishment of Sheep/Goat unit on participatory mode comprising 25 ewes/does. Eligibility of Beneficiary: Any Individual / Group of Individuals / Self Help Group / Cooperative Society / Farmers Producer Organization. Component: Establishment of Sheep/Goat units (25 Sheep/goat per unit) Eligibility of Beneficiary: Any Individual / Group of Individuals / Self Help Group / Cooperative Society / Farmers Producer Organization. Component: Procurement of Shearing units (Comprising of one shearing machine, one genset & shearing accessories/spares) Eligibility of Beneficiary: Any individual (trained in MSS or intending to undergo training in MSS)"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Proof of Identity (Voters ID Card / Passport / Driving Licence / PAN Card / Aadhaar Card) Proof of",
+    "Address (Recent Electricity Bill / Voters ID Card / Passport / Aadhaar Card / Ration card) Income ProofCopy of Land Record Holding",
+    "(Revenue Department) Photograph of the Livestock Shed (attested by PRI Member) Category Certificate (SC/ST/OBC/BPL/AAY/EWS)",
+    "(if applicable) Copy of Bank PassbookApplication Form for the Establishment of 10 EWE/DOE Units under Participatory Mode",
+    "(Annexure",
+    "B) Declaration by the Farmer (Annexure",
+    "C) Affidavit (to be attested by 1st Class Magistrate) (Annexure",
+    "D) Plan of Retrieval",
+    "(Annexure",
+    "E) Application Form for the Establishment of 20",
+    "EWE/DOE Units under Subsidy Mode (Annexure",
+    "F) Application Form",
+    "for the Establishment of Shearing Units (Annexure"
+  ],
+  "how_to_apply": "Mode: Offline Interested beneficiaries shall submit their applications in the format \"Annexure B\" to their respective District Sheep Husbandry Officer (DSHO) along with a self-attested copy of the required documents.",
+  "source_url": "https://www.myscheme.gov.in/schemes/isds",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

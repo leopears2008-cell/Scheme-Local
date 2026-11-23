@@ -1,0 +1,23 @@
+{
+  "scheme_id": "vky",
+  "name": "Vanbandhu Kalyan Yojana",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Gujarat",
+  "department": "",
+  "benefit": "Double the income of all tribal families, with a special focus on the migrant families and the Particularly Vulnerable Tribal GroupsIncreas in animal husbandry and dairy based activitiesAccess to quality education for every eligible tribal child and increased emphasis on higher education. Double the income of all tribal families including migrant tribal families and Particularly Vulnerable Tribal GroupsSupport the socio-economic development of all tribal families by providing access to necessary amenities for a healthy living. Provide a house to each tribal family, including those from Particularly Venerable Tribal Groups,provide access to safe drinking water to all tribal familiesAssured income from agriculture to all tribal farmers Ensure universal electrification for all Scheduled Tribe households and villages for improved quality of life and economic development. Promote wealth creation in tribal areas and improve the quality of life of all tribal families. Develop tribal towns as growth engines to augment the income of tribal families.",
+  "eligibility_rules": [
+    "Beneficiary must be from Tribal Category. Must belong to BPL group."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Tribal",
+    "Category documentBPL certificateLand related document in case of availing benefit. Aadhar Card"
+  ],
+  "how_to_apply": "Mode: Offline The citizen need not apply to the scheme.",
+  "source_url": "https://www.myscheme.gov.in/schemes/vky",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

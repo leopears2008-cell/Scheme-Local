@@ -1,0 +1,27 @@
+{
+  "scheme_id": "mnsasy",
+  "name": "Mukhyamantri Nirman Shramik Awas Sahayata Yojana",
+  "category": "housing",
+  "level": "state",
+  "state": "Chhattisgarh",
+  "department": "",
+  "benefit": "Registered construction workers can receive a subsidy of up to ₹ 50,000 for interest payments on loans taken from a financial institution or bank for house construction or purchase.",
+  "eligibility_rules": [
+    "Registered construction workers with continuous live registration for at least three years. No existing residence in Chhattisgarh in the worker's or family members' names. Only one beneficiary per household can receive subsidy. Maximum land area: 500 sq ft in urban areas, 1000 sq ft in rural areas. Housing construction on government-leased land is permissible. Selected property should not be under any dispute..Land diversion/building permit from the concerned Chhattisgarh government department is required if the worker owns land or is purchasing a new house."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Employer's certificate verifying at least 90 days of construction work within the year before application. Housing loan sanction",
+    "letter from the financial institution/bank. Interest calculation sheet from the loan provider financial institution/bank. Original scanned",
+    "copy of land ownership documents (Khasra, map, B",
+    "forest, or government lease).Original scanned copy of Aadhar card linked to the",
+    "mobile number. Original scanned copy of self",
+    "declaration form by the beneficiary."
+  ],
+  "how_to_apply": "Mode: Online All the applicant have to visit the official website Chhattisgarh Labour Department. On the home page click on \"Apply\" under \"Chhattisgarh Building and Other Construction Workers Welfare Board\".Enter the following detailsSelect Group Name : \"Bhavan Evan Koi Sannirmaan\"Select Service : \"Yojana\"What do you want to do : \"Aavedan\"Click next. Select your district name and provide old/new registration number and click next. Select the scheme name. Fill out the online with required details. Submit.",
+  "source_url": "https://cglabour.nic.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

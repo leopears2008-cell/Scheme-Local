@@ -1,0 +1,38 @@
+{
+  "scheme_id": "intss",
+  "name": "Internet Subsidy Scheme",
+  "category": "food",
+  "level": "state",
+  "state": "Goa",
+  "department": "",
+  "benefit": "25% reimbursement on high-speed bandwidth, subject to a maximum of ₹ 5,00,000 per annum whichever is lower. The subsidy can be availed for a period of three years from the date of commencement of operations or from the date of notification of this policy whichever is later. NOTE 1: The benefits under this scheme are subject to budgetary allocation. No Promissory Estoppel shall be applicable if benefits are discontinued in case the allocation is exceeded. NOTE 2: Units will be subject to evaluation at the end of each Fiscal Year to verify",
+  "eligibility_rules": [
+    "to continue receiving benefits under this scheme. Eligibility",
+    "All the new and existing units must have their operations in Goa.",
+    "The applicant must be one of the below: Proprietorship FirmPrivate Limited Company incorporated under the Companies Act, 2013 (or equivalent) Public Limited Company incorporated under the Companies Act, 2013 (or equivalent) Registered Partnership Firm incorporated under the Indian Partnership Act, 1932 (or equivalent) Limited Liability Partnership incorporated under the Limited Liability Partnership Act, 2008 (or equivalent)",
+    "The bank accounts of the unit and/or its partner(s)/director(s) should be linked to Aadhaar.",
+    "Exclusions / Ineligibility:",
+    "The units availing similar financial incentives under any other policy of the Government of Goa are not eligible for availing benefits under this scheme."
+  ],
+  "exclusions": [
+    "The units availing similar financial incentives under any other policy of the Government of Goa are not eligible for availing benefits under this scheme."
+  ],
+  "documents_required": [
+    "Copy of",
+    "Incorporation Certificate",
+    "Copy of new unit registration document/certificate",
+    "Copies of PAN, Aadhaar and GST TIN4. Memorandum",
+    "and Articles of Association",
+    "Copy of first bill generated showing the date of commencement of operations or other relevant document",
+    "Copies of internet bills for the period for which the incentive is being claimed. Bills should clearly show the name and address of the",
+    "unit",
+    "Proof of payment of the bills",
+    "Udyog Aadhaar."
+  ],
+  "how_to_apply": "Mode: OnlineStep 1: Visit the Official Web Portal of Goa Online. At the top right corner, click \"Register\".Step 2: On the next page, verify your Email ID and Mobile Number using OTP. You will be redirected to the Registration Page.Step 3: On the Registration Page, fill in all the mandatory fields of the registration form. Create a Login Name and a strong Password. Carefully read the Declaration and the Terms & Conditions, and tick the checkboxes. Fill in the Captcha Code, and click \"Register/Signup\".Step 4: Login to the website using your Login Name and Password. Fill in the Captcha Code, and click \"Login\".Step 5: In the top ribbon, click on \"Services\", then click on \"IT Services\". Click on the name of the scheme. You will be taken to the application form for the scheme. Fill in all the mandatory fields and upload all the mandatory documents.Step 6: Submit the application. A unique registration number will be generated. Note this number for future reference. NOTE:\nThe applicant can apply for this scheme on a quarterly/bi-annually/annual basis after incurring the relevant expenditure. Disbursement TimelineIncentive Application Receipt: DApplication scrutiny as per checklist: D+30daysApplication approval by the Empowered Committee: D+60 daysIssue of Regret Letter/Sanction Orders and Disbursement: D+90 days",
+  "source_url": "https://www.myscheme.gov.in/schemes/intss",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

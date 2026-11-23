@@ -1,0 +1,30 @@
+{
+  "scheme_id": "aniadws",
+  "name": "The Andaman & Nicobar Islands Allowance to Destitute Women Scheme",
+  "category": "women_child",
+  "level": "state",
+  "state": "Andaman and Nicobar Islands",
+  "department": "",
+  "benefit": "The quantum of Allowance to Destitute Women shall be ₹2500/- per month subject to",
+  "eligibility_rules": [
+    "Payment of allowance shall be made through Bank Account on a monthly basis. EligibilityThe applicant should be a permanent resident of the Union Territory of Andaman and Nicobar Islands or have resided in the Union Territory of Andaman and Nicobar Islands for more than 10 years at the time of making the application. The applicant should be a poor and destitute woman. The household income of the applicant does not exceed ₹4000/- per month. The applicant should not be availing of any kind of assistance or pension from the government."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Passport",
+    "size photograph",
+    "Identity proof i.e. Aadhaar Card",
+    "Local certificate/ domicile certificate",
+    "Category/community certificate, if applicable",
+    "Bank account details/Copy of passbook",
+    "Proof of income issued by the competent",
+    "authority",
+    "Any other document as required"
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: The application form shall be available free of cost at the Directorate of Social Welfare, Port Blair and the sub-divisional offices of Child Development Project Officers (CDPOs). Also, the application form can be downloaded from the official website.Step 02: The completely filled application form along with all the relevant documents shall be submitted in the offices of the concerned Child Development Project Officer. Note 01: The beneficiary shall be required to inform the Director of Social Welfare about the change of address/employment status immediately i.e. within 15 days, if any. Note 02: In case of failure to inform within 15 days the Director of Social Welfare, shall after due enquiry recover the allowance paid through the Revenue Authorities as arrears of land revenue.",
+  "source_url": "https://www.myscheme.gov.in/schemes/aniadws",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

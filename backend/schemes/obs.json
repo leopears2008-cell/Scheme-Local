@@ -1,0 +1,26 @@
+{
+  "scheme_id": "obs",
+  "name": "Toposili Bandhu (Old Age Pension) Scheme",
+  "category": "social_welfare",
+  "level": "state",
+  "state": "West Bengal",
+  "department": "",
+  "benefit": "Pension : ₹1,000/- per month.",
+  "eligibility_rules": [
+    "The applicant should be a permanent resident of West Bengal. The applicant should belong to the Scheduled Caste (SC) category. The applicant should have attained the age of 60 years or more. The applicant should not be a beneficiary under any other Social Security pension scheme. The applicant should not be a recipient of Government pension or pension from any other organization."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Passport Size Photograph. Formal Caste or Tribe Certificate: If unavailable, a Caste/Tribe certificate of any",
+    "paternal relative is acceptable for the initial assessment. However, the applicant must procure their caste certificate later and submit the",
+    "same subsequently. Digital Ration Card. EPIC (Elector's Photo Identity Card)/Voter Card. Self",
+    "Attested Residential Certificate/Address",
+    "Proof. Copy of Bank Passbook. Aadhaar Card."
+  ],
+  "how_to_apply": "Mode: Offline The interested applicant should request the prescribed format of the application form free of cost from the office of Block Development Officer (BDO) / Sub Divisional Officer (SDO) / Kolkata Municipal Corporation. In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across, if required), and attach copies of all the mandatory documents (self-attest, if required).Submit the duly filled and signed application form along with the documents to the concerned authority at: Office of the BDO in rural areas. Office of the SDO in Municipalities and notified areasCommissioner Kolkata Municipal Corporation in KMC areas.",
+  "source_url": "https://www.myscheme.gov.in/schemes/obs",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

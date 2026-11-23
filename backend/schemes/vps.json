@@ -1,0 +1,35 @@
+{
+  "scheme_id": "vps",
+  "name": "Viswakarma Pension Scheme",
+  "category": "social_welfare",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "The monthly pension amount of ₹1100/- will be given to the persons belonging to the traditional Viswakarma Communities.",
+  "eligibility_rules": [
+    "The applicant should be a permanent resident of the Kerala State.",
+    "The applicant should belong to the traditional Viswakarma Community of Kerala State.",
+    "The age of the applicant should be more than 60 years.",
+    "The annual family income of the applicant should be ₹1,00,000/-."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Copy of the Identity proof",
+    "Proof of age",
+    "Photo of the applicant",
+    "Copy of the ration card",
+    "Caste Certificate",
+    "Income Certificate",
+    "Residence proof",
+    "Physical",
+    "Disability Certificate, if applicable",
+    "Copy of Bank Passbook",
+    "Any other document, if required"
+  ],
+  "how_to_apply": "Mode: Online & OfflineStep 01: The applicant should visit the Official Website of the Backward Classes Development Department, Government of Kerala, and download the application form.Step 02: Fill out the application form completely and send it along with all the relevant documents to the following addresses: Director, Backward Classes Development DepartmentAyyankali Bhavan, 4th Floor, KanakanagarVellayambalam, KawdiarP.O, Thiruvananthapuram- 695003, Kerala",
+  "source_url": "https://bcdd.kerala.gov.in/wp-content/uploads/2021/07/Viswakarma-Pension-Application-Form-2.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

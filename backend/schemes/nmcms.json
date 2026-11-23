@@ -1,0 +1,24 @@
+{
+  "scheme_id": "nmcms",
+  "name": "National Merit Cum Means Scholarship",
+  "category": "education",
+  "level": "state",
+  "state": "Mizoram",
+  "department": "",
+  "benefit": "Scholarship of Rs. 12000/- per annum (Rs.1000/- per month) per student is awarded by the Ministry of Human Resource Development to selected students every year for study in classes from IX to XII Students studying in recognized Govt / Govt Aided/Local Body/Corporate School",
+  "eligibility_rules": [
+    "The students shall have a minimum of 55 % marks or an equivalent grade in the Class VII examination for appearing in the selection test for the award of scholarship (relaxable by 5% for SC/ST students). The students should be studying as regular students in Government, Government-aided, and local body schools. Scholastic Aptitude Test may consist of 90 multiple-choice questions covering subjects namely, science, social studies, and mathematics as taught in classes VII and VIII"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar Card. Bank Account (self",
+    "account). Income certificate issued by competent authority (up to date).Previous year",
+    "examination mark sheet. Permanent Residential Certificate (up to date)"
+  ],
+  "how_to_apply": "Mode: OnlineStep 01: Normally application is open from July- September online in National Scholarship Portal in https://scholarships.gov.in/Step 02: Printout of online application along with documents mentioned above mustbe submitted to the School for verification online.",
+  "source_url": "https://scholarships.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

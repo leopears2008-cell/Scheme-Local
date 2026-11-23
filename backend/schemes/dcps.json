@@ -1,0 +1,31 @@
+{
+  "scheme_id": "dcps",
+  "name": "Dependent Children Pension Scheme - Punjab",
+  "category": "women_child",
+  "level": "state",
+  "state": "Punjab",
+  "department": "",
+  "benefit": "Amount : ₹ 1,500/- per month",
+  "eligibility_rules": [
+    "Applicant should be a Permanent Resident of Punjab. Annual Income of Parents/ Guardian should not be more than Rs. 60,000/- per Year. The Age of Child should be below 21 Years. Mother/father or both have passed away or parents regularly absent from home or have become physically /mentally incapacitated to look after the family."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Beneficiary",
+    "PhotoID cum Residence proof of the Parent/ Guardian (Driving License / Passport / Voter Card / Aadhaar Card) First page of",
+    "PassbookSelf DeclarationProof of disability (issued by competent authority) Date of Birth Proof of Person with Disability (Voter Card /",
+    "Voter List / Matriculation certificate / Certificate from Registrar Birth & Death / Aadhaar Card ) Note: In case Birth Certificate isCopy of",
+    "FIR of missing husbandCopy of Divorce DeedCopy of disability certificate of FatherDeath Certificate of FatherFirst page of Passbook",
+    "(Mandatory) Self Declaration and Disability CertificateGroup photo of Beneficiary with all dependents (Mandatory) Date of Birth Proof",
+    "of all Dependent Children (Voter Card / Voter List / Matriculation certificate / Certificate from Registrar Birth & Death / Aadhaar Card)",
+    "(Mandatory) ID cum Residence proof of the applicant/beneficiary (Driving License / Passport / Voter Card / Aadhaar Card)",
+    "(Mandatory) Self",
+    "DeclarationDeath Certificate of both parents"
+  ],
+  "how_to_apply": "Mode: Online & Offline Step-1: Applicants have to visit the official website. Step-2: Click on the \"Click to apply services\".Step-3: Now login on Digital Punjab portal with Email/Phone number and password. If does have any account then register hereStep-4: Fill out the application form. Step-5: Attach the required documentsStep-6: Submit.",
+  "source_url": "https://punjab.gov.in/wp-content/uploads/2023/08/Dependent-Children-Pension.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

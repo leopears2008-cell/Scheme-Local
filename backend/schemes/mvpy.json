@@ -1,0 +1,29 @@
+{
+  "scheme_id": "mvpy",
+  "name": "Mukhyamantri Vidyarthi Pratibha Yojna",
+  "category": "education",
+  "level": "state",
+  "state": "Delhi",
+  "department": "",
+  "benefit": "Amount of Assistance: IX to X Class : Rs. 5,000/- Per annumXI to XII Class : Rs.10,000/- Per annum.",
+  "eligibility_rules": [
+    "The applicant should be a resident of GNCT of Delhi. There is a Minimum of 50% marks required for IX to X and 60% marks required for XI to XII Classes. Annual Income Limit - Criteria for annual family income Rs 8 Lacs at par annum with the EWS income limit, subject to",
+    "Exclusions / Ineligibility:",
+    "notified by the Government of India. If the student scores 75% and above marks in the previous class, no income limit is applicable for SC/ST/OBC category. The applicant should upload a Caste Certificate (SC/ST/OBC) issued in the name of the student or his father's name issued by the SDM/Deputy Commissioner (Revenue), GNCTD. However, the Domicile Certificate of Delhi from the Revenue Deptt. Will be entertained for the SC beneficiary only, if the caste certificate is issued by the outside state authority instead of the competent authority of Govt. of NCT of Delhi. Repeaters in a particular class will not be eligible for this scheme. Bank Account should be in the name of the student (a Joint Bank Account with parent/Guardian is also permissible), active and seeded with the Aadhaar no of the student."
+  ],
+  "exclusions": [
+    "notified by the Government of India. If the student scores 75% and above marks in the previous class, no income limit is applicable for SC/ST/OBC category. The applicant should upload a Caste Certificate (SC/ST/OBC) issued in the name of the student or his father's name issued by the SDM/Deputy Commissioner (Revenue), GNCTD. However, the Domicile Certificate of Delhi from the Revenue Deptt. Will be entertained for the SC beneficiary only, if the caste certificate is issued by the outside state authority instead of the competent authority of Govt. of NCT of Delhi. Repeaters in a particular class will not be eligible for this scheme. Bank Account should be in the name of the student (a Joint Bank Account with parent/Guardian is also permissible), active and seeded with the Aadhaar no of the student."
+  ],
+  "documents_required": [
+    "For SC/ST/OBC students, a Caste certificate",
+    "is issued by the concerned office of the District Magistrate of Revenue Department, GNCT of Delhi. Annual family income certificate",
+    "issued by the Revenue Department, GNCT of Delhi. Proof of studying in classes 9th to 12th in the schools in Delhi. Mark sheet of the",
+    "previous year."
+  ],
+  "how_to_apply": "Mode: Online Applicants have to visit https://edistrict.delhigovt.nic.in/Under Citizen Corner click on New UserClick on select the document - Aadhar or Voter IDEnter your Aadhar Card Number/Voter ID Card NumberType the Captcha in the box shownCitizen Registration Form will Open for registration Fill up all fields including details of the Present Residential AddressEnter Captcha, and Click on Continue. Login ID and Password will be received on the given mobile number/e-mail address. Now Registration on the e-district portal is completeRegistration for Financial Assistance ServicesClick on Registered User LoginEnter the given login ID and PasswordEnter Captcha and Click on LoginGo to Main Page (Main Page) will open click on apply online. Drop Box apply for services will open - clickA list of Departments providing online services shall open -Select Department of Social Welfare. Click on the scheme name to Apply. Check the BASIC/PERSONAL DETAILS FORM and click on Continue. The form will open fill up all required fields & upload all required documents as per the requirement of the scheme selected. Then click next and upload a photographThen click on finish. One OTP will be received on the registered mobile number. Enter OTP and Submit. Acknowledgement of successful submission shall be generated.",
+  "source_url": "https://edistrict.delhigovt.nic.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

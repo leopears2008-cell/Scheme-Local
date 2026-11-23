@@ -1,0 +1,25 @@
+{
+  "scheme_id": "ueastn",
+  "name": "Unemployment Assistance Scheme - Tamil Nadu",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Tamil Nadu",
+  "department": "",
+  "benefit": "Candidate TypeQualificationAmount of Assistance (Per Month) General CandidateSSLC/10th Failed (Secondary School Leaving Certificate).Rs. 200/-General CandidateSSLC/10th Passed (Secondary School Leaving Certificate).Rs. 300/-General CandidateHSC /12th(Higher Secondary Certificate).Rs. 400/-General CandidateGraduationRs. 600/-Differently Abled CandidatesIlliterate to SSLC/10th (Secondary School Leaving Certificate).Rs. 600/-Differently Abled CandidatesHSC/12th (Higher Secondary certificate).Rs. 750/-Differently Abled CandidatesGraduationRs. 1,000/-",
+  "eligibility_rules": [
+    "CandidateResident of Tamil Nadu. Family Annual Income should not be more than Rs. 72,000/- per annum. Maximum Age Limit :-40 Years for General Candidate.45 Years for Schedule Caste/Tribe Candidate. Should be registered in Employment Exchange for 5 years or more. Should not be a regular student of any school or college. Should not be in any type of employment. Differently Abled CandidatesResident of Tamil Nadu. Should have Physical Disability. Should be registered in Employment Exchange for 1 year or more. No Maximum Age or Income Limit. Should not be in any type of employment. Should not be a regular student of any school or college."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Any one of the Identification Proof :",
+    "Aadhar Card/ Pan Card/ Voter ID/ Passport/Driving License/ Ration Card. Domicile of Tamil Nadu. Passport Size Photo. Email ID.Mobile",
+    "Number. Bank Account Details. Caste Certificate. Self Affidavit. Medical Certificate. (For Disability Proof).Qualification Documents. (If",
+    "Literate)."
+  ],
+  "how_to_apply": "Mode: Online & Offline Step-1: The Applicant can obtain the Application Form from the Employment Exchange Center of his district. or can download the from here. Step-2: Fill out the application in prescribe manner. Step-3: Attach required documentsStep-4: The Applicant have to submit the Application Form and the attached documents to the Employment Exchange Center of his district.",
+  "source_url": "https://www.myscheme.gov.in/schemes/ueastn",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

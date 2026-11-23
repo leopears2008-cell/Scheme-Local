@@ -1,0 +1,23 @@
+{
+  "scheme_id": "gbs",
+  "name": "Green Business Scheme",
+  "category": "employment_skill",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Social Justice and Empowerment",
+  "benefit": "Quantum of Assistance National Safai Karamcharis Finance and Development Corporation (NSFDC) would provide need-based loans under the scheme as permissible under the NSFDC Term Loan Lending Policy, promoter contribution, and after taking into consideration the margin money being provided by Special Central Assistance (SCA), subsidies provided by other government agencies, and subsidies provided to below poverty line (BPL) beneficiaries under the Central-Sector Scheme of Special Central Assistance to the Special Component Plan, to the extent of ₹ 10,000/- or 50% of the unit cost, whichever is less. Interest RatesSchemeUnit CostMaximum Loan Limit up to 90% of unit CostInterest per AnnumInterest per AnnumSCA/CABeneficiaryGreen Business Scheme (GBS) Up to Rs. 7.50 LakhRs. 6.75 lakh2%4%Above Rs. 7.50 lakh & up to Rs. 15.00 lakhRs. 13.50 lakh3%6%Above Rs. 15.00 lakh & up to Rs. 30.00 lakhRs. 27.00 lakh4%7%*(1% Rebate from NSKFDC share of interest in case of Female Beneficiaries.)RepaymentThe loan under the scheme shall be repaid in quarterly installments, within a maximum period of 10 years including moratorium period of 06 months. In addition, 120 days moratorium period is allowed to SCA for fund utilization.",
+  "eligibility_rules": [
+    "Safai Karamcharis, Scavengers, and their Dependents are eligible for the scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar CardDriving License Bank DetailsCaste CertificateIncome CertificateDomicile",
+    "Certificate"
+  ],
+  "how_to_apply": "Mode: Online & Offline The beneficiaries submit the loan applications to the District Offices of State Channelizing Agencies (SCAs) of NSKFDC, Branches of Regional Rural Banks (RRBs), and Nationalized Banks. The District Offices of SCAs/Branches of RRBs/Nationalised Banks send these applications after scrutiny to their Head Offices. The viability of the project proposals is being appraised by the SCAs/ RRBs/Nationalised Banks and the viable projects are sent to NSKFDC along with their recommendations.",
+  "source_url": "https://www.myscheme.gov.in/schemes/gbs",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

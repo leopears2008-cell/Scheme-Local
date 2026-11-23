@@ -1,0 +1,28 @@
+{
+  "scheme_id": "strtupmpr",
+  "name": "Startup Manipur",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Manipur",
+  "department": "",
+  "benefit": "The state government aims to support and strengthen existing business incubators and accelerators to create a robust support system for startups. The government intends to encourage and inspire the youth of Manipur to explore entrepreneurship as a viable career choice. To strengthen the startup culture in the state, the government will foster greater social acceptance and recognition of promising startups. The government is looking to encourage the establishment of new business incubators in the state through partnerships with the private sector. The government will continuously provide enabling mechanisms to startups, including training and skill development, capacity building, networking opportunities, and access to support services and knowledge. The government will implement a supportive regulatory framework that enables hassle-free and time-bound statutory clearances for startups. The government will provide appropriate infrastructural support to enable startups to set up and grow rapidly. The government will create a platform to access multiple avenues of financial support for startups in Manipur, such as grants, bank loans, and fiscal incentives. Finally, the government aims to create an enabling environment and a supportive ecosystem to facilitate 1000 startups in the state within the next five years.",
+  "eligibility_rules": [
+    "The entity/startup must be promoted by individuals who have domicile in Manipur. If a group of individuals is promoting the entity/startup, at least one promoter should have domicile in Manipur. The owner of the entity/startup must be above 18 years of age. Completion of incubation will be a mandatory requirement from a date to be notified by the State government.",
+    "Exclusions / Ineligibility:",
+    "Non-Manipur residents are not eligible to promote an entity/startup under the Manipur Startup initiative. The promoters of the entity/startup must have a domicile of Manipur. The owner of the entity/startup must be above 18 years of age, and those below this age are not eligible. Completion of incubation is a required condition for startups, and any entity/startup that has not completed incubation by the date notified by the state government will not be eligible for support under this initiative."
+  ],
+  "exclusions": [
+    "Non-Manipur residents are not eligible to promote an entity/startup under the Manipur Startup initiative. The promoters of the entity/startup must have a domicile of Manipur. The owner of the entity/startup must be above 18 years of age, and those below this age are not eligible. Completion of incubation is a required condition for startups, and any entity/startup that has not completed incubation by the date notified by the state government will not be eligible for support under this initiative."
+  ],
+  "documents_required": [
+    "Permanent Account Number (PAN) card. Aadhaar card. PAN card for the business",
+    "entity. Business Registration Certificate. Audited Balance Sheet for the previous financial year. Income Tax Return for the previous",
+    "financial year. Audited Profit and Loss statement for the previous financial year."
+  ],
+  "how_to_apply": "Mode: OnlineStep 01: Online ApplicationThe first step towards obtaining funding for your startup is to submit an online application. The application process typically involves filling out a form that provides information about your business idea, its viability, and your financial requirements.Step 02: Document CheckingOnce your application is received, it will be reviewed by a team of experts who will assess its feasibility and completeness. The team will verify the details provided in the application and may request additional information or documentation to support your request.Step 03: Personal InterviewAfter the document checking process, you will be called for a personal interview to further discuss your business idea and funding requirements. During this interview, you will have the opportunity to present your business plan and answer any questions that the interview panel may have.Step 04: Review by BankOnce the personal interview is completed, your application and interview will be reviewed by the bank. The bank will assess your creditworthiness, financial stability, and the potential for success of your business idea before making a decision on funding.Step 05: Bootcamp / IncubationIf your application is successful, you will be invited to attend a bootcamp or incubation program where you will receive mentorship, guidance, and training to help you build and grow your business.Step 06: FundingAfter successfully completing the bootcamp or incubation program, the bank will provide you with the funding you require to start or expand your business. The funding may come in the form of a loan, grant, or equity investment, depending on the terms and conditions agreed upon by both parties.",
+  "source_url": "https://apply.startupmanipur.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -29,11 +29,33 @@ export function SchemeDetail({ s, go }: { s: Scheme; go: (t: any, id?: string) =
   );
 }
 
-export default function Find({ go }: { go: (t: any, id?: string) => void }) {
+interface FindProps {
+  go: (t: any, id?: string) => void;
+  initialQuery?: string;
+  initialCategory?: string;
+}
+
+function getInitialParam(param: string): string {
+  try {
+    const sp = new URLSearchParams(window.location.search);
+    const val = sp.get(param);
+    if (val) return val;
+    const hash = window.location.hash || "";
+    const qIdx = hash.indexOf("?");
+    if (qIdx !== -1) {
+      const hp = new URLSearchParams(hash.slice(qIdx));
+      const hval = hp.get(param);
+      if (hval) return hval;
+    }
+  } catch {}
+  return "";
+}
+
+export default function Find({ go, initialQuery, initialCategory }: FindProps) {
   const { t, lang, label } = useApp();
-  const [q, setQ] = useState("");
-  const [category, setCategory] = useState("");
-  const [state, setState] = useState("");
+  const [q, setQ] = useState(() => initialQuery ?? getInitialParam("q"));
+  const [category, setCategory] = useState(() => initialCategory ?? getInitialParam("category"));
+  const [state, setState] = useState(() => getInitialParam("state"));
   const [meta, setMeta] = useState<Awaited<ReturnType<typeof api.meta>> | null>(null);
   const [items, setItems] = useState<Scheme[]>([]);
   const [total, setTotal] = useState(0);
@@ -41,7 +63,22 @@ export default function Find({ go }: { go: (t: any, id?: string) => void }) {
   const [marks, setMarks] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [retryCount, setRetryCount] = useState(0);
   const listRef = useRef<HTMLElement>(null);
+  const reqIdRef = useRef(0);
+
+  // Sync prop changes if passed from parent
+  useEffect(() => {
+    if (initialQuery !== undefined) {
+      setQ(initialQuery);
+    }
+  }, [initialQuery]);
+
+  useEffect(() => {
+    if (initialCategory !== undefined) {
+      setCategory(initialCategory);
+    }
+  }, [initialCategory]);
 
   useEffect(() => {
     api.meta().then(setMeta).catch(() => undefined);
@@ -49,15 +86,27 @@ export default function Find({ go }: { go: (t: any, id?: string) => void }) {
   }, []);
 
   useEffect(() => {
+    const curReqId = ++reqIdRef.current;
     setLoading(true);
     setError("");
-    const id = setTimeout(() =>
-      api.schemes({ q, category, state, lang, limit: "60" })
-        .then((r) => { setItems(r.items); setTotal(r.total); setLoading(false); })
-        .catch((e) => { setError(String(e)); setLoading(false); })
-    , 250);
+    const id = setTimeout(async () => {
+      try {
+        const r = await api.schemes({ q: q.trim(), category, state, lang, limit: "60" });
+        if (curReqId === reqIdRef.current) {
+          setItems(r.items);
+          setTotal(r.total);
+          setLoading(false);
+        }
+      } catch (e: any) {
+        if (curReqId === reqIdRef.current) {
+          setError(e?.message || String(e));
+          setLoading(false);
+        }
+      }
+    }, 250);
+
     return () => clearTimeout(id);
-  }, [q, category, state, lang]);
+  }, [q, category, state, lang, retryCount]);
 
   const toggle = async (id: string) => {
     const r = await api.toggleBookmark(id);
@@ -98,13 +147,22 @@ export default function Find({ go }: { go: (t: any, id?: string) => void }) {
       </p>
 
       {loading && <LoadingCards count={4} />}
-      {error && <ErrorBanner message={`Failed to load schemes: ${error}`} onRetry={() => setError("")} />}
+      {error && (
+        <ErrorBanner
+          message={error.startsWith("Failed to load") ? error : `Failed to load schemes: ${error}`}
+          onRetry={() => { setError(""); setRetryCount((c) => c + 1); }}
+        />
+      )}
 
       {!loading && !error && items.length === 0 && (
         <EmptyState
           icon="🔍"
           title="No schemes found"
-          body={q ? `No results for "${q}". Try a different word or remove filters.` : "No schemes match the current filters."}
+          body={
+            q
+              ? `No schemes found for "${q}". Try simple keywords like "farmer", "agriculture", "PM Kisan", "subsidy", or clear filters.`
+              : "No schemes match the current filters."
+          }
           action={<button className="link" onClick={() => { setQ(""); setCategory(""); setState(""); }}>Clear filters</button>}
         />
       )}

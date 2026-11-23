@@ -1,0 +1,23 @@
+{
+  "scheme_id": "vay",
+  "name": "Vikramaditya Yojna",
+  "category": "education",
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "department": "",
+  "benefit": "Annual financial assistance of a maximum of Rs. 2,500/-",
+  "eligibility_rules": [
+    "The applicant must belong to the General category. He/she must have scored at least 60% or more marks in the Class 12 examination. The annual family income of the applicant should not exceed INR 1,20,000 (for higher education) and INR 54,000 (for graduation)."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Samagra ID.Current college",
+    "code. Branch code. Recent passport size photograph. Caste certificate. Income certificate of parents. Resident proof."
+  ],
+  "how_to_apply": "Mode: Online General students should register themselves on the portal. Click on New Registration and provide the required details for registration. After registration, log in again with credentials. Enter the required details. Upload the necessary documents. Submit.",
+  "source_url": "https://www.myscheme.gov.in/schemes/vay",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

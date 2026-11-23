@@ -1,0 +1,46 @@
+{
+  "scheme_id": "cmegp",
+  "name": "CHIEF MINISTER EMPLOYMENT GENERATION PROGRAMME (CMEGP)",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Maharashtra",
+  "department": "",
+  "benefit": "Categories of beneficiaries under CMEGPBeneficiary's Contribution (of project cost) Rate of subsidy (of project cost) Area (location of project/unit) UrbanRuralGeneral Category10%15%25%Special Category (includes SC / ST /Women/ Ex- servicemen / differently abled/VJNT/OBC/Minority)5%25%35%",
+  "eligibility_rules": [
+    "The Age of the applicant should be between 18 to",
+    "For Special category (including SC/ST/Women/ Ex-servicemen/Differently abled) age is relaxed by 5 years.",
+    "The Occupation of the applicant should be unemployed youth, Youth willing to establish new ventures.",
+    "The Annual Income of the Applicant/Family/Parent/Guardian should No criteria LPA4)The Gender of the applicant should be Male and Female",
+    "The Marital Status of the applicant should be for all",
+    "The Educational Qualification of the applicant should be minimum 7th standard pass for project/unit above Rs. 10 lac and for project/units above Rs.25 lac the required educational criterion for the applicant is minimum 10th standard pass.",
+    "Exclusions / Ineligibility:",
+    "Only one person from a family will be eligible under the scheme. (Definition of family includes Self and spouse)",
+    "Existing Units and units that have availed benefit under PMRY, REGP, PMEGP or any other subsidy linked scheme of Government of India or State Government and also units that have already availed Government Subsidy under any other scheme of Government of India or State Government are not eligible under the scheme."
+  ],
+  "exclusions": [
+    "Only one person from a family will be eligible under the scheme. (Definition of family includes Self and spouse)",
+    "Existing Units and units that have availed benefit under PMRY, REGP, PMEGP or any other subsidy linked scheme of Government of India or State Government and also units that have already availed Government Subsidy under any other scheme of Government of India or State Government are not eligible under the scheme."
+  ],
+  "documents_required": [
+    "Passport size photo",
+    "Aadhar card",
+    "Domicile certificate",
+    "Educational",
+    "cetifiacate",
+    "Undertaking form",
+    "Project profile",
+    "Caste certificate(If applicable)",
+    "Special categary certificate(If applicable)",
+    "Pan",
+    "card",
+    "Populatuion certificate (Only for rural applicant)",
+    "Clearance /approved certificate (bank)(If Working capital is zero for project",
+    "cost more than 5 lac)"
+  ],
+  "how_to_apply": "Mode: OnlineStep 01: Fill online application on portal https://maha-cmegp.gov.inStep 02: District level Scrutiny and Coordination Sub-Committee (DLSCC) constituted under the Chairmanship of respective GM, DICs will scrutinize the applications and prepare a primary list of eligible applicants.Step 03: primary eligible applicants list will be approved by DLTFC and then forwarded to bank.Step 04: Bank Sanctioning & Entrepreneurship Development Programme (EDP) training & DisbursmentStep 05: Subsidy claim by Bank to GMStep 06: Approval of claim by HO and disbursement of margin money viz. nodal bankStep 07: completion of three successful years of activity and following the timely repayment schedule as informed by the bank, the margin money in the form of grant-in-aid will be re-appropriated in the applicant's loan account after confirmation / necessary validation from GM, DIC.",
+  "source_url": "https://maha-cmegp.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

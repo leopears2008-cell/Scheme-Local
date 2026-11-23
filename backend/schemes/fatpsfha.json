@@ -1,0 +1,27 @@
+{
+  "scheme_id": "fatpsfha",
+  "name": "Financial Assistance to Pensioners Suffering From HIV and AIDS",
+  "category": "health",
+  "level": "state",
+  "state": "Jharkhand",
+  "department": "",
+  "benefit": "Amount: ₹ 1,000/- per month to the eligible beneficiary.",
+  "eligibility_rules": [
+    "The applicant should be a permanent resident of Jharkhand. The applicant should be suffering from HIV/AIDS.The applicant should receive Antiretroviral Therapy (ART)/Antiretroviral Drugs (ARD) and its benefits from the District AIDS Control Society. The applicant should have a Voter ID card and Aadhar Card (For applicants aged 18 years and above) The applicant or their spouse should not be a beneficiary under any other Social Security pension scheme. The applicant or their spouse should not be retired or permanently employed in Central and State Government or in public sector undertakings. The applicant or their spouse should not be a recipient of any family pension or pension from Central and State Government or from public sector undertakings. Applicant's family is not an income tax payee."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Medical Proof of receiving Antiretroviral Therapy (ART)/Antiretroviral Drugs (ARD) and its benefits from the District AIDS",
+    "Control Society. Copy of Voter ID card (in case, applicant's age is 18 years or more).Copy Aadhar Card (in case, the applicant does not",
+    "have an Aadhar Card they need to submit a Self",
+    "declaration).Copy of Bank Passbook. Self",
+    "declaration regarding the",
+    "eligibility."
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: The interested applicant should request the prescribed format of the application from the office of Block Development Officer (BDO) / Sub Divisional Officer (SDO) / Circle Officer.Step 02: In the application form, fill in all the mandatory fields, and attach copies of all the mandatory documents (self-attest, if required).Step 03: Submit the duly filled and signed application form along with the documents to the concerned authority at: Office of the BDO in rural areas. Office of the SDO or Circle Officer in Municipalities and notified areas.",
+  "source_url": "https://www.myscheme.gov.in/schemes/fatpsfha",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

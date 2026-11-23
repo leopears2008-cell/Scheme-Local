@@ -1,0 +1,40 @@
+{
+  "scheme_id": "sisnhe",
+  "name": "Scheme for Interest Subvention to Nano Household Enterprises",
+  "category": "health",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "1. The unit will be eligible for interest subvention to an extent of 6% per annum for the term loan availed by the unit on a reimbursement basis for three years.\n• 2. For women and SC/ST enterprises, the interest subvention will be 8% for three years.\n• 3. The assistance shall be limited to the fixed percentage of the composite investment upon(a) plant & machinery,(b) other fixed assets including essential office equipment and(c) Electrification cost of Land and Building shall not be included in the Fixed Capital Investment under this scheme. Note: In the event of default on repayment of the loan with interest at the end of 1st year, the subvention will not be passed. The same is applicable for 2nd and 3rd years.",
+  "eligibility_rules": [
+    "A unit/enterprise which satisfies the following conditions is eligible for the scheme: 1. The fixed capital investment is 10 lakh or less.",
+    "Engaged in manufacturing, services, or job work.",
+    "In the white and the green category as per pollution control norms.",
+    "Connected load is 5 HP or less. Obligations of the applicant entrepreneurs: 1. The applicant shall provide all required details and declare such information as to be true.",
+    "The applicant shall provide clarifications of further details sought by the recommending/sanctioning authority.",
+    "The applicant shall allow inspection or verification of any details mentioned in the application including plant and machinery and all other assets if so required by recommending/sanctioning authority.",
+    "The applicant shall produce originals of any important documents if so required by the Recommending/ sanctioning Authority for verification.",
+    "Exclusions / Ineligibility:",
+    "Manufacturing units which are eligible to claim assistance under the Entrepreneur Support Scheme or any other schemes of Govt. of India or Govt. of Kerala cannot apply under the scheme. Unit which has availed a special low rate of interest from Government Agencies are not eligible for further interest subvention under this scheme."
+  ],
+  "exclusions": [
+    "Manufacturing units which are eligible to claim assistance under the Entrepreneur Support Scheme or any other schemes of Govt. of India or Govt. of Kerala cannot apply under the scheme. Unit which has availed a special low rate of interest from Government Agencies are not eligible for further interest subvention under this scheme."
+  ],
+  "documents_required": [
+    "Copy of identity proof of the applicant",
+    "Statement from bank",
+    "Bank statement file from the bank",
+    "Amount statement file from bank",
+    "Declaration of Promoter with Sign",
+    "Annexure",
+    "Recommendation of the Financial institution",
+    "Any other document as demanded by the recommending/sanctioning",
+    "authority"
+  ],
+  "how_to_apply": "Mode: Online & OfflineStep 01: Application can be submitted online through the Official website of the Directorate of Industries & Commerce, Government of Kerala. The applicant needs to visit the official website.Step 02: The applicant may select the scheme \"Scheme for Interest Subvention to Nano Household Enterprises\" from the available Online Services listed on the home page and click on the \"Apply Now\" option. Clicking \"Apply Now\" redirects to the Login Page, if the user is a \"new user\", use the \"Registration\" option and if already registered use the 'Login' option.Step 03: A new user can register by filling in his/her details and after successful registration, the user can login.Step 04: After successful login, the applicant needs to select \"New Application\" and click on the 'Proceed' Option.Step 05: Fill out the application form completely and submit it.",
+  "source_url": "https://schemes.industry.kerala.gov.in/public/index.php/schemes",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

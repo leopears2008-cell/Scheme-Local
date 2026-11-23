@@ -1,0 +1,24 @@
+{
+  "scheme_id": "gs_west_bengal",
+  "name": "Gatidhara Scheme",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "West Bengal",
+  "department": "",
+  "benefit": "Under the scheme, the subsidy @ 30% of the ex-showroom price of the vehicle subject to a maximum of ₹1,00,000/- will be provided to the beneficiary for purchasing any commercial vehicle.",
+  "eligibility_rules": [
+    "The applicant should be a permanent resident of West Bengal. The applicant should be enrolled in the Employment Bank of Labour Department, GOWB.The age of the applicant should be between 25 years to 45 years (Relaxation 5 years for SC/ST & 3 years for OBC).The family income of the applicant should be less than ₹25000/- per month. More than one member of the same family is not eligible."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Family",
+    "Income Certificate Proof of enrollment in Employment BankProof of ageProof of addressIdentity proofBank of detailsPassport size",
+    "photographCaste certificate, if applicable"
+  ],
+  "how_to_apply": "Mode: Offline Registration Process in Employment Bank:Step 01: The applicant should be registered in the Employment Bank of the Labour Department.Step 02: For registration, the applicants need to visit the official website of the Employment Bank:\nhttps://employmentbankwb.gov.in/index.phpStep 03: Click on \"New Enrolment Job Seeker\" & accept the terms & conditions and then continue.Step 04: Fill in all the mandatory details and click on the 'submit' button. Application Process:Step 01: Applicant should get his application with all requisite documents processed by the dealer of his choice.Step 02: Select a financier for the loan required for purchasing the vehicle.Step 03: The vehicle is to be registered within one month of receipt of the offer letter for permit and subsidy under the scheme. Note: Vehicle dealers are authorized facilitators for the \"Gatidhara Scheme\".",
+  "source_url": "https://employmentbankwb.gov.in/index.php",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,23 @@
+{
+  "scheme_id": "mmpyu",
+  "name": "Mukhyamantri Mahila Poshan Yojana",
+  "category": "health",
+  "level": "state",
+  "state": "Uttarakhand",
+  "department": "",
+  "benefit": "Egg (2 Days/Week).Dates(2 Days/Week).Note: Dates are provided to those registered pregnant/lactating women who do not take eggs.",
+  "eligibility_rules": [
+    "Beneficiary should be a permanent resident of Uttarakhand. Beneficiary should be pregnant/lactating women."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhar card. Proof of Pregnancy (Medical Report).Any other",
+    "document (as requested)."
+  ],
+  "how_to_apply": "Mode: Offline Step-1: Concerned women should visit their nearest Anganwadi Centre. Step-2: Provide all the necessary documents as directed (attested, if required).Step-3: After the completion of the procedure benefits can be availed from the Anganwadi Centre.",
+  "source_url": "https://www.myscheme.gov.in/schemes/mmpyu",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,22 @@
+{
+  "scheme_id": "uy_sch",
+  "name": "Udita Yojana",
+  "category": "health",
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "department": "",
+  "benefit": "Distribution of sanitary napkins, nutrition and health education, training on menstrual hygiene and nutrition and health issues in adolescent girls are done through Udita Corner established in Anganwadi centers.",
+  "eligibility_rules": [
+    "All adolescent girls and women aged 18 to 49 will be beneficiaries."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "No documents are required for this scheme."
+  ],
+  "how_to_apply": "Mode: Offline Beneficiaries should contact Udita Corner established in Anganwadi centres.",
+  "source_url": "https://www.myscheme.gov.in/schemes/uy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,27 @@
+{
+  "scheme_id": "ssds_punjab",
+  "name": "Scholarships to Students with Disabilities Scheme",
+  "category": "education",
+  "level": "state",
+  "state": "Punjab",
+  "department": "",
+  "benefit": "1. Under this scheme, scholarship @ ₹200/- per month per Student with Disability for education for class 1st to 8th.\n• 2. Scholarship @₹300/- per month per the student with Disability for education/training from 9th Class onwards. Note: The Directorate shall credit the scholarship online in the bank account of the student.",
+  "eligibility_rules": [
+    "All students of Punjab having 40 % and above disability (In any disability contained in the schedule of RPwD Act",
+    "certificate. The monthly income of family/guardians should not exceed ₹5,000/- per month. The candidate should have secured at least 40% marks in the previous annual examination. The scholarship will be provided to each student with disability from 1st class onwards."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Disability Certificate/ UDID showing 40% and above disability",
+    "Income certificate",
+    "showing less than ₹ 60,000/",
+    "per year income of parents",
+    "Copy of the bank account details"
+  ],
+  "how_to_apply": "Mode: Offline Application for the scholarship is submitted to the Head of school/college/ institution who after verifying it shall forward it to the District Social Security Officer (DSSO) of the concerned district. Whom to contact: Office of District Social Security Officer",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssds-punjab",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

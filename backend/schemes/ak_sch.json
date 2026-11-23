@@ -1,0 +1,25 @@
+{
+  "scheme_id": "ak_sch",
+  "name": "Aswasakiranam",
+  "category": "health",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "Through this scheme financial assistance of Rs 600 per month is provided to those caregivers who look after their physically and mentally bedridden patients. All those citizens who have been providing caregiving services to the patients since 2nd August 2010 will be provided monthly assistance. This financial assistance will be apart from the pension given to the patients. Now the caregivers will not be required to depend on anyone for financial support because the government is going to provide them with monthly assistance which will help them in fulfilling their day-to-day needs.",
+  "eligibility_rules": [
+    "One who is totally bedridden and at home with a debilitating disability (physical, functional or mental).One can not take care of himself/herself for any day-to-day activity without the support of another person. One who belongs to a family, Below Poverty Line as per the BPL list and as per the ration card."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "List of the required",
+    "documentsMedical certificate attested by Govt./ Vayomithram / NRHM doctors. Attested copy of BPL ration card / BPL certificate issued",
+    "by Panchayat or Municipality or Corporation / Income certificate issued by village officer as proof for patient income. Attested copy of",
+    "Aadhar card/confirmation slip received."
+  ],
+  "how_to_apply": "Mode: Offline Application ProcessFirst of all, go to the nearest Anganwadi or ICDS officeTake the Application form from here. Now you have to fill out this application form by entering all the required details. After that, you have to upload all the required documentsNow you have to submit this form to the nearest Anganwadi Centre or ICDS office.",
+  "source_url": "https://www.myscheme.gov.in/schemes/ak",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,23 @@
+{
+  "scheme_id": "oah",
+  "name": "Old Age Home (Sahara)",
+  "category": "health",
+  "level": "state",
+  "state": "Bihar",
+  "department": "",
+  "benefit": "Construction and operation of old age home \"Sahara\"These old age homes also include housing, clothes, food, medical facilities etc. Facilities will be available for qualitative improvement in the standard of living, cooperation and proper care of destitute and poor old people of the state.",
+  "eligibility_rules": [
+    "Applicants should come under the below poverty line ( BPL) category (or) Annual Income should be below Rs. 60,000/-"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Age Proof. Income proof document. BPL Card (If applicable).Two passport",
+    "size photographs."
+  ],
+  "how_to_apply": "Mode: Offline Applicants can apply through the application in plain paper to the District Social Security Cell. The committee constituted under the chairmanship of the District Magistrate will approve the proposal.",
+  "source_url": "https://www.myscheme.gov.in/schemes/oah",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

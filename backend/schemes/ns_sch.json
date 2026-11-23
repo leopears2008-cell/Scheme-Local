@@ -1,0 +1,27 @@
+{
+  "scheme_id": "ns_sch",
+  "name": "Niramaya Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Odisha",
+  "department": "",
+  "benefit": "The key benefits of the Niramaya Scheme in Himachal Pradesh are: Cashless Medicinal Drugs: The Niramaya Scheme provides free medicines treatment to the beneficiaries of the scheme. This means that they can avail of medical drugs without having to pay any cash upfront. No Age Limit: The scheme has no age limit, and anyone can avail of the benefits of the scheme, including senior citizens. Easy Enrollment: The enrollment process for the scheme is simple and hassle-free, and anyone can enroll in the scheme by submitting the required documents.",
+  "eligibility_rules": [
+    "Patients who have done registration in the Govt. Hospitals are eligible to get free medicines under \"Niramaya\".",
+    "Exclusions / Ineligibility:",
+    "Govt. Employees are not eligible."
+  ],
+  "exclusions": [
+    "Govt. Employees are not eligible."
+  ],
+  "documents_required": [
+    "Address",
+    "Proof"
+  ],
+  "how_to_apply": "Mode: Offline Registration Consultation with doctor Prescription Receipt of drugs from DDC Counter.",
+  "source_url": "https://twitter.com/OSMCL1",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

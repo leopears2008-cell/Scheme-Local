@@ -1,0 +1,30 @@
+{
+  "scheme_id": "ramp",
+  "name": "Raising And Accelerating MSME Productivity (RAMP)",
+  "category": "employment_skill",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Micro, Small and Medium Enterprises",
+  "benefit": "1. Address Challenges in the MSME Sector: The RAMP program will address the generic and Covid related challenges in the MSME sector by way of impact enhancement of existing MSME schemes, especially, on the competitiveness front.\n• 2. Address inadequately Addressed Blocks in MSME: The program will bolster the inadequately addressed blocks of capacity building, handholding, skill development, quality enrichment, technological upgradation, digitization, outreach, and marketing promotion, amongst other things.\n• 3. Generate Employment: RAMP program, through enhanced collaboration with States, will be a job-enabler, market promoter, and finance facilitator, and will support vulnerable sections and greening initiatives.\n• 4. Usher in Larger Formalization: In States where the presence of MSMEs is on the lower side, the program will usher in larger formalization resulting from the higher impact of the schemes covered under RAMP. The SIPs developed by these States would act as a roadmap for the development of an improved MSME sector.\n• 5. Complement the Atmanirbhar Bharat Mission: RAMP will complement the AtmanNirbhar Bharat mission by fostering innovation and enhancement in industry standards, and practices and providing the necessary technological inputs to the MSMEs.",
+  "eligibility_rules": [
+    "The MSME should be registered under the Micro, Small, and Medium Enterprises Development (MSMED) Act, 2",
+    "The MSME should have a valid Udyog Aadhaar Number (UAN)."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Duly filled and signed Application Form. MSME registration certificate, under the MSMED Act,",
+    "Udyog Aadhaar Number (UAN) certificateProject Report, outlining the scope, objectives, methodology, and expected outcomes of",
+    "your project. The project report should also include a detailed financial plan that highlights the estimated cost of the project and the",
+    "financial assistance required from the RAMP scheme. Business Plan, outlining the current status of your MSME, the challenges you are",
+    "facing, and the strategies you plan to implement to enhance your productivity and competitiveness. Bank statement of the MSME for the",
+    "last six months. Identity proof (Aadhaar Card, PAN Card, Passport, etc) Address proof (Aadhaar Card, Electricity Bill, or Telephone",
+    "Bill) Goods and Services Tax (GST) Registration Certificate. Note: You may also need to submit any other supporting documents that",
+    "may be required by the authorities for the verification of your application."
+  ],
+  "how_to_apply": "Mode: Online A separate RAMP portal will be developed shortly, with all guidelines, etc.",
+  "source_url": "https://www.myscheme.gov.in/schemes/ramp",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

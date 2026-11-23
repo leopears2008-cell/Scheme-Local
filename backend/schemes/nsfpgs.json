@@ -1,0 +1,24 @@
+{
+  "scheme_id": "nsfpgs",
+  "name": "National Scholarship For Post Graduate Studies",
+  "category": "education",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Education",
+  "benefit": "Scholarships of Rs.15,000/- per month for 10 months in a year.",
+  "eligibility_rules": [
+    "Applicant must be pursuing first postgraduate degree. Applicant who have already completed a postgraduate degree are not eligible to apply. Applicant must be enrolled in first year of postgraduate program. Applicant must be under 30 years old. Applicant must be enrolled in full-time program. Applicant must be pursuing recognized postgraduate degree program."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Attested copies of mark sheets and certificates from class IX",
+    "onwards. Attested copy of the provisional or final admission letter to the PG course. Proof of identity (Aadhaar card, Voter ID card,",
+    "Passport, PAN Card, Driving License).Bank details. Two recent passport size photographs."
+  ],
+  "how_to_apply": "Mode: Online Registration for New ApplicantOpen the official NSP website and click on New Registration under Applicant Corner. Read the Instruction /Guidelines, provide the under taking by click on Check box and click on Continue. Start the registration by Mobile OTP. Required document (Aadhaar Details and Bank Account Details) Registered Applicant Open the official NSP website and click on Fresh Application under Applicant CornerLogin with application ID & password. Select the Scholarship. Fill out the applicant form. Upload the required documents. Submit.",
+  "source_url": "https://www.myscheme.gov.in/schemes/nsfpgs",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

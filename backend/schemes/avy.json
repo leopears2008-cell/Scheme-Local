@@ -1,0 +1,22 @@
+{
+  "scheme_id": "avy",
+  "name": "Awasiya Vidyala Yojana",
+  "category": "education",
+  "level": "state",
+  "state": "Uttar Pradesh",
+  "department": "",
+  "benefit": "Free residential education for all registered construction workers' sons/daughters. Free accommodation, clothing, food and other facilities available.",
+  "eligibility_rules": [
+    "Parent must be registered construction workers. Child must be fall within the range of 6 to 14 years."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Photocopy of registration certificate. Proof of deposit of contribution."
+  ],
+  "how_to_apply": "Mode: Offline How to get register and apply for the schemeApplicant must visit the below officesNearest labor office. Tehsildar of the concerned tehsil. Block Development Officer of the concerned development block. Get the application form and fill out the completely. Attach required documents in the prescribed format. Submit the application form in the same office.",
+  "source_url": "https://www.myscheme.gov.in/schemes/avy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

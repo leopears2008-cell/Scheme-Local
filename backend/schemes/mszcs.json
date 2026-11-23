@@ -1,0 +1,23 @@
+{
+  "scheme_id": "mszcs",
+  "name": "MSME Sustainable (ZED) Certification Scheme",
+  "category": "employment_skill",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Micro, Small and Medium Enterprises",
+  "benefit": "Cost of Certification:• Certification Level 1: BRONZE: ₹ 10,000/-• Certification Level 2: SILVER: ₹ 40,000/-• Certification Level 3: GOLD: ₹ 90,000/-Subsidy on cost of ZED certification:• Joining Reward of ₹ 10,000/- (Bronze will become free if availed)\n• 80-60-50% for Micro, Small & Medium Enterprises Additional subsidy:• 10% for Women/SC/ST owned MSMEs OR MSMEs in North Eastern Region (NER)/Himalayan/Left Wing Extremism(LWE)/Island territories/aspirational districts.\n• 5% for MSMEs which are also a part of the SFURTI OR Micro & Small Enterprises - Cluster Development Programme (MSE-CDP) of the MinistryAdditional subsidy:• 10% for Women/SC/ST owned MSMEs OR MSMEs in NER/Himalayan/LWE/Island territories/aspirational districts.\n• 5% for MSMEs which are also a part of the SFURTI OR Micro & Small Enterprises - Cluster Development Programme (MSE-CDP) of the Ministry. Financial Assistance in Testing/Quality/Product Certification:• Up to 75% of the total cost of Testing/Certification, with the maximum ceiling of subsidy being ₹. 50,000/- .Handholding Support :• Up-to ₹ 2,000,00/- for consultancy for all ZED certifiedMSMEs. Support in Technology Upgradation for Zero Effect Solutions:• Up-to ₹ 3,000,00/- lakhs for all ZED certified MSMEs. MSME KAWACH (Knowledge Acquisition through WASH for an Accelerated COVID-19 Handling) Certification:• After taking ZED Pledge, MSMEs can avail support for their preparedness to mitigate COVID 19 risks after obtaining Certification based on WASH Standard. Graded incentives: MSMEs can avail graded incentives as prescribed for the three ZED Certification Levels. Wherever possible, the incentives provided by States will be linked through API integration with the ZED portal to ensure interoperability",
+  "eligibility_rules": [
+    "Should be a Micro, Small and Medium Enterprises (MSMEs) unit. Should be registered in Udyam portal."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Udyam Registration Number of the Enterprise. Mobile Number that is associated with the Udyam Registration. Valid Email ID",
+    "(Login credentials and information/document will be sent on the Unit Email ID)"
+  ],
+  "how_to_apply": "Mode: Online Registration:Step 01: Visit the official website.Step 02: Click on Register Now button under Zed Certification window.Step 03: First time user click on Register Now button to register.Step 04: Click on Proceed.Step 05: Provide Udyam Registration Number and associated Mobile Number for Validation then Click on Proceed button.Step 06: Select Plant Location and its Associated Plant Activity then Click on Proceed.Step 07: Provide and Confirm Email ID, then Click on proceed.Step 08: Click on Proceed to take pledge.Step 09: ZED ID & Password and ZED Pledge Certificate will be sent on the email ID provided. Login:Step 01: Visit the official website.Step 02: Click on Register Now button under Zed Certification window.Step 03: Click on Log In button.Step 04: Provide login credentials which has already been sent to the registered Email ID , and click on Log In.Step 05: Access to user dashboard and collect various joining rewards.",
+  "source_url": "https://zed.msme.gov.in/",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

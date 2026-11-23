@@ -1,0 +1,27 @@
+{
+  "scheme_id": "ses",
+  "name": "Self Employment Scheme",
+  "category": "women_child",
+  "level": "state",
+  "state": "Karnataka",
+  "department": "",
+  "benefit": "Under this scheme, a subsidy of 33% of the unit cost or a maximum of Rs. 1.00 Lakh will be given to persons belonging to religious minority communities",
+  "eligibility_rules": [
+    "Applicants must belong to the State Religious Minority Community. The applicant must be a permanent resident of the State. The age limit of the applicant is between 18 to 55 years. Family annual income from all sources should not be more than Rs.81,000/- in a rural areas and Rs. 1,03,000 in urban areas. No member of the applicant's family shall be an employee of the State/Central/ Government PSU.Applicants should not have availed of a loan in KMDC earlier.",
+    "Exclusions / Ineligibility:",
+    "No member of the applicant's family should be an employee of the State/Central/ Government Public Sector Units. Applicants should not have availed of a loan in KMDC earlier."
+  ],
+  "exclusions": [
+    "No member of the applicant's family should be an employee of the State/Central/ Government Public Sector Units. Applicants should not have availed of a loan in KMDC earlier."
+  ],
+  "documents_required": [
+    "List of the required documentsOnline applicationBeneficiary's latest 2 passport size photosCaste and",
+    "income certificateCopy of Aadhaar cardProject report of the industry activity"
+  ],
+  "how_to_apply": "Mode: Online Application ProcessFirst, go to the official website, and fill out the application form. Print the application form. Submit this application form along with other relevant documents After the approval of the Selection Panel, Subsidy will be transferred to your bank account.",
+  "source_url": "https://kmdconline.karnataka.gov.in/Portal/home",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

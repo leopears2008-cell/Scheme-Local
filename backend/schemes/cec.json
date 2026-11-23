@@ -1,0 +1,27 @@
+{
+  "scheme_id": "cec",
+  "name": "Competitive Exam Coaching",
+  "category": "education",
+  "level": "state",
+  "state": "Rajasthan",
+  "department": "",
+  "benefit": "Free coaching to tribal (ST) students.",
+  "eligibility_rules": [
+    "Should be a student of ST category. Both Male and Female students are eligible for taking benefit of this scheme.",
+    "Exclusions / Ineligibility:",
+    "If a student has availed of the benefit once, they can't get it again."
+  ],
+  "exclusions": [
+    "If a student has availed of the benefit once, they can't get it again."
+  ],
+  "documents_required": [
+    "Education Qualification Marksheet / CertificateDomicile CertificateCaste",
+    "CertificateSowing Certificate"
+  ],
+  "how_to_apply": "Mode: Offline\n• 1. Applicants can obtain their application form free of cost from the Director, M.L.Verma Tribal Research and Training Institute, Udaipur or through the Office of the Project Officer of the Scheduled Area.\n• 2. After filling the form, it needs to be submitted to the same office along with the photocopies of the required documents.",
+  "source_url": "https://www.myscheme.gov.in/schemes/cec",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

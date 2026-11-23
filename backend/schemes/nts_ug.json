@@ -1,0 +1,32 @@
+{
+  "scheme_id": "nts_ug",
+  "name": "National Talent Scholarship Undergraduate",
+  "category": "agriculture",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Agriculture and Farmers Welfare",
+  "benefit": "The value of the scholarship shall be ₹ 2,000/- per month to undergraduate (Bachelor's degree) students.",
+  "eligibility_rules": [
+    "The applicant should be a student pursuing a Bachelors's from an Agricultural University recognized by ICAR, located outside his/her state of domicile.",
+    "The applicant should be admitted into the university through the All India Entrance Examination (AIEE).",
+    "The university should be duly funded under \"Strengthening and Development of Higher Agricultural Education in India\" of the Education Division, ICAR.The student shall be eligible for the scholarship provided he/ she -",
+    "Maintains merit and good conduct as certified by the Head of the College / University / Institution.",
+    "Does not remain absent without prior permission and does not participate in any agitation/strike etc. during the period.",
+    "Takes up studies on a whole-time basis and does not take up any job even on a part-time basis.",
+    "Does not accept any other financial assistance/scholarship during the course of undergraduate study.",
+    "Does not leave his/her course of study within one month of admission.",
+    "Does not subsequently change the initial subject allocated for which he/she has been awarded the NTS during his studies."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Candidates need to upload scanned images of the below documents with the",
+    "Application. Photograph. Signature. Thumb impression. No certificates are required to be uploaded along with the Application Form at",
+    "the time of online submission."
+  ],
+  "how_to_apply": "Mode: Online Application Forms can only be submitted online mode on the website https://icar.nta.ac.in. The Application Form other than online mode will not be accepted.",
+  "source_url": "https://icar.nta.ac.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

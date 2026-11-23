@@ -1,0 +1,23 @@
+{
+  "scheme_id": "rgkny",
+  "name": "Rajiv Gandhi Kisan Nyay Yojana",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Chhattisgarh",
+  "department": "",
+  "benefit": "will be transferred to the farmers. This amount will be transferred to the accounts of the farmers in 4 instalments. This scheme started during the Corona period has provided great relief to the farmers. In the initial year of the scheme, only paddy, maize and sugarcane crops were included but after that, few more types of following crops have been included in it. Kodo Kutki. Sugarcane. Arhar. Maize. Soybean. Pulses. Oilseeds. Fragrant paddy. Other fortified rice. Banana. Papaya. BenefitsMaximum amount of 10000/- per acre will be paid to the farmers planting paddy and maize through debit in installments. The fixed FRP amount for sugarcane crop will be paid through DBT to farmers at the rate of Rs. 93.75 /- quintal i.e. maximum amount of 355 /- per quintal.",
+  "eligibility_rules": [
+    "The applicant must be a resident of Chhattisgarh state. The applicant should be a marginal farmer, small farmer or large farmer. The age of the applicant should be above 18 years. Farmers of all categories of landowners and forest lease holders are eligible to get the benefits of the scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Loan Book. B",
+    "Bank Passbook. Aadhaar."
+  ],
+  "how_to_apply": "Mode: Offline First farmer have to visit the official website and download the application form. Fill out the application form with required details. Attach required documents (1. Loan Book, 2. B-1, 3. Bank Passbook, 4. Aadhaar).Submit the application to Rural Agriculture Extension Officer (RAEO) for verification. RAEO forward the application for registration. Information about acceptance/rejection of application will be given to the farmer through SMS. After registration each farmer will be given a unique ID.",
+  "source_url": "https://kisan.cg.nic.in/assets/files/FarmerRegistrationForm_UFP.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

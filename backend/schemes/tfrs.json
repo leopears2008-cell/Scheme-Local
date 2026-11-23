@@ -1,0 +1,36 @@
+{
+  "scheme_id": "tfrs",
+  "name": "Testing Fee Reimbursement Scheme",
+  "category": "employment_skill",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Micro, Small and Medium Enterprises",
+  "benefit": "SC-ST MSEs can receive reimbursement of 80% or ₹1,00,000/- (excluding GST and other applicable taxes), whichever is lower, for testing fees paid to NABL or BIS accredited laboratories, labs of government departments/PSUs, and for BIS licenses/certifications. The scheme covers testing of raw materials, semi-finished products, and finished products. Reimbursement can be availed multiple times within a financial year, though there's a cap on the total amount.",
+  "eligibility_rules": [
+    "Applicant should have a micro or small scale industry. Applicant should belong to Scheduled Caste (SC) or Scheduled Tribe (ST).The enterprise must be registered with the Udyam portal or any other valid registration platform recognized by the MSME Ministry."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Self",
+    "certified copy of UAM & GSTSelf",
+    "certified copy of",
+    "PAN card",
+    "In case of proprietorship, PAN card of SC/ST proprietor ought to be submittedSelf",
+    "certified copy of Caste certificate of",
+    "proprietor/ all partners/ directors Details of shareholding in case of partnership / Pvt. Ltd / LLP firm. In case of partnership concerns,",
+    "shareholding of the enterprise would be required to ascertain status of the MSE as SC/ST MSE (shareholding of SC/ST entrepreneur to",
+    "be > 51%). Attested copy of Partnership Deed for Partnership Firm / Memorandum and Article of Association in case of LLP/Private",
+    "Limited Company are requiredAttested or original copy (signature with stamp) of payment receipt and system generated GST invoice for",
+    "total amount paid to respective testing center or laboratory for availing various testing services NABL/ BIS attested copy of final testing",
+    "report received from the laboratory duly stamped and signed for all tests availed by SC",
+    "ST MSE unitProof of transferred amount as",
+    "reimbursement by NSSHO/ NSIC through PFMS under the scheme, where any such assistance is availed earlier with in the same",
+    "financial yearCancelled Cheque of the current account of the enterprise from which the testing charges have been debited"
+  ],
+  "how_to_apply": "Mode: Online Applicant need to visit the official website https://www.scsthub.in. For registration click on sign-up and provide the following details Full NameValid Email IDMobile NumberPassword and confirm passwordFor login click on login. After login complete the required information.",
+  "source_url": "https://www.scsthub.in.For",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

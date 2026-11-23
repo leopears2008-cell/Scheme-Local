@@ -1,0 +1,28 @@
+{
+  "scheme_id": "wbsishusathi",
+  "name": "Sishu Sathi",
+  "category": "health",
+  "level": "state",
+  "state": "West Bengal",
+  "department": "",
+  "benefit": "In a major boost to child health care in West Bengal, the State Government has joined hands with three private hospitals and government hospitals to provide free paediatric cardiac surgery to 3,000 children each year under the initiative named 'SishuSaathi' or friends for children that flagged off on Aug 21, 2013Salient features of this scheme include - a) the State Govt conducts health tests in government schools to detect heart ailments, b) the State Govt provides free cardiac surgery for children up to 12 years suffering from heart ailments, c) All children are eligible irrespective of family income,d) All expenses are borne by the State Government",
+  "eligibility_rules": [
+    "Beneficiary Type*: Child who needs heart surgeriesBenefits Type*: MonetaryDescription of the Benefits*: 1) Age*: All Children of 0 to 18 years age suffering from heart disease. There are no income criteria to avail of the benefit. The list of hospitals under the Scheme: a) IPGMER, Kolkatab) RN Tagore, International Institute of Cardiac Sciences, Kolkatac) BM Birla Hospital, Kolkatad) Mission Hosiptal, DurgapurContact: CMOH of the district/ BMOH in the block level/ DFWO in Kolkata.",
+    "Minimum Age: 0 & Maximum Age: 1",
+    "Gender*: Male, Female, Transgender",
+    "Residence Type*: Urban, Rural",
+    "Beneficiary State: West Bengal",
+    "Caste*: All Caste"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "No Documents required for this",
+    "Scheme"
+  ],
+  "how_to_apply": "Mode: Offline Contact:\nCMOH of the district/ BMOH in the block level/ DFWO in Kolkata.",
+  "source_url": "https://www.myscheme.gov.in/schemes/wbsishusathi",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

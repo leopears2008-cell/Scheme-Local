@@ -1,0 +1,38 @@
+{
+  "scheme_id": "jws",
+  "name": "Journalist Welfare Scheme",
+  "category": "health",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Information and Broadcasting",
+  "benefit": "Upto ₹5,00,000 may be provided to the family under extreme hardship on account of death of the journalist. Upto ₹5,00,000 may be provided to the journalist in case of permanent disability rendering the journalist incapable of earning a livelihood. Upto ₹3,00,000 may be provided towards the cost of treatment of major ailments such as cancer, renal failure, heart ailments requiring bypass / open heart surgery, angioplasty, brain haemorrhage and paralytic attack etc. This would be subject to the medical expenditure not being covered under CGHS, or any other insurance / departmental health schemes, etc. Provided that in case of non-accredited journalist the financial assistance would not be made available where such journalist the financial assistance would not be made available where such journalist is above the age of 65 years. Provided further that the committee may relax the age parameter of 65 years having regard to the circumstances / merit of the case. Upto ₹2,00,000 lakh may be provided in case of accidents causing serious injuries necessitating hospitalization. This would be subject to the medical expenditure not being covered under CGHS, or any other insurance / departmental health schemes, etc. However, in case of non-accredited journalists, the quantum of assistance available for cases (ii), (iii) and (iv) above will be limited to ₹1,00,000 for journalists having worked as such for 5 continuous years and thereafter ₹1,00,000 for every additional five years of working in the same manner subject to the maximum ceiling provided in each case.",
+  "eligibility_rules": [
+    "The applicant must be a citizen of India. The applicant must be ordinarily residing in India. The applicant must be a (serving or retired) Journalist. The applicant must be accredited to PIB at the Headquarters of the Govt. of India or at the Headquarters (Capitals) of the State / UT Governments. If not presently accredited to either Government of India or any State / UT Government, the applicant must have been a journalist for a minimum period of five continuous years.",
+    "Exclusions / Ineligibility:"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Proof of Age / DOBProof of ResidenceBank Details (Refer",
+    "Source) Documents pertaining to the Reason and Purpose of Financial Assistance: In case of Death of Journalist resulting in extreme",
+    "hardship to family",
+    "provide documents pertaining to Date, Nature & Cause of Death. Permanent Disability rendering the Journalist",
+    "incapable of earning a livelihood. In case of Major ailments",
+    "provide documents pertaining to the details of nature along with the place",
+    "(name of hospital), nature (drugs / surgery / radiotherapy, etc.) and period treatment sought. In case of Accidents causing serious injuries",
+    "necessitating hospitalization",
+    "provide documents pertaining to the details including date accident and place, nature & period of",
+    "treatment. Bills / Receipts pertaining to the amount of financial assistance sought. Details of Financial Assistance received / applied for (if",
+    "any) from other sources, i.e. PM Relief Fund, CM Relief Fund, Journalist Associations / Organizations, Insurance Claims, Motor",
+    "Accident Claims, Tribunal, others if any) Family Details (applicable only in case of death / disability of Journalist) including Full Name",
+    "of Family Member, Gender, Proof of Age / DOB, Relationship with the Deceased Journalist, Employment Details) Photocopy of Cheque",
+    "along with the verification obtained from the bank. Source:",
+    "https://mib.gov.in/sites/default/files/Revised%20JWS%20Guidelines%2",
+    "_1.pdf"
+  ],
+  "how_to_apply": "Mode: Offline The application for grant of financial assistance under this scheme shall be sent to the following address in the form prescribed in the scheme guidelines - The Principal Director General (M&C) Press Information Bureau (PIB)'A' Wing, Shastri Bhawan,New Delhi",
+  "source_url": "https://mib.gov.in/sites/default/files/Revised%20JWS%20Guidelines%2028.03.2018_1.pdf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,31 @@
+{
+  "scheme_id": "ts_kerala",
+  "name": "Thalolam Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "A patient will be eligible for initial assistance of ₹50,000/- only under this scheme. Under the scheme, free treatment will be provided to the children below age of 18, who are suffering from Kidney diseases, Cardiovascular diseases, Cerebral Palsy, Brittle Bone Disease, Hemophilia, Thalassemia, Sickle Cell Anemia, Orthopedic deformities and other Neuro-Developmental Disabilities, Congenital anomalies (Endosulfan victims) and accident cases which needs surgery. Note: Additional financial assistance can be met based on the decision of the Superintendent, Head of the concerned Department of Specialty, and Head of the Radiotherapy Department.",
+  "eligibility_rules": [
+    "The applicant should be a resident of Kerala State and the scheme is applicable only to patients from Kerala. The patient should be below 18 years of age. The scheme is applicable to patients belonging to families too poor to afford treatment of the Below Poverty Line (BPL) category. Under this scheme, assistance will be provided to the patient for diseases other than cancer which are lethal or fatal."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Copy of Aadhaar/ Proof of Identity of patient",
+    "Proof of age of the patient",
+    "Income",
+    "certificate",
+    "Copy of BPL card (if applicable)",
+    "Copy of Ration card (if applicable)",
+    "Residence certificate",
+    "Passport",
+    "size photograph",
+    "Patient's medical reports"
+  ],
+  "how_to_apply": "Mode: Offline To avail of the benefits of the scheme the applicant may contact the following authorities: Scheme counselor of the Safety Mission assigned to the respective hospitals, contacts hospitals covered under this scheme. Concerned District Social Justice Officer, KeralaNote: No special application is required. Based on the economic and social analysis done by the Counselors of the Safety Mission assigned to the respective hospitals, the benefit of the scheme will be applicable to the children of families who are unable to bear the cost of treatment.",
+  "source_url": "https://www.myscheme.gov.in/schemes/ts-kerala",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

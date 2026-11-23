@@ -1,0 +1,39 @@
+{
+  "scheme_id": "fcssos",
+  "name": "Free Coaching Scheme for SC and OBC Students",
+  "category": "education",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Social Justice and Empowerment",
+  "benefit": "Stipend @ ₹ 4000 per month for the full duration of the course not exceeding 12 months.₹ 15,000 as an incentive to the successful students for coaching for interviews for all the students clearing the mains stage of Central Civil Services / State Civil Services Exams for Class 1 and Class 2 posts. Mode of PaymentAll the admissible payments shall be released to the students through DBT in their Aadhar-enabled bank accounts. The fee and stipend shall be released in two instalments of 50% each of the admissible amount. The first instalment shall be released immediately at the commencement of the course. The second instalment will be released after the conclusion of more than 75% of the course duration. NOTE: The students will be required to remit the portion to the institution fee immediately and in any case not exceeding 15 days, to the Central Universities where they are receiving coaching. Courses for Coaching The courses for which the Coaching will be imparted shall be as follows: Group A and B examinations conducted by the Union Public Service Commission(UPSC), the Staff Selection Commission (SSC) and the various Railway Recruitment Boards (RRBs); Group A and B examinations conducted by the State Public Service Commissions; Officers' Grade examinations conducted by Banks, Insurance Companies and Public Sector Undertakings (PSUs); Premier Entrance Examinations for admission in (i) Engineering (e.g. IIT-JEE), (ii) Medical (eg. NEET), (iii) Professional courses like Management (e.g. CAT) and Law (e.g. CLAT), and (iv) Any other such disciplines as Ministry may decide from time to time.",
+  "eligibility_rules": [
+    "tests/examinations like SAT, GRE, GMAT, IELTS and TOEFL. Entrance examination tests for CPL courses/National Defence Academy and Combined Defence Services. EligibilityEligibility Criteria for StudentsThe applicant should be a student. The applicant should be from Scheduled Caste or Other Backward Class. The total annual family income of the applicant (from all sources) should be ₹ 8,00,000 or less. For the competitive exams for which the qualifying exam is class 12th, the candidate should have passed class 12th or be studying in class 12th as of the date of receiving the benefit under the scheme. Further, in case of competitive exams for which the qualifying exam is Undergraduate level, the candidate should have completed the undergraduate level course or studying in the final year of the undergraduate course concerned at the time of receiving the benefit under the scheme shall be eligible. Benefits under the Scheme can be availed by a particular student not more than twice, irrespective of the number of chances he/she may be entitled to take in a particular competitive examination and irrespective of the number of stages in the exam. The applicant should not already be availing of the benefits of any other coaching scheme. NOTE: A list of beneficiaries availing the scheme will also be uploaded on the website of the Ministry and shall be shared with Central Universities/Central Institutes to avoid the possibility of the candidate availing benefits of a similar coaching scheme simultaneously or more than twice. Eligibility Criteria for UniversitiesA maximum of 100 seats per Central University shall be allocated to such empanelled entities. For the purpose of viability, one Central University/Institution shall not have less than a total of 50 students. Courses per Central University: Not more than 4 courses indicated in para 3 of these guidelines can be assigned to one Central University. For each course, not less than 25 students per course shall be permitted.",
+    "Exclusions / Ineligibility:",
+    "For the competitive exams for which the qualifying exam is class 12th, students having less than 50% marks in their class 10th exam, shall not be considered under the scheme. Further, in case of competitive exams for which the qualifying exam is Under Graduate level, students having less than 50% marks in their class XII exam, shall not be considered under the scheme."
+  ],
+  "exclusions": [
+    "For the competitive exams for which the qualifying exam is class 12th, students having less than 50% marks in their class 10th exam, shall not be considered under the scheme. Further, in case of competitive exams for which the qualifying exam is Under Graduate level, students having less than 50% marks in their class XII exam, shall not be considered under the scheme."
+  ],
+  "documents_required": [
+    "Passport Size PhotographAadhaar cardIncome CertificateCaste",
+    "CertificateResidence ProofAge ProofID CardDetails of the Aadhaar",
+    "linked Bank AccountMarksheet of Class 10th, for the competitive",
+    "exams for which the qualifying exam is class 12th. Marksheet of Class 12th, for the competitive exams for which the qualifying exam is",
+    "Under Graduate levelDeclaration that he/she has not taken benefit more than twice under the Scheme or any other similar coaching",
+    "scheme run by the Central or State Government. Declaration that he/she is not availing benefits under any other coaching scheme of the",
+    "Centre or State Government. NOTE 1: At the time of application, if the student does not have an Aadhar number, he/ she can submit",
+    "his/her EID number. However, the payment shall be released only after obtaining the Aadhar Number and shall be disbursed to the",
+    "Aadhar",
+    "seeded bank account of the student only. NOTE 2: Income declaration of self",
+    "employed parents/guardians should be in the form",
+    "of a certificate issued by a Revenue Officer, not below the rank of Tehsildar. Employed parents/guardians are required to obtain an",
+    "income certificate from their employer and submit a consolidated certificate from the Revenue Officer including any other additional",
+    "source of income."
+  ],
+  "how_to_apply": "Mode: Online The Central University shall issue suitable advertisements inviting willing and eligible students to apply online on the Free Coaching Scheme Portal along with the details of the course he/she intends to join. TimelinesNotification calling for applications: 1st May Last date for receipt of applications: 31st May Tentative date for the declaration of merit list for the PMS and TCS students: 5th June Tentative date for declaration of merit list for others: 30th June Last date for Joining PMS/TCS students in coaching institutions and uploading fee receipts: 4th DecemberLast date for others joining the coaching institutions: 29th DecemberLast date for release of the coaching fee: Within one month of submission of fee receiptLast date for uploading of exam hall ticket: 30 days from the date of the entrance exam for which coaching has been takenLast date for release of the stipend: 30 days from uploading of exam hall ticket and self-certification regarding taking the exam",
+  "source_url": "https://www.myscheme.gov.in/schemes/fcssos",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

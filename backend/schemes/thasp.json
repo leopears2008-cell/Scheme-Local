@@ -1,0 +1,28 @@
+{
+  "scheme_id": "thasp",
+  "name": "Tripura Health Insuarance Scheme For Poor",
+  "category": "health",
+  "level": "state",
+  "state": "Tripura",
+  "department": "",
+  "benefit": "The Tripura Health Assurance Scheme for Poor (THASP) provides health coverage on a family floater basis, with a maximum sum assured of Rs. 1.15 lakh. The scheme includes coverage for transportation expenses incurred in travelling from Agartala to the listed hospital and back, with a maximum coverage limit of Rs. 10,0\n• 00. The expenses for treatment up to Rs. 1.15 lakh are paid directly to the listed hospital. Financial assistance for transportation is disbursed via a bank draft or directly credited to the beneficiary's account, as per the scheme's guidelines.",
+  "eligibility_rules": [
+    "The scheme is available to families with an annual income of less than Rs.1.5 lakh. Coverage is available for up to five family members, including the policyholder's legal spouse, parents, and unmarried children up to the age of 25 years. All family members must be listed on the family ration card issued by the Government of Tripura in order to be eligible for coverage under the THASP scheme.",
+    "Exclusions / Ineligibility:",
+    "Government employees are not eligible to apply for the Tripura Health Assurance Scheme for Poor (THASP).Students who receive benefits under the scheme are precluded from availing of benefits under any other scheme with similar objectives"
+  ],
+  "exclusions": [
+    "Government employees are not eligible to apply for the Tripura Health Assurance Scheme for Poor (THASP).Students who receive benefits under the scheme are precluded from availing of benefits under any other scheme with similar objectives"
+  ],
+  "documents_required": [
+    "Proof of age/date of birthProof of residence such",
+    "as domicile certificateBank account details (refer to the source for more information) Income certificateDocumentation related to the",
+    "patient's health condition."
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: In order to receive financial assistance under the Tripura Health Assurance Scheme for Poor (THASP), applicants must submit a duly filled application form with relevant details to the Director of the State Illness Fund.Step 2: Upon receiving the application for medical coverage, empanelled hospitals will be notified through fax or email by the state officials of the health department of Tripura to provide treatment to the patient. A copy of the referral letter will also be provided to the patient.Step 3: The empanelled hospital will assess whether the proposed treatment can be covered under the State Illness Fund based on the terms and conditions of the scheme. If the treatment is deemed eligible, coverage will be provided by the State Government up to the maximum limit of Rs. 1.15 lakh.Step 4: The hospital will inform the health department of Tripura of the cost of expenses and submit a bill for reimbursement under the scheme. Additionally, details of the healthcare facilities provided to the patient will also be shared with the Director of the Tripura Health Assurance Scheme for Poor (THASP) for verification.Step 5: Upon verification of the bill, the health department of Tripura will reimburse the hospital for expenses incurred up to the maximum ceiling limit of the scheme, which is Rs. 1.15 lakh.",
+  "source_url": "https://www.myscheme.gov.in/schemes/thasp",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

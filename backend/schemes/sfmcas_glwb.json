@@ -1,0 +1,25 @@
+{
+  "scheme_id": "sfmcas_glwb",
+  "name": "Full Medical Checkup Assistance Scheme- Gujarat Labour Welfare Board",
+  "category": "health",
+  "level": "state",
+  "state": "Gujarat",
+  "department": "",
+  "benefit": "The scheme provides health check-ups for male Shramyogi above 45 years of age and female Shramyogi above 35 years of age working in the organized sector in the state of Gujarat. Note: A fixed amount of ₹1950/- per worker for complete medical check-ups and 25% of this amount is ₹487.50 to be paid by the organization/company.",
+  "eligibility_rules": [
+    "Only those workers (Shramyogis) whose Labour Welfare Fund has been regularly paid by their organization/unit for the last one year will be eligible. The male Shram Yogis above 45 years of age and female Shram Yogis above 35 years of age working in the organized sector will be eligible to avail of the benefits under the scheme. The benefit will be given once a year to the labourers. The Gujarat Labour Welfare Board shall not be responsible for any side effects during/after physical examination. After getting in-principle approval from the office here, the medical examination has to be done within 30 days with the mutual agreement of the company and the hospital. Note 01: The company willing to avail the benefits will have to upload the list (Excel Sheet) in the portal. Note 02: Fees paid under this scheme will not be refunded. Note 03: The final decision regarding the scheme will be with the Welfare Commissioner. The jurisdiction will be Ahmedabad."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Passport",
+    "size PhotographA copy of the identity card issued by the",
+    "contractor to the worker/labourAadhaar Card of LabourLabour Welfare Fund Account NumberBonafide certificateAny other",
+    "documents as required"
+  ],
+  "how_to_apply": "Mode: Online Application Process for Scheme Benefit:Step 01: The applicant may visit the Sanman Portal: https://sanman.gujarat.gov.in/Step 02: On the home page, under the tab 'Citizen Login', click on 'Please Register Here'.Step 03: Enter your Aadhaar Card Number, select user type, and then enter your Labour Welfare Fund Account Number.Step 04: Now, click on 'Fetch' & verify the details.Step 05: Enter user details and Password.Step 06: After successful registration, the applicants can login through their User ID and Password.Step 07: Now, select the scheme and read the instructions carefully for the selected scheme.Step 08: Fill out the application form and upload all the relevant documents.Step 09: Agree with the Rules & Regulations and submit the application form. A confirmation email with the application Number will be sent on the registered email ID.",
+  "source_url": "https://sanman.gujarat.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

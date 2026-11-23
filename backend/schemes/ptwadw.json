@@ -1,0 +1,30 @@
+{
+  "scheme_id": "ptwadw",
+  "name": "Pension To Widows And Destitute Women",
+  "category": "women_child",
+  "level": "state",
+  "state": "Haryana",
+  "department": "",
+  "benefit": "Pension of ₹2500 per month is given as pension to widow and destitute women. EligibilityResidence Type: BothBeneficiary State: HaryanaIncome Details (per annum) Individual Income: Maximum Income: 2.00,000 p.a. Caste: AllReligion: All Age : 18 for FemaleGender: Female",
+  "eligibility_rules": [
+    "A women of age 18 years and above is eligible for the grant of pension under the scheme if she is domicile of Haryana and has been residing in Haryana State for the last one year at the time of submission of application also her own income from all sources is below Rs. 2,00,000/- per annum and further any one of the following three conditions is fulfilled: She is a widow. She is destitute without husband, parents and son(s).She is destitute due to desertion or physical/mental incapacity of",
+    "Husband in case of married women; or",
+    "Parents in case of other women. One can make an application Through E-Disha Center as well as Atal Seva Kendra. Both online, as well as offline applications can be made as per the given norms.",
+    "Exclusions / Ineligibility:",
+    "Not with standing the above, a woman employed by any Government or by any Local/Statutory Body or any organization substantially financed by any Government or Local/Statutory Body or who is drawing pension or family pension there from will not be eligible under this Scheme.\"Pension\" wherever occurring in any Government notification concerning Social Security Benefits means and includes, income received or accrued from accumulated earnings, including the following schemes:*Provident Funds*Annuities from any source including Commercial Banks, Financial Institutions or Insurance."
+  ],
+  "exclusions": [
+    "Not with standing the above, a woman employed by any Government or by any Local/Statutory Body or any organization substantially financed by any Government or Local/Statutory Body or who is drawing pension or family pension there from will not be eligible under this Scheme.\"Pension\" wherever occurring in any Government notification concerning Social Security Benefits means and includes, income received or accrued from accumulated earnings, including the following schemes:*Provident Funds*Annuities from any source including Commercial Banks, Financial Institutions or Insurance."
+  ],
+  "documents_required": [
+    "Application Form in Prescribed formatIdentity Proof - Aadhaar Card of the parentsAge Proof Certificate - Birth Certificate",
+    "or Mark sheetAddress Proof - BPL Ration CardIncome CertificateDomicile CertificateDeath Certificate of Husband - For",
+    "WidowPhotograph of the parentBank Account Details"
+  ],
+  "how_to_apply": "Mode: Online & Offline OnlineClick on https://socialjusticehry.gov.in/form/application-form-for-widow-and-destitute-women-pension/ .Fill the form, upload the required documents. Submit the application.",
+  "source_url": "https://saralharyana.gov.in/",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

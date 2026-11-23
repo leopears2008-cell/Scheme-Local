@@ -1,0 +1,27 @@
+{
+  "scheme_id": "cmlby",
+  "name": "Chief Minister Ladli Behna Yojana",
+  "category": "health",
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "department": "",
+  "benefit": "An amount of Rs.1000/- per month will be paid to each eligible woman in her",
+  "eligibility_rules": [
+    "period in the own Aadhaar linked DBT enabled bank account. If a woman is below the age of 60 years and already receiving less than Rs. 1000/- per month under any other Social Security Pension Scheme, then that woman will be reimbursed up to Rs. 1000/-.EligibilityApplicants must be local residents of Madhya Pradesh. Applicants must be married, including widows, divorced and abandoned women. Should have completed 23 years and less than 60 years of age as on January 01, in the calendar year of application.",
+    "Exclusions / Ineligibility:",
+    "Female/Woman Family's combined self-declared annual income is more than 2.5 lakhs. Any family member of a Female/Woman is an income taxpayer. Any family member of a Female/Woman is employed as a regular/permanent worker/contract worker in a Government Department /Undertaking/Mandal/Local Body of Government of India or State Government or is getting a pension after retirement."
+  ],
+  "exclusions": [
+    "Female/Woman Family's combined self-declared annual income is more than 2.5 lakhs. Any family member of a Female/Woman is an income taxpayer. Any family member of a Female/Woman is employed as a regular/permanent worker/contract worker in a Government Department /Undertaking/Mandal/Local Body of Government of India or State Government or is getting a pension after retirement."
+  ],
+  "documents_required": [
+    "Family and Family",
+    "members Samgra ID.Aadhaar Card. Registered Mobile number on samgra"
+  ],
+  "how_to_apply": "Mode: Offline Application forms will be available at Gram Panchayat / Ward Office / Camp siteApplicants have to fill out the application form with the photograph. Application forms will be submitted in Ladli Bahna Portal/App at camp site/gram panchayat/ward office.",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmlby",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

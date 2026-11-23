@@ -1,0 +1,23 @@
+{
+  "scheme_id": "ssds",
+  "name": "Scholarship Scheme For Disabled Students To Study Abroad For Higher Education",
+  "category": "education",
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "department": "",
+  "benefit": "Scholarship for Higher Education in abroad",
+  "eligibility_rules": [
+    "Applicants should be natives of Madhya PradeshApplicants should have 40% or more disability. Applicant's age should not be more the 35 years. For studies after research degree - First class or 60 % marks or its equivalent grade in the relevant postgraduate examination and research degree (PhD) with experience in the relevant field. For Research Degree (PhD) - First class or 60% marks in the relevant postgraduate examination or its equivalent grade and two years teaching/research/professional experience in the relevant field/M. Phil. degree. For Post Graduate Degree - First Class in Bachelor's Degree or 60% marks or its equivalent grade. The applicant's name should be registered on the Sparsh portal. The annual income of applicant's family should be up to Rs. 96,000/-One Child per family will be eligible only at once."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Disability Certificate. Domicile",
+    "Certificate. Aadhaar Card. Medical Certificate. Income Certificate."
+  ],
+  "how_to_apply": "Mode: Online Applicants have to visit the official web site and download the application form. Fill out the application with the necessary information. Attach the required documents. Application in the prescribed form will have to be submitted to the District Office of Social Justice and Disabled Welfare",
+  "source_url": "https://www.myscheme.gov.in/schemes/ssds",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

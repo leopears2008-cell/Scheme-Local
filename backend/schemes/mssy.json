@@ -1,0 +1,23 @@
+{
+  "scheme_id": "mssy",
+  "name": "Mukhayamantri Saur Swarojgar Yojna",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Uttarakhand",
+  "department": "",
+  "benefit": "70% loan (8% ROI) with a 25% subsidyNo Educational BarriersEmployment generation.",
+  "eligibility_rules": [
+    "The age of the applicant at the time of application should be minimum 18 years and the maximum age should not exceed 65 years. There is no requirement for educational qualification. The applicant should be a permanent/native resident of the state. The applicant should not be a defaulter of any nationalized bank/financial institution/cooperative institution or other institution. The borrower should have the necessary knowledge regarding the conduct of the proposed activity. The applicant should be an account holder of the financing bank of the concerned area. If any permission/clearance is required for the operation / re-operation of a business/service / enterprise, permission/clearance will have to be obtained from the competent authority of the particular area. It will be mandatory for the candidates of ex-servicemen/women / disabled / scheduled caste / scheduled tribe to attach a self-attested copy of the certificate issued by the competent authority with the application form to get the benefits under the scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "List of required documents Permanent residence certificate. Aadhaar Card. Photograph. Project",
+    "description in detail. Application fee draft certificate."
+  ],
+  "how_to_apply": "Mode: Online Application ProcessThe applicant needs to visit official website. Select \"Mukhayamantri Saur Swarojgar\" and choose \"Click here to apply\".Provide the authentication through Mobile OTP. Now provide the required information/detailsUpload the necessary documents",
+  "source_url": "https://msy.uk.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

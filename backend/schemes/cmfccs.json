@@ -1,0 +1,25 @@
+{
+  "scheme_id": "cmfccs",
+  "name": "Chief Minister's Free Cancer Chemotherapy Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Arunachal Pradesh",
+  "department": "",
+  "benefit": "Medicine worth ₹10.00 lakhs per person per annum (₹5.00 lakh for 6 months).Free ConsultationFree counselingThe benefit of the scheme can be availed during the period of the entire treatment.",
+  "eligibility_rules": [
+    "Regular State Government Employees and their dependents are eligible for the scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Identity proof",
+    "i.e. Aadhaar Card, Voter ID card, etc. Schedule Tribe Certificate for APST patientsTwo passport",
+    "size photographsAddress",
+    "proof"
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: The applicant may visit the nearest State Tertiary Cancer Centre and also contact the Nodal Officer for the scheme.Step 02: Application in the prescribed format may be received from the concerned State Tertiary Cancer Centre.Step 03: The applicant must ensure that the filled information should be correct before submitting the application form to the concerned department.Step 04: After successful verification, the applicant can avail the benefit of the scheme.",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmfccs",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

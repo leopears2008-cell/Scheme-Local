@@ -1,0 +1,30 @@
+{
+  "scheme_id": "ignwps",
+  "name": "Indira Gandhi National Widow Pension Scheme",
+  "category": "women_child",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Rural Development",
+  "benefit": "A pension of Rs.300/- per month is provided to Widows between 40 years and 79 years. For persons who are 80 years and above the pension is Rs.500/- per month.",
+  "eligibility_rules": [
+    "The eligibility criteria under Indira Gandhi National Widow Pension Scheme (IGNWPS) is:-The applicant must be a widow in the age group of 40-79 years. The applicant should belong to a household living below the poverty line according to the criteria prescribed by the Govt. of India",
+    "Exclusions / Ineligibility:",
+    "Pension will be discontinuedIn case of remarriage of widowOnce the widow moves above poverty line"
+  ],
+  "exclusions": [
+    "Pension will be discontinuedIn case of remarriage of widowOnce the widow moves above poverty line"
+  ],
+  "documents_required": [
+    "Death",
+    "Certificate of husband - With the name of the surviving wife(widow).BPL Card. Age Proof",
+    "For age, the birth certificate or school",
+    "certificate may be relied on. In their absence ration card and EPIC may be considered. If there is no valid document, any Medical Officer",
+    "of any government hospital may be authorized to issue the age certificate."
+  ],
+  "how_to_apply": "Mode: Online & Offline One can download UMANG App or visit website https://web.umang.gov.in/web_new/home The citizen can login using mobile number and OTP.Once logged In, citizen can search for NSAP.Click on \"Apply Online\"Fill the basic details, choose the mode of payment of pension, upload photo and click on \"Submit\".",
+  "source_url": "https://web.umang.gov.in/web_new/home",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

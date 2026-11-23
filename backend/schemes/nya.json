@@ -1,0 +1,22 @@
+{
+  "scheme_id": "nya",
+  "name": "National Youth Award",
+  "category": "health",
+  "level": "central",
+  "state": "",
+  "department": "Ministry Of Y",
+  "benefit": "Individual Awards: Receive a medal, certificate, and ₹1,00,000/-.Voluntary Youth Organization Awards: Receive a medal, certificate, and ₹3,00,000/-",
+  "eligibility_rules": [
+    "For Individuals: The applicant should be a citizen of India. The applicant should be Between the age of 15- 29 years as of the first January of the nominated year. The applicant should have done extraordinarily identifiable social work. The applicant who Persons employed in any government service i.e. with the Central/State Governments, PSUs/Universities, Colleges/schools, etc. is not eligible for the award. The award will be conferred once in a lifetime. For Voluntary Organizations: The Organizations Should be registered under the Registration of Societies Act, 1860 (Act XXII of 1860) for the last three years or under the corresponding State Act and have a proper constitution or Articles of Association. The organization should be a non-profit organization. The organization Should not have discriminated against any person or group of persons on the grounds of sex, religion, caste, or creed;The organization Has rendered extra-ordinary service involving the Youth in the relevant field for at least three years;The organization Has a good reputation among the local community/areaThe organization Should not have been conferred with this award earlier."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Proof of Date of birth (DOB) Supporting documents for outstanding work. Recommendation letter."
+  ],
+  "how_to_apply": "Mode: Online Registration: Step-1: Visit the official website. Step-2: Click on the Registration button. Step-3: Choose type Individual or Organization. Step-4.1: Under Individual category provide the following details. - Name as per Aadhaar/Valid Identity Proof. - Date of Birth. - Nominator/Applicant Type. - Mobile No. - Email ID. - Aadhaar Number. Step-4.2: Under Organization category provide the following details. - Type of Organization. - Name of the Authorized Person as per Aadhaar/Valid Identity Proof - Date of Birth. - Brief Description about the Organization (100 Words) - Designation - Mobile No. - Email ID. - Aadhaar Number. Step-5: Submit. Apply: Step-1: Visit the official website. Step-2: Click on login button on portal and login using the credentials. Step-3: From the list of awards, select scheme name, then click \"Nominate / Apply Now\".Step-4: On the next page, fill in all the mandatory fields in the online application form, and then click \"Submit\".",
+  "source_url": "https://www.myscheme.gov.in/schemes/nya",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,23 @@
+{
+  "scheme_id": "mrin",
+  "name": "Market Research Information Network",
+  "category": "agriculture",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Agriculture and Farmers Welfare",
+  "benefit": "Mandi rates are disseminated on the portal. Rate availability of all the Mandis facilitates the growers and sellers to sell and purchase their products at good rates.",
+  "eligibility_rules": [
+    "Citizen/resident meeting scheme eligibility requirements."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "No Documents",
+    "required for this Scheme"
+  ],
+  "how_to_apply": "No Application process is specified",
+  "source_url": "https://www.myscheme.gov.in/schemes/mrin",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

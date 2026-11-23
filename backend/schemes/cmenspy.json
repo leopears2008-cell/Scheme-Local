@@ -1,0 +1,32 @@
+{
+  "scheme_id": "cmenspy",
+  "name": "Chief Minister Ekal Nari Samman Pension Yojana",
+  "category": "women_child",
+  "level": "state",
+  "state": "Rajasthan",
+  "department": "",
+  "benefit": "From 18 to 55 years old: Rs. 500/- per month. From 55 to 60 years: Rs. 750/- per month. From 60 to 75 years: 1000/- per month. Above the age of 75 years: 1500/- per month.",
+  "eligibility_rules": [
+    "The applicant's age should be 18 years or more. A native of the Rajasthan state. A widow/abandoned/divorced woman who does not have any source of regular income of her own for subsistence. (or) Annual income from all sources should be less than Rs. 48,000/-.",
+    "Exclusions / Ineligibility:",
+    "If the applicant himself or his son is serving in Central Government/Other State Government/State Government/State Undertaking or is a pensioner of Central Government/Other State Government/State Government/State Undertaking, then he/she is not eligible to receive a pension under these rules."
+  ],
+  "exclusions": [
+    "If the applicant himself or his son is serving in Central Government/Other State Government/State Government/State Undertaking or is a pensioner of Central Government/Other State Government/State Government/State Undertaking, then he/she is not eligible to receive a pension under these rules."
+  ],
+  "documents_required": [
+    "Aadhaar Card. Birth",
+    "certificate. Ration Card. Original residence certificate. Bank Account Details. Applicant",
+    "Passport",
+    "size photo. Income Declaration",
+    "Form. Death certificate of husband for widow pension. Certificate issued by the court for divorcee woman pension. Certificate issued by",
+    "the Sub",
+    "Divisional Officer / Development Officer for abandoned women pension."
+  ],
+  "how_to_apply": "Mode: Online The applicants have to visit on the official portal. On the home page, click on apply. On the new page, the application form will open. Now applicants need to enter the information asked in the application form. After entering all the information, upload the required documents. Click on the Submit.",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmenspy",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

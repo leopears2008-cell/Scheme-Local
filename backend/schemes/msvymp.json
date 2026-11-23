@@ -1,0 +1,37 @@
+{
+  "scheme_id": "msvymp",
+  "name": "Masala Shetra Vistar Yojana",
+  "category": "agriculture",
+  "level": "state",
+  "state": "Madhya Pradesh",
+  "department": "",
+  "benefit": "In seed spice crops, 50% of the cost of seed, a maximum ₹10,000/- per hectare, whichever is less, will be given as a subsidy. For the production of root and center/rhizome commercial crops garlic, turmeric, and ginger, a grant of 50% of the cost of planting material to a maximum of ₹ 50,000/- per hectare, whichever is less, will be given.",
+  "eligibility_rules": [
+    "Those farmers are not currently cultivating spices. This scheme will be applicable for all sections. Farmers who have obtained forest rights certificate will also be eligible to avail the benefits. The grant will be payable only once to a farmer. A farmer can do farming for the first time in as much area as he wants but the grant will be payable for minimum 0.25 hectare and maximum 2.00 hectare.",
+    "Exclusions / Ineligibility:",
+    "Ultimately only those farmers will be encouraged to cultivate spices.",
+    "This scheme will apply to all categories.",
+    "Farmers who have obtained forest rights certificates are also eligible to avail the benefits of this scheme.",
+    "The final grant will be given to a farmer only once.",
+    "A farmer can do farming in as much area as he wants for the first time, but the grant",
+    "It will be payable for a minimum of 0.25 hectares and a maximum of 2.00 hectares."
+  ],
+  "exclusions": [
+    "Ultimately only those farmers will be encouraged to cultivate spices.",
+    "This scheme will apply to all categories.",
+    "Farmers who have obtained forest rights certificates are also eligible to avail the benefits of this scheme.",
+    "The final grant will be given to a farmer only once.",
+    "A farmer can do farming in as much area as he wants for the first time, but the grant",
+    "It will be payable for a minimum of 0.25 hectares and a maximum of 2.00 hectares."
+  ],
+  "documents_required": [
+    "Photo. Aadhaar Card. Khasra Number/B1/Copy of Forest Patta. Bank Passbook. Birth",
+    "Certificate."
+  ],
+  "how_to_apply": "Mode: OnlineStep 1: Applicants have to visit the official portal.Step 2: Click on \"New Registration \".Step 3: Enter your mobile number and click on OTP Send.Step 4: Now Fill in the details and upload the documents.Step 5: After, fill in all the information and upload the document click on the submit button.",
+  "source_url": "https://www.myscheme.gov.in/schemes/msvymp",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

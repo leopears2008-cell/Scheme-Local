@@ -1,0 +1,27 @@
+{
+  "scheme_id": "cmchis",
+  "name": "Chief Minister's Comprehensive Health Insurance Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Tamil Nadu",
+  "department": "",
+  "benefit": "Extensive Coverage for Medical Emergencies: The Chief Minister Comprehensive Health Insurance Scheme is designed to provide financial support to families who are not financially equipped to handle medical emergencies due to the high costs of healthcare treatments in India. The scheme offers access to high-end medical treatments without the worry of incurring a significant financial burdens. Large Network of Hospitals: One of the significant advantages of the Chief Minister Comprehensive Health Insurance Scheme is that it has a vast network of hospitals that are empanelled to provide medical treatment. This ensures that beneficiaries can access medical facilities quickly, even in remote areas. Comprehensive Coverage for Multiple Treatments:\nThe scheme provides coverage for numerous treatments, thereby reducing the likelihood of beneficiaries having to pay for medical treatments from their pocket. This ensures that beneficiaries can avail of any treatment covered under the policy free of cost, making healthcare more affordable. High Sum Insured: The Chief Minister Comprehensive Health Insurance Scheme provides high coverage of up to Rs. 5 lahks per family for each policy year. This amount is sufficient to avail of most minor healthcare treatments, and it provides significant relief to families who cannot afford healthcare expenses. Coverage for Additional Medical Procedures: Unlike typical health insurance policies, the Chief Minister Comprehensive Health Insurance Scheme also provides coverage for follow-up treatments and diagnostic procedures. This eliminates the need for beneficiaries to spend extra money on carrying out these procedures, thus providing additional financial relief.",
+  "eligibility_rules": [
+    "The Chief Minister's Comprehensive Health Insurance Scheme is intended for the residents of Tamil Nadu who meet the specified eligibility criteria. To qualify for benefits under the scheme, the applicant's name must be present in the family card, and their family's annual income should be less than Rs.1,20,000/- per annum. This eligibility can be confirmed by producing necessary documents, such as the family card, Aadhar card, and income certificate issued by the VAO/Revenue Authorities, along with a self-declaration from the head of the family. Under this scheme, the definition of family includes the eligible member, their legal spouse, their children, and their dependent parents. By ensuring that these individuals meet the necessary criteria, they can access the benefits of the scheme and receive quality healthcare services without financial burden.",
+    "Exclusions / Ineligibility:",
+    "Non-residents of Tamil Nadu are not eligible for this scheme. Individuals with an annual income exceeding Rs.72,000/- are not eligible for this scheme. Members not listed in the ration card of the family are not eligible for this scheme. Non-Sri Lankan refugees without proof of citizenship are not eligible for this scheme. Migrants from other Indian states who do not possess migration certificates from the appropriate authority are not eligible for this scheme. Orphans and rescued girl children who are not associated with any registered/unregistered organization are not eligible for this scheme."
+  ],
+  "exclusions": [
+    "Non-residents of Tamil Nadu are not eligible for this scheme. Individuals with an annual income exceeding Rs.72,000/- are not eligible for this scheme. Members not listed in the ration card of the family are not eligible for this scheme. Non-Sri Lankan refugees without proof of citizenship are not eligible for this scheme. Migrants from other Indian states who do not possess migration certificates from the appropriate authority are not eligible for this scheme. Orphans and rescued girl children who are not associated with any registered/unregistered organization are not eligible for this scheme."
+  ],
+  "documents_required": [
+    "Income certificate from the Village Administrative Officer/Revenue authoritiesRation Card (both original and photocopy) Self",
+    "declaration from the head of the familyProof of identityAddress proofAadhar cardPAN card (optional)"
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: Obtain an income certificate from the Village Administrative Officer or Revenue authorities.Step 2: Gather all the necessary documents such as Aadhar card, ration card, and income certificate and proceed to the enrollment center.Step 3: Present your documents to the kiosk operator for verification.Step 4: Provide your biometric details such as fingerprints, photograph, and eye scan.Step 5: Your details will be verified and the e-card will be issued to you.",
+  "source_url": "https://www.myscheme.gov.in/schemes/cmchis",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

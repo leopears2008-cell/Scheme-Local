@@ -1,0 +1,25 @@
+{
+  "scheme_id": "ctms",
+  "name": "Consortia & Tender Marketing Scheme",
+  "category": "employment_skill",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Micro, Small and Medium Enterprises",
+  "benefit": "Enlistment of the Unit for participating in Government/Private tenders. Benefit of 0.5% in service charges to consortium members.",
+  "eligibility_rules": [
+    "Micro & Small Enterprises registered with NSIC under its Single Point Registration Scheme (SPRS).Or,Micro & Small Enterprises who apply to get themselves registered with NSIC under the SPRS along with all required documents in terms of the scheme. Their factory/unit should be inspected before filing of tender in terms of the Tender Marketing Scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "A passport size photograph of each of the Proprietor/Partner/Director/Society office bearers along with residential proofSelf",
+    "attested copy of G.P. Registration CertificatePower of Attorney (Annexure - B)/Board Resolution (Annexure - C)/Society",
+    "Resolution (Annexure - H) authorizing the Partner/Director /Executive to deal with NSIC for enlistment/tender participation and",
+    "consortium formation. Bank attested specimen signature of authorized persons. Copies of recent supply orders. Enlistment Fee."
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: The application form, in the prescribed format (Annexures - A and A-1) for enlistment under the Tender Marketing Scheme is to be submitted by the applicant Micro & Small Enterprise (MSE), duly signed by the authorized signatory i.e. Proprietor/Partner(s)/Director(s) of the firm /company /society along with the documents mentioned in the application form.Step 02: Fill the form properly and attach all the necessary documents and send it to the Concerned/Regional NSIC branch office.",
+  "source_url": "https://www.myscheme.gov.in/schemes/ctms",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

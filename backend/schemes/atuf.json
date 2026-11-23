@@ -1,0 +1,23 @@
+{
+  "scheme_id": "atuf",
+  "name": "Amended Technology Upgradation Fund",
+  "category": "women_child",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Textiles",
+  "benefit": "The eligible individual entities (not units) are entitled to get reimbursement of the Capital Investment Subsidy (CIS) according to the below rates: Weaving using new looms that are shuttle-less processing silk, handloom, and jute (includes weaving and knitting preparatory) at the rate of CIS 10% subject to the upper limit of Rs.20 croreTechnical textiles and garments at the rate of CIS 15% subject to the upper limit of Rs.30 crore. Multiple composite units/segments where the capital investment for technical textiles and garments is less than 50% of the project cost at the rate of CIS 10% subject to the upper limit of Rs.20 crore. Multiple composite units/segments where the capital investment for technical textiles and garments exceeds 50% of the project cost at the rate of CIS 15% subject to the upper limit of Rs.30 crore.",
+  "eligibility_rules": [
+    "The following entities are eligible to get the credit-linked subsidy under this scheme: Handloom sectorSilk SectorJute SectorTechnical textilesMadeup/garment manufacturingProcessing fibres, fabrics, made-up, garments and yarnsWeaving preparatory and knitting"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "No Documents required for this",
+    "Scheme"
+  ],
+  "how_to_apply": "Mode: OnlineStep 1: A unit/applicant can apply for ATUFS after the machinery is installed for undergoing a joint inspection.Step 2: The applicant can submit the ATUFS application online on the iTUFS online portal.Step 3: Once the application is submitted, it will be forwarded to different stakeholders for verification.Step 4: A Unique Identification Number (UID) is generated and provided to the applicants.Step 5: Applicants can track the application online and can opt to get SMS/e-Mail updates about the application status through the UID.Step 6: After the stakeholders approve, the Ministry of Textiles will release the funds.",
+  "source_url": "https://www.myscheme.gov.in/schemes/atuf",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

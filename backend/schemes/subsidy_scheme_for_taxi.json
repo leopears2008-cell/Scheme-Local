@@ -1,0 +1,32 @@
+{
+  "scheme_id": "subsidy_scheme_for_taxi",
+  "name": "Subsidy Scheme For Purchase Of Taxi / Goods Vehicle / Passenger Autorickshaw",
+  "category": "women_child",
+  "level": "state",
+  "state": "Karnataka",
+  "department": "",
+  "benefit": "Subsidy of 33% on Vehicle value or up to a maximum of Rs 2,50,000/- will be given to each beneficiary to buy Auto Rickshaw/Taxi/Goods Vehicle.",
+  "eligibility_rules": [
+    "(A) Applicants must belong to State Religious Minority Community.(B) The applicant must be a permanent resident of the State.(C) The age limit of the applicant should be between 18 and 55 years.(D) Family income from all sources should be within Rs. 4.50 lakh per annum.(E) No member of the applicant's family should be an employee of the State/Central/ Government Public Sector Units.(F) Applicant must possess relevant driving License issued by the Regional Transport Authority.(G) Applicant or his/her family members should have not availed any vehicle loan under any scheme of the State Government.(H) The applicant shall not be a loan defaulter in KMDC.",
+    "Exclusions / Ineligibility:",
+    "No member of the applicant's family should be an employee of the State/Central/ Government Public Sector Units. Applicant or his/her family members should have not availed of any vehicle loan under any scheme of the State Government."
+  ],
+  "exclusions": [
+    "No member of the applicant's family should be an employee of the State/Central/ Government Public Sector Units. Applicant or his/her family members should have not availed of any vehicle loan under any scheme of the State Government."
+  ],
+  "documents_required": [
+    "Online application. Beneficiary's latest 2 passport",
+    "photographs. Caste and Income certificate. Aadhaar card copy. Driving License copy. An Affidavit from the beneficiary towards non",
+    "availment of loan facility under any scheme of the State Government for the purchase of the vehicle by the beneficiary and his/her",
+    "family members. An affidavit towards non",
+    "transfer (alienation) of the vehicle obtained under this scheme during the loan period. Copy of",
+    "Bank Passbook. Copy of Vehicle Quotation. Self",
+    "Declaration Form."
+  ],
+  "how_to_apply": "Mode: OnlineStep 01: First go to the official website, and fill out the application form.Step 02: Print the application form.Step 03: Submit this application form along with other relevant documents to the Selection Panel of your concerned district.Step 04: After the approval of the Selection Panel, Subsidy will be transferred to your bank account.",
+  "source_url": "https://www.myscheme.gov.in/schemes/subsidy-scheme-for-taxi",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

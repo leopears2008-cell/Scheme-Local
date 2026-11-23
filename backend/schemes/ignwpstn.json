@@ -1,0 +1,24 @@
+{
+  "scheme_id": "ignwpstn",
+  "name": "Indira Gandhi National Widow Pension Scheme - Tamil Nadu",
+  "category": "women_child",
+  "level": "state",
+  "state": "Tamil Nadu",
+  "department": "",
+  "benefit": "Pension: ₹1,000/- per month. Free Clothes during Pongal and Deepavali: One free saree. Free Rice in Anganwadi Centres: 2kg/month to those who are taking nutritious meals.4kg/month to those who are not taking nutritious meals.",
+  "eligibility_rules": [
+    "The applicant should be a widow. The applicant should be destitute. The applicant should belong to the \"Below Poverty Line\" category. The applicant's age should be 40 years and above."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Applicant's PhotoAadhaar CardProof of ageAadhaar Consent FormSmart Ration Card or Any Address",
+    "ProofHusband Death CertificateSelf-declaration of ApplicantWidow CertificateAny Identity Proof (Voter ID Card, Passport, PAN",
+    "Card, Driving License) Bank PassbookBPL Card Number"
+  ],
+  "how_to_apply": "Mode: Online - via CSCsStep 1: The applicant should gather copies of the necessary documents needed to apply for the concerned scheme.Step 2: The applicant should visit the nearest Common Service Center (CSC) and complete the Biometric Verification Process.Step 3: In the application form, fill in all the mandatory fields and upload copies of all the mandatory documents.Step 4: Request a receipt or acknowledgment from the concerned authority to whom the application has been submitted. Ensure that the receipt contains essential details such as the date and time of submission, and a unique identification number (if applicable).",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignwpstn",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

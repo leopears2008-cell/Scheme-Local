@@ -1,0 +1,28 @@
+{
+  "scheme_id": "stls",
+  "name": "Short Term Loan Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Goa",
+  "department": "",
+  "benefit": "Short Term Loan of up to ₹ 1,00,000/- as an advance to meet the Financial requirement urgently for Business/ Education/ Medical Purposes.",
+  "eligibility_rules": [
+    "The applicant should be an individual from the Scheduled Tribe (ST) Community of the State of Goa. The applicant can reapply under the said scheme provided he has cleared earlier loans availed under the scheme."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Scheduled Tribe (ST) Certificate,",
+    "issued by the Competent Authority of the State of Goa. Bank Passbook. Photograph. Salary Certificate / Pay Slip of one Surety along with",
+    "surety affidavit on ₹ 50/",
+    "stamp paper, One Photo and ID Proof of surety. Aadhar Card. Affidavit of the applicant on ₹ 50/",
+    "Stamp",
+    "paper regarding the amount of loan required and its purpose (If the applicant is below 18 years of age then either parents or guardian",
+    "shall give the affidavit on behalf of their child)."
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: The interested applicant should visit the Goa State Scheduled Tribes Finance and Development Corporation Ltd, Department of Tribal Welfare, Govt. of Goa, Shram Shakti Bhavan, 5th Floor, Patto, Panaji-Goa, - 403\n• 001.Step 2: Take a print of the proforma of the application form, or request a hard copy from the concerned authority.Step 3: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach copies of all the mandatory documents (self-attest if required).Step 4: Submit the duly filled and signed application form along with the documents to the concerned authority.",
+  "source_url": "https://www.myscheme.gov.in/schemes/stls",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

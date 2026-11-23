@@ -11,8 +11,12 @@ Or:   python test_retrieval.py "your own question here"
 
 import sys
 
-import chromadb
-from chromadb.utils import embedding_functions
+try:
+    import chromadb
+    from chromadb.utils import embedding_functions
+except ImportError:
+    chromadb = None
+    embedding_functions = None
 
 from config import CHROMA_DIR, COLLECTION_NAME, EMBEDDING_MODEL
 
@@ -25,6 +29,9 @@ DEFAULT_QUERIES = [
 
 
 def main() -> None:
+    if chromadb is None or embedding_functions is None:
+        print("chromadb is not installed. Install it with: pip install chromadb")
+        return
     embed_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
         model_name=EMBEDDING_MODEL
     )

@@ -1,0 +1,30 @@
+{
+  "scheme_id": "fadsp1012e",
+  "name": "Financial Assistance To Disabled Students Pursuing (10th, 11th, 12th Equivalent Exams)",
+  "category": "health",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "Sl. No. Class/CourseCourse Fee AssistanceExam Fee AssistanceRegistration Fee AssistanceAdmission Fee Assistance1SSLC/10th Class₹1750/-₹500/-₹100/---211th Class₹1950/-₹700/-₹100/-₹200/- 312th Class₹1950/-------",
+  "eligibility_rules": [
+    "The applicant should be a resident of Kerala State. The differently abled students with 40% or more disability are eligible to apply under the scheme. Financial assistance will be provided to students falling in Above Poverty Line (APL) as well as Below Poverty Line (BPL) categories."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Identity proof",
+    "Passport",
+    "size photo",
+    "Educational Certificates",
+    "Below Poverty Line (BPL) Card (If",
+    "applicable)",
+    "Disability Certificate",
+    "Income Certificate/Copy of Ration card (If applicable)",
+    "Bank account details"
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: To avail of the benefits of the scheme, the applicant needs to visit the nearest Anganwadi Centre or District Social Justice Office and collect the application form. The application form can also be downloaded from the official website of the Social Justice Department, Government of Kerala.Step 02: The applicant needs to fill out the application form completelyStep 03: The application may be submitted to the District Social Justice Officers (DSJOs) or the concerned Anganwadi Centre. Note 01: The DSJOs have to make sure that the applicants have completed their courses and that the certificates issued by State Literacy Mission have been correctly distributed to the respective applicants in that academic year. Note 02: The list of beneficiaries will be prepared based on the applications collected through the Anganwadi workers and inquiries by the concerned Child Development Project Officers (CDPOs).",
+  "source_url": "https://sjd.kerala.gov.inWhere",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

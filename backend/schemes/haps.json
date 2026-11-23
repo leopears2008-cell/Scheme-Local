@@ -1,0 +1,23 @@
+{
+  "scheme_id": "haps",
+  "name": "Hiv / Aids Pension Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Puducherry",
+  "department": "",
+  "benefit": "₹ 1500/- per month with age less than 60 years.₹ 2000/- per month with age between 60 years and 79 years.₹ 3000/- per month with age 80 years and above.",
+  "eligibility_rules": [
+    "He/She must be a resident of UT of Puducherry. He/She should be a registrant in the ART Centre, IGMC&RI, Puducherry / Link ART Centre JIPMER in respect of Puducherry region, ART Centre, Nagapattinam in respect of Karaikal region, ART Centre, Calicut in respect of Mahe region, ART Centre, Kakinada in respect of Yanam region and taking regular treatment and any other ART/Link ART centres to be established in future in the UT of Puducherry."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Registration / Treatment Certificate issued by the ART Medical Officer concerned. Copy of Aadhaar",
+    "card. Copy of Voter ID card. Copy of Ration card."
+  ],
+  "how_to_apply": "Mode: Offline Whom to ApplyPuducherry: The Deputy Director (Social Defence), Old Age Pension Section, Department of Women and Child Development, Puducherry. Karaikal: The Child Development Project Officer, Karaikal. Mahe/Yanam: The Welfare Officer, Mahe/ Yanam. Processing TimeThe selection is periodical and depends on the vacancies and on the availability of funds. In case of delay whom to contact? Puducherry: The Director, Department of Women and Child Development, Sithankudi, Puducherry. Karaikal: The Collector, Karaikal. Mahe/Yanam: The Regional Administrator, Mahe/Yanam.",
+  "source_url": "https://www.myscheme.gov.in/schemes/haps",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

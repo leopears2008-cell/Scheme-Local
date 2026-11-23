@@ -1,0 +1,27 @@
+{
+  "scheme_id": "icdss",
+  "name": "Integrated Child Development Services Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Nagaland",
+  "department": "",
+  "benefit": "The ICDS Scheme offers a package of six services, Supplementary nutrition. Immunization. Health check-up. Referral services. Pre-school non-formal education andNutrition & Health Education.",
+  "eligibility_rules": [
+    "The children up to the age of 6 years. Pregnant women. Lactating mothers.",
+    "Exclusions / Ineligibility:",
+    "The children above the age of 6 years is not eligible."
+  ],
+  "exclusions": [
+    "The children above the age of 6 years is not eligible."
+  ],
+  "documents_required": [
+    "List of the",
+    "required documentsAadhaar CardPassport Sized PhotographProof of Age / DOBProof of Address."
+  ],
+  "how_to_apply": "Mode: Offline Application ProcessApplicants need to visit the nearest Anganwadi centres to avail the benefits of the scheme.",
+  "source_url": "https://www.myscheme.gov.in/schemes/icdss",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

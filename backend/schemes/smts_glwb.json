@@ -1,0 +1,26 @@
+{
+  "scheme_id": "smts_glwb",
+  "name": "Shramyogi Home Town Scheme- Gujarat Labour Welfare Board",
+  "category": "employment_skill",
+  "level": "state",
+  "state": "Gujarat",
+  "department": "",
+  "benefit": "Under the scheme, migrant laborers employed in the organized sector can avail of payment for railway fare to travel to or from their home country, to the nearest railway station. Note: The assistance amount will be credited to the beneficiary's bank account through DBT.",
+  "eligibility_rules": [
+    "The worker/labour should have been working continuously with the company in Gujarat for one year and his/her labour welfare fund should have been deposited in the board to avail the benefits under the scheme. The benefit of this scheme will be provided once within a block of two years. Currently, the block years are set as 2022-23 and 2023-2",
+    "If both the husband/wife are employed, only one of the beneficiaries will get the benefit of this scheme. A Shram Yogi shall travel only after obtaining prior approval by applying prior to travel. Within one month of the completion of the tour, necessary proofs along with in-principle approval have to be submitted by the worker/labour."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Passport",
+    "size PhotographA copy of the identity card issued by the contractor to the worker/labourAadhaar Card",
+    "of LabourLabour Welfare Fund Account NumberValid proof of travel to hometownBank account details/Bank PassbookBonafide",
+    "certificateAny other documents as required"
+  ],
+  "how_to_apply": "Mode: Online Application Process for Scheme Benefit:Step 01: The applicant may visit the Sanman Portal:\nhttps://sanman.gujarat.gov.in/Step 02: On the home page, under the tab 'Citizen Login', click on 'Please Register Here'.Step 03: Enter your Aadhaar Card Number, select user type, and then enter your Labour Welfare Fund Account Number.Step 04: Now, click on 'Fetch' & verify the details.Step 05: Enter user details and Password.Step 06: After successful registration, the applicants can login through their User ID and Password.Step 07: Now, select the scheme and read the instructions carefully for the selected scheme.Step 08: Fill out the application form and upload all the relevant documents.Step 09: Agree with the Rules & Regulations and submit the application form. A confirmation email with the application Number will be sent on the registered email ID.",
+  "source_url": "https://sanman.gujarat.gov.in",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

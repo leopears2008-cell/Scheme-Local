@@ -1,0 +1,26 @@
+{
+  "scheme_id": "gaoah",
+  "name": "Grant In Aid To Old Age Home",
+  "category": "health",
+  "level": "state",
+  "state": "Maharashtra",
+  "department": "",
+  "benefit": "In this scheme, grants are provided to the NGOs for accommodating old men and women, destitute, and disabled victims, into Old age Homes, and providing them with facilities such as food, accommodation, resort, Free lodging & Boarding & Medical Assistance, etc.",
+  "eligibility_rules": [
+    "The applicant should be a registered Non-Governmental Organization (NGO).The applicant should only accommodate old/destitute/disabled victims. In the case of old men, the age should be 60 years and above. In the case of old women, the age should be 55 years and above. The old age person should be a citizen of India. The old age person should be a permanent resident of the state of Maharashtra."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar Card.2",
+    "Passport Sized Photograph (Signed",
+    "Across).Residential Certificate / Domicile Certificate of the State of Maharashtra. Details of the Bank Account (Bank Name, Branch",
+    "Name, Address, IFSC, etc).Proof of Age (Birth Certificate, etc).Any other document required by the District Social Welfare",
+    "Office."
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: Visit the District Social Welfare Office, and request a hard copy of the format of the application form for the scheme from the concerned authority.Step 2: In the application form, fill in all the mandatory fields, paste the passport-sized photograph (signed across), and attach all the (self-attested) mandatory documents.Step 3: Submit the duly filled and signed application form along with the documents to the Assistant Commissioner, District Social Welfare Office.Step 4: Acquire the receipt/acknowledgment of the successful submission of the application form from the District Social Welfare Office.",
+  "source_url": "https://sjsa.maharashtra.gov.in/Where",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,27 @@
+{
+  "scheme_id": "nsap_ignoaps",
+  "name": "NSAP - Indira Gandhi National Old Age Pension Scheme",
+  "category": "health",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Rural Development",
+  "benefit": "to poor households in the case of death, maternity, or old age of the breadwinner.\n• 2. Ensure minimum national standards, in addition to the benefits, the States are currently providing or might provide in the future.\n• 3. Ensure uniform social protection to the beneficiaries across the country without interruption. Expansion to cover all eligible BPL persons - In 2007, the scheme was expanded to cover all eligible persons Below Poverty Line (BPL).BenefitsA monthly pension of ₹ 200 up to 79 years and ₹ 500 thereafter.",
+  "eligibility_rules": [
+    "The applicant should be a citizen of India. The applicant should be living Below Poverty Line. The applicant should be at least 60 years of age."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Duly filled and",
+    "self",
+    "attested Application Form (proforma given the annexures of the scheme guidelines).Domicile Certificate Residential Proof (Voter",
+    "card/ Electricity Bill/Aadhar Card) Age Proof (Birth Certificate issued by the School last attended or Municipal authority or SHO or",
+    "through Medical Board) Aadhar Number Bank Passbook Ration Card Affidavit duly attested by Judicial Magistrate/Executive Magistrate",
+    "that she/he is not in receipt of any pension/ financial assistance from any other source"
+  ],
+  "how_to_apply": "Mode: Online One can download UMANG App or visit website https://web.umang.gov.in/web_new/home The citizen can login using mobile number and OTP.Once logged In, citizen can search for NSAP.Click on \"Apply Online\"Fill the basic details, choose the mode of payment of pension, upload photo and click on \"Submit\".",
+  "source_url": "https://web.umang.gov.in/web_new/home",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

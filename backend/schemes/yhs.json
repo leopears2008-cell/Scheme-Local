@@ -1,0 +1,23 @@
+{
+  "scheme_id": "yhs",
+  "name": "Youth Hostel Scheme",
+  "category": "housing",
+  "level": "central",
+  "state": "",
+  "department": "Ministry Of Y",
+  "benefit": "Affordable accommodation: Youth hostels offer a much cheaper alternative to hotels and guesthouses. Social atmosphere:\nYouth hostels are a great place to meet new people from all over the world. Cultural experience: Youth hostels are often located in places of cultural interest, giving you the opportunity to learn about the local culture and traditions. Flexible options: Youth hostels offer a variety of accommodation options, including dormitories, private rooms, and family rooms. You can also choose to book meals at the hostel or cook your own food.",
+  "eligibility_rules": [
+    "Applicant should be member of Youth Hostels Association of India (YHAI).There is no age restriction but if applicant is below 18 then he/she must be accompanied by a parent or guardian when staying in a youth hostel."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Completed YHAI membership application formPassport size photographProof of identity,",
+    "such as a copy of your passport, driver's license, or Aadhaar card"
+  ],
+  "how_to_apply": "Mode: Online Applicant must visit the official website. Click on \"Apply Now\" under the Youth Hostel scheme. Select the user type and scheme name. Now fill out the require details. Upload the recent photograph. Give the consent for the Aadhaar to use as biometric and KYC .",
+  "source_url": "https://www.myscheme.gov.in/schemes/yhs",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,28 @@
+{
+  "scheme_id": "ignsap",
+  "name": "Indira Gandhi National Special Ability Pension",
+  "category": "housing",
+  "level": "state",
+  "state": "Himachal Pradesh",
+  "department": "",
+  "benefit": "Individuals who have a disability of 80 percent or more and are between 18 to 79 years old and living below the poverty line are eligible for a monthly sum of Rs. 300 from the Government of India. The state government also provides an additional amount of Rs. 1000 per month, bringing the total pension amount to Rs. 1300 per month. The Department of Social Welfare also offers Disability Relief Allowance at the rate of Rs. 750 per month to those disabled individuals whose disability is between 40 to 69 percent, and the annual income is not more than Rs. 35000 per month. Individuals with more than 70 percent disability, who are not working in a government/semi-government/corporations/boards, are being given a sum of Rs. 1300 per month without any income limit. Disability Relief for mentally challenged persons is being provided without any income limit",
+  "eligibility_rules": [
+    "The applicant must be a citizen of India.",
+    "The person must be between 18 to 79 years old.",
+    "The applicant should have 80% or more special ability.",
+    "The person should belong to a below-poverty-line household.",
+    "The applicant should have a valid bank account."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Disability Certificate",
+    "Applicant must be 80% or more",
+    "handicapped. Latest BPL Certificate. Copy of the Parivar RegisterAadhaar Card. Bank Account."
+  ],
+  "how_to_apply": "Mode: Offline\n• 1. The applicant can visit the nearest Department of Social Welfare office to apply for the scheme.\n• 2. The applicant can fill in the application form with all the necessary details.\n• 3. The applicant should attach all the relevant documents with the application form.\n• 4. The application should be submitted to the Department of Social Welfare office.",
+  "source_url": "https://www.myscheme.gov.in/schemes/ignsap",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,23 @@
+{
+  "scheme_id": "kv_sch",
+  "name": "Kanti Velugu",
+  "category": "other",
+  "level": "state",
+  "state": "Telangana",
+  "department": "",
+  "benefit": "• Universal Eye Screening to be done for all the citizens of Telangana.\n• All cases that require correction of Refraction Errors, Spectacles to be distributed free of cost\n• Surgeries will be organised in all cases of Cataract, Glaucoma, Retinopathy, corneal disorders etc.,• All the services will be provided free of cost\n• Medicines for common eye ailments will be provided\n• Citizens will be educated on prevention of serious disabling eye diseases.",
+  "eligibility_rules": [
+    "All the citizens of Telangana are eligible for Universal Eye Screening."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Valid Identity proof like",
+    "Adhaar card Ration card. Voter ID card. Address proof. Medical reports. Domicile certificate."
+  ],
+  "how_to_apply": "Mode: Online & Offline",
+  "source_url": "https://www.myscheme.gov.in/schemes/kv",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

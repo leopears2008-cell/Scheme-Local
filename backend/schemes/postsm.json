@@ -1,0 +1,37 @@
+{
+  "scheme_id": "postsm",
+  "name": "Post Matric Scholarship For Minorities",
+  "category": "education",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Minority Affairs",
+  "benefit": "(subject to actuals):Admission and tuition fee (both Hosteller & Day Scholar):For Class 11th & 12th: Rs. 7,000/- per annum For technical and vocational courses of level of Class 11th & 12th (more than 1 year in duration): Rs. 10,000/- per annumFor UG & PG level: Rs. 3,000/- per annumMaintenance Allowance: For Class 11th and Class 12th including Tech. & Voca. Course: Rs. 380/- pm for Hosteller; Rs. 230/- pm for Day Scholar. For Courses other than technical and vocational courses at UG & PG level: Rs. 570/- pm for Hosteller & Rs. 300/- pm for Day Scholar. For M.Phil & Ph. D.: Rs. 1,200/- pm for Hosteller & Rs. 550/-pm for Day Scholar.",
+  "eligibility_rules": [
+    "The applicant must be pursuing a post-matric qualification. The applicant must be from a Minority Community. The Annual income of parents/guardians of the applicant (from all sources) should be less than or equal to ₹ 2,00,000/- per annum. The applicant must not be availing any other scholarship by the govt. The applicant must not be the third sibling in his/her family who has been given this scholarship.",
+    "Exclusions / Ineligibility:",
+    "If a student violates school discipline or any other terms and conditions of the scholarship, scholarship may be suspended or cancelled. The student availing any other scholarship out of all the available Scholarships of Central Government meant for SC/ST/OBC/minority. If a student is found to have obtained a scholarship by false statement, his/her scholarship will be cancelled forthwith and the amount of the scholarship paid will be recovered by the concerned State/UT Govt. The student obtaining benefits under this scheme shall not be allowed to avail of benefits under any other scheme for this purpose. Scholarship will not be given to more than two students from a family."
+  ],
+  "exclusions": [
+    "If a student violates school discipline or any other terms and conditions of the scholarship, scholarship may be suspended or cancelled. The student availing any other scholarship out of all the available Scholarships of Central Government meant for SC/ST/OBC/minority. If a student is found to have obtained a scholarship by false statement, his/her scholarship will be cancelled forthwith and the amount of the scholarship paid will be recovered by the concerned State/UT Govt. The student obtaining benefits under this scheme shall not be allowed to avail of benefits under any other scheme for this purpose. Scholarship will not be given to more than two students from a family."
+  ],
+  "documents_required": [
+    "Student's Photo. Institution Verification Form. (Refer source for format) Income",
+    "Certificate, issued from a Competent Authority in the State/UT Govts is required in respect of parent/guardian of the student. (Refer",
+    "source for format) Self",
+    "Declaration of Minority Community (Refer source for format) Self",
+    "attested Mark Sheet of the last qualifying",
+    "exam. Fee Receipt of 'Current Course Year'.Bank Details (Account No., IFSC Code) of the applicant or Bank Details of the",
+    "Parent/Guardian. (if the student does not have his/her own bank account).Residential / Domicile Certificate. Aadhaar Number (or",
+    "alternative identification documents)\"Bonafide Student Certificate\" from the institute (if the institute is located in a State/UT",
+    "different from domicile State/UT) Declaration of the Student (Refer source for format) Source:",
+    "http://www.nitc.ac.in/app/webroot/img/upload/MCM",
+    "CSS",
+    "form.pdf"
+  ],
+  "how_to_apply": "Mode: Online Keep ready the soft copies of the required documents.Step 1: Go to http://www.scholarships.gov.in/. and click \"New Registration\".Guidelines for Registration will appear. Scroll to the bottom. Read carefully the undertaking. Accept the Terms. Click \"Continue\".Step 2: A Registration Form will appear. (The fields marked as * are compulsory) Fill the details and click \"Register\". Your Application ID and password will be displayed. The same will also be sent as an SMS on your registered mobile number.Step 3: Go to https://scholarships.gov.in/fresh/newstdRegfrmInstruction Click on \"Login to Apply\". Enter your Application ID and password. Type the Captcha and click \"Login\".On the next screen, provide the OTP received on your registered mobile number. You will be directed to the Password Reset screen. Create a new password and confirm. Click \"Submit\". You will be directed to the \"Applicant's Dashboard\".Step 4: On the left pane, click \"Application Form\". The fields marked as * are compulsory. Fill the details and upload the documents. You can either click on \"Save as Draft\" to complete the application later. Else, click \"Final Submit\" to submit the application.",
+  "source_url": "https://www.scholarships.gov.in/",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

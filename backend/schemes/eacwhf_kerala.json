@@ -1,0 +1,30 @@
+{
+  "scheme_id": "eacwhf_kerala",
+  "name": "Educational Assistance to Children of Women Headed Families",
+  "category": "education",
+  "level": "state",
+  "state": "Kerala",
+  "department": "",
+  "benefit": "under this scheme. Benefits\n• 1. Category I - Children below 5 years and between 1st to 5th standard:\n₹300/- per month\n• 2. Category II - Between 6th to 10th standard: ₹500/- per month\n• 3. Category III - Plus one (11th Standard) & Plus two (12th Standard): ₹750/- per month\n• 4. Category IV - Degree and above: ₹1000/- per month",
+  "eligibility_rules": [
+    "The applicant should be a resident of Kerala State. The applicant should belong to the Below Poverty Line Family. HIV/AIDS-affected persons, socially discriminated persons, war widows, etc. are eligible irrespective of their BPL status. A family in which the husband of the woman is bedridden and not able to cover livelihood, due to stroke/or spinal injury is eligible to apply under the scheme. Only two children's per family are eligible for this scheme. The child should study in Government or Government aided School or College.",
+    "Exclusions / Ineligibility:",
+    "The child who avails of any other scholarship is not eligible for the assistance. A certificate for this has to be obtained from the head of the educational institution where the child studies."
+  ],
+  "exclusions": [
+    "The child who avails of any other scholarship is not eligible for the assistance. A certificate for this has to be obtained from the head of the educational institution where the child studies."
+  ],
+  "documents_required": [
+    "Identity proof i.e. Aadhaar card etc. Passport",
+    "size",
+    "photographBelow Poverty Line (BPL) cardResidence proofRation cardEducational details of the child (previous exam mark sheet and",
+    "bonafide certificate) Bank account detailsA certificate from the head of the educational institution where the child studies that the child is",
+    "not availing of any other scholarship."
+  ],
+  "how_to_apply": "Mode: OfflineStep 01: The applicant should visit the nearest Anganwadi, Child Development Project Office, or social justice office in Kerala state. Application FormStep 02: The application form can collected from the Child Development Project Officer through Anganwadi Workers or it can be downloaded from the Official Website of the Social Justice Department, Kerala.Step 03: The duly filled application form along with the documents prescribed will be forwarded to the concerned District Social Justice Office, Kerala.",
+  "source_url": "https://sjd.kerala.gov.inWhere",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

@@ -1,0 +1,22 @@
+{
+  "scheme_id": "ddmcs",
+  "name": "Dai Didi Mobile Clinic Scheme",
+  "category": "health",
+  "level": "state",
+  "state": "Chhattisgarh",
+  "department": "",
+  "benefit": "Free checkup. Free treatment. Free consultation. Free medicine distribution.",
+  "eligibility_rules": [
+    "The beneficiary should be a resident of Chhattisgarh. The beneficiary should be female."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar card of the beneficiary."
+  ],
+  "how_to_apply": "Mode: Offline Beneficiaries do not need to apply anywhere for Chhattisgarh Dai Didi Clinic Scheme. Under this scheme the medical aid will reach at the doorstep of the beneficiaries themselves. Camps will be organized in the entire state of Chhattisgarh through mobile medical units. The vehicle of the Mobile Medical Unit along with women doctors and women nursing staff will render their services in the camp. Beneficiaries will have to go to the Mobile Medical Unit in their municipal corporation/village area.",
+  "source_url": "https://www.myscheme.gov.in/schemes/ddmcs",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

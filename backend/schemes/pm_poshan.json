@@ -1,0 +1,24 @@
+{
+  "scheme_id": "pm_poshan",
+  "name": "PM POSHAN - Prime Minister's Overarching Scheme For Holistic Nourishment",
+  "category": "health",
+  "level": "central",
+  "state": "",
+  "department": "Ministry of Education",
+  "benefit": "Nutrition norm per child per day: Primary:\nCalorie - 450; Protein - 12 gmsUpper Primary: Calorie - 700; Protein - 20 gmsFood norms per child per day: Primary: Food grains - 100 gms; Pulses - 20 gms; Vegetables - 50 gms; Oil & fat - 5 gms, Salt & condiments - As per need. Upper Primary: Food grains - 150 gms; Pulses - 30 gms; Vegetables - 75 gms; Oil & fat - 7.5 gms, Salt & condiments - As per need. Under the Scheme, there is the provision of hot cooked meals to children of pre-schools or Bal Vatika (before class I) in primary schools also in addition to the 11.80 crore children of classes I to VIII studying in 11.20 lakh schools.",
+  "eligibility_rules": [
+    "The applicant must be a citizen of India. The applicant must be studying in a Primary or Upper Primary class (Class 1st to Class 8th) in a Government or a Government-aided school.",
+    "Exclusions / Ineligibility:"
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar Card",
+    "Identity proof"
+  ],
+  "how_to_apply": "Mode: Offline There is no application process for this scheme. PM POSHAN is equally applicable to all children who are studying in Government and Government - aided schools.",
+  "source_url": "https://www.myscheme.gov.in/schemes/pm-poshan",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

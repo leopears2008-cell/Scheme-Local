@@ -1,0 +1,34 @@
+{
+  "scheme_id": "asfcw",
+  "name": "Assistance Scheme For Construction Worker In Case Of General Or Accidental Death Or Injury",
+  "category": "health",
+  "level": "state",
+  "state": "Rajasthan",
+  "department": "",
+  "benefit": "In case of normal death or accident (death or injury) of the beneficiary construction worker assistance amount will be given as follows :-Rs. 5,00,000/- in case of death due to accidentRs.3,00,000/- in case of permanent total disability due to accidentRs 1,00,000/- for partial permanent disability due to an accident. Up to Rs.20,000/- in case of serious injury in an accidentUp to Rs.5000/- for minor injuries in an accident75,000/- in case of normal death of construction worker",
+  "eligibility_rules": [
+    "Applicant should be a Resident of Rajasthan State.",
+    "Construction workers in the age group of 18 to 60 years will be eligible for this scheme.",
+    "Applicant should be registered as Construction Worker under labor laws. No assistance shall be payable in the event of death or injury caused by suicide or by consumption of drugs or substances or in case of death or injury caused by assault on one another in contravention of law for the purpose of committing an offence.",
+    "Exclusions / Ineligibility:",
+    "No assistance shall be payable in the event of death or injury caused by suicide or by consumption of drugs or substances or in case of death or injury caused by assault on one another in contravention of law for the purpose of committing an offence."
+  ],
+  "exclusions": [
+    "No assistance shall be payable in the event of death or injury caused by suicide or by consumption of drugs or substances or in case of death or injury caused by assault on one another in contravention of law for the purpose of committing an offence."
+  ],
+  "documents_required": [
+    "Aadhaar Card and Jan Aadhaar",
+    "Card.",
+    "Labor Card.",
+    "Death Certificate (in case of death by accident).",
+    "Medical examination report and police report (in case of",
+    "disability due to accident).",
+    "Bank details."
+  ],
+  "how_to_apply": "Mode: Offline In case of death of the beneficiary construction worker, his nominee/successor and in case of injury, the beneficiary himself will apply to the concerned district labor office. In case of death, the dependent / nominee to whom the assistance amount is payable, will have to submit an affidavit to the effect that the amount received will be used for all the dependents of the deceased beneficiary. In case of death of the beneficiary, applications for getting assistance will be acceptable within a maximum period of one year from the date of deathIn the event of the beneficiary being injured in an accident, the application for getting assistance can be made within a maximum of 6 months from the date of the accident or the date of discharge from the hospital.",
+  "source_url": "https://www.myscheme.gov.in/schemes/asfcw",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}

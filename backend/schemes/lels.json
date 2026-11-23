@@ -1,0 +1,28 @@
+{
+  "scheme_id": "lels",
+  "name": "LIDCOM Education Loan Scheme",
+  "category": "education",
+  "level": "state",
+  "state": "Maharashtra",
+  "department": "",
+  "benefit": "Education Loan up to ₹10,00,000 for post graduate students in India. Education Loan up to ₹20,00,000 for post graduate students in abroad. Rate of Interest for Male Beneficiary: 4% per annum. Rate of Interest for Female Beneficiary: 3.5% per annum.",
+  "eligibility_rules": [
+    "The applicant should be a citizen of India. The applicant should be a permanent resident of Maharashtra State. The applicant should be from Charmakar Community only (Dhor, Chambhar, Holar, Mochi etc.).The applicant should be in the 18 to 50 years age group. The annual income of the family of the applicant should be less than or equal to Rs.3,00,000/-.The applicant should have a knowledge of the business for which s/he has applied for loan."
+  ],
+  "exclusions": [],
+  "documents_required": [
+    "Aadhaar Card.2",
+    "Passport Sized Photograph (Signed Across) Marksheet / Passing Certificate",
+    "of the Latest Educational Qualification. Proof of Admission : Offer Letter or Admission Letter from the Institution. Conditional",
+    "admission letter may be considered in case of studies abroad. Residential Certificate / Domicile Certificate of the State of",
+    "Maharashtra. Income Certificate issued by an Authorised Govt. Officer. Caste Certificate issued by an Authorised Govt. Officer. Details of",
+    "the Bank Account (Bank Name, Branch Name, Address, IFSC, etc).A/C statement for last 1 year in case of any previous loan from other",
+    "Banks/Lenders (if any)"
+  ],
+  "how_to_apply": "Mode: OfflineStep 1: Take the format of the application form from the District Office of LIDCOM.Step 2: Fill in all the mandatory fields, paste the passport sized photograph (signed across), and attach all the (self-attested) mandatory documents.Step 3: Submit the duly filled and signed application form along with the documents to the District Office.Step 4: Acquire the receipt/acknowledgement of successful submission of the application form from the District Office.",
+  "source_url": "https://www.lidcom.co.in/Where",
+  "source_document": "MyScheme National Portal",
+  "verification": "unverified",
+  "points": [],
+  "merged_from": []
+}
