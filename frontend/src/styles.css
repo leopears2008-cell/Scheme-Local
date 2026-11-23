@@ -448,3 +448,105 @@ blockquote {
   }
 }
 
+/* ── Village Accessibility & Community Features ──────────────────────────── */
+.village-chips {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 6px 2px 10px;
+  margin: 6px 0 10px;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+.village-chips::-webkit-scrollbar {
+  height: 4px;
+}
+.village-chips::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 4px;
+}
+.village-chip {
+  flex: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--fg);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.village-chip:hover {
+  border-color: var(--accent);
+  background: #fff7ed;
+}
+.village-chip.active {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+  box-shadow: 0 2px 8px rgba(234, 88, 12, 0.25);
+}
+
+.voice-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--accent);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  min-height: 32px;
+}
+.voice-btn:hover {
+  background: #fff7ed;
+  border-color: var(--accent);
+}
+.voice-btn.active {
+  background: #ea580c;
+  color: #ffffff;
+  border-color: #c2410c;
+  box-shadow: 0 0 0 3px rgba(234, 88, 12, 0.3);
+  animation: voicePulse 1.4s ease-in-out infinite;
+}
+@keyframes voicePulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #16a34a !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.15s ease;
+  text-decoration: none;
+}
+.whatsapp-btn:hover {
+  background: #15803d !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .village-chip:hover {
+    background: #2a1f18;
+  }
+  .voice-btn:hover {
+    background: #2a1f18;
+  }
+}
+
+

@@ -2,9 +2,53 @@ import { useEffect, useRef, useState } from "react";
 import { api, normalizeVerification, Scheme } from "../lib/api";
 import { useApp } from "../lib/state";
 import { LoadingCards, EmptyState, ErrorBanner } from "../components/StatusStates";
+import { speak, stopSpeaking } from "../lib/voice";
 
-export function SchemeDetail({ s, go }: { s: Scheme; go: (t: any, id?: string) => void }) {
-  const { t } = useApp();
+const VILLAGE_TOPICS = [
+  { label: "🚜 PM-KISAN (₹6000)", labelTa: "🚜 பி.எம் கிசான்", query: "PM Kisan" },
+  { label: "🌾 Crop Insurance", labelTa: "🌾 பயிர் காப்பீடு", query: "Crop Insurance PMFBY" },
+  { label: "💧 Drip & Irrigation", labelTa: "💧 சொட்டு நீர் பாசனம்", query: "irrigation subsidy" },
+  { label: "🌱 Fertilizer & Seeds", labelTa: "🌱 உரம் & விதை மானியம்", query: "fertilizer subsidy" },
+  { label: "🍚 Ration & Food", labelTa: "🍚 ரேஷன் திட்டம்", query: "ration food grain" },
+  { label: "👵 Old Age Pension", labelTa: "👵 முதியோர் ஓய்வூதியம்", query: "Old Age Pension" },
+  { label: "🏠 Housing (PMAY)", labelTa: "🏠 வீடு திட்டம்", query: "Housing Awas" },
+  { label: "🐄 Dairy & Animals", labelTa: "🐄 கால்நடை பராமரிப்பு", query: "dairy animal husbandry" }
+];
+
+function shareToWhatsApp(s: Scheme, lang: string) {
+  const isTa = lang === "ta";
+  const title = `🏛️ *${s.name}*`;
+  const benefit = `💰 *${isTa ? "பயன்கள்" : "Benefits"}:* ${s.benefit || "Government benefit"}`;
+  const elig = s.eligibility_rules && s.eligibility_rules.length > 0
+    ? `📋 *${isTa ? "தகுதி" : "Eligibility"}:* ${s.eligibility_rules.slice(0, 3).join("; ")}`
+    : "";
+  const docs = s.documents_required && s.documents_required.length > 0
+    ? `📄 *${isTa ? "ஆவணங்கள்" : "Documents"}:* ${s.documents_required.slice(0, 4).join(", ")}`
+    : "";
+  const link = `🌐 *${isTa ? "அரசு வலைத்தளம்" : "Official Link"}:* ${s.source_url || "https://scheme-local.vercel.app"}`;
+  const promo = `Shared via SchemeLocal: https://scheme-local.vercel.app/#find?q=${encodeURIComponent(s.name)}`;
+
+  const text = [title, benefit, elig, docs, link, promo].filter(Boolean).join("\n\n");
+  const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(text)}`;
+  window.open(url, "_blank");
+}
+
+export function SchemeDetail({
+  s,
+  go,
+  speakingId,
+  onSpeak,
+  onStopSpeak,
+}: {
+  s: Scheme;
+  go: (t: any, id?: string) => void;
+  speakingId?: string;
+  onSpeak?: (s: Scheme) => void;
+  onStopSpeak?: () => void;
+}) {
+  const { t, lang } = useApp();
+  const isSpeaking = speakingId === s.scheme_id;
+
   return (
     <div className="detail">
       {s.department && <p className="muted small">{s.department}</p>}
@@ -13,18 +57,39 @@ export function SchemeDetail({ s, go }: { s: Scheme; go: (t: any, id?: string) =
       <ul>{(s.eligibility_rules || []).map((r, i) => <li key={i}>{r}</li>)}</ul>
       <h4>{t("benefits")}</h4><p>{s.benefit}</p>
       <h4>{t("howToApply")}</h4><p>{s.how_to_apply}</p>
-      {s.documents_required?.length > 0 && (
+      {s.documents_required && s.documents_required.length > 0 && (
         <><h4>{t("docsNeeded")}</h4>
           <ul>{s.documents_required.map((d) => <li key={d}>{d}</li>)}</ul></>
       )}
-      <div className="row small">
+      <div className="row small" style={{ flexWrap: "wrap", gap: "8px", margin: "12px 0" }}>
         <span className={`badge ${normalizeVerification(s.verification_status ?? s.verification)}`}>
           {t(normalizeVerification(s.verification_status ?? s.verification))}
         </span>
         {s.source_url && <a href={s.source_url} target="_blank" rel="noreferrer">{t("official")} ↗</a>}
         {s.helpline && <span>☎ {s.helpline}</span>}
       </div>
-      <button onClick={() => go("apply", s.scheme_id)}>{t("apply")} →</button>
+
+      <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", marginTop: "12px" }}>
+        <button onClick={() => go("apply", s.scheme_id)}>{t("apply")} →</button>
+        <button
+          type="button"
+          className="whatsapp-btn"
+          onClick={() => shareToWhatsApp(s, lang)}
+          title="Share on WhatsApp"
+        >
+          📱 {lang === "ta" ? "வாட்ஸ்அப் பகிர்வு" : "Share on WhatsApp"}
+        </button>
+        <button
+          type="button"
+          className={`voice-btn ${isSpeaking ? "active" : ""}`}
+          onClick={() => (isSpeaking ? onStopSpeak?.() : onSpeak?.(s))}
+          title={isSpeaking ? "Stop voice readout" : "Listen to scheme"}
+        >
+          {isSpeaking
+            ? "⏹️ " + (lang === "ta" ? "நிறுத்து" : "Stop")
+            : "🔊 " + (lang === "ta" ? "குரலில் கேளுங்கள்" : "Listen")}
+        </button>
+      </div>
     </div>
   );
 }
@@ -64,8 +129,39 @@ export default function Find({ go, initialQuery, initialCategory }: FindProps) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [retryCount, setRetryCount] = useState(0);
+  const [speakingId, setSpeakingId] = useState("");
   const listRef = useRef<HTMLElement>(null);
   const reqIdRef = useRef(0);
+
+  // Stop voice audio when unmounting
+  useEffect(() => {
+    return () => {
+      stopSpeaking();
+    };
+  }, []);
+
+  const handleSpeak = (s: Scheme) => {
+    if (speakingId === s.scheme_id) {
+      stopSpeaking();
+      setSpeakingId("");
+      return;
+    }
+    stopSpeaking();
+    setSpeakingId(s.scheme_id);
+    const textToSpeak = `${s.name}. ${s.benefit || ""}. ${
+      s.eligibility_rules && s.eligibility_rules.length > 0
+        ? (lang === "ta" ? "தகுதிகள்: " : "Eligibility: ") + s.eligibility_rules.slice(0, 3).join(". ")
+        : ""
+    }`;
+    speak(textToSpeak, lang)
+      .catch(() => undefined)
+      .finally(() => setSpeakingId(""));
+  };
+
+  const handleStopSpeak = () => {
+    stopSpeaking();
+    setSpeakingId("");
+  };
 
   // Sync prop changes if passed from parent
   useEffect(() => {
@@ -126,6 +222,31 @@ export default function Find({ go, initialQuery, initialCategory }: FindProps) {
         aria-label={t("searchPlaceholder")}
         autoComplete="off"
       />
+
+      {/* Village & Rural Popular Topics */}
+      <div className="village-chips" role="group" aria-label="Popular village schemes">
+        {VILLAGE_TOPICS.map((topic) => {
+          const isSelected = q.toLowerCase() === topic.query.toLowerCase();
+          const displayLabel = lang === "ta" ? topic.labelTa : topic.label;
+          return (
+            <button
+              key={topic.query}
+              type="button"
+              className={`village-chip ${isSelected ? "active" : ""}`}
+              onClick={() => {
+                if (isSelected) {
+                  setQ("");
+                } else {
+                  setQ(topic.query);
+                }
+              }}
+            >
+              {displayLabel}
+            </button>
+          );
+        })}
+      </div>
+
       <div className="filters" role="group" aria-label="Filter schemes">
         <label htmlFor="cat-filter" style={{ position: "absolute", width: 1, height: 1, overflow: "hidden" }}>Category</label>
         <select id="cat-filter" value={category} onChange={(e) => setCategory(e.target.value)} aria-label="Category">
@@ -181,19 +302,41 @@ export default function Find({ go, initialQuery, initialCategory }: FindProps) {
             >
               {s.name}
             </b>
-            <button
-              className="link"
-              onClick={() => toggle(s.scheme_id)}
-              aria-label={marks.includes(s.scheme_id) ? `Remove bookmark for ${s.name}` : `Bookmark ${s.name}`}
-            >
-              {marks.includes(s.scheme_id) ? `★ ${t("saved")}` : `☆ ${t("bookmark")}`}
-            </button>
+            <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+              <button
+                type="button"
+                className={`voice-btn ${speakingId === s.scheme_id ? "active" : ""}`}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  speakingId === s.scheme_id ? handleStopSpeak() : handleSpeak(s);
+                }}
+                aria-label={speakingId === s.scheme_id ? "Stop voice" : `Listen to ${s.name}`}
+                title={speakingId === s.scheme_id ? "Stop audio readout" : "Listen to scheme"}
+              >
+                {speakingId === s.scheme_id ? "⏹️" : "🔊"} {lang === "ta" ? "கேளுங்கள்" : "Listen"}
+              </button>
+              <button
+                className="link"
+                onClick={() => toggle(s.scheme_id)}
+                aria-label={marks.includes(s.scheme_id) ? `Remove bookmark for ${s.name}` : `Bookmark ${s.name}`}
+              >
+                {marks.includes(s.scheme_id) ? `★ ${t("saved")}` : `☆ ${t("bookmark")}`}
+              </button>
+            </div>
           </div>
           <p className="muted small">{label("category", s.category)}{s.state ? ` · ${s.state}` : " · India"}</p>
           {s.benefit
             ? <p>{s.benefit.slice(0, 160)}{s.benefit.length > 160 ? "…" : ""}</p>
             : <p className="warn small">Details pending official verification. Check the official source before applying.</p>}
-          {open === s.scheme_id && <SchemeDetail s={s} go={go} />}
+          {open === s.scheme_id && (
+            <SchemeDetail
+              s={s}
+              go={go}
+              speakingId={speakingId}
+              onSpeak={handleSpeak}
+              onStopSpeak={handleStopSpeak}
+            />
+          )}
         </div>
       ))}
     </section>
