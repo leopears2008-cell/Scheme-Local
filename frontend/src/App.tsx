@@ -18,10 +18,10 @@ type Tab = (typeof TABS)[number] | "login" | "admin";
 
 export default function App() {
   const { t, lang, setLang } = useApp();
-  // Open on Find: it works without sign-in, so a judge is never met by a locked screen first.
+  // Show the Sahayak hero page on a fresh visit; honor any valid page in the URL hash.
   const [tab, setTab] = useState<Tab>(() => {
     const raw = location.hash.slice(1).split("?")[0] as Tab;
-    return (TABS as readonly string[]).includes(raw) ? (raw as Tab) : "find";
+    return (TABS as readonly string[]).includes(raw) ? (raw as Tab) : "sahayak";
   });
   const [findQuery, setFindQuery] = useState<string>(() => {
     try {
