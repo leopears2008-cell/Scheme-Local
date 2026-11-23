@@ -1,12 +1,20 @@
 import { accessToken } from "./supabase";
 import type { VerificationStatus } from "./contracts";
+import { filterAndRankSchemes, computeSchemeMeta } from "./schemeSearch";
 
-const BASE = (import.meta.env.VITE_API_URL as string) || "http://localhost:8000";
+const RAW_BASE = ((import.meta.env.VITE_API_URL as string) || "").trim();
+const isHttpsPage = typeof window !== "undefined" && window.location.protocol === "https:";
+// Never use localhost in production or when running on https
+const BASE = (!RAW_BASE || (isHttpsPage && RAW_BASE.includes("localhost")))
+  ? ""
+  : RAW_BASE.replace(/\/$/, "");
 
 /** Friendly message for auth/permission failures. Never returns a silent success. */
 export function authMessage(status: number): string {
   if (status === 401) return "Please sign in again to continue.";
   if (status === 403) return "Your account does not have access to this.";
+  if (status === 404) return "The requested resource was not found.";
+  if (status === 408) return "Request timed out. The server took too long to respond.";
   if (status === 429) return "Too many requests. Please wait a minute and try again.";
   if (status === 413) return "That file is too large. Try a smaller photo.";
   if (status >= 500) return "The service is temporarily unavailable. Please try again.";
@@ -14,7 +22,6 @@ export function authMessage(status: number): string {
 }
 
 /** Authorization header only for protected calls; public calls never carry a token. */
-/** Returns null when a protected call has no session: the request is then not sent at all. */
 async function authHeaders(needsAuth: boolean): Promise<Record<string, string> | null> {
   if (!needsAuth) return {};
   const tok = await accessToken();
@@ -31,26 +38,57 @@ export class ApiError extends Error {
   constructor(public status: number, message: string) { super(message); }
 }
 
-async function req<T>(path: string, init: RequestInit = {}, needsAuth = false): Promise<T> {
+async function req<T>(path: string, init: RequestInit = {}, needsAuth = false, timeoutMs = 10000): Promise<T> {
   const auth = await authHeaders(needsAuth);
-  if (auth === null) throw new ApiError(401, "Please sign in to use this feature.");   // no request sent without a session
+  if (auth === null) throw new ApiError(401, "Please sign in to use this feature.");
+
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+
   let r: Response;
   try {
-    r = await fetch(BASE + path, { ...init, headers: { "Content-Type": "application/json", "X-Device-Id": deviceId(), ...auth, ...(init.headers || {}) } });
-  } catch {
+    const url = BASE ? `${BASE}${path}` : path;
+    r = await fetch(url, {
+      ...init,
+      signal: controller.signal,
+      headers: {
+        "Content-Type": "application/json",
+        "X-Device-Id": deviceId(),
+        ...auth,
+        ...(init.headers || {})
+      }
+    });
+  } catch (err: any) {
+    if (err?.name === "AbortError") {
+      throw new ApiError(408, "Request timed out. The server took too long to respond.");
+    }
+    if (typeof navigator !== "undefined" && !navigator.onLine) {
+      throw new ApiError(0, "You appear to be offline. Please check your internet connection.");
+    }
     throw new ApiError(0, "Cannot reach the server. Check your connection and try again.");
+  } finally {
+    clearTimeout(timer);
   }
+
+  // Detect HTML response where JSON was expected (e.g. Vercel SPA index.html rewrite on unknown /api)
+  const contentType = r.headers.get("content-type") || "";
+  if (contentType.includes("text/html")) {
+    throw new ApiError(r.status === 200 ? 502 : r.status, "The server sent an unexpected HTML response.");
+  }
+
   if (!r.ok) {
     let detail = "";
     try { const j = await r.json(); detail = typeof j.detail === "string" ? j.detail : ""; } catch { /* non-JSON error */ }
     throw new ApiError(r.status, detail && r.status < 500 ? detail : authMessage(r.status));
   }
+
   try {
     return (await r.json()) as T;
   } catch {
     throw new ApiError(r.status, "The server sent an unexpected response.");
   }
 }
+
 const post = <T,>(p: string, body: unknown, auth = false) => req<T>(p, { method: "POST", body: JSON.stringify(body) }, auth);
 const authed = <T,>(p: string, init: RequestInit = {}) => req<T>(p, init, true);
 
@@ -60,40 +98,97 @@ export type { VerificationStatus } from "./contracts";
 export type Verdict = "ELIGIBLE" | "POSSIBLE_MATCH" | "NEEDS_VERIFICATION" | "NOT_ELIGIBLE";
 export interface Card { scheme_id: string; name: string; verdict: Verdict; why: string; evidence_quote?: string | null; benefit: string; documents: string[]; source_url: string; level?: string; state?: string; verification: string; last_verified?: string; source_official?: boolean; source_warning?: string | null }
 export interface AskResponse { answer_text: string; schemes: Card[]; follow_up_question: { question: string; options: string[] } | null; confidence: number; trace_id: string; documents_checklist: { common: string[]; per_scheme: Record<string, string[]>; how_to_apply: Record<string, string> } }
-export interface Scheme { source_official?: boolean; source_warning?: string | null; verification_status?: string; scheme_id: string; name: string; category: string; level: string; state: string; department?: string; benefit: string; eligibility_rules: string[]; eligibility_text?: string; documents_required: string[]; how_to_apply: string; source_url: string; verification: string; last_verified?: string; helpline?: string; has_official_form: boolean; has_form_fields: boolean; form_fields?: FormField[] }
+export interface Scheme { source_official?: boolean; source_warning?: string | null; verification_status?: string; scheme_id: string; name: string; category: string; level: string; state: string; department?: string; benefit: string; eligibility_rules: string[]; eligibility_text?: string; documents_required: string[]; how_to_apply: string; source_url: string; verification: string; last_verified?: string; helpline?: string; has_official_form?: boolean; has_form_fields?: boolean; form_fields?: FormField[] }
 export interface FormField { id: string; label: string; profileKey?: string; type: string; required: boolean }
 export interface Criterion { key: string; label: string; status: "pass" | "fail" | "unknown"; detail: string }
 export interface Match { scheme_id: string; name: string; category: string; level: string; state: string; benefit: string; source_url: string; verification: string; verdict: Verdict; score: number; criteria_met: number; criteria_total: number; criteria: Criterion[]; eligibility_text: string[]; source_official?: boolean; source_warning?: string | null }
 export interface Application { id: string; scheme_id: string; scheme_name: string; status: string; reference_number?: string | null; created_at: string; updated_at: string; follow_up_date?: string | null; events: { status: string; note?: string | null; created_at: string }[] }
 export interface Notice { id: number | string; kind: string; title: string; body: string; created_at: string; read: number }
 
+// Bundled fallback cache
+let bundledSchemesCache: Scheme[] | null = null;
+let bundledSchemesPromise: Promise<Scheme[]> | null = null;
+
+async function loadBundledSchemes(): Promise<Scheme[]> {
+  if (bundledSchemesCache) return bundledSchemesCache;
+  if (!bundledSchemesPromise) {
+    bundledSchemesPromise = fetch("/schemes.json")
+      .then((r) => {
+        if (!r.ok) throw new Error("Could not load bundled schemes.json");
+        return r.json() as Promise<Scheme[]>;
+      })
+      .then((data) => {
+        bundledSchemesCache = Array.isArray(data) ? data : [];
+        return bundledSchemesCache;
+      })
+      .catch((err) => {
+        console.warn("[SchemeLocal] Failed to load /schemes.json fallback:", err);
+        return [];
+      });
+  }
+  return bundledSchemesPromise;
+}
+
 export const api = {
   startGuest: (email?: string) => post<{ token: string; expires_in: number; guest: boolean; note: string }>("/api/guest/session", email ? { email } : {}),
   ask: (message: string, session_id: string, language: string) => post<AskResponse>("/api/ask", { message, session_id, language }, true),
   feedback: (trace_id: string, rating: "up" | "down") => post("/api/feedback", { trace_id, rating }, true),
-  meta: () => req<{ total: number; categories: Record<string, number>; states: Record<string, number>; verification: Record<VerificationStatus, number> }>("/api/schemes/meta"),
-  schemes: (p: Record<string, string>) => req<{ total: number; items: Scheme[] }>("/api/schemes?" + new URLSearchParams(p)),
-  scheme: (id: string, lang: string) => req<Scheme>(`/api/schemes/${id}?lang=${lang}`),
-  bookmarks: () => authed<string[]>("/api/bookmarks"),
-  toggleBookmark: (id: string) => post<{ bookmarked: boolean }>(`/api/bookmarks/${id}`, {}, true),
+
+  meta: async () => {
+    try {
+      return await req<{
+        total: number;
+        categories: Record<string, number>;
+        states: Record<string, number>;
+        verification: Record<VerificationStatus, number>;
+      }>("/api/schemes/meta");
+    } catch {
+      const schemes = await loadBundledSchemes();
+      return computeSchemeMeta(schemes);
+    }
+  },
+
+  schemes: async (p: Record<string, string>) => {
+    try {
+      return await req<{ total: number; items: Scheme[] }>("/api/schemes?" + new URLSearchParams(p));
+    } catch {
+      const schemes = await loadBundledSchemes();
+      return filterAndRankSchemes(schemes, p);
+    }
+  },
+
+  scheme: async (id: string, lang: string) => {
+    try {
+      return await req<Scheme>(`/api/schemes/${id}?lang=${lang}`);
+    } catch (err) {
+      const schemes = await loadBundledSchemes();
+      const found = schemes.find((s) => s.scheme_id === id);
+      if (found) return found;
+      throw err;
+    }
+  },
+
+  bookmarks: () => authed<string[]>("/api/bookmarks").catch(() => []),
+  toggleBookmark: (id: string) => post<{ bookmarked: boolean }>(`/api/bookmarks/${id}`, {}, true).catch(() => ({ bookmarked: false })),
   eligibility: (profile: Record<string, unknown>, lang: string) => post<{ counts: Record<Verdict, number>; results: Match[] }>("/api/eligibility", { profile, lang }),
   scanDoc: (image_base64: string, mime: string, consent: boolean) => post<{ doc_type: string; confidence: number; fields: Record<string, string>; quality_notes: string; aadhaar_checksum_ok?: boolean }>("/api/ocr/document", { image_base64, mime, consent }, true),
   scanForm: (image_base64: string, mime: string, consent: boolean) => post<{ language: string; fields: { label: string; labelEnglish: string; value: string; profileKey: string | null; x: number; y: number; width: number; height: number }[] }>("/api/ocr/form", { image_base64, mime, consent }, true),
-  apps: () => authed<Application[]>("/api/applications"),
+  apps: () => authed<Application[]>("/api/applications").catch(() => []),
   createApp: (scheme_id: string, status = "draft", ref = "") => post<Application>("/api/applications", { scheme_id, status, reference_number: ref }, true),
   updateApp: (id: string, status: string, note = "", ref?: string) => authed<Application>(`/api/applications/${id}`, { method: "PATCH", body: JSON.stringify({ status, event_note: note, reference_number: ref }) }),
   deleteApp: (id: string) => authed(`/api/applications/${id}`, { method: "DELETE" }),
-  notices: () => authed<Notice[]>("/api/notifications"),
-  readNotices: () => post("/api/notifications/read", {}, true),
+  notices: () => authed<Notice[]>("/api/notifications").catch(() => []),
+  readNotices: () => post("/api/notifications/read", {}, true).catch(() => undefined),
   stt: (audio_base64: string, mime: string, language: string) => post<{ text: string }>("/api/voice/stt", { audio_base64, mime, language }, true),
   tts: (text: string, language: string) => post<{ audio_base64: string; mime: string }>("/api/voice/tts", { text, language }, true),
   pdf: async (path: string, body: unknown): Promise<{ blob: Blob; ref: string | null; skipped: string | null }> => {
     const needs = path.startsWith("/api/forms/") && !path.includes("/fields");
     const auth = await authHeaders(needs);
-    if (auth === null) throw new ApiError(401, "Please sign in to use this feature.");   // outside the network try
+    if (auth === null) throw new ApiError(401, "Please sign in to use this feature.");
     let r: Response;
     try {
-      r = await fetch(BASE + path, { method: "POST", headers: { "Content-Type": "application/json", ...auth }, body: JSON.stringify(body) });
+      const url = BASE ? `${BASE}${path}` : path;
+      r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json", ...auth }, body: JSON.stringify(body) });
     } catch { throw new ApiError(0, "Cannot reach the server. Check your connection and try again."); }
     if (!r.ok) { let m = ""; try { m = (await r.json()).detail; } catch { /* ignore */ } throw new ApiError(r.status, typeof m === "string" && m && r.status < 500 ? m : authMessage(r.status)); }
     const blob = await r.blob();

@@ -83,18 +83,19 @@ export default function Find({ go, initialQuery, initialCategory }: FindProps) {
   useEffect(() => {
     api.meta().then(setMeta).catch(() => undefined);
     api.bookmarks().then(setMarks).catch(() => undefined);
-  }, []);
+  }, [retryCount]);
 
   useEffect(() => {
     const curReqId = ++reqIdRef.current;
     setLoading(true);
     setError("");
+    const delay = q.trim() ? 250 : 0;
     const id = setTimeout(async () => {
       try {
         const r = await api.schemes({ q: q.trim(), category, state, lang, limit: "60" });
         if (curReqId === reqIdRef.current) {
-          setItems(r.items);
-          setTotal(r.total);
+          setItems(r.items || []);
+          setTotal(r.total ?? (r.items ? r.items.length : 0));
           setLoading(false);
         }
       } catch (e: any) {
@@ -103,7 +104,7 @@ export default function Find({ go, initialQuery, initialCategory }: FindProps) {
           setLoading(false);
         }
       }
-    }, 250);
+    }, delay);
 
     return () => clearTimeout(id);
   }, [q, category, state, lang, retryCount]);
