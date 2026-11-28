@@ -13,23 +13,6 @@
 [![Supabase](https://img.shields.io/badge/Auth%20%26%20DB-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](#-supabase-setup)
 [![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](#-privacy--consent)
 
-[![Backend tests](https://img.shields.io/badge/backend%20tests-202-brightgreen)](#-testing)
-[![Frontend tests](https://img.shields.io/badge/frontend%20tests-12-brightgreen)](#-testing)
-[![Verified schemes](https://img.shields.io/badge/verified%20schemes-0-red)](#-data-quality--evidence)
-
-</div>
-
-### Find government schemes. Check eligibility. Prepare your application — in one place.
-
-[![Status](https://img.shields.io/badge/status-hackathon%20prototype-orange?style=for-the-badge)](#-important-notice)
-[![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](#-quick-start)
-[![Node](https://img.shields.io/badge/Node-20-339933?style=for-the-badge&logo=node.js&logoColor=white)](#-quick-start)
-[![Vite](https://img.shields.io/badge/Frontend-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](#-tech-stack)
-[![Supabase](https://img.shields.io/badge/Auth%20%26%20DB-Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](#-supabase-setup)
-[![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](#-privacy--consent)
-
-[![Backend tests](https://img.shields.io/badge/backend%20tests-202-brightgreen)](#-testing)
-[![Frontend tests](https://img.shields.io/badge/frontend%20tests-12-brightgreen)](#-testing)
 [![Verified schemes](https://img.shields.io/badge/verified%20schemes-0-red)](#-data-quality--evidence)
 
 </div>
@@ -38,7 +21,7 @@
 
 ## ⚠️ Important Notice
 
-> **MySchemeGuide is a hackathon prototype.**
+> **SchemeLocal is a hackathon prototype.**
 > It is **not** an official government service and it **never submits anything** to any government portal.
 > All eligibility results are **indicative only** and never mean an official approval.
 > Always confirm details on the scheme's official source link.
@@ -95,7 +78,7 @@ flowchart LR
 
     style A fill:#e0f2fe,stroke:#0284c7
     style I fill:#fef3c7,stroke:#d97706
-    style G fill:#dcfce7,stroke:#16a34a
+    style G fill:#dcfce7,stroke:#16a-green
 ```
 
 > The final step is always **manual**: the app prepares you, the official portal receives your application.
@@ -115,7 +98,7 @@ flowchart TB
     subgraph Server["⚙️ Backend (Python 3.12 · Uvicorn)"]
         API[REST API<br/>rate limits · body/upload caps · log redaction]
         Elig[Eligibility engine]
-        RAG[Vector index<br/>built by ingest.py]
+        RAG[Retrieval and grounding pipeline]
         PDF[PDF filler / summary builder]
         Guard[Post-answer checks<br/>links & amounts must exist in record]
         API --> Elig
@@ -146,7 +129,7 @@ sequenceDiagram
     participant U as User
     participant F as Frontend
     participant B as Backend
-    participant V as Vector Index
+    participant V as Retrieval Index
     participant G as Gemini
 
     U->>F: "What can a farmer get?"
@@ -170,7 +153,7 @@ sequenceDiagram
 | Backend | Python 3.12, Uvicorn (ASGI) |
 | Auth & database | Supabase (phone sign-in, Postgres with RLS) |
 | AI | Google Gemini (chat, voice, OCR) |
-| Retrieval | Local vector index built by `ingest.py` (downloads an embedding model on first run) |
+| Retrieval | Optional Chroma vector index, otherwise in-memory TF-IDF fallback |
 | Hosting | Render (backend), Vercel (frontend) |
 
 ---
@@ -179,32 +162,30 @@ sequenceDiagram
 
 ### 1️⃣ Backend (Python 3.12)
 
-<<<<<<< HEAD
-## Setup (2 commands)
-
 **Windows (PowerShell):**
+
 ```powershell
-.\scripts\setup.ps1    # installs deps, copies .env.example → .env if missing
-.\scripts\run.ps1      # starts backend on :8000 and frontend on :5173 in parallel
+.\scripts\setup.ps1
+.\scripts\run.ps1
 ```
 
 **macOS / Linux (bash):**
+
 ```bash
 bash scripts/setup.sh
 bash scripts/run.sh
 ```
 
-The app opens at **http://localhost:5173**. Find and Check work immediately without any keys.
-To unlock Talk, Docs, Voice and Admin, fill in `backend/.env` and `frontend/.env` (see below).
+The app opens at **http://localhost:5173**. Scheme finding and eligibility checking work from the repository dataset; external providers are optional configuration.
 
-### Manual setup (alternative)
-Backend (Python 3.12+):
+### Manual setup
+
 ```bash
 cd backend
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env          # fill in values; see Environment Variables below
-python ingest.py              # builds the vector index (first run downloads an embedding model)
+cp .env.example .env
 uvicorn app:app --reload --port 8000
 ```
 
@@ -214,11 +195,11 @@ uvicorn app:app --reload --port 8000
 cd frontend
 npm ci
 cp .env.example .env
-npm run dev                   # http://localhost:5173
+npm run dev
 ```
 
-> 💡 Without a Gemini key the app shows clearly labelled fallback text.
-> Without Supabase configured, protected screens (Docs, Apply, Track, Talk history) ask you to sign in and cannot be used.
+> 💡 Without a Gemini key, the app uses clearly labelled fallback behaviour where implemented.
+> Without Supabase configured, protected screens require sign-in and cannot perform authenticated operations.
 
 ---
 
@@ -229,26 +210,36 @@ npm run dev                   # http://localhost:5173
 <details>
 <summary><b>Backend</b></summary>
 
-| Variable | Variable | Variable |
-|---|---|---|
-| `ENV` | `GEMINI_API_KEY` | `SUPABASE_URL` |
-| `SUPABASE_ANON_KEY` | `SUPABASE_SERVICE_ROLE_KEY` | `SUPABASE_JWT_SECRET` |
-| `SUPER_ADMIN_PHONES` | `ALLOWED_SOURCE_DOMAINS` | `CORS_ORIGINS` |
-| `TRUST_PROXY` | `FRESH_LOGIN_MINUTES` | `RATE_LIMIT_DEFAULT` |
-| `RATE_LIMIT_AI` | `MAX_BODY_BYTES` | `MAX_UPLOAD_BYTES` |
-| `GEMINI_TIMEOUT_S` | | |
+| Variable | Purpose |
+|---|---|
+| `ENV` | `development` or `production` |
+| `GEMINI_API_KEY` | Google Gemini server credential |
+| `SUPABASE_URL` | Supabase project URL |
+| `SUPABASE_ANON_KEY` | Supabase anonymous key |
+| `SUPABASE_SERVICE_ROLE_KEY` | Server-only Supabase credential |
+| `SUPABASE_JWT_SECRET` | Optional legacy JWT secret; configure only if required |
+| `SUPER_ADMIN_PHONES` | E.164 phone numbers bootstrapped as administrators |
+| `ALLOWED_SOURCE_DOMAINS` | Optional source-domain allowlist |
+| `CORS_ORIGINS` | Comma-separated frontend origins |
+| `TRUST_PROXY` | Whether proxy headers may be trusted |
+| `FRESH_LOGIN_MINUTES` | Fresh-login requirement |
+| `RATE_LIMIT_DEFAULT` | Default API rate limit |
+| `RATE_LIMIT_AI` | AI request rate limit |
+| `MAX_BODY_BYTES` | Maximum JSON request size |
+| `MAX_UPLOAD_BYTES` | Maximum upload size |
+| `GEMINI_TIMEOUT_S` | Gemini provider timeout |
 
 </details>
 
 <details>
 <summary><b>Frontend</b></summary>
 
-| Variable |
-|---|
-| `VITE_API_URL` |
-| `VITE_SUPABASE_URL` |
-| `VITE_SUPABASE_ANON_KEY` |
-| `VITE_DEMO_MODE` |
+| Variable | Purpose |
+|---|---|
+| `VITE_API_URL` | Backend API URL |
+| `VITE_SUPABASE_URL` | Public Supabase project URL |
+| `VITE_SUPABASE_ANON_KEY` | Public Supabase anon key |
+| `VITE_DEMO_MODE` | Enables the demo-mode label only; it does not bypass authentication |
 
 </details>
 
@@ -259,18 +250,16 @@ npm run dev                   # http://localhost:5173
 ## 🗄️ Supabase Setup
 
 1. Read `supabase/README.md`.
-2. Run `supabase/migrations/0001_init.sql` in the Supabase SQL editor.
-3. Configure an SMS provider in Supabase (required for phone sign-in).
+2. Run `supabase/migrations/0001_init.sql` in the Supabase SQL editor, followed by any later migrations in repository order.
+3. Configure an SMS provider in Supabase if phone sign-in is required.
 
 ### Seeding scheme data
 
 ```bash
-# Validate and map all records without sending anything
 python backend/tools/seed_supabase.py --dry-run
 ```
 
-Without `--dry-run`, the script needs `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` in the environment (never committed).
-Columns are read from `supabase/migrations/0001_init.sql`; extra source fields go into the `extra` column, and rejects are printed with reasons.
+Without `--dry-run`, the script needs `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` in the environment (never committed). Review its output before seeding, and do not use it to infer or promote verification evidence.
 
 ---
 
@@ -279,8 +268,8 @@ Columns are read from `supabase/migrations/0001_init.sql`; extra source fields g
 Set `VITE_DEMO_MODE=true` in `frontend/.env`.
 
 - A banner shows **"DEMO MODE – sample data only"**.
-- Uses **synthetic** profile values only.
-- Does **not** bypass sign-in, and creates no accounts or admin access.
+- Synthetic profile values may be used only as examples.
+- Demo mode does **not** bypass sign-in or grant administrator access.
 
 ---
 
@@ -288,12 +277,12 @@ Set `VITE_DEMO_MODE=true` in `frontend/.env`.
 
 | Principle | How it is handled |
 |---|---|
-| **Consent first** | Document photos go to Google Gemini only after you tick the consent box. The server refuses processing without it |
-| **No photo storage** | Photos are not stored on our server |
-| **Local vault** | Extracted values are kept in your browser's encrypted local vault |
-| **Your data, your control** | Export via `/api/me/export`; delete your account via `DELETE /api/me` |
-| **Safe logs** | Logs redact Aadhaar, PAN, phone numbers and keys |
-| **Chat memory** | Kept per signed-in user, expires after 30 idle minutes. `DELETE /api/ask/session/{id}` clears your own memory |
+| **Consent first** | External document processing requires explicit user consent. The server rejects processing without it. |
+| **No photo storage** | The implementation does not intentionally retain uploaded photos. |
+| **Local vault** | Extracted document values are kept in the browser's local vault. |
+| **Your data, your control** | Export and account-deletion routes are implemented in the account API. |
+| **Safe logs** | Logging setup includes redaction rules for sensitive values. |
+| **Chat memory** | Chat history is session-based and subject to configured retention behavior. |
 
 ---
 
@@ -306,33 +295,35 @@ flowchart LR
     S --> E[Manual review]
     E --> L[docs/EVIDENCE_LOG.md]
     E --> A[Admin dashboard]
-    A --> V{Government source<br/>+ reviewer?}
+    A --> V{Government source<br/>+ reviewer evidence?}
     V -- Yes --> OK[✅ Verified label]
-    V -- No --> UN[⚠️ Unverified]
+    V -- No --> UN[⚠️ Unverified or needs review]
 ```
 
-- **Verified count is currently `0`.** Only records marked *verified* in the admin dashboard, with a government source and a reviewer, carry that label.
-- Tamil Nadu register entries are **names only**; details are pending.
-- Non-government source domains show a **warning** in the app.
-- Eligibility shows counts of checks met (for example "2 of 3 checks met"), **not** a probability of approval.
-- Ambiguous answers (for example "lots" as income, or an unrecognised occupation) are reported as **unknown**, never pass or fail.
-- AI answers are checked after generation: links must come from the retrieved scheme record, and rupee amounts must appear in it.
-- Regenerate the report with `python backend/tools/quality_report.py`.
+- **Verified count is currently `0`.** Records should receive a verified label only after evidence-supported manual review.
+- Tamil Nadu register entries are names or incomplete records where detail files are pending.
+- Non-government source domains show a warning in the app.
+- Eligibility shows matched, failed and unknown criteria; it is not a prediction or official approval.
+- Ambiguous profile values remain unknown rather than passing or failing automatically.
+- AI answers are checked for known-scheme scope and grounding against retrieved records.
+- Regenerate the quality report with `python backend/tools/quality_report.py`.
 
 ---
 
 ## 🧪 Testing
 
-```bash
-# Backend: 202 tests (auth, consent, RLS, eligibility, PDF, OCR upload checks)
-cd backend && python -m pytest tests -q
+Run the repository's existing suites directly:
 
-# Frontend: 12 tests + type-check and production build
-cd frontend && npm test
-cd frontend && npm run build
+```bash
+cd backend
+python -m pytest tests -q
+
+cd ../frontend
+npm test
+npm run build
 ```
 
-> Some backend tests (RLS) need `pgserver`. Live Gemini, live Supabase and mobile devices have **not** been tested.
+Live Gemini, live Supabase and physical-device testing may require credentials and must not be claimed from repository-only checks. Do not treat test skips as passes.
 
 ---
 
@@ -340,28 +331,30 @@ cd frontend && npm run build
 
 | Target | Config | Notes |
 |---|---|---|
-| **Render** (backend) | `render.yaml` at the repository root | Render reads it there; `rootDir: backend` |
+| **Render** (backend) | `render.yaml` at the repository root | Service builds from `backend/` |
 | **Vercel** (frontend) | `frontend/vercel.json` | Set the Vercel root directory to `frontend` |
+
+Production configuration must be reviewed in each provider's dashboard. This repository does not prove that a live deployment is healthy.
 
 ---
 
 ## 🗺️ Roadmap
 
-- [ ] Verify scheme records against government sources (verified count > 0)
-- [ ] Complete Tamil Nadu scheme details
-- [ ] Official portal integration
-- [ ] Shared (non-in-memory) rate limiting
-- [ ] Live testing of Gemini, Supabase and mobile devices
+- [ ] Verify scheme records against government sources
+- [ ] Complete incomplete Tamil Nadu scheme details
+- [ ] Add official-portal integration only through a consented workflow
+- [ ] Move rate limiting to shared infrastructure
+- [ ] Add live Gemini, Supabase and physical-device verification
 
 ---
 
 ## ⚠️ Known Limitations
 
-- Eligibility is **indicative** and never an official approval.
-- Scheme data is limited and mostly unverified. Check the official source link.
-- Voice input depends on the browser's speech support or Gemini.
-- Rate limiting is per server instance, in memory.
-- No official government portal integration exists; nothing is submitted for you.
+- Eligibility is indicative and never an official approval.
+- Scheme data is incomplete or unverified in many areas; confirm official sources.
+- Voice input depends on browser and provider support.
+- Rate limiting is per server instance unless replaced by shared infrastructure.
+- No official government portal integration is implemented; nothing is submitted automatically.
 
 ---
 
@@ -369,15 +362,11 @@ cd frontend && npm run build
 
 | Step | Screen | Action |
 |:---:|---|---|
-| 1 | **Home** | Open the app and confirm the demo banner is showing |
-| 2 | **Find** | Search "agriculture"; open a scheme, note its verification label and source link |
-| 3 | **Check** | Age 34, occupation farmer, income 150000, state Tamil Nadu; review matched, failed and unknown criteria |
-| 4 | **Talk** | Ask "what can a farmer get?"; point out source links and the "not verified" note |
-| 5 | **Documents** | Tick consent, upload a synthetic sample, correct any field, save |
-| 6 | **Apply** | Generate the summary PDF; stress it is a draft, not a submission |
-| 7 | **Track** | Add the application and change its status |
-
----
-
-<div align="center">
+| 1 | **Home** | Open the app and point out the prototype/demo notice |
+| 2 | **Find** | Search "agriculture"; open a scheme and inspect its verification label and source |
+| 3 | **Check** | Enter example age, occupation, income and state; review matched, failed and unknown criteria |
+| 4 | **Talk** | Ask a farmer question; point out source links and verification/uncertainty notes |
+| 5 | **Documents** | Use only synthetic or user-consented material; correct extracted values before saving |
+| 6 | **Apply** | Generate a draft PDF and state clearly that it is not a submission |
+| 7 | **Track** | Add your own application-status entry |
 
