@@ -1,0 +1,14 @@
+/* Tamil / Hindi: font fallbacks and wrapping for longer translated text. Loaded after styles.css. */
+html[lang="ta"] body,
+html[lang="hi"] body {
+  line-height: 1.7;
+  font-family: system-ui, "Noto Sans Tamil", "Noto Sans Devanagari", "Latha", "Nirmala UI",
+               "Tamil Sangam MN", "Kohinoor Tamil", "Mangal", "Kohinoor Devanagari", sans-serif;
+}
+.card, .card b, .card p, .detail, .grid label, .msg p, .badge, .village-chip, .notice, .warn, .empty-state p {
+  overflow-wrap: anywhere;
+}
+.app nav button { min-width: 0; line-height: 1.25; overflow-wrap: anywhere; }
+.village-chips { flex-wrap: wrap; }
+.app header .row { flex-wrap: wrap; max-width: 100%; }
+.app header .row select { max-width: 100%; }
